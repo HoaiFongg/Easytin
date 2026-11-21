@@ -5,12 +5,14 @@ import { useTheme } from '../ThemeContext';
 import { PixelLogo } from './PixelLogo';
 import { PixelMascot } from './PixelMascot';
 import { sound } from '../../packages/game-core/audio';
-import { Sparkles, Flame, BookOpen, UserPlus, Settings, Sun, Moon } from 'lucide-react';
+import { Sparkles, Flame, BookOpen, UserPlus, Settings, Sun, Moon, Compass, Info } from 'lucide-react';
 
 interface HeaderProps {
   progress: UserProgressState;
   dueCount: number;
   currentAccount: UserAccount | null;
+  currentView?: 'curriculum' | 'about';
+  onNavigate?: (view: 'curriculum' | 'about') => void;
   onGradeChange?: (grade: Grade) => void;
   onOpenReview: () => void;
   onOpenTeacher?: () => void;
@@ -24,6 +26,8 @@ export const Header: React.FC<HeaderProps> = ({
   progress,
   dueCount,
   currentAccount,
+  currentView = 'curriculum',
+  onNavigate,
   onOpenReview,
   onOpenAuth,
   onOpenProfile,
@@ -40,8 +44,68 @@ export const Header: React.FC<HeaderProps> = ({
         : 'bg-[#181425] border-[#3a4466] shadow-pixel text-white'
     }`}>
       <div className="w-full flex flex-wrap items-center justify-between gap-3">
-        {/* Logo & Slogan */}
-        <PixelLogo size="md" />
+        {/* Logo & Navigation Tabs */}
+        <div className="flex items-center gap-3 sm:gap-4 flex-wrap">
+          <div
+            className="cursor-pointer transition-transform hover:scale-102"
+            onClick={() => {
+              if (onNavigate) {
+                sound.playClick();
+                onNavigate('curriculum');
+              }
+            }}
+            title="EasyTin - Bản đồ học tập"
+          >
+            <PixelLogo size="md" />
+          </div>
+
+          {/* Navigation Tabs */}
+          {onNavigate && (
+            <nav className={`flex items-center p-0.5 border-2 ${
+              isLight ? 'bg-[#f1f5f9] border-[#cbd5e1]' : 'bg-[#181425] border-[#3a4466]'
+            }`}>
+              <button
+                onClick={() => {
+                  sound.playClick();
+                  onNavigate('curriculum');
+                }}
+                className={`flex items-center gap-1.5 px-2.5 py-1 text-xs font-bold transition-all cursor-pointer ${
+                  currentView === 'curriculum'
+                    ? isLight
+                      ? 'bg-white text-[#0f172a] shadow-pixel-sm border border-[#94a3b8]'
+                      : 'bg-[#262b44] text-[#fee761] border border-[#feae34]'
+                    : isLight
+                      ? 'text-[#64748b] hover:text-[#0f172a]'
+                      : 'text-[#8b9bb4] hover:text-white'
+                }`}
+                title={t('nav_curriculum')}
+              >
+                <Compass size={13} className={currentView === 'curriculum' ? (isLight ? 'text-[#0284c7]' : 'text-[#fee761]') : ''} />
+                <span>{t('nav_curriculum')}</span>
+              </button>
+
+              <button
+                onClick={() => {
+                  sound.playClick();
+                  onNavigate('about');
+                }}
+                className={`flex items-center gap-1.5 px-2.5 py-1 text-xs font-bold transition-all cursor-pointer ${
+                  currentView === 'about'
+                    ? isLight
+                      ? 'bg-white text-[#0f172a] shadow-pixel-sm border border-[#94a3b8]'
+                      : 'bg-[#262b44] text-[#fee761] border border-[#feae34]'
+                    : isLight
+                      ? 'text-[#64748b] hover:text-[#0f172a]'
+                      : 'text-[#8b9bb4] hover:text-white'
+                }`}
+                title={t('nav_about')}
+              >
+                <Info size={13} className={currentView === 'about' ? (isLight ? 'text-[#0284c7]' : 'text-[#fee761]') : ''} />
+                <span>{t('nav_about')}</span>
+              </button>
+            </nav>
+          )}
+        </div>
 
         {/* Stats & Actions */}
         <div className="flex items-center gap-2">

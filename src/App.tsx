@@ -6,6 +6,7 @@ import { AccountManager } from '../packages/domain/account';
 import { LeitnerManager } from '../packages/domain/mastery';
 import { Header } from './components/Header';
 import { WorldMap } from './components/WorldMap';
+import { AboutPage } from './components/AboutPage';
 import { LessonModal } from './components/LessonModal';
 import { LeitnerReviewModal } from './components/LeitnerReviewModal';
 import { TeacherDashboardModal } from './components/TeacherDashboardModal';
@@ -13,6 +14,7 @@ import { ProgressSyncModal } from './components/ProgressSyncModal';
 import { AuthModal } from './components/AuthModal';
 import { UserProfileModal } from './components/UserProfileModal';
 import { SettingsModal } from './components/SettingsModal';
+import { sound } from '../packages/game-core/audio';
 import { useI18n } from './i18nContext';
 import { useTheme } from './ThemeContext';
 
@@ -20,6 +22,7 @@ export const App: React.FC = () => {
   const { t } = useI18n();
   const { effectiveTheme } = useTheme();
   const isLight = effectiveTheme === 'light';
+  const [currentView, setCurrentView] = useState<'curriculum' | 'about'>('curriculum');
   const [currentAccount, setCurrentAccount] = useState<UserAccount | null>(() =>
     AccountManager.getActiveAccount()
   );
@@ -123,6 +126,8 @@ export const App: React.FC = () => {
         progress={progress}
         dueCount={dueCount}
         currentAccount={currentAccount}
+        currentView={currentView}
+        onNavigate={setCurrentView}
         onGradeChange={handleGradeChange}
         onOpenReview={() => setShowReviewModal(true)}
         onOpenAuth={() => setShowAuthModal(true)}
@@ -132,14 +137,18 @@ export const App: React.FC = () => {
 
       {/* Main Content Area */}
       <main className="flex-1 w-full px-4 sm:px-6 lg:px-8 xl:px-10 py-5 sm:py-7">
-        <WorldMap
-          currentWorld={currentWorld}
-          selectedGrade={progress.selectedGrade}
-          nodes={nodes}
-          mastery={progress.mastery}
-          onSelectNode={(node) => setActiveNode(node)}
-          onGradeChange={handleGradeChange}
-        />
+        {currentView === 'about' ? (
+          <AboutPage onBackToCurriculum={() => setCurrentView('curriculum')} />
+        ) : (
+          <WorldMap
+            currentWorld={currentWorld}
+            selectedGrade={progress.selectedGrade}
+            nodes={nodes}
+            mastery={progress.mastery}
+            onSelectNode={(node) => setActiveNode(node)}
+            onGradeChange={handleGradeChange}
+          />
+        )}
       </main>
 
       {/* Footer */}
@@ -149,8 +158,20 @@ export const App: React.FC = () => {
           : 'bg-[#1a1c2c] border-[#3a4466] text-[#8b9bb4]'
       }`}>
         <div className="w-full px-4 sm:px-6 lg:px-8 xl:px-10 flex flex-col sm:flex-row items-center justify-between gap-2">
-          <div>
-            {t('footer_copyright')}
+          <div className="flex items-center gap-2.5">
+            <span>{t('footer_copyright')}</span>
+            <span className="opacity-40">·</span>
+            <button
+              onClick={() => {
+                sound.playClick();
+                setCurrentView((v) => (v === 'about' ? 'curriculum' : 'about'));
+              }}
+              className={`font-bold hover:underline cursor-pointer ${
+                isLight ? 'text-[#0284c7]' : 'text-[#fee761]'
+              }`}
+            >
+              {currentView === 'about' ? t('nav_curriculum') : t('nav_about')}
+            </button>
           </div>
           <div className={`text-[11px] ${isLight ? 'text-[#94a3b8]' : 'text-[#5a6988]'}`}>
             {t('footer_standard')}
