@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { CurriculumNode, CurriculumWorld, Grade, NodeMasteryRecord } from '../../packages/domain/types';
 import { PixelCard } from './PixelCard';
 import { PixelButton } from './PixelButton';
@@ -20,6 +20,7 @@ export const WorldMap: React.FC<WorldMapProps> = ({
   mastery,
   onSelectNode,
 }) => {
+  const [selectedBook, setSelectedBook] = useState<'all' | 'kntt' | 'canhdieu' | 'ctst'>('all');
   const filteredNodes = nodes.filter((n) => n.grade === selectedGrade);
 
   return (
@@ -45,6 +46,37 @@ export const WorldMap: React.FC<WorldMapProps> = ({
             <span className="text-xs text-[#8b9bb4]">Độ phủ SGK:</span>
             <span className="text-xs font-bold text-[#38b764]">KNTT · Cánh Diều · CTST</span>
           </div>
+        </div>
+      </div>
+
+      {/* Bộ chọn Bộ Sách Giáo Khoa */}
+      <div className="flex flex-wrap items-center justify-between gap-3 bg-[#1f2438] p-3 border-2 border-[#3a4466]">
+        <div className="flex items-center gap-2">
+          <BookOpen size={16} className="text-[#fee761]" />
+          <span className="text-xs text-[#c0cbdc] font-bold">Lọc theo bộ sách giáo khoa:</span>
+        </div>
+        <div className="flex flex-wrap items-center gap-2">
+          {[
+            { id: 'all', label: 'Tất cả (GDPT 2018)' },
+            { id: 'kntt', label: 'Kết nối tri thức' },
+            { id: 'canhdieu', label: 'Cánh Diều' },
+            { id: 'ctst', label: 'Chân trời sáng tạo' },
+          ].map((b) => (
+            <button
+              key={b.id}
+              onClick={() => {
+                sound.playClick();
+                setSelectedBook(b.id as 'all' | 'kntt' | 'canhdieu' | 'ctst');
+              }}
+              className={`px-3 py-1 text-xs font-bold transition-all border-2 cursor-pointer ${
+                selectedBook === b.id
+                  ? 'bg-[#fee761] text-black border-white shadow-pixel-sm -translate-y-0.5'
+                  : 'bg-[#262b44] text-[#c0cbdc] border-[#5a6988] hover:border-white'
+              }`}
+            >
+              {b.label}
+            </button>
+          ))}
         </div>
       </div>
 
@@ -98,11 +130,29 @@ export const WorldMap: React.FC<WorldMapProps> = ({
                 </div>
 
                 {/* Khung sách đối chiếu */}
-                {node.textbook_mapping && (
-                  <div className="mt-3 bg-[#181425] p-2 border border-[#3a4466] text-[10px] text-[#c0cbdc] flex flex-wrap gap-x-2 gap-y-1">
-                    <span>📚 KNTT: {node.textbook_mapping.kntt}</span>
-                    <span>· Cánh Diều: {node.textbook_mapping.canhdieu}</span>
-                    <span>· CTST: {node.textbook_mapping.ctst}</span>
+                {selectedBook === 'all' && node.textbook_mapping && (
+                  <div className="mt-3 bg-[#181425] p-2 border border-[#3a4466] text-[10px] text-[#c0cbdc] flex flex-col gap-0.5">
+                    <div>📖 <span className="text-[#38b764] font-bold">KNTT:</span> {node.textbook_mapping.kntt}</div>
+                    <div>🪁 <span className="text-[#feae34] font-bold">Cánh Diều:</span> {node.textbook_mapping.canhdieu}</div>
+                    <div>🌅 <span className="text-[#2ce8f5] font-bold">CTST:</span> {node.textbook_mapping.ctst}</div>
+                  </div>
+                )}
+
+                {selectedBook === 'kntt' && node.textbook_mapping?.kntt && (
+                  <div className="mt-3 bg-[#193c3e] border-2 border-[#38b764] p-2 text-xs font-bold text-[#a7f070]">
+                    📖 Kết nối tri thức: {node.textbook_mapping.kntt}
+                  </div>
+                )}
+
+                {selectedBook === 'canhdieu' && node.textbook_mapping?.canhdieu && (
+                  <div className="mt-3 bg-[#3e2731] border-2 border-[#f77622] p-2 text-xs font-bold text-[#fee761]">
+                    🪁 Cánh Diều: {node.textbook_mapping.canhdieu}
+                  </div>
+                )}
+
+                {selectedBook === 'ctst' && node.textbook_mapping?.ctst && (
+                  <div className="mt-3 bg-[#1f3b5c] border-2 border-[#2ce8f5] p-2 text-xs font-bold text-[#2ce8f5]">
+                    🌅 Chân trời sáng tạo: {node.textbook_mapping.ctst}
                   </div>
                 )}
               </div>
@@ -145,10 +195,11 @@ export const WorldMap: React.FC<WorldMapProps> = ({
           <BookOpen size={40} className="mx-auto text-[#5a6988] mb-2" />
           <div className="font-bold text-base text-white">Chưa có bài học cho lớp này</div>
           <div className="text-xs text-[#8b9bb4] mt-1">
-            Nội dung đang được mở rộng tuần tự theo lộ trình GDPT 2018. Hãy thử chọn Lớp 3, 4, 6, 10, 12!
+            Nội dung đang được mở rộng tuần tự theo lộ trình GDPT 2018.
           </div>
         </div>
       )}
     </div>
   );
 };
+

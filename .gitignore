@@ -6,3 +6,5 @@ dist-ssr
 .env
 .env.*
 .system_generated
+__pycache__
+*.pyc

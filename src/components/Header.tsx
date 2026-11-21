@@ -42,9 +42,6 @@ export const Header: React.FC<HeaderProps> = ({
             <div>
               <div className="font-pixel text-base text-[#fee761] tracking-wider flex items-center gap-1.5">
                 EasyTin
-                <span className="text-[10px] bg-[#124e89] text-[#2ce8f5] px-1.5 py-0.5 border border-[#2ce8f5]">
-                  Pixel v2.1
-                </span>
               </div>
               <div className="text-[11px] text-[#8b9bb4]">Tin học GDPT 2018 · Lớp 3–12</div>
             </div>
