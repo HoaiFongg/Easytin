@@ -1,0 +1,415 @@
+{
+  "version": "1.0.0",
+  "language": "vi",
+  "worlds": [
+    {
+      "id": "w1",
+      "name": "Thung lũng Số hóa",
+      "grades": [3, 4, 5],
+      "description": "Khám phá thế giới máy tính kỳ diệu, làm chủ chuột phím và thuật toán phiêu lưu.",
+      "color_theme": "#2b5c3f"
+    },
+    {
+      "id": "w2",
+      "name": "Rừng Mạng & Dữ liệu",
+      "grades": [6, 7, 8, 9],
+      "description": "Giải mã các bit nhị phân, định tuyến gói tin internet và bảo vệ không gian số.",
+      "color_theme": "#1f3b5c"
+    },
+    {
+      "id": "w3",
+      "name": "Thành phố Thuật toán",
+      "grades": [10, 11, 12],
+      "description": "Lập trình đỉnh cao, tư duy hệ thống và chinh phục các thử thách AI.",
+      "color_theme": "#5c2b4e"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "G3-HARD-01",
+      "world_id": "w1",
+      "grade": 3,
+      "title": "Biệt đội Phần cứng Tí hon",
+      "standard_domain": "Chủ đề A: Máy tính và em",
+      "textbook_mapping": {
+        "kntt": "Bài 3",
+        "canhdieu": "Bài 1",
+        "ctst": "Bài 2"
+      },
+      "template": "sort-drag",
+      "prerequisites": [],
+      "estimated_minutes": 5,
+      "learning_goals": [
+        "Gọi đúng tên 4 bộ phận cơ bản: thân máy, màn hình, bàn phím, chuột.",
+        "Phân biệt được chức năng sơ bộ của từng bộ phận."
+      ],
+      "lesson_data": {
+        "hook": "Chào mừng bạn nhỏ đến với phòng thí nghiệm robot TinTin! Robot đang bị thiếu các bộ phận để khởi động, em hãy giúp TinTin phân loại nhé!",
+        "concept": {
+          "summary": "Máy tính để bàn gồm 4 bộ phận chính làm việc cùng nhau:",
+          "key_points": [
+            "Màn hình: Hiển thị chữ, hình ảnh, kết quả công việc ra cho em nhìn thấy.",
+            "Thân máy: Là 'bộ não' chứa các linh kiện xử lý và lưu trữ thông tin.",
+            "Bàn phím: Dùng để gõ chữ, số và gửi lệnh vào máy tính.",
+            "Chuột: Dùng để điều khiển con trỏ trên màn hình một cách nhanh chóng."
+          ]
+        },
+        "game_config": {
+          "groups": [
+            { "id": "input_ctrl", "name": "Thiết bị điều khiển / Gõ (Vào)" },
+            { "id": "output_proc", "name": "Thiết bị hiển thị / Xử lý (Ra & Não)" }
+          ],
+          "items": [
+            { "id": "mouse", "name": "Chuột máy tính", "group": "input_ctrl", "sprite": "mouse", "icon": "🖱️" },
+            { "id": "keyboard", "name": "Bàn phím", "group": "input_ctrl", "sprite": "keyboard", "icon": "⌨️" },
+            { "id": "monitor", "name": "Màn hình", "group": "output_proc", "sprite": "monitor", "icon": "🖥️" },
+            { "id": "cpu_case", "name": "Thân máy (CPU Case)", "group": "output_proc", "sprite": "cpu_case", "icon": "🗄️" }
+          ]
+        },
+        "quiz": [
+          {
+            "question": "Bộ phận nào của máy tính giúp em nhìn thấy chữ và hình ảnh chuyển động?",
+            "options": ["Thân máy", "Màn hình", "Chuột", "Bàn phím"],
+            "answer": 1,
+            "explanation": "Màn hình là thiết bị xuất hiển thị thông tin bằng hình ảnh cho mắt em nhìn thấy."
+          },
+          {
+            "question": "Để gõ tên mình vào máy tính, em sử dụng bộ phận nào?",
+            "options": ["Màn hình", "Chuột", "Bàn phím", "Loa"],
+            "answer": 2,
+            "explanation": "Bàn phím có các phím chữ cái và số giúp em soạn thảo văn bản."
+          }
+        ],
+        "recap": "Tuyệt vời! Em đã nắm chắc 4 bộ phận cốt lõi của máy tính để bàn rồi đấy!"
+      }
+    },
+    {
+      "id": "G3-ALGO-01",
+      "world_id": "w1",
+      "grade": 3,
+      "title": "Robot Vượt Mê Cung Lệnh",
+      "standard_domain": "Chủ đề F: Giải quyết vấn đề với sự trợ giúp của máy tính",
+      "textbook_mapping": {
+        "kntt": "Bài 14",
+        "canhdieu": "Bài 1",
+        "ctst": "Bài 12"
+      },
+      "template": "block-maze",
+      "prerequisites": ["G3-HARD-01"],
+      "estimated_minutes": 7,
+      "learning_goals": [
+        "Biết chia một công việc lớn thành các bước tuần tự rõ ràng.",
+        "Xây dựng chuỗi lệnh điều khiển nhân vật về đích an toàn."
+      ],
+      "lesson_data": {
+        "hook": "Robot TinTin đang bị lạc trong mê cung đá pixel! Em hãy ghép các khối lệnh bước tới, rẽ trái, rẽ phải để đưa TinTin tới viên đá năng lượng nhé!",
+        "concept": {
+          "summary": "Thuật toán là các bước chỉ dẫn rõ ràng để hoàn thành một nhiệm vụ:",
+          "key_points": [
+            "Máy tính chỉ làm đúng theo từng lệnh em đưa ra từ trên xuống dưới.",
+            "Lệnh tuần tự: Thực hiện xong lệnh 1 mới chuyển sang lệnh 2.",
+            "Nếu đi sai một bước, robot có thể va vào tường!"
+          ]
+        },
+        "game_config": {
+          "grid_size": 4,
+          "start": { "x": 0, "y": 0, "dir": "E" },
+          "target": { "x": 2, "y": 2 },
+          "walls": [{ "x": 1, "y": 0 }, { "x": 1, "y": 1 }],
+          "allowed_blocks": ["forward", "turn_left", "turn_right"],
+          "max_blocks": 6
+        },
+        "quiz": [
+          {
+            "question": "Thuật toán giúp máy tính điều gì?",
+            "options": [
+              "Tự ý làm việc không cần ai bảo",
+              "Biết từng bước cần làm để giải quyết vấn đề",
+              "Tự sạc pin khi hết điện",
+              "Trở nên to lớn hơn"
+            ],
+            "answer": 1,
+            "explanation": "Thuật toán là dãy chỉ thị từng bước chính xác để máy tính thực thi nhiệm vụ."
+          }
+        ],
+        "recap": "Tuyệt đỉnh tư duy! Em vừa viết chương trình điều khiển robot đầu tiên trong đời!"
+      }
+    },
+    {
+      "id": "G4-HARD-01",
+      "world_id": "w1",
+      "grade": 4,
+      "title": "Phân loại Phần cứng & Phần mềm",
+      "standard_domain": "Chủ đề A: Máy tính và em",
+      "textbook_mapping": {
+        "kntt": "Bài 1",
+        "canhdieu": "Bài 1",
+        "ctst": "Bài 1"
+      },
+      "template": "sort-drag",
+      "prerequisites": ["G3-HARD-01"],
+      "estimated_minutes": 5,
+      "learning_goals": [
+        "Phân biệt rõ ràng khái niệm phần cứng (hardware) và phần mềm (software).",
+        "Hiểu mối quan hệ: phần mềm điều khiển phần cứng hoạt động."
+      ],
+      "lesson_data": {
+        "hook": "Thư viện thị trấn Pixel vừa nhập một lô thiết bị và ứng dụng mới bị lẫn lộn. Em hãy giúp thủ thư phân loại vào đúng kho Phần cứng hoặc Phần mềm nhé!",
+        "concept": {
+          "summary": "Máy tính cần cả Phần cứng và Phần mềm để hoạt động:",
+          "key_points": [
+            "Phần cứng: Là các vật thể vật lý sờ thấy được (Chuột, Màn hình, Tai nghe, Ổ đĩa).",
+            "Phần mềm: Là các chương trình, mã lệnh vô hình chạy trong máy (Windows, Scratch, Trình duyệt web, Paint)."
+          ]
+        },
+        "game_config": {
+          "groups": [
+            { "id": "hardware", "name": "Kho Phần Cứng (Sờ thấy được)" },
+            { "id": "software", "name": "Kho Phần Mềm (Chương trình)" }
+          ],
+          "items": [
+            { "id": "headphones", "name": "Tai nghe", "group": "hardware", "icon": "🎧" },
+            { "id": "scratch", "name": "Phần mềm Scratch", "group": "software", "icon": "🐱" },
+            { "id": "paint", "name": "Ứng dụng vẽ Paint", "group": "software", "icon": "🎨" },
+            { "id": "webcam", "name": "Webcam ghi hình", "group": "hardware", "icon": "📷" },
+            { "id": "windows", "name": "Hệ điều hành Windows", "group": "software", "icon": "🪟" }
+          ]
+        },
+        "quiz": [
+          {
+            "question": "Trình duyệt Google Chrome là phần cứng hay phần mềm?",
+            "options": ["Phần cứng", "Phần mềm", "Cả hai", "Không phải loại nào"],
+            "answer": 1,
+            "explanation": "Chrome là một ứng dụng phần mềm dùng để duyệt web."
+          }
+        ],
+        "recap": "Chúc mừng em! Giờ em đã phân biệt vanh vách giữa phần cứng và phần mềm rồi!"
+      }
+    },
+    {
+      "id": "G4-ETHIC-01",
+      "world_id": "w1",
+      "grade": 4,
+      "title": "Hiệp sĩ An toàn số",
+      "standard_domain": "Chủ đề D: Đạo đức, pháp luật và văn hóa trong môi trường số",
+      "textbook_mapping": {
+        "kntt": "Bài 5",
+        "canhdieu": "Bài 2",
+        "ctst": "Bài 4"
+      },
+      "template": "branch-story",
+      "prerequisites": [],
+      "estimated_minutes": 6,
+      "learning_goals": [
+        "Nhận biết nguy cơ khi chia sẻ thông tin cá nhân trên mạng.",
+        "Biết cách ứng xử khi gặp người lạ nhắn tin yêu cầu mật khẩu."
+      ],
+      "lesson_data": {
+        "hook": "Khi đang chơi game online, một tài khoản lạ nhắn tin hứa tặng em 10.000 kim cương nếu em gửi họ mật khẩu và số điện thoại của bố mẹ. Em sẽ làm gì?",
+        "concept": {
+          "summary": "Quy tắc vàng của Hiệp sĩ Không gian Mạng:",
+          "key_points": [
+            "Bảo mật: Tuyệt đối không bao giờ chia sẻ mật khẩu, địa chỉ nhà hay số điện thoại cho người lạ.",
+            "Cảnh giác: Không có 'quà miễn phí' trên mạng, đó là bẫy của kẻ gian lừa đảo.",
+            "Chia sẻ với người lớn: Khi gặp chuyện bất thường, hãy báo ngay cho cha mẹ hoặc thầy cô."
+          ]
+        },
+        "game_config": {
+          "scenarios": [
+            {
+              "id": "sc1",
+              "prompt": "Người lạ hứa tặng vật phẩm game nếu gửi mật khẩu tài khoản.",
+              "choices": [
+                { "text": "Gửi mật khẩu ngay để nhận quà!", "is_correct": false, "feedback": "Nguy hiểm! Em đã bị kẻ gian chiếm đoạt tài khoản rồi!" },
+                { "text": "Từ chối, chặn tài khoản và kể ngay cho bố mẹ.", "is_correct": true, "feedback": "Chính xác! Em hành động rất thông minh và an toàn!" }
+              ]
+            },
+            {
+              "id": "sc2",
+              "prompt": "Em thấy một hình vẽ rất đẹp trên mạng và muốn lấy đăng lên trang cá nhân.",
+              "choices": [
+                { "text": "Ghi nhận nguồn và xin phép tác giả trước khi dùng.", "is_correct": true, "feedback": "Đúng! Đó là hành vi tôn trọng bản quyền của người khác." },
+                { "text": "Tải về và tự nhận là do chính mình tự vẽ.", "is_correct": false, "feedback": "Sai rồi! Như vậy là vi phạm bản quyền và đạo đức trên mạng." }
+              ]
+            }
+          ]
+        },
+        "quiz": [
+          {
+            "question": "Thông tin nào sau đây EM TUYỆT ĐỐI KHÔNG NÊN công khai trên mạng xã hội?",
+            "options": [
+              "Tên cuốn sách em yêu thích",
+              "Mật khẩu tài khoản và địa chỉ nhà riêng",
+              "Lời chúc mừng sinh nhật bạn",
+              "Bài thơ em tự sáng tác"
+            ],
+            "answer": 1,
+            "explanation": "Mật khẩu và địa chỉ là thông tin nhạy cảm có thể bị kẻ gian lợi dụng."
+          }
+        ],
+        "recap": "Xuất sắc! Em đã chính thức nhận danh hiệu Hiệp sĩ An toàn số!"
+      }
+    },
+    {
+      "id": "G6-BIN-01",
+      "world_id": "w2",
+      "grade": 6,
+      "title": "Thế giới Số Nhị phân 0 & 1",
+      "standard_domain": "Chủ đề A: Máy tính và cộng đồng",
+      "textbook_mapping": {
+        "kntt": "Bài 3",
+        "canhdieu": "Bài 3",
+        "ctst": "Bài 3"
+      },
+      "template": "logic-puzzle",
+      "prerequisites": [],
+      "estimated_minutes": 8,
+      "learning_goals": [
+        "Hiểu máy tính biểu diễn mọi thông tin bằng dãy bit 0 và 1.",
+        "Biết cách chuyển đổi số thập phân nhỏ (0-15) sang hệ nhị phân 4-bit."
+      ],
+      "lesson_data": {
+        "hook": "Bên trong mạch vi xử lý, không có chữ cái hay hình ảnh nào cả, chỉ có dòng điện BẬT (1) và TẮT (0). Em hãy điều khiển 4 công tắc bóng đèn để mở khóa mã số bí mật nhé!",
+        "concept": {
+          "summary": "Hệ thống nhị phân là ngôn ngữ gốc của máy tính:",
+          "key_points": [
+            "Mỗi bóng đèn (bit) đại diện cho một lũy thừa của 2: 8, 4, 2, 1.",
+            "Khi bật (1), ta cộng giá trị của vị trí đó vào tổng.",
+            "Khi tắt (0), giá trị vị trí đó là 0."
+          ]
+        },
+        "game_config": {
+          "bits_count": 4,
+          "weights": [8, 4, 2, 1],
+          "target_values": [5, 9, 13]
+        },
+        "quiz": [
+          {
+            "question": "Số thập phân 5 trong hệ nhị phân 4-bit được viết là gì?",
+            "options": ["0101", "0110", "1001", "0011"],
+            "answer": 0,
+            "explanation": "Vì 5 = 4 + 1 -> bit vị trí 4 bật (1) và bit vị trí 1 bật (1), các bit khác là 0 -> 0101."
+          }
+        ],
+        "recap": "Bản lĩnh tuyệt vời! Em đã giải mã thành công ngôn ngữ sâu thẳm của máy tính!"
+      }
+    },
+    {
+      "id": "G10-GATE-01",
+      "world_id": "w3",
+      "grade": 10,
+      "title": "Cổng Logic & Bảng Chân Trị",
+      "standard_domain": "Chủ đề A: Máy tính và xã hội tri thức (CS)",
+      "textbook_mapping": {
+        "kntt": "Bài 4",
+        "canhdieu": "Bài 4",
+        "ctst": "Bài 4"
+      },
+      "template": "logic-puzzle",
+      "prerequisites": ["G6-BIN-01"],
+      "estimated_minutes": 10,
+      "learning_goals": [
+        "Nắm vững nguyên lý hoạt động của các cổng logic: AND, OR, NOT, XOR.",
+        "Biết cách thiết lập mạch logic để tạo tín hiệu kích hoạt hệ thống."
+      ],
+      "lesson_data": {
+        "hook": "Hệ thống an ninh của Thành phố Thuật toán đang bị mất tín hiệu cửa ngõ. Em hãy kích hoạt đúng các cổng logic AND và OR để thông mạch điện tử!",
+        "concept": {
+          "summary": "Các cổng logic cơ bản trong phần cứng máy tính:",
+          "key_points": [
+            "Cổng AND: Chỉ cho đầu ra 1 khi TẤT CẢ các đầu vào đều là 1.",
+            "Cổng OR: Cho đầu ra 1 khi CÓ ÍT NHẤT một đầu vào là 1.",
+            "Cổng NOT: Đảo ngược tín hiệu: 0 thành 1, 1 thành 0."
+          ]
+        },
+        "game_config": {
+          "puzzle_type": "gate_circuit",
+          "gates": ["AND", "OR", "NOT"],
+          "scenarios": [
+            { "inputs": [1, 0], "gate": "AND", "expected": 0 },
+            { "inputs": [1, 0], "gate": "OR", "expected": 1 },
+            { "inputs": [0], "gate": "NOT", "expected": 1 }
+          ]
+        },
+        "quiz": [
+          {
+            "question": "Cho hai đầu vào A = 1 và B = 0 qua cổng AND, kết quả đầu ra là gì?",
+            "options": ["0", "1", "Không xác định", "Cả 0 và 1"],
+            "answer": 0,
+            "explanation": "Cổng AND đòi hỏi cả hai đầu vào phải là 1 thì đầu ra mới là 1."
+          }
+        ],
+        "recap": "Chúc mừng kĩ sư phần cứng tương lai! Em đã làm chủ các khối gạch xây dựng CPU!"
+      }
+    },
+    {
+      "id": "G12-BOSS-01",
+      "world_id": "w3",
+      "grade": 12,
+      "title": "Đại Chiến Boss Tin Học Toàn Cầu",
+      "standard_domain": "Tổng hợp năng lực Tin học phổ thông GDPT 2018",
+      "textbook_mapping": {
+        "kntt": "Chuyên đề Tổng kết",
+        "canhdieu": "Chuyên đề Tổng kết",
+        "ctst": "Chuyên đề Tổng kết"
+      },
+      "template": "boss-quiz",
+      "prerequisites": ["G10-GATE-01"],
+      "estimated_minutes": 12,
+      "learning_goals": [
+        "Tổng hợp kiến thức liên môn: Mạng máy tính, An toàn số, Thuật toán và Trí tuệ nhân tạo.",
+        "Phản xạ nhanh và tự tin trước kỳ thi tốt nghiệp THPT và định hướng nghề nghiệp công nghệ."
+      ],
+      "lesson_data": {
+        "hook": "Trùm cuối Virus 'Glitch Byte' đang muốn xóa sổ dữ liệu số hóa của nhân loại! Hãy dùng vũ khí tri thức tin học của em để đánh bại Glitch Byte!",
+        "concept": {
+          "summary": "Đấu trường đỉnh cao tổng hợp toàn bộ 10 năm học Tin học:",
+          "key_points": [
+            "Mỗi câu trả lời đúng sẽ bắn một tia laser pixel làm giảm máu của Boss.",
+            "Trả lời sai sẽ làm giảm giáp của em, nhưng em luôn có quyền phản đòn!",
+            "Cần sự tập trung và vận dụng linh hoạt các nguyên lý khoa học máy tính."
+          ]
+        },
+        "game_config": {
+          "boss_name": "Glitch Byte the Destroyer",
+          "boss_max_hp": 100,
+          "player_max_hp": 100,
+          "damage_per_hit": 25,
+          "questions_pool": 6
+        },
+        "quiz": [
+          {
+            "question": "Giao thức nào chịu trách nhiệm truyền tải siêu văn bản an toàn trên mạng World Wide Web?",
+            "options": ["HTTP", "HTTPS", "FTP", "SMTP"],
+            "answer": 1,
+            "explanation": "HTTPS (HyperText Transfer Protocol Secure) sử dụng mã hóa SSL/TLS để bảo mật dữ liệu."
+          },
+          {
+            "question": "Thuật toán tìm kiếm nhị phân (Binary Search) có độ phức tạp thời gian tốt nhất là bao nhiêu khi mảng đã sắp xếp?",
+            "options": ["O(N)", "O(log N)", "O(N^2)", "O(1)"],
+            "answer": 1,
+            "explanation": "Binary search chia đôi không gian tìm kiếm sau mỗi bước nên đạt độ phức tạp O(log N)."
+          },
+          {
+            "question": "Hành vi nào sau đây vi phạm nghiêm trọng Luật An ninh mạng Việt Nam?",
+            "options": [
+              "Học lập trình web trên máy tính cá nhân",
+              "Phát tán thông tin sai sự thật, xúc phạm danh dự người khác trên mạng xã hội",
+              "Mua bản quyền hệ điều hành chính hãng",
+              "Sử dụng mạng xã hội để kết nối bạn bè"
+            ],
+            "answer": 1,
+            "explanation": "Phát tán tin giả, bôi nhọ cá nhân tổ chức bị nghiêm cấm theo Điều 8 Luật An ninh mạng."
+          },
+          {
+            "question": "Trong mô hình học máy (Machine Learning), dữ liệu dùng để huấn luyện mô hình được gọi là gì?",
+            "options": ["Training data", "Test data", "Hidden data", "Random data"],
+            "answer": 0,
+            "explanation": "Training data là tập dữ liệu mẫu dùng để thuật toán học các mẫu đặc trưng."
+          }
+        ],
+        "recap": "CHIẾN THẮNG HUY HOÀNG! Em đã hoàn thành xuất sắc chặng đường Tin học phổ thông với danh hiệu Bậc Thầy Công Nghệ EasyTin!"
+      }
+    }
+  ]
+}

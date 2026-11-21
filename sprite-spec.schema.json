@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SpriteSpecSchema",
+  "type": "object",
+  "required": ["id", "type", "width", "height", "frames"],
+  "properties": {
+    "id": { "type": "string" },
+    "type": { "type": "string", "enum": ["character", "tile", "item", "ui", "effect"] },
+    "width": { "type": "integer", "minimum": 8, "maximum": 128 },
+    "height": { "type": "integer", "minimum": 8, "maximum": 128 },
+    "pivot": {
+      "type": "object",
+      "properties": {
+        "x": { "type": "number" },
+        "y": { "type": "number" }
+      }
+    },
+    "frames": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "layers"],
+        "properties": {
+          "name": { "type": "string" },
+          "duration_ms": { "type": "integer" },
+          "layers": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["name", "matrix"],
+              "properties": {
+                "name": { "type": "string" },
+                "matrix": {
+                  "type": "array",
+                  "items": { "type": "string" }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
