@@ -29,7 +29,7 @@
 ## 0.1 Bản đồ các pha
 
 | Pha | Tên                                              | Mở chat                                                                              | Đính kèm                    | Đầu ra (lưu thành file)                                        | Bạn duyệt điều gì                                           |
-| --- | ------------------------------------------------ | ------------------------------------------------------------------------------------ | --------------------------- | -------------------------------------------------------------- | ----------------------------------------------------------- |
+| :-- | :----------------------------------------------- | :----------------------------------------------------------------------------------- | :-------------------------- | :------------------------------------------------------------- | :---------------------------------------------------------- |
 | P0  | Làm rõ yêu cầu                                   | Chat 1                                                                               | File B                      | `00-requirements.md`                                           | Trả lời câu hỏi chặn tiến độ; chọn phương án giải mâu thuẫn |
 | P1a | Trích xuất từng bộ sách                          | Mỗi (bộ sách × khối lớp) một chat — tối thiểu 9 chat (THPT có thể tách 2 định hướng) | File sách + File B          | `01a-extract-<bộ>-<khối>.md`                                   | Độ phủ, các chỗ AI nghi ngờ                                 |
 | P1b | Hợp nhất 3 bộ sách                               | 1 chat                                                                               | 9+ file `01a` + File B      | `01b-curriculum-map.md` + `.json`                              | Xương sống chương trình, thứ tự dạy                         |
@@ -71,12 +71,12 @@ Quy tắc: **AI làm xong phần nào phải cập nhật vào `PLAN.md` ngay, r
 2. **Nhìn dòng đầu mỗi lượt sau khi AI xong một việc:** phải có `✅ ĐÃ CẬP NHẬT PLAN.md — U-xxx — <nhiệm vụ>`. Không có dòng đó nghĩa là AI chưa qua cổng.
 3. **Lệnh nhanh** (gõ nguyên văn):
 
-| Lệnh             | Tác dụng                                                                                                          |
-| ---------------- | ----------------------------------------------------------------------------------------------------------------- |
-| `TRẠNG THÁI`     | AI in tình trạng từ PLAN.md: pha hiện tại, việc đang làm, việc kế tiếp, vướng mắc                                 |
-| `VI PHẠM CỔNG`   | Ép AI dừng, nhận lỗi, cập nhật bù PLAN.md cho phần đã làm rồi mới tiếp tục                                        |
-| `KIỂM TOÁN PLAN` | AI đối chiếu PLAN.md với các file sản phẩm và liệt kê chỗ lệch (✅ nhưng không có sản phẩm, quyết định chưa ghi…)  |
-| `CẬP NHẬT PLAN`  | Ép AI ghi ngay mọi thay đổi chưa ghi                                                                              |
+| Lệnh             | Tác dụng                                                                                                         |
+| :--------------- | :--------------------------------------------------------------------------------------------------------------- |
+| `TRẠNG THÁI`     | AI in tình trạng từ PLAN.md: pha hiện tại, việc đang làm, việc kế tiếp, vướng mắc                                |
+| `VI PHẠM CỔNG`   | Ép AI dừng, nhận lỗi, cập nhật bù PLAN.md cho phần đã làm rồi mới tiếp tục                                       |
+| `KIỂM TOÁN PLAN` | AI đối chiếu PLAN.md với các file sản phẩm và liệt kê chỗ lệch (✅ nhưng không có sản phẩm, quyết định chưa ghi…) |
+| `CẬP NHẬT PLAN`  | Ép AI ghi ngay mọi thay đổi chưa ghi                                                                             |
 
 4. **Khi vào giai đoạn code**, thêm kiểm tra tự động trong CI: PR đụng vào mã/nội dung/asset phải sửa `PLAN.md` hoặc tham chiếu ID nhiệm vụ (`T-...`). Nhờ đó cổng không chỉ dựa vào lời nhắc.
 5. **Thật thà về giới hạn:** không thể ép AI 100% bằng lời. Cổng này giảm mạnh việc bỏ sót; việc bạn liếc dòng `✅ ĐÃ CẬP NHẬT` ở mỗi lượt là lớp bảo vệ cuối.
@@ -95,7 +95,7 @@ Bạn là **Technical Lead cấp cao**, chịu trách nhiệm dài hạn (≥ 5 
 Bạn điều phối **4 agent làm tuần tự**, mỗi agent phải cải thiện kết quả của agent trước:
 
 | Agent         | Nhiệm vụ                                                                   | Quy tắc bắt buộc                                                                       |
-| ------------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| :------------ | :------------------------------------------------------------------------- | :------------------------------------------------------------------------------------- |
 | **Architect** | Thiết kế kiến trúc mở rộng được nhưng đơn giản nhất có thể                 | Mỗi thành phần phải trả lời: “Nếu bỏ nó thì mất gì?”                                   |
 | **Engineer**  | Chuyển kiến trúc thành đặc tả triển khai: contracts, skeleton, lát cắt dọc | Giai đoạn lập kế hoạch: chỉ code ở mức interface, schema, skeleton và 1 vertical slice |
 | **Reviewer**  | Tìm điểm yếu của hai agent trước                                           | ≥ 10 phát hiện có bằng chứng; cấm “đồng ý cho xong”                                    |
@@ -112,7 +112,7 @@ Ngoài ra có **5 lăng kính rà soát** (dùng ở P4): Bảo mật · Fronten
 ## 1.2 Sản phẩm & bối cảnh
 
 | Mục                                | Nội dung                                                                                                                                                                                         |
-| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| :--------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Tên làm việc                       | EasyTin                                                                                                                                                                                          |
 | Mục tiêu                           | Học sinh Việt Nam học **Tin học từ lớp 3 đến lớp 12** qua trò chơi **đồ họa pixel**; nội dung bám Chương trình GDPT 2018 và 3 bộ sách                                                            |
 | 3 bộ sách                          | Giả định *Kết nối tri thức với cuộc sống*, *Cánh Diều*, *Chân trời sáng tạo* `[xác nhận/sửa]`                                                                                                    |
@@ -507,7 +507,7 @@ Dán Prompt chủ trước, đính kèm `07-plan-on-a-page.md`, `03-architecture
 ### 1.1 Persona
 
 | Persona                       | Đặc điểm                                                                                                       | Hệ quả thiết kế                                                                                                  |
-| ----------------------------- | -------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| :---------------------------- | :------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------- |
 | **HS Tiểu học (≈ 8–11 tuổi)** | Đọc chữ còn chậm; thường chưa có email; kỹ năng chuột/bàn phím đang hình thành; tập trung ngắn; thích nhân vật | Ít chữ, có giọng đọc; nút to; kéo thả/chạm; đăng nhập không email; màn chơi 2–5 phút; không đếm ngược gây áp lực |
 | **HS THCS (≈ 11–15 tuổi)**    | Thích thử thách và so sánh; dùng điện thoại nhiều; bắt đầu lập trình khối                                      | Nhiệm vụ nhiều bước; mục tiêu cá nhân; chế độ thử thách tùy chọn; chạy tốt trên điện thoại                       |
 | **HS THPT (≈ 15–18 tuổi)**    | Thực dụng, nghĩ đến thi cử/nghề; thích dự án thật                                                              | Bài có “sản phẩm” (chương trình, bảng dữ liệu, trang web); liên hệ nghề nghiệp; bàn phím và code thật            |
@@ -529,7 +529,7 @@ Các mạch nội dung của Chương trình GDPT 2018 môn Tin học `[đối c
 **A.** Máy tính và xã hội tri thức · **B.** Mạng máy tính và Internet · **C.** Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin · **D.** Đạo đức, pháp luật và văn hóa trong môi trường số · **E.** Ứng dụng tin học · **F.** Giải quyết vấn đề với sự trợ giúp của máy tính · **G.** Hướng nghiệp với Tin học.
 
 | Mạch  | Tiểu học (3–5)                                         | THCS (6–9)                                                                             | THPT (10–12)                                                                    |
-| ----- | ------------------------------------------------------ | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| :---- | :----------------------------------------------------- | :------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------ |
 | **A** | Bộ phận máy tính, thiết bị vào/ra, thông tin quanh em  | Thông tin và dữ liệu, biểu diễn thông tin, thiết bị số, vai trò thông tin trong xã hội | Hệ thống máy tính, phần mềm, biểu diễn dữ liệu; (KHMT) nền tảng AI và xã hội    |
 | **B** | Internet là gì, lên mạng an toàn cơ bản                | Mạng cục bộ/diện rộng, dịch vụ Internet                                                | Địa chỉ, mô hình mạng, an toàn mạng                                             |
 | **C** | Tệp và thư mục, tìm thông tin đơn giản                 | Tìm kiếm nâng cao, đánh giá thông tin, thư điện tử, lưu trữ trực tuyến                 | Cơ sở dữ liệu, truy vấn (định hướng KHMT)                                       |
@@ -547,18 +547,18 @@ Các mạch nội dung của Chương trình GDPT 2018 môn Tin học `[đối c
 ### 3.1 Bảng trích xuất (mỗi bài một dòng)
 
 | ID tạm | Bộ sách | Lớp | Tập/Chủ đề | Chương/Bài | Tên bài (giữ nguyên) | Số tiết | Mục tiêu (lời của AI) | Thuật ngữ mới | Loại hoạt động | Công cụ | Kiểu đánh giá cuối bài | Tiên quyết (suy ra) | Yêu cầu cần đạt (CT) | Trang | Độ tin cậy |
-| ------ | ------- | --- | ---------- | ---------- | -------------------- | ------- | --------------------- | ------------- | -------------- | ------- | ---------------------- | ------------------- | -------------------- | ----- | ---------- |
+| :----- | :------ | :-- | :--------- | :--------- | :------------------- | :------ | :-------------------- | :------------ | :------------- | :------ | :--------------------- | :------------------ | :------------------- | :---- | :--------- |
 
 ### 3.2 Ma trận phủ
 
-| Yêu cầu cần đạt (mã + tóm tắt) | KNTT   | CD     | CTST   | Nút kiến thức sản phẩm | Ghi chú |
-| ------------------------------ | ------ | ------ | ------ | ---------------------- | ------- |
-|                                | ✔/◐/✖  | ✔/◐/✖  | ✔/◐/✖  |                        |         |
+| Yêu cầu cần đạt (mã + tóm tắt) | KNTT  | CD    | CTST  | Nút kiến thức sản phẩm | Ghi chú |
+| :----------------------------- | :---- | :---- | :---- | :--------------------- | :------ |
+|                                | ✔/◐/✖ | ✔/◐/✖ | ✔/◐/✖ |                        |         |
 
 ### 3.3 Bảng thuật ngữ chuẩn
 
 | Khái niệm | KNTT dùng | CD dùng | CTST dùng | **Chuẩn của sản phẩm** | Lý do chọn |
-| --------- | --------- | ------- | --------- | ---------------------- | ---------- |
+| :-------- | :-------- | :------ | :-------- | :--------------------- | :--------- |
 
 ### 3.4 Quy tắc giải quyết xung đột (theo thứ tự ưu tiên)
 1. Chương trình GDPT 2018 là chuẩn.
@@ -634,7 +634,7 @@ Hợp lệ schema · ID duy nhất · tiên quyết tồn tại và không chu t
 ### 5.1 Danh mục
 
 | ID                  | Khuôn                 | Nút/kỹ năng điển hình                         | Cấp            | Cơ chế                                 | Chấm bằng                         | Tham số bài (dữ liệu)                     | Độ nặng |
-| ------------------- | --------------------- | --------------------------------------------- | -------------- | -------------------------------------- | --------------------------------- | ----------------------------------------- | ------- |
+| :------------------ | :-------------------- | :-------------------------------------------- | :------------- | :------------------------------------- | :-------------------------------- | :---------------------------------------- | :------ |
 | `sort-drag`         | Kéo thả / phân loại   | Phân loại thiết bị vào/ra, loại tệp, phần mềm | TH, THCS       | Kéo vật vào nhóm                       | So khớp nhãn                      | nhóm, vật, gợi ý, giới hạn thử            | S       |
 | `match-memory`      | Ghép cặp / lật thẻ    | Thuật ngữ ↔ hình/nghĩa                        | TH, THCS       | Lật 2 thẻ                              | Cặp đúng                          | cặp thẻ, số cặp, thời gian (tùy chọn)     | S       |
 | `type-run`          | Gõ phím chạy đua      | Gõ đúng, tư thế tay, phím tắt                 | TH, THCS       | Gõ để nhân vật chạy                    | Chuỗi gõ khớp (chuẩn hóa Unicode) | văn bản, tốc độ, cho phép sai             | M       |
@@ -701,7 +701,7 @@ Hợp lệ schema · ID duy nhất · tiên quyết tồn tại và không chu t
 **Điều kiện thực hiện:** môi trường chạy được mã (Python/Node) **và** AI xem lại được ảnh đã dựng (contact sheet). Nếu thiếu một trong hai, AI chỉ xuất được spec + lệnh dựng và **phải ghi rõ “chưa kiểm chứng bằng ảnh”**.
 
 | PA    | Tên                           | Cách làm                                                                         | Mạnh                                             | Yếu                                                                                                | Hợp với                                     |
-| ----- | ----------------------------- | -------------------------------------------------------------------------------- | ------------------------------------------------ | -------------------------------------------------------------------------------------------------- | ------------------------------------------- |
+| :---- | :---------------------------- | :------------------------------------------------------------------------------- | :----------------------------------------------- | :------------------------------------------------------------------------------------------------- | :------------------------------------------ |
 | **A** | Lưới chỉ số màu               | Mỗi ký tự/số = một màu trong palette; sprite viết thành lưới (≤ 32×32)           | Kiểm soát tuyệt đối lưới và màu; diff Git rất rõ | AI dễ lệch hàng/cột ở sprite lớn; tốn token                                                        | Icon, tile, nhân vật nhỏ                    |
 | **B** | Hình học / SVG → raster       | Vẽ khối, đường, hình bằng tọa độ; dựng với `crispEdges`, lượng tử hóa về palette | Rất hợp hình khối, đối xứng; gọn                 | Nếu không lượng tử hóa sẽ “trông như vector”, không ra pixel                                       | Khung, nút, nền hình khối, vật thể hình học |
 | **C** | Thủ tục                       | Hàm sinh có seed: nhiễu, dither, lặp mẫu, tile ghép được                         | Sinh số lượng lớn nhất quán; tái tạo bằng seed   | Khó điều khiển chi tiết cụ thể                                                                     | Tile địa hình, nền, hiệu ứng, texture       |
@@ -746,7 +746,7 @@ Hợp lệ schema · ID duy nhất · tiên quyết tồn tại và không chu t
 ### 7.5 Mẫu ước lượng sản xuất asset
 
 | Hạng mục                          | Số lượng | Giờ/đơn vị `[ƯỚC TÍNH]` | Tổng | Ghi chú |
-| --------------------------------- | -------- | ----------------------- | ---- | ------- |
+| :-------------------------------- | :------- | :---------------------- | :--- | :------ |
 | Nhân vật chính (bộ khung hình)    |          |                         |      |         |
 | Nhân vật phụ/NPC                  |          |                         |      |         |
 | Tile bản đồ theo thế giới         |          |                         |      |         |
@@ -760,7 +760,7 @@ Hợp lệ schema · ID duy nhất · tiên quyết tồn tại và không chu t
 Toàn bộ giao diện (không chỉ màn chơi) dùng bộ thành phần dưới đây, dựng từ **token** và dùng lại ở mọi màn.
 
 | Thành phần                                                  | Biến thể / trạng thái                                                                                                                            | Ghi chú                                                |
-| ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------ |
+| :---------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------- |
 | **Token**                                                   | `--px` (đơn vị cơ sở), bội số nguyên của `--px` cho mọi kích thước/khoảng cách; palette UI; độ dày viền                                          | Mọi kích thước là bội số nguyên → không vỡ lưới        |
 | **Khung 9-slice**                                           | panel, hộp thoại, thẻ, tooltip; 2–3 độ dày viền                                                                                                  | Co giãn không méo góc                                  |
 | **Nút**                                                     | bình thường · hover · nhấn · tắt · **focus nhìn thấy rõ**; 3 cỡ                                                                                  | Vùng bấm đề xuất ≥ 44×44 px CSS cho trẻ nhỏ/điện thoại |
@@ -846,7 +846,7 @@ Mỗi asset có một hồ sơ lưu **cạnh spec trong Git**, và một dòng t
 ## §8. Danh mục ứng viên công nghệ `[CHỈ LÀ ỨNG VIÊN — phải kiểm tra phiên bản, giá, license, độ “sống” của dự án và tương thích máy yếu trước khi dùng]`
 
 | Hạng mục                 | Ứng viên (ví dụ)                                                    | Điều cần kiểm tra                                                                                  |
-| ------------------------ | ------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| :----------------------- | :------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------- |
 | Khung web / shell        | Next.js · Astro · SvelteKit · Vite + React/Vue/Svelte               | Hiệu năng máy yếu; xuất tĩnh/ngoại tuyến; hệ sinh thái; dễ tuyển người                             |
 | Engine game 2D           | Phaser · PixiJS · Kaplay · Canvas thuần · (engine khác xuất web)    | Dung lượng; hỗ trợ pixel-perfect; quản lý bộ nhớ; hỗ trợ bàn phím/tiếp cận; độ “sống”              |
 | Nội dung                 | MDX/Markdown + JSON · CMS có Git (kiểu headless) · bảng tính → JSON | Người không phải dev có làm được không; xem trước; kiểm tra schema                                 |
@@ -910,7 +910,7 @@ Mỗi asset có một hồ sơ lưu **cạnh spec trong Git**, và một dòng t
 ### 9.4 Bảng cơ sở dữ liệu seed (phía server) `[ĐỀ XUẤT — chỉ cần khi có đồng bộ/lớp học]`
 
 | Bảng               | Cột chính                                                                               | Ghi chú                                       |
-| ------------------ | --------------------------------------------------------------------------------------- | --------------------------------------------- |
+| :----------------- | :-------------------------------------------------------------------------------------- | :-------------------------------------------- |
 | `teachers`         | id, email/định danh, tên hiển thị, tạo lúc                                              | Tài khoản đầy đủ                              |
 | `classrooms`       | id, teacher_id, tên, mã lớp, cấp/lớp, trạng thái                                        | Mã lớp ngẫu nhiên đủ dài, có hạn              |
 | `learners`         | id, classroom_id, biệt danh, avatar_id, pin_hash                                        | **Không email/họ tên thật bắt buộc**; PIN băm |
@@ -927,7 +927,7 @@ Chỉ mục gợi ý: `progress_events(learner_id, client_ts)`, `mastery(learner
 ### 9.5 API seed `[ĐỀ XUẤT]`
 
 | Phương thức & đường dẫn            | Mục đích                                | Ghi chú                                          |
-| ---------------------------------- | --------------------------------------- | ------------------------------------------------ |
+| :--------------------------------- | :-------------------------------------- | :----------------------------------------------- |
 | `POST /v1/auth/class-login`        | Đăng nhập bằng mã lớp + biệt danh + PIN | Giới hạn tốc độ; khóa tạm khi sai nhiều          |
 | `GET /v1/content/manifest`         | Phiên bản nội dung & gói ngoại tuyến    | ETag/cache ngắn                                  |
 | `GET /v1/me/progress`              | Tiến độ & mastery hiện tại              | Riêng tư, không cache CDN                        |
@@ -962,7 +962,7 @@ Quy ước: versioning trong đường dẫn; mã lỗi thống nhất; **mọi 
 ### 9.8 Tầng cache
 
 | Tầng           | Cái gì                                       | TTL/chiến lược                | Vô hiệu hóa                                        |
-| -------------- | -------------------------------------------- | ----------------------------- | -------------------------------------------------- |
+| :------------- | :------------------------------------------- | :---------------------------- | :------------------------------------------------- |
 | CDN            | JS/CSS/atlas có hash                         | Rất dài, immutable            | Đổi tên file (hash)                                |
 | CDN/Edge       | `content/manifest`                           | Ngắn + ETag                   | Phát hành phiên bản mới                            |
 | CDN            | Gói nội dung theo bài/cấp (URL có phiên bản) | Dài                           | URL mới theo phiên bản                             |
@@ -979,7 +979,7 @@ Quy ước: versioning trong đường dẫn; mã lỗi thống nhất; **mọi 
 ### 9.10 Ngân sách hiệu năng `[ĐỀ XUẤT — chỉ là điểm xuất phát, phải đo trên máy thật]`
 
 | Chỉ số                                      | Mục tiêu khởi điểm                               |
-| ------------------------------------------- | ------------------------------------------------ |
+| :------------------------------------------ | :----------------------------------------------- |
 | Mã chạy ban đầu (shell, nén)                | vài trăm KB trở xuống                            |
 | Bài đầu tiên + game (cả asset)              | vài MB trở xuống                                 |
 | Thời gian từ bấm đến chơi được trên máy yếu | vài giây                                         |
@@ -992,7 +992,7 @@ Quy ước: versioning trong đường dẫn; mã lỗi thống nhất; **mọi 
 ## §10. Seed bảo mật `[ĐỀ XUẤT — dùng ở P4.1]`
 
 | Nhóm                  | Câu hỏi kiểm tra                                                                                                                                |
-| --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| :-------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Xác thực & phiên**  | Mã lớp đủ entropy? Giới hạn thử PIN? Khóa tạm? Phiên hết hạn? Đăng xuất trên máy dùng chung?                                                    |
 | **Phân quyền (IDOR)** | Giáo viên A có đọc được lớp của B bằng cách đoán ID? Học sinh có đọc tiến độ người khác?                                                        |
 | **Dữ liệu trẻ em**    | Thu gì, để làm gì, lưu bao lâu? Có PII ở log/analytics/theo dõi lỗi? Quy trình xóa?                                                             |
@@ -1069,7 +1069,7 @@ Quy ước: versioning trong đường dẫn; mã lỗi thống nhất; **mọi 
 ## §13. Sổ rủi ro seed `[GIẢ ĐỊNH — Xác suất/Tác động: T/TB/C]`
 
 | ID      | Rủi ro                                                           | XS  | TĐ  | Giảm thiểu khởi điểm                                                              |
-| ------- | ---------------------------------------------------------------- | --- | --- | --------------------------------------------------------------------------------- |
+| :------ | :--------------------------------------------------------------- | :-- | :-- | :-------------------------------------------------------------------------------- |
 | RISK-01 | **Khối lượng nội dung & pixel vượt sức đội** (3 cấp × nhiều lớp) | C   | C   | Khuôn game tái sử dụng; MVP 1 lớp; pipeline nội dung; cắt phạm vi sớm             |
 | RISK-02 | Font pixel thiếu dấu tiếng Việt / hiển thị sai                   | TB  | TB  | Kiểm tra glyph ở M0; font dự phòng; bitmap font tự vẽ                             |
 | RISK-03 | Chạy chậm/giật trên máy phòng tin học                            | C   | C   | Ngân sách hiệu năng; test trên máy thật; atlas nhỏ; tải lười                      |
@@ -1132,7 +1132,7 @@ ADR-XX: <tiêu đề>
 ### 15.3 Mô hình chi phí (điền ở P2/P6)
 
 | Hạng mục                         | 1 nghìn HS | 100 nghìn HS | 1 triệu HS | Giả định                             |
-| -------------------------------- | ---------- | ------------ | ---------- | ------------------------------------ |
+| :------------------------------- | :--------- | :----------- | :--------- | :----------------------------------- |
 | Băng thông CDN (tải gói + asset) |            |              |            | dung lượng/HS/tháng, tỉ lệ cache hit |
 | Tính toán (API/edge)             |            |              |            | số yêu cầu/HS/ngày                   |
 | Cơ sở dữ liệu (lưu + đọc/ghi)    |            |              |            | số sự kiện/HS/ngày × kích thước      |
@@ -1162,7 +1162,7 @@ M-x: <tên>
 ### 15.6 RACI rút gọn
 
 | Hoạt động           | Tech Lead | Dev | Họa sĩ pixel | Người viết nội dung | Cố vấn sư phạm | Giáo viên thử |
-| ------------------- | --------- | --- | ------------ | ------------------- | -------------- | ------------- |
+| :------------------ | :-------- | :-- | :----------- | :------------------ | :------------- | :------------ |
 | Duyệt kiến trúc/ADR | A         | C   | I            | I                   | C              | I             |
 | Viết bài & câu hỏi  | I         | I   | C            | R                   | A              | C             |
 | Duyệt sư phạm       | I         | I   | I            | C                   | A/R            | C             |
@@ -1176,16 +1176,16 @@ M-x: <tên>
 
 **Lô** = ≤ 5 asset cùng loại hoặc 1 sprite sheet hoàn chỉnh. Lô sau **chỉ bắt đầu khi lô trước qua cổng** và `PLAN.md` §3 đã cập nhật.
 
-| #   | Điều kiện qua cổng                                                                  | Cách kiểm             |
-| --- | ----------------------------------------------------------------------------------- | --------------------- |
-| 1   | Spec nằm trong Git và **dựng lại được** (cùng hash)                                 | CI dựng lại           |
-| 2   | Validator **100% đạt** (kích thước, palette, bán trong suốt, viền, pivot, số khung) | Báo cáo validator     |
-| 3   | Đã có contact sheet và AI đã tự phê bình theo §7.7                                  | Ghi chú trong hồ sơ   |
-| 4   | Người duyệt thẩm mỹ chấm ≥ `[4/5]` về thẩm mỹ **và** nhất quán với golden           | Phiếu duyệt           |
-| 5   | Số vòng sửa ≤ `[3]`/asset                                                           | Nhật ký lô            |
-| 6   | Dung lượng nằm trong hạn mức atlas/scene                                            | Công cụ đo            |
-| 7   | Hồ sơ nguồn gốc đầy đủ (§7.8), license rõ                                           | Kiểm hồ sơ            |
-| 8   | `PLAN.md` §3 và §10 đã cập nhật                                                     | Dòng `✅ ĐÃ CẬP NHẬT`  |
+| #   | Điều kiện qua cổng                                                                  | Cách kiểm            |
+| :-- | :---------------------------------------------------------------------------------- | :------------------- |
+| 1   | Spec nằm trong Git và **dựng lại được** (cùng hash)                                 | CI dựng lại          |
+| 2   | Validator **100% đạt** (kích thước, palette, bán trong suốt, viền, pivot, số khung) | Báo cáo validator    |
+| 3   | Đã có contact sheet và AI đã tự phê bình theo §7.7                                  | Ghi chú trong hồ sơ  |
+| 4   | Người duyệt thẩm mỹ chấm ≥ `[4/5]` về thẩm mỹ **và** nhất quán với golden           | Phiếu duyệt          |
+| 5   | Số vòng sửa ≤ `[3]`/asset                                                           | Nhật ký lô           |
+| 6   | Dung lượng nằm trong hạn mức atlas/scene                                            | Công cụ đo           |
+| 7   | Hồ sơ nguồn gốc đầy đủ (§7.8), license rõ                                           | Kiểm hồ sơ           |
+| 8   | `PLAN.md` §3 và §10 đã cập nhật                                                     | Dòng `✅ ĐÃ CẬP NHẬT` |
 
 **Khi không đạt:**
 - Lỗi kỹ thuật → sửa spec, dựng lại (không tính là lô mới).
@@ -1251,7 +1251,7 @@ M-x: <tên>
 ## 1. Bảng tình trạng
 
 | Mục                      | Giá trị                                                        |
-| ------------------------ | -------------------------------------------------------------- |
+| :----------------------- | :------------------------------------------------------------- |
 | Pha hiện tại             | **Content Expansion & Production Master (Hoàn tất 100%)**      |
 | Nhiệm vụ đang làm        | Kiểm định toàn diện & bàn giao 137 bài học 3 bộ sách GDPT 2018 |
 | Nhiệm vụ kế tiếp         | Triển khai PWA Manifest & Đóng gói USB Offline trường học      |
@@ -1266,7 +1266,7 @@ M-x: <tên>
 
 ### P0 — Làm rõ yêu cầu → `00-requirements.md`
 | ID      | Nhiệm vụ                                              | TT  | Sản phẩm                | U     | Ghi chú                                           |
-| ------- | ----------------------------------------------------- | --- | ----------------------- | ----- | ------------------------------------------------- |
+| :------ | :---------------------------------------------------- | :-- | :---------------------- | :---- | :------------------------------------------------ |
 | T-P0-01 | Liệt kê ô `[...]` còn trống trong brief               | ✅   | `00-requirements.md §1` | U-001 | Đã giải quyết tên EasyTin, 3 bộ sách, ngân sách   |
 | T-P0-02 | Câu hỏi (≤ 12): chặn / không chặn + giả định mặc định | ✅   | `00-requirements.md §2` | U-001 | 12 câu hỏi làm rõ đăng nhập, máy yếu, bản quyền   |
 | T-P0-03 | Ma trận mâu thuẫn + 2–3 phương án giải                | ✅   | `00-requirements.md §3` | U-001 | Giải quyết mâu thuẫn pixel vs tiếng Việt, máy yếu |
@@ -1276,7 +1276,7 @@ M-x: <tên>
 
 ### P1a — Trích xuất sách → `01a-extract-<bộ>-<khối>.md`
 | ID       | Nhiệm vụ                                             | TT  | Sản phẩm                        | U     | Ghi chú                                      |
-| -------- | ---------------------------------------------------- | --- | ------------------------------- | ----- | -------------------------------------------- |
+| :------- | :--------------------------------------------------- | :-- | :------------------------------ | :---- | :------------------------------------------- |
 | T-P1A-01 | KNTT · lớp 3–5 (16 + 16 + 16 bài)                    | ✅   | `01a-extract-kntt-g3_12.md`     | U-003 | Trích xuất toàn bộ 48 bài Tiểu học KNTT      |
 | T-P1A-02 | KNTT · lớp 6–9 (17 + 16 + 16 + 16 bài)               | ✅   | `01a-extract-kntt-g3_12.md`     | U-003 | Trích xuất toàn bộ 65 bài THCS KNTT          |
 | T-P1A-03 | KNTT · lớp 10–12 (34 + 31 + 30 bài CS & ICT)         | ✅   | `01a-extract-kntt-g3_12.md`     | U-003 | Trích xuất toàn bộ 95 bài THPT KNTT          |
@@ -1289,7 +1289,7 @@ M-x: <tên>
 
 ### P1b — Hợp nhất → `01b-curriculum-map.md`, `curriculum.json`
 | ID       | Nhiệm vụ                                           | TT  | Sản phẩm                         | U     | Ghi chú                                  |
-| -------- | -------------------------------------------------- | --- | -------------------------------- | ----- | ---------------------------------------- |
+| :------- | :------------------------------------------------- | :-- | :------------------------------- | :---- | :--------------------------------------- |
 | T-P1B-01 | Bảng thuật ngữ chuẩn 7 mạch GDPT 2018              | ✅   | `01b-curriculum-map.md §1`       | U-001 | Chuẩn hóa thuật ngữ Tin học              |
 | T-P1B-02 | Ma trận phủ 100% YCCĐ × 3 bộ sách                  | ✅   | `01b-curriculum-map.md §3`       | U-003 | Phủ 100% chuẩn đầu ra TT 32/2018         |
 | T-P1B-03 | Phân bổ 137 nút học tập vào 3 Thế giới Pixel       | ✅   | `01b-curriculum-map.md §1`       | U-003 | W1: 43 bài, W2: 50 bài, W3: 44 bài       |
@@ -1303,7 +1303,7 @@ M-x: <tên>
 
 ### P2 — Phản biện & ADR → `02-adr.md`
 | ID      | Nhiệm vụ                               | TT  | Sản phẩm    | U     | Ghi chú                                  |
-| ------- | -------------------------------------- | --- | ----------- | ----- | ---------------------------------------- |
+| :------ | :------------------------------------- | :-- | :---------- | :---- | :--------------------------------------- |
 | T-P2-01 | Rút ràng buộc kỹ thuật                 | ✅   | `02-adr.md` | U-001 | Ràng buộc PWA, máy yếu, không email      |
 | T-P2-02 | Phản biện H1–H15 (giữ/sửa/bỏ)          | ✅   | `02-adr.md` | U-001 | Giữ local-first, bỏ server sync bắt buộc |
 | T-P2-03 | ADR từng hạng mục (ADR-001 -> ADR-007) | ✅   | `02-adr.md` | U-001 | 7 ADR chủ chốt                           |
@@ -1316,7 +1316,7 @@ M-x: <tên>
 
 ### P3 — Kiến trúc & Codebase
 | ID      | Nhiệm vụ                                           | TT  | Sản phẩm                      | U     | Ghi chú                                |
-| ------- | -------------------------------------------------- | --- | ----------------------------- | ----- | -------------------------------------- |
+| :------ | :------------------------------------------------- | :-- | :---------------------------- | :---- | :------------------------------------- |
 | T-P3-A1 | Architect: kiến trúc hệ thống + thành phần + luồng | ✅   | `03-architecture.md §1`       | U-001 | Luồng Client - Local - PWA             |
 | T-P3-A2 | Architect: API + lược đồ CSDL                      | ✅   | `03-architecture.md §1`       | U-001 | Event-driven Progress schema           |
 | T-P3-A3 | Architect: cache + cấu trúc repo + quy tắc         | ✅   | `03-architecture.md §1`       | U-001 | Monorepo modular Clean Architecture    |
@@ -1334,7 +1334,7 @@ M-x: <tên>
 ## 3. Quản lý Đồ họa Pixel & Âm thanh
 
 | Mã asset | Loại     | Mô tả                                | File nguồn                                 | Có trong sprite sheet? | Đã kiểm trên nền sáng & tối? | Người duyệt | Công cụ / Nguồn     | U     | Trạng thái |
-| -------- | -------- | ------------------------------------ | ------------------------------------------ | ---------------------- | ---------------------------- | ----------- | ------------------- | ----- | ---------- |
+| :------- | :------- | :----------------------------------- | :----------------------------------------- | :--------------------- | :--------------------------- | :---------- | :------------------ | :---- | :--------- |
 | A-001    | Icon     | Robot Mascot EasyTin                 | `public/favicon.svg`                       | Có                     | Có                           | Tech Lead   | Pixel SVG           | U-002 | ✅          |
 | A-002    | UI Kit   | Nút bấm Pixel Button đa trạng thái   | `src/components/PixelButton.tsx`           | Có                     | Có                           | Tech Lead   | Tailwind CSS pixel  | U-002 | ✅          |
 | A-003    | UI Kit   | Khung thẻ Pixel Card viền retro      | `src/components/PixelCard.tsx`             | Có                     | Có                           | Tech Lead   | Tailwind CSS pixel  | U-002 | ✅          |
@@ -1349,7 +1349,7 @@ M-x: <tên>
 ## 4. Sổ quyết định (ADR)
 
 | ID      | Tiêu đề                                                             | Loại (một/hai chiều) | Trạng thái | U     | Liên kết    |
-| ------- | ------------------------------------------------------------------- | -------------------- | ---------- | ----- | ----------- |
+| :------ | :------------------------------------------------------------------ | :------------------- | :--------- | :---- | :---------- |
 | ADR-001 | Kiến trúc Frontend SPA Local-First + PWA Offline                    | Một chiều            | ĐÃ DUYỆT   | U-001 | `02-adr.md` |
 | ADR-002 | Công nghệ Game Canvas 2D Thuần + Web Audio Chiptune                 | Hai chiều            | ĐÃ DUYỆT   | U-001 | `02-adr.md` |
 | ADR-003 | Hệ thống Đồ họa Pixel AI Text-Spec + Bảng màu Endesga 32            | Hai chiều            | ĐÃ DUYỆT   | U-001 | `02-adr.md` |
@@ -1363,7 +1363,7 @@ M-x: <tên>
 ## 5. Giả định & kiểm chứng
 
 | ID   | Giả định                                                               | Trạng thái  | Cách kiểm                                                                           | U     |
-| ---- | ---------------------------------------------------------------------- | ----------- | ----------------------------------------------------------------------------------- | ----- |
+| :--- | :--------------------------------------------------------------------- | :---------- | :---------------------------------------------------------------------------------- | :---- |
 | A-01 | Phòng máy trường học cũ có trình duyệt chạy được Canvas 2D & Web Audio | Đã xác nhận | Tải bundle chỉ 146KB gzip, không dùng WebGL nặng, tương thích 100% trình duyệt      | U-003 |
 | A-02 | Học sinh không có email vẫn lưu được tiến độ an toàn                   | Đã xác nhận | Local-first Storage + Mã thẻ tiến độ xuất nhập 1 click                              | U-002 |
 | A-03 | Phủ trọn vẹn cả 3 bộ sách mà không bị trùng lặp hay xung đột bài       | Đã xác nhận | Ma trận 137 nút học tập EasyTin ánh xạ chính xác 100% bài học KNTT, Cánh Diều, CTST | U-003 |
@@ -1373,7 +1373,7 @@ M-x: <tên>
 ## 6. Rủi ro đang hiệu lực
 
 | ID           | Rủi ro               | XS  | TĐ  | Giảm thiểu                                       | Chủ          | TT   | U     |
-| ------------ | -------------------- | --- | --- | ------------------------------------------------ | ------------ | ---- | ----- |
+| :----------- | :------------------- | :-- | :-- | :----------------------------------------------- | :----------- | :--- | :---- |
 | RISK-20      | PLAN.md lệch thực tế | T   | TB  | Cổng cập nhật liên tục, kiểm toán test tự động   | Tech Lead    | Đóng | U-003 |
 | RISK-REQ-01  | Bản quyền SGK        | T   | C   | Viết mới 100% học liệu theo chuẩn YCCĐ GDPT 2018 | Content Lead | Đóng | U-001 |
 | RISK-TECH-01 | Mất mạng phòng máy   | T   | C   | PWA Service Worker + Bản USB Offline dự phòng    | Tech Lead    | Đóng | U-002 |
@@ -1388,7 +1388,7 @@ M-x: <tên>
 ## 8. Thay đổi phạm vi
 
 | U     | Thêm / Bớt | Nội dung                                                             | Lý do                                                                                       | Người duyệt |
-| ----- | ---------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ----------- |
+| :---- | :--------- | :------------------------------------------------------------------- | :------------------------------------------------------------------------------------------ | :---------- |
 | U-001 | Thêm       | Tích hợp đủ 3 bộ sách (KNTT, Cánh Diều, CTST)                        | Đảm bảo 100% học sinh toàn quốc đều dùng được                                               | User        |
 | U-002 | Thêm       | Web Audio Chiptune Synthesizer tự sinh                               | Loại bỏ 100% file mp3 nặng, tăng tốc tải trang                                              | Tech Lead   |
 | U-003 | Thêm       | Mở rộng chi tiết 100% bài học của cả 3 bộ sách (Lớp 3-12)            | Đạt độ phủ tuyệt đối 137 bài học tương tác không thiếu bài nào                              | User        |
@@ -1400,13 +1400,15 @@ M-x: <tên>
 
 ## 9. Số đo thực tế so với ngân sách
 
-| Chỉ số                        | Mục tiêu | Đo được                  | Thiết bị / điều kiện                                                 | U     |
-| ----------------------------- | -------- | ------------------------ | -------------------------------------------------------------------- | ----- |
-| Tổng số bài học tương tác     | ≥ 80     | **137 bài học**          | curriculum.json (Lớp 3–12)                                           | U-003 |
-| Độ phủ Lí thuyết & Thực hành  | 100%     | **100% (137/137 bài)**   | Đầy đủ Overview, Sections, Ví dụ, Tip, Lab Steps                     | U-004 |
-| Tỷ lệ chuẩn mực Sư phạm       | 100%     | **100% Chuẩn mực GDPT**  | Rà soát sạch 100% các từ ngữ ngoài phạm vi giáo dục                  | U-005 |
-| Trải nghiệm Highlight câu hỏi | 100%     | **100% Bài học & Game**  | Khung viền vàng #fee761, badge câu hỏi và highlight câu hỏi nghi vấn | U-006 |
-| Phân cấp Cấp học & Khối lớp   | 3 Cấp    | **100% Phân cấp chuẩn**  | 3 Bậc: Tiểu học (43 bài), THCS (50 bài), THPT (44 bài)               | U-007 |
+| Chỉ số                        | Mục tiêu     | Đo được                      | Thiết bị / điều kiện                                                 | U     |
+| :---------------------------- | :----------- | :--------------------------- | :------------------------------------------------------------------- | :---- |
+| Tổng số bài học tương tác     | ≥ 80         | **137 bài học**              | curriculum.json (Lớp 3–12)                                           | U-003 |
+| Độ phủ Lí thuyết & Thực hành  | 100%         | **100% (137/137 bài)**       | Đầy đủ Overview, Sections, Ví dụ, Tip, Lab Steps                     | U-004 |
+| Tỷ lệ chuẩn mực Sư phạm       | 100%         | **100% Chuẩn mực GDPT**      | Rà soát sạch 100% các từ ngữ ngoài phạm vi giáo dục                  | U-005 |
+| Trải nghiệm Highlight câu hỏi | 100%         | **100% Bài học & Game**      | Khung viền vàng #fee761, badge câu hỏi và highlight câu hỏi nghi vấn | U-006 |
+| Phân cấp Cấp học & Khối lớp   | 3 Cấp        | **100% Phân cấp chuẩn**      | 3 Bậc: Tiểu học (43 bài), THCS (50 bài), THPT (44 bài)               | U-007 |
+| Hệ thống Tài khoản Người học  | Đa tài khoản | **100% Đăng ký & Đăng nhập** | Đăng ký, Đăng nhập, Hồ sơ học sinh, Avatar pixel, Cô lập dữ liệu     | U-008 |
+
 | Độ phủ bài học SGK 3 bộ sách  | 100%     | **100% (Phủ trọn 3 bộ)** | Đối chiếu chi tiết 01b-curriculum-map                                | U-003 |
 | First Load JS (gzip)          | < 280 KB | **146.27 KB**            | Vite production build (bao gồm 137 bài)                              | U-003 |
 | First Load CSS (gzip)         | < 30 KB  | **4.92 KB**              | Tailwind purge + CSS pixel                                           | U-003 |
@@ -1418,7 +1420,7 @@ M-x: <tên>
 ## 10. Nhật ký cập nhật
 
 | U     | Phần vừa xong                                     | Thay đổi                                                                                                                                                                                                                      | Việc kế tiếp & vì sao                                               |
-| ----- | ------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| :---- | :------------------------------------------------ | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------ |
 | U-000 | Tạo PLAN.md từ mẫu                                | Khởi tạo bảng nhiệm vụ P0–P7 + P3B, tiến độ asset, sổ ADR/giả định/rủi ro                                                                                                                                                     | T-P0-01: cần làm rõ yêu cầu trước mọi thứ                           |
 | U-001 | Hoàn thiện Pha Lập Kế hoạch P0–P7 & P3B           | Cập nhật tên dự án `EasyTin`, hoàn thiện toàn bộ 10 tài liệu đặc tả (00 -> 07, P3B, schemas, palettes)                                                                                                                        | Bắt đầu Giai đoạn Build                                             |
 | U-002 | Triển khai Toàn bộ Ứng dụng EasyTin               | Xây dựng Monorepo, Domain, 8 Khuôn Game Pixel, UI Kit, Bản đồ 3 Thế giới, Leitner Box, Teacher Dashboard, kiểm thử 7/7 pass, build dist/ thành công                                                                           | Chỉnh sửa font chữ, bỏ Pixel v2.1, bổ sung đầy đủ bài học 3 bộ sách |

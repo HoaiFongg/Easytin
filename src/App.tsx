@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import curriculumData from '../curriculum.json';
-import { CurriculumNode, CurriculumWorld, Grade, UserProgressState } from '../packages/domain/types';
+import { CurriculumNode, CurriculumWorld, Grade, UserAccount, UserProgressState } from '../packages/domain/types';
 import { LocalStorageAdapter } from '../packages/domain/storage';
+import { AccountManager } from '../packages/domain/account';
 import { LeitnerManager } from '../packages/domain/mastery';
 import { Header } from './components/Header';
 import { WorldMap } from './components/WorldMap';
@@ -9,27 +10,43 @@ import { LessonModal } from './components/LessonModal';
 import { LeitnerReviewModal } from './components/LeitnerReviewModal';
 import { TeacherDashboardModal } from './components/TeacherDashboardModal';
 import { ProgressSyncModal } from './components/ProgressSyncModal';
+import { AuthModal } from './components/AuthModal';
+import { UserProfileModal } from './components/UserProfileModal';
 
 export const App: React.FC = () => {
-  const [progress, setProgress] = useState<UserProgressState>(() => LocalStorageAdapter.loadProgress());
+  const [currentAccount, setCurrentAccount] = useState<UserAccount | null>(() =>
+    AccountManager.getActiveAccount()
+  );
+
+  const [progress, setProgress] = useState<UserProgressState>(() => {
+    const active = AccountManager.getActiveAccount();
+    return active ? active.progress : LocalStorageAdapter.loadProgress();
+  });
+
   const [activeNode, setActiveNode] = useState<CurriculumNode | null>(null);
   const [showReviewModal, setShowReviewModal] = useState<boolean>(false);
   const [showTeacherModal, setShowTeacherModal] = useState<boolean>(false);
   const [showSyncModal, setShowSyncModal] = useState<boolean>(false);
+  const [showAuthModal, setShowAuthModal] = useState<boolean>(false);
+  const [showProfileModal, setShowProfileModal] = useState<boolean>(false);
 
-  // Save progress changes
+  // Lưu tiến độ học tập tương ứng với tài khoản đăng nhập hoặc chế độ khách
   useEffect(() => {
-    LocalStorageAdapter.saveProgress(progress);
-  }, [progress]);
+    if (currentAccount) {
+      AccountManager.updateAccountProgress(currentAccount.id, progress);
+    } else {
+      LocalStorageAdapter.saveProgress(progress);
+    }
+  }, [progress, currentAccount]);
 
   const worlds = curriculumData.worlds as CurriculumWorld[];
   const nodes = curriculumData.nodes as CurriculumNode[];
 
-  // Find world corresponding to selected grade
+  // Tìm thế giới tương ứng với khối lớp đang chọn
   const currentWorld =
     worlds.find((w) => w.grades.includes(progress.selectedGrade)) || worlds[0];
 
-  // Count due nodes for Leitner spaced repetition today
+  // Đếm số bài đến hạn ôn tập Leitner hôm nay
   const dueCount = nodes.filter((n) => {
     const rec = progress.mastery[n.id];
     return rec && LeitnerManager.isDueForReview(rec, Date.now());
@@ -62,16 +79,47 @@ export const App: React.FC = () => {
     setActiveNode(null);
   };
 
+  const handleAuthSuccess = (account: UserAccount) => {
+    setCurrentAccount(account);
+    setProgress(account.progress);
+    setShowAuthModal(false);
+  };
+
+  const handleLogout = () => {
+    AccountManager.logout();
+    setCurrentAccount(null);
+    setProgress(LocalStorageAdapter.loadProgress());
+    setShowProfileModal(false);
+  };
+
+  const handleSwitchAccount = () => {
+    setShowProfileModal(false);
+    setShowAuthModal(true);
+  };
+
+  const handleProfileUpdate = (updated: UserAccount) => {
+    setCurrentAccount(updated);
+    if (updated.grade !== progress.selectedGrade) {
+      setProgress((prev) => ({
+        ...prev,
+        selectedGrade: updated.grade,
+      }));
+    }
+  };
+
   return (
     <div className="min-h-screen flex flex-col bg-[#181425] text-white">
       {/* Header */}
       <Header
         progress={progress}
         dueCount={dueCount}
+        currentAccount={currentAccount}
         onGradeChange={handleGradeChange}
         onOpenReview={() => setShowReviewModal(true)}
         onOpenTeacher={() => setShowTeacherModal(true)}
         onOpenSync={() => setShowSyncModal(true)}
+        onOpenAuth={() => setShowAuthModal(true)}
+        onOpenProfile={() => setShowProfileModal(true)}
       />
 
       {/* Main Content Area */}
@@ -128,6 +176,23 @@ export const App: React.FC = () => {
           progress={progress}
           onImportSuccess={(newProg) => setProgress(newProg)}
           onClose={() => setShowSyncModal(false)}
+        />
+      )}
+
+      {showAuthModal && (
+        <AuthModal
+          onClose={() => setShowAuthModal(false)}
+          onAuthSuccess={handleAuthSuccess}
+        />
+      )}
+
+      {showProfileModal && currentAccount && (
+        <UserProfileModal
+          account={currentAccount}
+          onClose={() => setShowProfileModal(false)}
+          onLogout={handleLogout}
+          onSwitchAccount={handleSwitchAccount}
+          onUpdateSuccess={handleProfileUpdate}
         />
       )}
     </div>

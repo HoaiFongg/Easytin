@@ -1,27 +1,38 @@
 import React, { useState } from 'react';
-import { Grade, UserProgressState } from '../../packages/domain/types';
+import { Grade, UserAccount, UserProgressState } from '../../packages/domain/types';
+import { AVATAR_OPTIONS } from '../../packages/domain/account';
 import { PixelButton } from './PixelButton';
 import { sound } from '../../packages/game-core/audio';
-import { Volume2, VolumeX, Sparkles, Flame, BookOpen, GraduationCap, Share2 } from 'lucide-react';
+import { Volume2, VolumeX, Sparkles, Flame, BookOpen, GraduationCap, Share2, UserPlus } from 'lucide-react';
 
 interface HeaderProps {
   progress: UserProgressState;
   dueCount: number;
+  currentAccount: UserAccount | null;
   onGradeChange: (grade: Grade) => void;
   onOpenReview: () => void;
   onOpenTeacher: () => void;
   onOpenSync: () => void;
+  onOpenAuth: () => void;
+  onOpenProfile: () => void;
 }
 
 export const Header: React.FC<HeaderProps> = ({
   progress,
   dueCount,
+  currentAccount,
   onGradeChange,
   onOpenReview,
   onOpenTeacher,
   onOpenSync,
+  onOpenAuth,
+  onOpenProfile,
 }) => {
   const [isMuted, setIsMuted] = useState(sound.getMuted());
+
+  const activeAvatar = currentAccount
+    ? AVATAR_OPTIONS.find((a) => a.id === currentAccount.avatarId) || AVATAR_OPTIONS[0]
+    : null;
 
   const toggleSound = () => {
     const next = !isMuted;
@@ -162,6 +173,41 @@ export const Header: React.FC<HeaderProps> = ({
             <span className="font-pixel text-[11px] text-[#f77622]">{progress.streakDays}</span>
             <span className="text-[10px] text-[#8b9bb4]">ngày</span>
           </div>
+
+          {/* Tài khoản Người học */}
+          {currentAccount ? (
+            <button
+              onClick={() => {
+                sound.playClick();
+                onOpenProfile();
+              }}
+              className="flex items-center gap-1.5 bg-[#1f263e] hover:bg-[#2b3557] border-2 border-[#2ce8f5] px-2 py-1 text-xs cursor-pointer transition-all shadow-pixel-sm shrink-0"
+              title="Nhấp để xem hồ sơ và thành tích học tập"
+            >
+              <span className="text-base">{activeAvatar?.icon || '🤖'}</span>
+              <div className="flex flex-col text-left leading-tight">
+                <span className="font-bold text-white text-[11px] max-w-[95px] truncate">
+                  {currentAccount.fullName}
+                </span>
+                <span className="text-[9px] text-[#2ce8f5] font-semibold">
+                  Lớp {currentAccount.grade}
+                </span>
+              </div>
+            </button>
+          ) : (
+            <button
+              onClick={() => {
+                sound.playClick();
+                onOpenAuth();
+              }}
+              className="flex items-center gap-1.5 bg-[#1a2e22] hover:bg-[#234230] text-[#38b764] hover:text-[#fee761] border-2 border-[#38b764] px-2 py-1 text-xs font-bold cursor-pointer transition-all shadow-pixel-sm shrink-0"
+              title="Tạo tài khoản hoặc đăng nhập để lưu thành tích học tập"
+            >
+              <UserPlus size={14} />
+              <span className="hidden sm:inline">Tạo tài khoản / Đăng nhập</span>
+              <span className="sm:hidden">Tài khoản</span>
+            </button>
+          )}
 
           {/* Thầy Cô / Lớp học */}
           <PixelButton variant="ghost" size="sm" onClick={onOpenTeacher} title="Cổng dành cho Giáo viên">

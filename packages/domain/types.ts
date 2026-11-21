@@ -106,3 +106,25 @@ export interface UserProgressState {
   classCode?: string;
   nickname?: string;
 }
+
+export interface UserAccount {
+  id: string;
+  username: string; // Tên đăng nhập
+  passwordHash: string; // Chuỗi mã hóa mật khẩu an toàn trên client
+  fullName: string; // Họ và tên học sinh
+  grade: Grade; // Khối lớp học
+  schoolName?: string; // Tên trường (tùy chọn)
+  className?: string; // Tên lớp (tùy chọn)
+  avatarId: string; // Mã nhận diện avatar
+  createdAt: string; // Thời gian khởi tạo (ISO)
+  lastLoginAt: string; // Thời gian đăng nhập gần nhất (ISO)
+  progress: UserProgressState; // Dữ liệu tiến độ học tập gắn liền với tài khoản
+}
+
+export interface AvatarOption {
+  id: string;
+  name: string;
+  role: string;
+  icon: string;
+  badgeColor: string;
+}
