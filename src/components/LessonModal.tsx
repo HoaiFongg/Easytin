@@ -108,7 +108,7 @@ export const LessonModal: React.FC<LessonModalProps> = ({ node, onClose, onFinis
 
   return (
     <div className="fixed inset-0 z-50 bg-black/85 flex items-center justify-center p-2 sm:p-4 overflow-y-auto">
-      <div className="bg-[#181425] border-4 border-[#5a6988] shadow-pixel-lg w-full max-w-5xl xl:max-w-6xl max-h-[94vh] flex flex-col overflow-hidden">
+      <div className="bg-[#181425] border-4 border-[#5a6988] shadow-pixel-lg w-full max-w-5xl xl:max-w-6xl max-h-[94vh] flex flex-col overflow-hidden anim-pixel-pop-in">
         {/* Header Modal */}
         <div className="flex items-center justify-between bg-[#262b44] px-4 py-2.5 border-b-3 border-[#3a4466]">
           <div className="flex items-center gap-2 overflow-hidden">

@@ -62,7 +62,7 @@ export const WorldMap: React.FC<WorldMapProps> = ({
     });
 
   return (
-    <div className="flex flex-col gap-6 w-full">
+    <div className="flex flex-col gap-6 w-full anim-pixel-fade-up">
       {/* KHỐI ĐIỀU HƯỚNG CẤP HỌC & KHỐI LỚP PHỔ THÔNG (Tiểu học · THCS · THPT) */}
       <div className={`border-3 p-3 sm:p-5 shadow-pixel flex flex-col gap-4 w-full transition-colors ${
         isLight
@@ -455,7 +455,7 @@ export const WorldMap: React.FC<WorldMapProps> = ({
             <PixelCard
               key={node.id}
               variant={isCompleted ? 'green' : 'default'}
-              className={`flex flex-col justify-between relative transition-all ${
+              className={`flex flex-col justify-between relative transition-all hover-pixel-lift ${
                 isLocked ? 'opacity-60 cursor-not-allowed' : ''
               } ${isLight ? 'bg-white shadow-pixel-sm hover:shadow-pixel' : ''}`}
             >
@@ -476,7 +476,7 @@ export const WorldMap: React.FC<WorldMapProps> = ({
                         size={14}
                         className={
                           s < stars
-                            ? 'text-[#f59e0b] fill-[#f59e0b]'
+                            ? `text-[#f59e0b] fill-[#f59e0b] ${stars === 3 ? 'anim-shimmer-star' : ''}`
                             : isLight
                             ? 'text-[#cbd5e1]'
                             : 'text-[#3a4466]'

@@ -125,30 +125,30 @@ export const Header: React.FC<HeaderProps> = ({
             <BookOpen size={14} className={isLight ? 'text-[#d97706]' : 'text-[#feae34]'} />
             <span>{t('review_button')}</span>
             {dueCount > 0 && (
-              <span className="bg-[#e43b44] text-white text-[10px] px-1.5 rounded-full font-bold animate-pulse">
+              <span className="bg-[#e43b44] text-white text-[10px] px-1.5 rounded-full font-bold animate-pulse anim-pulse-glow">
                 {dueCount}
               </span>
             )}
           </button>
 
           {/* XP */}
-          <div className={`flex items-center gap-1 border px-2 py-1 text-xs shadow-pixel-sm ${
+          <div className={`flex items-center gap-1 border px-2 py-1 text-xs shadow-pixel-sm transition-transform hover:scale-105 cursor-default ${
             isLight
               ? 'bg-[#fefce8] border-[#fde047] text-[#854d0e]'
               : 'bg-[#1a1c2c] border-[#3a4466]'
           }`}>
-            <Sparkles size={14} className={isLight ? 'text-[#d97706]' : 'text-[#fee761]'} />
+            <Sparkles size={14} className={`${isLight ? 'text-[#d97706]' : 'text-[#fee761]'} anim-pulse-glow`} />
             <span className={`font-pixel text-[11px] ${isLight ? 'text-[#b45309]' : 'text-[#fee761]'}`}>{progress.xp}</span>
             <span className={`text-[10px] ${isLight ? 'text-[#854d0e]' : 'text-[#8b9bb4]'}`}>{t('xp_label')}</span>
           </div>
 
           {/* Streak */}
-          <div className={`flex items-center gap-1 border px-2 py-1 text-xs shadow-pixel-sm ${
+          <div className={`flex items-center gap-1 border px-2 py-1 text-xs shadow-pixel-sm transition-transform hover:scale-105 cursor-default ${
             isLight
               ? 'bg-[#fff7ed] border-[#fdba74] text-[#9a3412]'
               : 'bg-[#1a1c2c] border-[#3a4466]'
           }`}>
-            <Flame size={14} className="text-[#f77622]" />
+            <Flame size={14} className="text-[#f77622] anim-flame" />
             <span className="font-pixel text-[11px] text-[#f77622]">{progress.streakDays}</span>
             <span className={`text-[10px] ${isLight ? 'text-[#9a3412]' : 'text-[#8b9bb4]'}`}>{t('streak_days')}</span>
           </div>

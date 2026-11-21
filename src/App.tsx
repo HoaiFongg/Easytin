@@ -7,6 +7,7 @@ import { LeitnerManager } from '../packages/domain/mastery';
 import { Header } from './components/Header';
 import { WorldMap } from './components/WorldMap';
 import { AboutPage } from './components/AboutPage';
+import { AmbientPixelCanvas } from './components/AmbientPixelCanvas';
 import { LessonModal } from './components/LessonModal';
 import { LeitnerReviewModal } from './components/LeitnerReviewModal';
 import { TeacherDashboardModal } from './components/TeacherDashboardModal';
@@ -118,9 +119,12 @@ export const App: React.FC = () => {
   };
 
   return (
-    <div className={`min-h-screen flex flex-col transition-colors duration-150 ${
+    <div className={`min-h-screen flex flex-col relative transition-colors duration-150 ${
       isLight ? 'bg-[#f4f6fb] text-[#0f172a]' : 'bg-[#181425] text-white'
     }`}>
+      {/* Ambient Pixel Particle Starfield */}
+      <AmbientPixelCanvas />
+
       {/* Header */}
       <Header
         progress={progress}

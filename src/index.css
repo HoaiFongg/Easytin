@@ -383,3 +383,135 @@ html.light ::-webkit-scrollbar-thumb {
 html.light ::-webkit-scrollbar-thumb:hover {
   background: #94a3b8;
 }
+
+/* ========================================================
+   ENHANCED RETRO PIXEL VISUAL EFFECTS & ANIMATIONS
+   ======================================================== */
+
+@keyframes pixel-pop-in {
+  0% {
+    opacity: 0;
+    transform: scale(0.92) translateY(8px);
+  }
+  70% {
+    transform: scale(1.02) translateY(-2px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+@keyframes pixel-fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pixel-pulse-glow {
+  0%, 100% {
+    opacity: 1;
+    filter: drop-shadow(0 0 1px currentColor);
+  }
+  50% {
+    opacity: 0.75;
+    filter: drop-shadow(0 0 5px currentColor);
+  }
+}
+
+@keyframes pixel-flame-flicker {
+  0%, 100% {
+    transform: scale(1) rotate(0deg);
+  }
+  25% {
+    transform: scale(1.12, 0.95) rotate(-3deg);
+  }
+  50% {
+    transform: scale(0.95, 1.1) rotate(2deg);
+  }
+  75% {
+    transform: scale(1.08, 1.02) rotate(-1deg);
+  }
+}
+
+@keyframes pixel-shimmer-star {
+  0%, 100% {
+    transform: scale(1);
+    filter: brightness(1);
+  }
+  50% {
+    transform: scale(1.25);
+    filter: brightness(1.35) drop-shadow(0 0 4px #fee761);
+  }
+}
+
+@keyframes pixel-star-twinkle {
+  0%, 100% {
+    opacity: 0.2;
+    transform: scale(0.85);
+  }
+  50% {
+    opacity: 0.9;
+    transform: scale(1.15);
+  }
+}
+
+.anim-pixel-pop-in {
+  animation: pixel-pop-in 0.22s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+}
+
+.anim-pixel-fade-up {
+  animation: pixel-fade-up 0.28s ease-out forwards;
+}
+
+.anim-pulse-glow {
+  animation: pixel-pulse-glow 2s ease-in-out infinite;
+}
+
+.anim-flame {
+  animation: pixel-flame-flicker 1.8s ease-in-out infinite;
+}
+
+.anim-shimmer-star {
+  animation: pixel-shimmer-star 2.4s ease-in-out infinite;
+}
+
+.anim-star-twinkle {
+  animation: pixel-star-twinkle 3s ease-in-out infinite;
+}
+
+/* Micro-interaction tactile lift for retro cards and buttons */
+.hover-pixel-lift {
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+.hover-pixel-lift:hover {
+  transform: translateY(-3px);
+}
+.hover-pixel-lift:active {
+  transform: translateY(1px);
+}
+
+/* Respect user preferences for reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .anim-pixel-idle,
+  .anim-pixel-sway,
+  .anim-pixel-blink,
+  .anim-pixel-glow,
+  .anim-pixel-sparkle,
+  .anim-pixel-pop-in,
+  .anim-pixel-fade-up,
+  .anim-pulse-glow,
+  .anim-flame,
+  .anim-shimmer-star,
+  .anim-star-twinkle,
+  .hover-pixel-lift {
+    animation: none !important;
+    transition: none !important;
+    transform: none !important;
+  }
+}
