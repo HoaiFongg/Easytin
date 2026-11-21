@@ -42,7 +42,7 @@ def get_elementary_nodes():
         "Bài 2: Xử lý thông tin", "Bài 2: Các bộ phận của máy tính", "Bài 1: Thông tin và tiếp nhận thông tin",
         "sort-drag", ["G3-01"], 6,
         ["Phân biệt 4 bước: Thu nhận -> Lưu trữ -> Xử lý -> Truyền đạt.", "Nhận diện dạng thông tin: Chữ, Hình ảnh, Âm thanh."],
-        "Máy tính và con người đều có khả năng tiếp nhận và xử lý thông tin siêu đẳng!",
+        "Máy tính và con người đều có khả năng tiếp nhận và xử lý thông tin hiệu quả!",
         "Bốn hoạt động thông tin cơ bản gồm: Thu nhận thông tin, Lưu trữ thông tin, Xử lý thông tin và Truyền đạt thông tin.",
         ["Bộ não con người và bộ vi xử lý máy tính đều thực hiện xử lý thông tin.", "Thông tin có thể lưu trữ trong sách vở hoặc ổ đĩa máy tính."],
         {"groups": [{"id": "g1", "name": "Thu nhận thông tin (Đầu vào)"}, {"id": "g2", "name": "Truyền đạt thông tin (Đầu ra)"}], "items": [{"id":"1","name":"Đọc dòng chữ trên bảng lớp","group":"g1","icon":"👀"},{"id":"2","name":"Nghe tiếng chuông báo giờ ra chơi","group":"g1","icon":"🔔"},{"id":"3","name":"Nói lời chào thầy cô","group":"g2","icon":"🗣️"},{"id":"4","name":"Gửi thư báo tin vui cho bạn bè","group":"g2","icon":"✉️"}]},
@@ -77,7 +77,7 @@ def get_elementary_nodes():
     ))
 
     nodes.append(make_lesson(
-        "G3-05", "w1", 3, "Thao tác Chuột máy tính Siêu đẳng", "Chủ đề A: Máy tính và em",
+        "G3-05", "w1", 3, "Luyện tập Thao tác Chuột Máy tính Chuẩn xác", "Chủ đề A: Máy tính và em",
         "Bài 6: Sử dụng chuột máy tính", "Bài 3: Em tập dùng chuột", "Bài 3: Em tập sử dụng chuột",
         "sort-drag", ["G3-03"], 6,
         ["Cầm chuột đúng tư thế bằng tay phải.", "Thực hiện thành thạo 5 thao tác cơ bản với chuột."],
@@ -159,12 +159,12 @@ def get_elementary_nodes():
         "Bài 11: Lưu trữ và trao đổi thông tin", "Bài 9: Em bảo vệ thông tin cá nhân", "Bài 8: Bảo vệ dữ liệu cá nhân",
         "branch-story", ["G3-08"], 6,
         ["Nhận biết thông tin cá nhân cần bảo mật tuyệt đối.", "Không chia sẻ mật khẩu, địa chỉ cho người lạ trên mạng."],
-        "Trở thành hiệp sĩ bảo vệ bí mật thông tin của bản thân và gia đình!",
+        "Chủ động bảo vệ bí mật thông tin của bản thân và gia đình.",
         "Thông tin cá nhân bao gồm: Họ và tên đầy đủ, ngày sinh, địa chỉ nhà, số điện thoại bố mẹ, mật khẩu tài khoản. Tiết lộ cho kẻ xấu có thể gây nguy hiểm cho gia đình.",
         ["Mật khẩu tài khoản chỉ được chia sẻ với bố mẹ, không nói cho bạn bè.", "Không chụp ảnh gửi thẻ căn cước hay giấy tờ nhà lên mạng xã hội."],
         {"scenarios": [{"id": "s1", "prompt": "Một người lạ trên mạng nhắn tin hứa tặng tài khoản game xịn nếu em gửi họ tên, số điện thoại và địa chỉ nhà của em.", "choices": [{"text": "Tuyệt đối từ chối và báo ngay cho bố mẹ biết.", "is_correct": True, "feedback": "Rất tỉnh táo! Em đã ngăn chặn kẻ xấu thu thập thông tin."}, {"text": "Gửi ngay thông tin để nhận tài khoản game miễn phí.", "is_correct": False, "feedback": "Kẻ gian có thể dùng thông tin đó để lừa đảo hoặc tiếp cận em!"}]}]},
         [{"question": "Thông tin nào sau đây TUYỆT ĐỐI không được cung cấp cho người lạ trên mạng?", "options": ["Mật khẩu tài khoản và địa chỉ nhà riêng", "Tên loài hoa em yêu thích", "Màu sắc của bầu trời"], "answer": 0, "explanation": "Mật khẩu và địa chỉ nhà là thông tin bảo mật sống còn."}],
-        "Em là một hiệp sĩ số dũng cảm, biết bảo vệ an toàn cho bản thân và gia đình!"
+        "Em đã biết cách bảo vệ thông tin an toàn cho bản thân và gia đình!"
     ))
 
     nodes.append(make_lesson(
@@ -194,21 +194,21 @@ def get_elementary_nodes():
     ))
 
     nodes.append(make_lesson(
-        "G3-14", "w1", 3, "Đấu trường Trùm Lớp 3: Tốt nghiệp Mầm số", "Tổng kết GDPT 2018 Lớp 3",
+        "G3-14", "w1", 3, "Ôn tập & Đánh giá Năng lực Tin học Lớp 3", "Tổng kết GDPT 2018 Lớp 3",
         "Bài 16: Tổng kết Tin học 3", "Bài 16: Em tập trình bày ý kiến", "Bài 15, 16: Đánh giá & Dự án Tin học",
         "boss-quiz", ["G3-01", "G3-03", "G3-05", "G3-11", "G3-12"], 12,
-        ["Tổng kết toàn diện kiến thức Tin học Lớp 3 chuẩn GDPT 2018.", "Sẵn sàng nhận huy hiệu Tốt nghiệp Mầm số vinh quang."],
-        "Quái thú Glitch Tí Hon đang quậy phá phòng thực hành máy tính! Hãy vận dụng toàn bộ kiến thức lớp 3 để thu phục nó!",
-        "Đấu trường tổng kết: Phân biệt bộ phận máy tính, thao tác chuột phím, an toàn thông tin và tư duy thuật toán từng bước.",
+        ["Tổng kết toàn diện kiến thức Tin học Lớp 3 chuẩn GDPT 2018.", "Sẵn sàng hoàn thành chương trình Tin học Lớp 3."],
+        "Hãy vận dụng toàn bộ kiến thức đã học trong năm lớp 3 để hoàn thành xuất sắc bài đánh giá tổng hợp!",
+        "Bài đánh giá tổng hợp: Phân biệt bộ phận máy tính, thao tác chuột phím, an toàn thông tin và tư duy thuật toán từng bước.",
         ["4 bộ phận máy tính: Thân máy, Màn hình, Bàn phím, Chuột.", "Bảo vệ thông tin cá nhân và quy tắc làm việc theo trình tự."],
-        {"boss_name": "Glitch Tí Hon", "boss_max_hp": 100, "player_max_hp": 100, "damage_per_hit": 25, "questions_pool": 4},
+        {"boss_name": "Thử thách Tổng hợp Lớp 3", "boss_max_hp": 100, "player_max_hp": 100, "damage_per_hit": 25, "questions_pool": 4},
         [
             {"question": "Bộ phận nào của máy tính thực hiện việc nhập ký tự chữ và số?", "options": ["Bàn phím", "Màn hình", "Loa", "Máy in"], "answer": 0, "explanation": "Bàn phím dùng để nhập ký tự vào máy tính."},
             {"question": "Hai phím nào trên bàn phím có gờ định vị ngón trỏ?", "options": ["F và J", "A và L", "G và H", "Z và M"], "answer": 0, "explanation": "Phím F và J là mốc định vị của hàng cơ sở."},
             {"question": "Hành động nào sau đây là đúng khi dùng mạng Internet?", "options": ["Hỏi ý kiến người lớn khi gặp thông tin lạ", "Tự ý gửi địa chỉ nhà cho người lạ", "Bấm vào mọi quảng cáo trúng thưởng", "Chơi game liên tục không nghỉ"], "answer": 0, "explanation": "Luôn trao đổi với cha mẹ, thầy cô khi dùng mạng."},
             {"question": "Thứ tự các bước giải quyết công việc gọi là gì?", "options": ["Quy trình / Thuật toán", "Bức tranh", "Tệp văn bản", "Mật khẩu"], "answer": 0, "explanation": "Quy trình tuần tự từng bước chính là thuật toán."}
         ],
-        "CHIẾN THẮNG TUYỆT ĐỐI! Chúc mừng em đã hoàn thành toàn bộ chương trình Tin học Lớp 3 của cả 3 bộ sách với danh hiệu Hiệp Sĩ Mầm Số!"
+        "CHÚC MỪNG EM! Em đã hoàn thành xuất sắc toàn bộ chương trình Tin học Lớp 3 theo chuẩn GDPT 2018 của cả 3 bộ sách!"
     ))
 
     # =========================================================================
@@ -397,21 +397,21 @@ def get_elementary_nodes():
     ))
 
     nodes.append(make_lesson(
-        "G4-15", "w1", 4, "Đấu trường Trùm Lớp 4: Nhà Lập trình Nhí", "Tổng kết GDPT 2018 Lớp 4",
+        "G4-15", "w1", 4, "Ôn tập & Đánh giá Năng lực Tin học Lớp 4", "Tổng kết GDPT 2018 Lớp 4",
         "Bài 16: Dự án Tin học 4", "Bài 16: Dự án lập trình trò chơi", "Bài 16: Dự án Em làm nhà lập trình",
         "boss-quiz", ["G4-01", "G4-05", "G4-08", "G4-11", "G4-13"], 12,
         ["Tổng kết toàn diện kiến thức Tin học Lớp 4 của 3 bộ sách.", "Sẵn sàng nhận danh hiệu Nhà Lập Trình Nhí EasyTin."],
-        "Robot Bug Lỗi Mã đang chiếm quyền điều khiển sân khấu Scratch! Hãy dùng tư duy thuật toán để đánh bại nó!",
-        "Đấu trường tổng kết: Phân biệt Phần cứng - Phần mềm, Cây thư mục, Định dạng văn bản và Khối lệnh lập trình Scratch.",
+        "Hãy vận dụng tư duy thuật toán và kỹ năng lập trình Scratch để hoàn thành bài đánh giá năng lực!",
+        "Bài đánh giá tổng hợp: Phân biệt Phần cứng - Phần mềm, Cây thư mục, Định dạng văn bản và Khối lệnh lập trình Scratch.",
         ["Phần cứng và Phần mềm phối hợp nhịp nhàng.", "Cấu trúc lặp Repeat N tối ưu hóa thuật toán."],
-        {"boss_name": "Bug Lỗi Mã", "boss_max_hp": 100, "player_max_hp": 100, "damage_per_hit": 25, "questions_pool": 4},
+        {"boss_name": "Thử thách Tổng hợp Lớp 4", "boss_max_hp": 100, "player_max_hp": 100, "damage_per_hit": 25, "questions_pool": 4},
         [
             {"question": "Thành phần nào sau đây là phần mềm máy tính?", "options": ["Hệ điều hành Windows", "Chuột không dây", "Màn hình LED", "Bàn phím cơ"], "answer": 0, "explanation": "Windows là phần mềm hệ thống điều khiển máy tính."},
             {"question": "Trong Scratch, khối lệnh 'Lặp lại 10 lần' nằm trong nhóm lệnh nào?", "options": ["Điều khiển (Control)", "Chuyển động (Motion)", "Âm thanh (Sound)", "Cảm biến (Sensing)"], "answer": 0, "explanation": "Nhóm Control (màu cam) quản lý các vòng lặp và điều kiện."},
             {"question": "Để tìm chính xác cụm từ trên Google, ta đặt cụm từ đó trong dấu gì?", "options": ["Dấu ngoặc kép \"...\"", "Dấu ngoặc đơn (...)", "Dấu chấm than !...", "Dấu hỏi chấm ?..."], "answer": 0, "explanation": "Dấu ngoặc kép tìm kiếm chính xác từng từ trong cụm từ."},
             {"question": "Đuôi mở rộng nào sau đây là của tệp văn bản Word?", "options": [".docx", ".png", ".mp3", ".exe"], "answer": 0, "explanation": ".docx là định dạng chuẩn của tài liệu Word."}
         ],
-        "CHIẾN THẮNG HUY HOÀNG! Em đã làm chủ toàn bộ chương trình Tin học Lớp 4 của cả 3 bộ sách với danh hiệu Nhà Lập Trình Nhí!"
+        "CHÚC MỪNG EM! Em đã làm chủ toàn bộ chương trình Tin học Lớp 4 của cả 3 bộ sách KNTT, Cánh Diều, CTST!"
     ))
 
     # =========================================================================
@@ -587,21 +587,21 @@ def get_elementary_nodes():
     ))
 
     nodes.append(make_lesson(
-        "G5-14", "w1", 5, "Đấu trường Trùm Lớp 5: Dũng sĩ Vượt cấp Tiểu học", "Tổng kết Toàn diện Tiểu học",
+        "G5-14", "w1", 5, "Ôn tập & Đánh giá Toàn diện Cấp Tiểu học", "Tổng kết Toàn diện Tiểu học",
         "Bài 16: Tổng kết & Dự án học tập 5", "Bài 16: Trình bày và chia sẻ sản phẩm số", "Bài 15, 16: Cuộc thi Tin học trẻ & Tổng kết",
         "boss-quiz", ["G5-01", "G5-02", "G5-07", "G5-10", "G5-12"], 12,
         ["Tổng kết toàn bộ chuẩn kiến thức Tin học cấp Tiểu học (Lớp 3, 4, 5) của cả 3 bộ sách.", "Sẵn sàng nhận bằng Vinh Danh Tốt Nghiệp Tiểu Học EasyTin."],
-        "Trùm Glitch Băng Giá Đại Vương đang đóng băng kho dữ liệu tốt nghiệp! Hãy dùng toàn bộ nội lực 3 năm học Tiểu học để đánh tan tảng băng!",
-        "Đấu trường tổng hợp: Phần cứng máy tính, Xử lý bảng tính, Biến số trong lập trình và Thuật toán rẽ nhánh Scratch.",
+        "Hãy vận dụng toàn bộ kiến thức Tin học của 3 năm học Tiểu học để hoàn thành xuất sắc bài đánh giá năng lực cuối cấp!",
+        "Bài đánh giá tổng hợp: Phần cứng máy tính, Xử lý bảng tính, Biến số trong lập trình và Thuật toán rẽ nhánh Scratch.",
         ["Kiến trúc máy tính: CPU, RAM, Ổ cứng.", "Kỹ năng lập trình biến số, điều kiện rẽ nhánh và an toàn số."],
-        {"boss_name": "Glitch Băng Giá Đại Vương", "boss_max_hp": 100, "player_max_hp": 100, "damage_per_hit": 25, "questions_pool": 4},
+        {"boss_name": "Thử thách Đánh giá Cuối Cấp Tiểu học", "boss_max_hp": 100, "player_max_hp": 100, "damage_per_hit": 25, "questions_pool": 4},
         [
             {"question": "Bộ phận nào trong thân máy tính thực hiện lưu trữ dữ liệu tạm thời và mất khi tắt điện?", "options": ["RAM", "Ổ đĩa cứng SSD", "Bộ xử lý CPU", "Nguồn điện"], "answer": 0, "explanation": "RAM lưu dữ liệu tạm thời khi máy đang chạy."},
             {"question": "Trong Scratch, chiếc hộp dùng để lưu điểm số và có thể thay đổi giá trị gọi là gì?", "options": ["Biến số (Variable)", "Sân khấu (Stage)", "Nhân vật (Sprite)", "Âm thanh (Sound)"], "answer": 0, "explanation": "Biến số là nơi lưu trữ giá trị thay đổi trong chương trình."},
             {"question": "Trong phần mềm bảng tính, công thức luôn luôn phải bắt đầu bằng ký tự nào?", "options": ["Dấu bằng (=)", "Dấu cộng (+)", "Dấu chấm hỏi (?)", "Dấu gạch ngang (-)"], "answer": 0, "explanation": "Dấu bằng (=) báo hiệu cho bảng tính biết đây là công thức tính toán."},
             {"question": "Quy tắc an toàn nào giúp bảo vệ mắt khi ngồi máy tính?", "options": ["Quy tắc 20-20-20 (nghỉ ngơi nhìn xa)", "Ngồi càng gần màn hình càng tốt", "Học thâu đêm không ngủ", "Vừa ăn vừa gõ phím"], "answer": 0, "explanation": "Quy tắc 20-20-20 giúp mắt thư giãn chống cận thị."}
         ],
-        "VINH QUANG TIỂU HỌC! Em đã hoàn thành xuất sắc toàn bộ chương trình Tin học Tiểu học (Lớp 3, 4, 5) của cả 3 bộ sách KNTT, Cánh Diều, CTST!"
+        "CHÚC MỪNG EM! Em đã hoàn thành xuất sắc toàn diện chương trình Tin học Cấp Tiểu học (Lớp 3, 4, 5) của cả 3 bộ sách!"
     ))
 
     return nodes

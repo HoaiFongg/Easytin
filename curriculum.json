@@ -10,7 +10,7 @@
         4,
         5
       ],
-      "description": "Khám phá thế giới máy tính kỳ diệu, làm chủ chuột phím, an toàn số và thuật toán phiêu lưu Tiểu học.",
+      "description": "Khám phá máy tính, rèn luyện kỹ năng sử dụng chuột bàn phím, an toàn thông tin và hình thành tư duy thuật toán Tiểu học.",
       "color_theme": "#2b5c3f"
     },
     {
@@ -22,7 +22,7 @@
         8,
         9
       ],
-      "description": "Giải mã bit nhị phân, định tuyến mạng Internet, bảng tính điện tử và thợ săn lỗi thuật toán THCS.",
+      "description": "dữ liệu nhị phân, mạng máy tính Internet, bảng tính điện tử và phương pháp giải quyết vấn đề với thuật toán THCS.",
       "color_theme": "#1f3b5c"
     },
     {
@@ -33,7 +33,7 @@
         11,
         12
       ],
-      "description": "Lập trình Python, cổng logic phần cứng, cơ sở dữ liệu quan hệ SQL và chinh phục đấu trường AI THPT.",
+      "description": "lập trình Python, cổng logic số, cơ sở dữ liệu quan hệ SQL và ứng dụng trí tuệ nhân tạo THPT.",
       "color_theme": "#5c2b4e"
     }
   ],
@@ -114,7 +114,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Học sinh thường nhầm lẫn giữa 'Thông tin' (nội dung mang lại hiểu biết) và 'Vật mang tin' (vật chứa thông tin như tờ báo, bảng tin, màn hình).",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Ghi nhớ: Thông tin là cái em hiểu được; còn quyển sách hay máy tính là vật cất giữ thông tin đó."
@@ -124,7 +124,7 @@
         },
         "practice": {
           "mission": {
-            "title": "Nhiệm vụ Thám tử Nhí: Phân tích Dòng Thông tin",
+            "title": "Hoạt động Thực hành: Phân tích các bước xử lý thông tin",
             "goal": "Nhận diện đúng 4 hoạt động thông tin (Thu nhận - Lưu trữ - Xử lý - Truyền đạt) trong một tình huống thực tế.",
             "steps": [
               "Bước 1: Quan sát thời tiết ngoài trời qua cửa sổ phòng học (Thu nhận).",
@@ -164,7 +164,7 @@
         "Nhận diện dạng thông tin: Chữ, Hình ảnh, Âm thanh."
       ],
       "lesson_data": {
-        "hook": "Máy tính và con người đều có khả năng tiếp nhận và xử lý thông tin siêu đẳng!",
+        "hook": "Máy tính và con người đều có khả năng tiếp nhận và xử lý thông tin hiệu quả!",
         "concept": {
           "summary": "Bốn hoạt động thông tin cơ bản gồm: Thu nhận thông tin, Lưu trữ thông tin, Xử lý thông tin và Truyền đạt thông tin.",
           "key_points": [
@@ -239,7 +239,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Học sinh thường nhầm lẫn giữa 'Thông tin' (nội dung mang lại hiểu biết) và 'Vật mang tin' (vật chứa thông tin như tờ báo, bảng tin, màn hình).",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Ghi nhớ: Thông tin là cái em hiểu được; còn quyển sách hay máy tính là vật cất giữ thông tin đó."
@@ -249,7 +249,7 @@
         },
         "practice": {
           "mission": {
-            "title": "Nhiệm vụ Thám tử Nhí: Phân tích Dòng Thông tin",
+            "title": "Hoạt động Thực hành: Phân tích các bước xử lý thông tin",
             "goal": "Nhận diện đúng 4 hoạt động thông tin (Thu nhận - Lưu trữ - Xử lý - Truyền đạt) trong một tình huống thực tế.",
             "steps": [
               "Bước 1: Quan sát thời tiết ngoài trời qua cửa sổ phòng học (Thu nhận).",
@@ -364,13 +364,13 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Nhiều bạn nghĩ chiếc màn hình là toàn bộ máy tính. Thực ra thân máy mới là bộ phận quan trọng nhất chứa bộ vi xử lý CPU.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Không bao giờ để đồ uống hay thức ăn gần bàn phím và thân máy để tránh chập điện."
             }
           ],
-          "memorize": "⭐ Bốn bạn thân máy tính: Thân máy xử lý, Màn hình ngắm nhìn, Bàn phím gõ chữ, Chuột chỉ đường đi!"
+          "memorize": "⭐ Bốn bộ phận chính của máy tính: Thân máy xử lý, Màn hình quan sát, Bàn phím nhập liệu, Chuột điều khiển!"
         },
         "practice": {
           "mission": {
@@ -471,13 +471,13 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Nhiều bạn nghĩ chiếc màn hình là toàn bộ máy tính. Thực ra thân máy mới là bộ phận quan trọng nhất chứa bộ vi xử lý CPU.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Không bao giờ để đồ uống hay thức ăn gần bàn phím và thân máy để tránh chập điện."
             }
           ],
-          "memorize": "⭐ Bốn bạn thân máy tính: Thân máy xử lý, Màn hình ngắm nhìn, Bàn phím gõ chữ, Chuột chỉ đường đi!"
+          "memorize": "⭐ Bốn bộ phận chính của máy tính: Thân máy xử lý, Màn hình quan sát, Bàn phím nhập liệu, Chuột điều khiển!"
         },
         "practice": {
           "mission": {
@@ -504,7 +504,7 @@
       "id": "G3-05",
       "world_id": "w1",
       "grade": 3,
-      "title": "Thao tác Chuột máy tính Siêu đẳng",
+      "title": "Luyện tập Thao tác Chuột Máy tính Chuẩn xác",
       "standard_domain": "Chủ đề A: Máy tính và em",
       "textbook_mapping": {
         "kntt": "Bài 6: Sử dụng chuột máy tính",
@@ -581,7 +581,7 @@
         ],
         "recap": "Kỹ năng sử dụng chuột của em rất khéo léo và chính xác!",
         "theory": {
-          "overview": "Chào mừng em đến với bài học 'Thao tác Chuột máy tính Siêu đẳng'! Trong chương trình Tin học lớp 3 (theo các bộ sách Bài 6, Bài 3, Bài 3), chúng ta sẽ cùng khám phá những bí mật thú vị về thao tác chuột máy tính siêu đẳng. Kiến thức này không chỉ giúp em đạt điểm cao trên lớp mà còn là hành trang công nghệ không thể thiếu trong đời sống số hiện đại.",
+          "overview": "Chào mừng em đến với bài học 'Luyện tập Thao tác Chuột Máy tính Chuẩn xác'! Trong chương trình Tin học lớp 3 (theo các bộ sách Bài 6, Bài 3, Bài 3), chúng ta sẽ cùng khám phá những bí mật thú vị về luyện tập thao tác chuột máy tính chuẩn xác. Kiến thức này không chỉ giúp em đạt điểm cao trên lớp mà còn là hành trang công nghệ không thể thiếu trong đời sống số hiện đại.",
           "sections": [
             {
               "title": "1. Bản chất & Kiến thức Cốt lõi",
@@ -591,36 +591,36 @@
             },
             {
               "title": "2. Ví dụ Trực quan trong Đời sống",
-              "content": "Chuột và bàn phím là công cụ giao tiếp trực tiếp giữa em và thế giới ảo của máy tính. Thao tác chuẩn giúp em làm việc nhanh gấp 3 lần và không mỏi tay.",
-              "example": "Ví dụ: Cầm chuột nhẹ nhàng bằng tay phải: ngón trỏ đặt lên nút trái, ngón giữa đặt lên nút phải. Khi muốn mở tệp tranh vẽ, em nháy đúp (bấm nhanh 2 lần nút trái).",
+              "content": "Máy tính để bàn giống như một đội bạn thân 4 thành viên cùng phối hợp ăn ý để giúp em học tập và giải trí.",
+              "example": "Ví dụ: Thân máy là 'Bộ não' tính toán; Màn hình là 'Gương mặt' hiển thị kết quả; Bàn phím là 'Bút viết' nhập chữ số; Chuột là 'Bàn tay' chỉ huy trỏ vào đồ vật.",
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
-              "content": "Lỗi phổ biến là học sinh gõ 'mổ cò' chỉ bằng 2 ngón trỏ, khiến tốc độ rất chậm và dễ sai tư thế cột sống.",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
+              "content": "Nhiều bạn nghĩ chiếc màn hình là toàn bộ máy tính. Thực ra thân máy mới là bộ phận quan trọng nhất chứa bộ vi xử lý CPU.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
-              "tip": "Đặt 2 ngón trỏ lên 2 phím có gờ F và J trên hàng phím cơ sở để định vị cả 10 ngón tay mà không cần nhìn bàn phím."
+              "tip": "Không bao giờ để đồ uống hay thức ăn gần bàn phím và thân máy để tránh chập điện."
             }
           ],
-          "memorize": "🎯 Ngón trỏ phím F và J, mười ngón dàn đều trên hàng cơ sở!"
+          "memorize": "⭐ Bốn bộ phận chính của máy tính: Thân máy xử lý, Màn hình quan sát, Bàn phím nhập liệu, Chuột điều khiển!"
         },
         "practice": {
           "mission": {
-            "title": "Đấu trường Luyện Ngón: Gõ Phím Mười Ngón & Rê Chuột Chuẩn Xác",
-            "goal": "Thực hiện thành thạo thao tác nháy chuột, kéo thả và đặt đúng 10 ngón tay trên hàng phím cơ sở.",
+            "title": "Thực hành Khám phá & Kết nối Bộ phận Máy tính",
+            "goal": "Chỉ đúng tên và công dụng của 4 bộ phận chính trên máy tính thực tế trong phòng thực hành.",
             "steps": [
-              "Bước 1: Ngồi thẳng lưng, mắt cách màn hình 50 - 80cm, hai chân chạm sàn thoải mái.",
-              "Bước 2: Đặt tay lên bàn phím: Ngón trỏ trái đặt lên phím F, ngón trỏ phải đặt lên phím J.",
-              "Bước 3: Mở phần mềm gõ phím hoặc mở Notepad, thực hành gõ chuỗi: A S D F J K L ;",
-              "Bước 4: Dùng chuột kéo thả một biểu tượng tệp tin từ góc trái sang góc phải màn hình."
+              "Bước 1: Quan sát thân máy tính và tìm nút nguồn (Power) có biểu tượng hình tròn gạch dọc.",
+              "Bước 2: Nhận biết dây cắm kết nối của Chuột và Bàn phím vào cổng USB phía sau thân máy.",
+              "Bước 3: Bật công tắc màn hình và quan sát đèn tín hiệu xanh báo hiệu màn hình hoạt động.",
+              "Bước 4: Nhấn nhẹ nút nguồn thân máy và chờ máy khởi động vào màn hình làm việc Desktop."
             ],
-            "challenge": "Gõ 20 chữ cái liên tục trên hàng phím cơ sở mà không cần nhìn xuống bàn phím.",
-            "tip": "Dùng ngón cái hai bàn tay để nhấn phím Cách (Spacebar) dài nhất trên bàn phím."
+            "challenge": "Nhận biết thêm loa, tai nghe hoặc máy in kết nối vào máy tính.",
+            "tip": "Khi tắt máy, nhớ dùng lệnh Start -> Shut down, tuyệt đối không rút dây điện đột ngột!"
           },
           "checklist": [
-            "Tư thế ngồi chuẩn khoa học",
-            "Đặt đúng 10 ngón trên hàng cơ sở",
-            "Thao tác chuột mượt mà không bị rung"
+            "Chỉ đúng vị trí 4 bộ phận chính",
+            "Biết bật màn hình và thân máy đúng quy trình",
+            "Nhớ nguyên tắc tắt máy an toàn"
           ]
         }
       }
@@ -691,7 +691,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Lỗi phổ biến là học sinh gõ 'mổ cò' chỉ bằng 2 ngón trỏ, khiến tốc độ rất chậm và dễ sai tư thế cột sống.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Đặt 2 ngón trỏ lên 2 phím có gờ F và J trên hàng phím cơ sở để định vị cả 10 ngón tay mà không cần nhìn bàn phím."
@@ -701,7 +701,7 @@
         },
         "practice": {
           "mission": {
-            "title": "Đấu trường Luyện Ngón: Gõ Phím Mười Ngón & Rê Chuột Chuẩn Xác",
+            "title": "Hoạt động Thực hành: Luyện gõ mười ngón và thao tác chuột chuẩn xác",
             "goal": "Thực hiện thành thạo thao tác nháy chuột, kéo thả và đặt đúng 10 ngón tay trên hàng phím cơ sở.",
             "steps": [
               "Bước 1: Ngồi thẳng lưng, mắt cách màn hình 50 - 80cm, hai chân chạm sàn thoải mái.",
@@ -786,7 +786,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Lỗi phổ biến là học sinh gõ 'mổ cò' chỉ bằng 2 ngón trỏ, khiến tốc độ rất chậm và dễ sai tư thế cột sống.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Đặt 2 ngón trỏ lên 2 phím có gờ F và J trên hàng phím cơ sở để định vị cả 10 ngón tay mà không cần nhìn bàn phím."
@@ -796,7 +796,7 @@
         },
         "practice": {
           "mission": {
-            "title": "Đấu trường Luyện Ngón: Gõ Phím Mười Ngón & Rê Chuột Chuẩn Xác",
+            "title": "Hoạt động Thực hành: Luyện gõ mười ngón và thao tác chuột chuẩn xác",
             "goal": "Thực hiện thành thạo thao tác nháy chuột, kéo thả và đặt đúng 10 ngón tay trên hàng phím cơ sở.",
             "steps": [
               "Bước 1: Ngồi thẳng lưng, mắt cách màn hình 50 - 80cm, hai chân chạm sàn thoải mái.",
@@ -893,7 +893,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Không chia sẻ mật khẩu, họ tên đầy đủ hay số điện thoại của gia đình cho người lạ trên mạng Internet.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Bảo vệ thông tin cá nhân chính là bảo vệ sự an toàn cho chính em và gia đình."
@@ -1018,7 +1018,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Học sinh thường nhầm lẫn giữa 'Thông tin' (nội dung mang lại hiểu biết) và 'Vật mang tin' (vật chứa thông tin như tờ báo, bảng tin, màn hình).",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Ghi nhớ: Thông tin là cái em hiểu được; còn quyển sách hay máy tính là vật cất giữ thông tin đó."
@@ -1028,7 +1028,7 @@
         },
         "practice": {
           "mission": {
-            "title": "Nhiệm vụ Thám tử Nhí: Phân tích Dòng Thông tin",
+            "title": "Hoạt động Thực hành: Phân tích các bước xử lý thông tin",
             "goal": "Nhận diện đúng 4 hoạt động thông tin (Thu nhận - Lưu trữ - Xử lý - Truyền đạt) trong một tình huống thực tế.",
             "steps": [
               "Bước 1: Quan sát thời tiết ngoài trời qua cửa sổ phòng học (Thu nhận).",
@@ -1118,7 +1118,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Lưu tệp lung tung ra màn hình Desktop khiến máy tính lộn xộn và rất khó tìm lại bài vẽ khi thầy cô yêu cầu.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Luôn đặt tên thư mục ngắn gọn, có ý nghĩa và chứa đúng loại tệp tương ứng."
@@ -1168,7 +1168,7 @@
         "Không chia sẻ mật khẩu, địa chỉ cho người lạ trên mạng."
       ],
       "lesson_data": {
-        "hook": "Trở thành hiệp sĩ bảo vệ bí mật thông tin của bản thân và gia đình!",
+        "hook": "Chủ động bảo vệ bí mật thông tin của bản thân và gia đình.",
         "concept": {
           "summary": "Thông tin cá nhân bao gồm: Họ và tên đầy đủ, ngày sinh, địa chỉ nhà, số điện thoại bố mẹ, mật khẩu tài khoản. Tiết lộ cho kẻ xấu có thể gây nguy hiểm cho gia đình.",
           "key_points": [
@@ -1208,7 +1208,7 @@
             "explanation": "Mật khẩu và địa chỉ nhà là thông tin bảo mật sống còn."
           }
         ],
-        "recap": "Em là một hiệp sĩ số dũng cảm, biết bảo vệ an toàn cho bản thân và gia đình!",
+        "recap": "Em đã biết cách bảo vệ thông tin an toàn cho bản thân và gia đình!",
         "theory": {
           "overview": "Chào mừng em đến với bài học 'Bảo vệ Thông tin Bí mật Cá nhân'! Trong chương trình Tin học lớp 3 (theo các bộ sách Bài 11, Bài 9, Bài 8), chúng ta sẽ cùng khám phá những bí mật thú vị về bảo vệ thông tin bí mật cá nhân. Kiến thức này không chỉ giúp em đạt điểm cao trên lớp mà còn là hành trang công nghệ không thể thiếu trong đời sống số hiện đại.",
           "sections": [
@@ -1225,7 +1225,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Học sinh thường nhầm lẫn giữa 'Thông tin' (nội dung mang lại hiểu biết) và 'Vật mang tin' (vật chứa thông tin như tờ báo, bảng tin, màn hình).",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Ghi nhớ: Thông tin là cái em hiểu được; còn quyển sách hay máy tính là vật cất giữ thông tin đó."
@@ -1235,7 +1235,7 @@
         },
         "practice": {
           "mission": {
-            "title": "Nhiệm vụ Thám tử Nhí: Phân tích Dòng Thông tin",
+            "title": "Hoạt động Thực hành: Phân tích các bước xử lý thông tin",
             "goal": "Nhận diện đúng 4 hoạt động thông tin (Thu nhận - Lưu trữ - Xử lý - Truyền đạt) trong một tình huống thực tế.",
             "steps": [
               "Bước 1: Quan sát thời tiết ngoài trời qua cửa sổ phòng học (Thu nhận).",
@@ -1336,7 +1336,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Lỗi thuật toán xảy ra khi các bước bị xếp sai thứ tự hoặc thiếu điều kiện dừng, dẫn đến kết quả sai lệch.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Trước khi ra lệnh cho robot hay máy tính, hãy tự đọc nhẩm từng bước xem có bước nào vô lý không."
@@ -1451,7 +1451,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Lỗi thuật toán xảy ra khi các bước bị xếp sai thứ tự hoặc thiếu điều kiện dừng, dẫn đến kết quả sai lệch.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Trước khi ra lệnh cho robot hay máy tính, hãy tự đọc nhẩm từng bước xem có bước nào vô lý không."
@@ -1484,7 +1484,7 @@
       "id": "G3-14",
       "world_id": "w1",
       "grade": 3,
-      "title": "Đấu trường Trùm Lớp 3: Tốt nghiệp Mầm số",
+      "title": "Ôn tập & Đánh giá Năng lực Tin học Lớp 3",
       "standard_domain": "Tổng kết GDPT 2018 Lớp 3",
       "textbook_mapping": {
         "kntt": "Bài 16: Tổng kết Tin học 3",
@@ -1502,19 +1502,19 @@
       "estimated_minutes": 12,
       "learning_goals": [
         "Tổng kết toàn diện kiến thức Tin học Lớp 3 chuẩn GDPT 2018.",
-        "Sẵn sàng nhận huy hiệu Tốt nghiệp Mầm số vinh quang."
+        "Sẵn sàng hoàn thành chương trình Tin học Lớp 3."
       ],
       "lesson_data": {
-        "hook": "Quái thú Glitch Tí Hon đang quậy phá phòng thực hành máy tính! Hãy vận dụng toàn bộ kiến thức lớp 3 để thu phục nó!",
+        "hook": "Hãy vận dụng toàn bộ kiến thức đã học trong năm lớp 3 để hoàn thành xuất sắc bài đánh giá tổng hợp!",
         "concept": {
-          "summary": "Đấu trường tổng kết: Phân biệt bộ phận máy tính, thao tác chuột phím, an toàn thông tin và tư duy thuật toán từng bước.",
+          "summary": "Bài đánh giá tổng hợp: Phân biệt bộ phận máy tính, thao tác chuột phím, an toàn thông tin và tư duy thuật toán từng bước.",
           "key_points": [
             "4 bộ phận máy tính: Thân máy, Màn hình, Bàn phím, Chuột.",
             "Bảo vệ thông tin cá nhân và quy tắc làm việc theo trình tự."
           ]
         },
         "game_config": {
-          "boss_name": "Glitch Tí Hon",
+          "boss_name": "Thử thách Tổng hợp Lớp 3",
           "boss_max_hp": 100,
           "player_max_hp": 100,
           "damage_per_hit": 25,
@@ -1566,24 +1566,24 @@
             "explanation": "Quy trình tuần tự từng bước chính là thuật toán."
           }
         ],
-        "recap": "CHIẾN THẮNG TUYỆT ĐỐI! Chúc mừng em đã hoàn thành toàn bộ chương trình Tin học Lớp 3 của cả 3 bộ sách với danh hiệu Hiệp Sĩ Mầm Số!",
+        "recap": "CHÚC MỪNG EM! Em đã hoàn thành xuất sắc toàn bộ chương trình Tin học Lớp 3 theo chuẩn GDPT 2018 của cả 3 bộ sách!",
         "theory": {
-          "overview": "Chào mừng em đến với bài học 'Đấu trường Trùm Lớp 3: Tốt nghiệp Mầm số'! Trong chương trình Tin học lớp 3 (theo các bộ sách Bài 16, Bài 16, Bài 15, 16), chúng ta sẽ cùng khám phá những bí mật thú vị về đấu trường trùm lớp 3: tốt nghiệp mầm số. Kiến thức này không chỉ giúp em đạt điểm cao trên lớp mà còn là hành trang công nghệ không thể thiếu trong đời sống số hiện đại.",
+          "overview": "Chào mừng em đến với bài học 'Ôn tập & Đánh giá Năng lực Tin học Lớp 3'! Trong chương trình Tin học lớp 3 (theo các bộ sách Bài 16, Bài 16, Bài 15, 16), chúng ta sẽ cùng khám phá những bí mật thú vị về ôn tập & đánh giá năng lực tin học lớp 3. Kiến thức này không chỉ giúp em đạt điểm cao trên lớp mà còn là hành trang công nghệ không thể thiếu trong đời sống số hiện đại.",
           "sections": [
             {
               "title": "1. Bản chất & Kiến thức Cốt lõi",
-              "content": "Kiến thức cốt lõi của bài học bao gồm: Đấu trường tổng kết: Phân biệt bộ phận máy tính, thao tác chuột phím, an toàn thông tin và tư duy thuật toán từng bước.. Cụ thể, các nội dung trọng tâm mà học sinh lớp 3 cần làm chủ:\n• 4 bộ phận máy tính: Thân máy, Màn hình, Bàn phím, Chuột.\n• Bảo vệ thông tin cá nhân và quy tắc làm việc theo trình tự.",
-              "example": "Trọng tâm YCCĐ bài học: Tổng kết toàn diện kiến thức Tin học Lớp 3 chuẩn GDPT 2018., Sẵn sàng nhận huy hiệu Tốt nghiệp Mầm số vinh quang..",
+              "content": "Kiến thức cốt lõi của bài học bao gồm: Bài đánh giá tổng hợp: Phân biệt bộ phận máy tính, thao tác chuột phím, an toàn thông tin và tư duy thuật toán từng bước.. Cụ thể, các nội dung trọng tâm mà học sinh lớp 3 cần làm chủ:\n• 4 bộ phận máy tính: Thân máy, Màn hình, Bàn phím, Chuột.\n• Bảo vệ thông tin cá nhân và quy tắc làm việc theo trình tự.",
+              "example": "Trọng tâm YCCĐ bài học: Tổng kết toàn diện kiến thức Tin học Lớp 3 chuẩn GDPT 2018., Sẵn sàng hoàn thành chương trình Tin học Lớp 3..",
               "tip": "Bài học tương ứng với các SGK: Bài 16: Tổng kết Tin học 3 | Bài 16: Em tập trình bày ý kiến | Bài 15, 16: Đánh giá & Dự án Tin học."
             },
             {
               "title": "2. Ví dụ Trực quan trong Đời sống",
-              "content": "Chủ đề 'Đấu trường Trùm Lớp 3: Tốt nghiệp Mầm số' mang lại cho em những hiểu biết sâu sắc và kỹ năng số cần thiết trong thế giới thông minh hôm nay.",
+              "content": "Chủ đề 'Ôn tập & Đánh giá Năng lực Tin học Lớp 3' mang lại cho em những hiểu biết sâu sắc và kỹ năng số cần thiết trong thế giới thông minh hôm nay.",
               "example": "Ví dụ: Luôn giữ khoảng cách an toàn với màn hình, không truy cập trang web lạ và luôn hỏi người lớn khi gặp tình huống đáng ngờ trên mạng.",
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Không chia sẻ mật khẩu, họ tên đầy đủ hay số điện thoại của gia đình cho người lạ trên mạng Internet.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Bảo vệ thông tin cá nhân chính là bảo vệ sự an toàn cho chính em và gia đình."
@@ -1593,8 +1593,8 @@
         },
         "practice": {
           "mission": {
-            "title": "Thực hành Trải nghiệm Kỹ năng: Đấu trường Trùm Lớp 3: Tốt nghiệp Mầm số",
-            "goal": "Hoàn thành các nhiệm vụ mô phỏng liên quan đến Đấu trường Trùm Lớp 3: Tốt nghiệp Mầm số.",
+            "title": "Thực hành Trải nghiệm Kỹ năng: Ôn tập & Đánh giá Năng lực Tin học Lớp 3",
+            "goal": "Hoàn thành các nhiệm vụ mô phỏng liên quan đến Ôn tập & Đánh giá Năng lực Tin học Lớp 3.",
             "steps": [
               "Bước 1: Đọc kỹ tình huống mô phỏng được đưa ra trên màn hình.",
               "Bước 2: Phân tích các lựa chọn hành vi an toàn và văn minh.",
@@ -1708,7 +1708,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Sao chép nguyên văn bài viết của người khác rồi nhận là của mình là hành vi vi phạm đạo đức và bản quyền.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Hãy trích dẫn nguồn gốc tác giả và xin phép khi sử dụng tư liệu của người khác."
@@ -1803,7 +1803,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Sao chép nguyên văn bài viết của người khác rồi nhận là của mình là hành vi vi phạm đạo đức và bản quyền.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Hãy trích dẫn nguồn gốc tác giả và xin phép khi sử dụng tư liệu của người khác."
@@ -1910,7 +1910,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Sao chép nguyên văn bài viết của người khác rồi nhận là của mình là hành vi vi phạm đạo đức và bản quyền.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Hãy trích dẫn nguồn gốc tác giả và xin phép khi sử dụng tư liệu của người khác."
@@ -2035,7 +2035,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Sao chép nguyên văn bài viết của người khác rồi nhận là của mình là hành vi vi phạm đạo đức và bản quyền.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Hãy trích dẫn nguồn gốc tác giả và xin phép khi sử dụng tư liệu của người khác."
@@ -2160,7 +2160,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Sao chép nguyên văn bài viết của người khác rồi nhận là của mình là hành vi vi phạm đạo đức và bản quyền.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Hãy trích dẫn nguồn gốc tác giả và xin phép khi sử dụng tư liệu của người khác."
@@ -2267,7 +2267,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Sao chép nguyên văn bài viết của người khác rồi nhận là của mình là hành vi vi phạm đạo đức và bản quyền.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Hãy trích dẫn nguồn gốc tác giả và xin phép khi sử dụng tư liệu của người khác."
@@ -2392,7 +2392,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Lỗi đặt dấu cách sai chính tả tiếng Việt: Nhiều bạn hay gõ dấu cách trước dấu chấm, dấu phẩy (sai: 'xin chào , các bạn .').",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Quy tắc vàng: Dấu chấm, dấu phẩy gõ dính liền với từ đứng trước, sau đó mới gõ một dấu cách duy nhất (đúng: 'xin chào, các bạn.')."
@@ -2487,7 +2487,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Lỗi đặt dấu cách sai chính tả tiếng Việt: Nhiều bạn hay gõ dấu cách trước dấu chấm, dấu phẩy (sai: 'xin chào , các bạn .').",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Quy tắc vàng: Dấu chấm, dấu phẩy gõ dính liền với từ đứng trước, sau đó mới gõ một dấu cách duy nhất (đúng: 'xin chào, các bạn.')."
@@ -2598,7 +2598,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Nhồi nhét quá nhiều chữ li ti lên slide và dùng hiệu ứng hoạt hình bay lượn quá chóng mặt khiến người xem mất tập trung.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Quy tắc 6x6: Mỗi slide tối đa 6 dòng, mỗi dòng tối đa 6 từ; màu chữ tương phản rõ với màu nền."
@@ -2723,7 +2723,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Nhồi nhét quá nhiều chữ li ti lên slide và dùng hiệu ứng hoạt hình bay lượn quá chóng mặt khiến người xem mất tập trung.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Quy tắc 6x6: Mỗi slide tối đa 6 dòng, mỗi dòng tối đa 6 từ; màu chữ tương phản rõ với màu nền."
@@ -2834,13 +2834,13 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Học sinh hay quên đặt giá trị ban đầu cho Biến số (như Điểm số = 0 khi bắt đầu game) hoặc đặt sai câu lệnh rẽ nhánh 'Nếu... Thì' bên ngoài vòng lặp.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Luôn đặt khối 'Nếu... Thì' bên trong khối 'Lặp lại liên tục' nếu muốn nhân vật liên tục kiểm tra va chạm trong suốt trò chơi."
             }
           ],
-          "memorize": "🧩 Ghép khối logic, lặp liên tục kiểm tra va chạm, biến số ghi dấu chiến công!"
+          "memorize": "🧩 Ghép khối lệnh logic, kiểm tra điều kiện tuần tự, biến số lưu trữ kết quả!"
         },
         "practice": {
           "mission": {
@@ -2945,13 +2945,13 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Học sinh hay quên đặt giá trị ban đầu cho Biến số (như Điểm số = 0 khi bắt đầu game) hoặc đặt sai câu lệnh rẽ nhánh 'Nếu... Thì' bên ngoài vòng lặp.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Luôn đặt khối 'Nếu... Thì' bên trong khối 'Lặp lại liên tục' nếu muốn nhân vật liên tục kiểm tra va chạm trong suốt trò chơi."
             }
           ],
-          "memorize": "🧩 Ghép khối logic, lặp liên tục kiểm tra va chạm, biến số ghi dấu chiến công!"
+          "memorize": "🧩 Ghép khối lệnh logic, kiểm tra điều kiện tuần tự, biến số lưu trữ kết quả!"
         },
         "practice": {
           "mission": {
@@ -3056,7 +3056,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Sao chép nguyên văn bài viết của người khác rồi nhận là của mình là hành vi vi phạm đạo đức và bản quyền.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Hãy trích dẫn nguồn gốc tác giả và xin phép khi sử dụng tư liệu của người khác."
@@ -3156,7 +3156,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Sao chép nguyên văn bài viết của người khác rồi nhận là của mình là hành vi vi phạm đạo đức và bản quyền.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Hãy trích dẫn nguồn gốc tác giả và xin phép khi sử dụng tư liệu của người khác."
@@ -3189,7 +3189,7 @@
       "id": "G4-15",
       "world_id": "w1",
       "grade": 4,
-      "title": "Đấu trường Trùm Lớp 4: Nhà Lập trình Nhí",
+      "title": "Ôn tập & Đánh giá Năng lực Tin học Lớp 4",
       "standard_domain": "Tổng kết GDPT 2018 Lớp 4",
       "textbook_mapping": {
         "kntt": "Bài 16: Dự án Tin học 4",
@@ -3210,16 +3210,16 @@
         "Sẵn sàng nhận danh hiệu Nhà Lập Trình Nhí EasyTin."
       ],
       "lesson_data": {
-        "hook": "Robot Bug Lỗi Mã đang chiếm quyền điều khiển sân khấu Scratch! Hãy dùng tư duy thuật toán để đánh bại nó!",
+        "hook": "Hãy vận dụng tư duy thuật toán và kỹ năng lập trình Scratch để hoàn thành bài đánh giá năng lực!",
         "concept": {
-          "summary": "Đấu trường tổng kết: Phân biệt Phần cứng - Phần mềm, Cây thư mục, Định dạng văn bản và Khối lệnh lập trình Scratch.",
+          "summary": "Bài đánh giá tổng hợp: Phân biệt Phần cứng - Phần mềm, Cây thư mục, Định dạng văn bản và Khối lệnh lập trình Scratch.",
           "key_points": [
             "Phần cứng và Phần mềm phối hợp nhịp nhàng.",
             "Cấu trúc lặp Repeat N tối ưu hóa thuật toán."
           ]
         },
         "game_config": {
-          "boss_name": "Bug Lỗi Mã",
+          "boss_name": "Thử thách Tổng hợp Lớp 4",
           "boss_max_hp": 100,
           "player_max_hp": 100,
           "damage_per_hit": 25,
@@ -3271,48 +3271,48 @@
             "explanation": ".docx là định dạng chuẩn của tài liệu Word."
           }
         ],
-        "recap": "CHIẾN THẮNG HUY HOÀNG! Em đã làm chủ toàn bộ chương trình Tin học Lớp 4 của cả 3 bộ sách với danh hiệu Nhà Lập Trình Nhí!",
+        "recap": "CHÚC MỪNG EM! Em đã làm chủ toàn bộ chương trình Tin học Lớp 4 của cả 3 bộ sách KNTT, Cánh Diều, CTST!",
         "theory": {
-          "overview": "Chào mừng em đến với bài học 'Đấu trường Trùm Lớp 4: Nhà Lập trình Nhí'! Trong chương trình Tin học lớp 4 (theo các bộ sách Bài 16, Bài 16, Bài 16), chúng ta sẽ cùng khám phá những bí mật thú vị về đấu trường trùm lớp 4: nhà lập trình nhí. Kiến thức này không chỉ giúp em đạt điểm cao trên lớp mà còn là hành trang công nghệ không thể thiếu trong đời sống số hiện đại.",
+          "overview": "Chào mừng em đến với bài học 'Ôn tập & Đánh giá Năng lực Tin học Lớp 4'! Trong chương trình Tin học lớp 4 (theo các bộ sách Bài 16, Bài 16, Bài 16), chúng ta sẽ cùng khám phá những bí mật thú vị về ôn tập & đánh giá năng lực tin học lớp 4. Kiến thức này không chỉ giúp em đạt điểm cao trên lớp mà còn là hành trang công nghệ không thể thiếu trong đời sống số hiện đại.",
           "sections": [
             {
               "title": "1. Bản chất & Kiến thức Cốt lõi",
-              "content": "Kiến thức cốt lõi của bài học bao gồm: Đấu trường tổng kết: Phân biệt Phần cứng - Phần mềm, Cây thư mục, Định dạng văn bản và Khối lệnh lập trình Scratch.. Cụ thể, các nội dung trọng tâm mà học sinh lớp 4 cần làm chủ:\n• Phần cứng và Phần mềm phối hợp nhịp nhàng.\n• Cấu trúc lặp Repeat N tối ưu hóa thuật toán.",
+              "content": "Kiến thức cốt lõi của bài học bao gồm: Bài đánh giá tổng hợp: Phân biệt Phần cứng - Phần mềm, Cây thư mục, Định dạng văn bản và Khối lệnh lập trình Scratch.. Cụ thể, các nội dung trọng tâm mà học sinh lớp 4 cần làm chủ:\n• Phần cứng và Phần mềm phối hợp nhịp nhàng.\n• Cấu trúc lặp Repeat N tối ưu hóa thuật toán.",
               "example": "Trọng tâm YCCĐ bài học: Tổng kết toàn diện kiến thức Tin học Lớp 4 của 3 bộ sách., Sẵn sàng nhận danh hiệu Nhà Lập Trình Nhí EasyTin..",
               "tip": "Bài học tương ứng với các SGK: Bài 16: Dự án Tin học 4 | Bài 16: Dự án lập trình trò chơi | Bài 16: Dự án Em làm nhà lập trình."
             },
             {
               "title": "2. Ví dụ Trực quan trong Đời sống",
-              "content": "Lập trình Scratch cho phép em trở thành đạo diễn của một bộ phim hoạt hình hoặc tác giả của một trò chơi điện tử kỳ thú.",
-              "example": "Ví dụ: Muốn nhân vật Chú mèo Scratch đuổi theo quả bóng: Khi bấm cờ xanh -> Lặp liên tục [Hướng về phía Quả bóng -> Di chuyển 10 bước -> Nếu chạm Quả bóng thì Phát âm thanh Meow và Tăng điểm số thêm 1].",
+              "content": "Chủ đề 'Ôn tập & Đánh giá Năng lực Tin học Lớp 4' mở ra cánh cửa giúp học sinh lớp 4 làm chủ công nghệ và ứng xử văn minh trong môi trường số.",
+              "example": "Ví dụ: Khi lấy tranh ảnh trên Internet để làm bài thuyết trình, em luôn ghi rõ nguồn tác giả và trang web lấy ảnh để tôn trọng bản quyền số.",
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
-              "content": "Học sinh hay quên đặt giá trị ban đầu cho Biến số (như Điểm số = 0 khi bắt đầu game) hoặc đặt sai câu lệnh rẽ nhánh 'Nếu... Thì' bên ngoài vòng lặp.",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
+              "content": "Sao chép nguyên văn bài viết của người khác rồi nhận là của mình là hành vi vi phạm đạo đức và bản quyền.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
-              "tip": "Luôn đặt khối 'Nếu... Thì' bên trong khối 'Lặp lại liên tục' nếu muốn nhân vật liên tục kiểm tra va chạm trong suốt trò chơi."
+              "tip": "Hãy trích dẫn nguồn gốc tác giả và xin phép khi sử dụng tư liệu của người khác."
             }
           ],
-          "memorize": "🧩 Ghép khối logic, lặp liên tục kiểm tra va chạm, biến số ghi dấu chiến công!"
+          "memorize": "🌐 Tôn trọng bản quyền, ứng xử văn minh, bảo vệ danh tính số!"
         },
         "practice": {
           "mission": {
-            "title": "Phòng Lab Sáng tạo Scratch: Lập trình Game Nhặt Kim Cương",
-            "goal": "Tạo một nhân vật di chuyển theo phím mũi tên và tăng biến 'Điểm' khi chạm vào vật phẩm.",
+            "title": "Thực hành Dự án Khám phá: Ôn tập & Đánh giá Năng lực Tin học Lớp 4",
+            "goal": "Vận dụng kiến thức Ôn tập & Đánh giá Năng lực Tin học Lớp 4 để giải quyết bài tập tình huống thực tế.",
             "steps": [
-              "Bước 1: Mở Scratch, chọn nhân vật Mèo Scratch và thêm nhân vật Kim Cương từ thư viện.",
-              "Bước 2: Tạo một biến số mới đặt tên là 'DiemSo' trong nhóm lệnh Các biến số.",
-              "Bước 3: Lập trình cho Mèo: Khi nhấn phím Mũi tên Phải -> Thay đổi X một lượng 10; Mũi tên Trái -> Thay đổi X một lượng -10.",
-              "Bước 4: Ghép khối: Khi bấm vào Cờ xanh -> Đặt DiemSo thành 0 -> Lặp liên tục [Nếu đang chạm Kim Cương thì Thay đổi DiemSo một lượng 1]."
+              "Bước 1: Khởi động máy tính và mở công cụ học tập tương ứng.",
+              "Bước 2: Quan sát và phân tích các dữ liệu đầu vào của bài toán.",
+              "Bước 3: Áp dụng quy tắc tiêu chuẩn đã học để thực hiện thao tác.",
+              "Bước 4: Kiểm tra lại sản phẩm và lưu tệp cẩn thận vào thư mục cá nhân."
             ],
-            "challenge": "Thêm câu lệnh 'Nếu DiemSo > 10 thì Nói Chiến thắng! trong 2 giây rồi Dừng lại tất cả'.",
-            "tip": "Dùng phím Space để test nhanh kịch bản trước khi chạy toàn màn hình."
+            "challenge": "Mở rộng bài tập bằng cách thử nghiệm với bộ dữ liệu phức tạp hơn.",
+            "tip": "Luôn lưu bài thường xuyên bằng tổ hợp phím tắt Ctrl + S."
           },
           "checklist": [
-            "Tạo đúng biến số DiemSo",
-            "Nhân vật di chuyển mượt mà 4 hướng",
-            "Va chạm tính điểm chính xác"
+            "Thao tác đúng quy trình",
+            "Tuân thủ quy chuẩn số",
+            "Lưu bài an toàn vào ổ đĩa"
           ]
         }
       }
@@ -3399,7 +3399,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Sao chép nguyên văn bài viết của người khác rồi nhận là của mình là hành vi vi phạm đạo đức và bản quyền.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Hãy trích dẫn nguồn gốc tác giả và xin phép khi sử dụng tư liệu của người khác."
@@ -3524,7 +3524,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Sao chép nguyên văn bài viết của người khác rồi nhận là của mình là hành vi vi phạm đạo đức và bản quyền.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Hãy trích dẫn nguồn gốc tác giả và xin phép khi sử dụng tư liệu của người khác."
@@ -3631,7 +3631,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Sao chép nguyên văn bài viết của người khác rồi nhận là của mình là hành vi vi phạm đạo đức và bản quyền.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Hãy trích dẫn nguồn gốc tác giả và xin phép khi sử dụng tư liệu của người khác."
@@ -3756,7 +3756,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Sao chép nguyên văn bài viết của người khác rồi nhận là của mình là hành vi vi phạm đạo đức và bản quyền.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Hãy trích dẫn nguồn gốc tác giả và xin phép khi sử dụng tư liệu của người khác."
@@ -3863,7 +3863,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Sao chép nguyên văn bài viết của người khác rồi nhận là của mình là hành vi vi phạm đạo đức và bản quyền.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Hãy trích dẫn nguồn gốc tác giả và xin phép khi sử dụng tư liệu của người khác."
@@ -3988,7 +3988,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Lỗi đặt dấu cách sai chính tả tiếng Việt: Nhiều bạn hay gõ dấu cách trước dấu chấm, dấu phẩy (sai: 'xin chào , các bạn .').",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Quy tắc vàng: Dấu chấm, dấu phẩy gõ dính liền với từ đứng trước, sau đó mới gõ một dấu cách duy nhất (đúng: 'xin chào, các bạn.')."
@@ -4113,7 +4113,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Lỗi đặt dấu cách sai chính tả tiếng Việt: Nhiều bạn hay gõ dấu cách trước dấu chấm, dấu phẩy (sai: 'xin chào , các bạn .').",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Quy tắc vàng: Dấu chấm, dấu phẩy gõ dính liền với từ đứng trước, sau đó mới gõ một dấu cách duy nhất (đúng: 'xin chào, các bạn.')."
@@ -4238,7 +4238,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Nhồi nhét quá nhiều chữ li ti lên slide và dùng hiệu ứng hoạt hình bay lượn quá chóng mặt khiến người xem mất tập trung.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Quy tắc 6x6: Mỗi slide tối đa 6 dòng, mỗi dòng tối đa 6 từ; màu chữ tương phản rõ với màu nền."
@@ -4339,13 +4339,13 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Học sinh hay quên đặt giá trị ban đầu cho Biến số (như Điểm số = 0 khi bắt đầu game) hoặc đặt sai câu lệnh rẽ nhánh 'Nếu... Thì' bên ngoài vòng lặp.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Luôn đặt khối 'Nếu... Thì' bên trong khối 'Lặp lại liên tục' nếu muốn nhân vật liên tục kiểm tra va chạm trong suốt trò chơi."
             }
           ],
-          "memorize": "🧩 Ghép khối logic, lặp liên tục kiểm tra va chạm, biến số ghi dấu chiến công!"
+          "memorize": "🧩 Ghép khối lệnh logic, kiểm tra điều kiện tuần tự, biến số lưu trữ kết quả!"
         },
         "practice": {
           "mission": {
@@ -4454,13 +4454,13 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Học sinh hay quên đặt giá trị ban đầu cho Biến số (như Điểm số = 0 khi bắt đầu game) hoặc đặt sai câu lệnh rẽ nhánh 'Nếu... Thì' bên ngoài vòng lặp.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Luôn đặt khối 'Nếu... Thì' bên trong khối 'Lặp lại liên tục' nếu muốn nhân vật liên tục kiểm tra va chạm trong suốt trò chơi."
             }
           ],
-          "memorize": "🧩 Ghép khối logic, lặp liên tục kiểm tra va chạm, biến số ghi dấu chiến công!"
+          "memorize": "🧩 Ghép khối lệnh logic, kiểm tra điều kiện tuần tự, biến số lưu trữ kết quả!"
         },
         "practice": {
           "mission": {
@@ -4555,13 +4555,13 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Học sinh hay quên đặt giá trị ban đầu cho Biến số (như Điểm số = 0 khi bắt đầu game) hoặc đặt sai câu lệnh rẽ nhánh 'Nếu... Thì' bên ngoài vòng lặp.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Luôn đặt khối 'Nếu... Thì' bên trong khối 'Lặp lại liên tục' nếu muốn nhân vật liên tục kiểm tra va chạm trong suốt trò chơi."
             }
           ],
-          "memorize": "🧩 Ghép khối logic, lặp liên tục kiểm tra va chạm, biến số ghi dấu chiến công!"
+          "memorize": "🧩 Ghép khối lệnh logic, kiểm tra điều kiện tuần tự, biến số lưu trữ kết quả!"
         },
         "practice": {
           "mission": {
@@ -4671,13 +4671,13 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Học sinh hay quên đặt giá trị ban đầu cho Biến số (như Điểm số = 0 khi bắt đầu game) hoặc đặt sai câu lệnh rẽ nhánh 'Nếu... Thì' bên ngoài vòng lặp.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Luôn đặt khối 'Nếu... Thì' bên trong khối 'Lặp lại liên tục' nếu muốn nhân vật liên tục kiểm tra va chạm trong suốt trò chơi."
             }
           ],
-          "memorize": "🧩 Ghép khối logic, lặp liên tục kiểm tra va chạm, biến số ghi dấu chiến công!"
+          "memorize": "🧩 Ghép khối lệnh logic, kiểm tra điều kiện tuần tự, biến số lưu trữ kết quả!"
         },
         "practice": {
           "mission": {
@@ -4759,7 +4759,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Sao chép nguyên văn bài viết của người khác rồi nhận là của mình là hành vi vi phạm đạo đức và bản quyền.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Hãy trích dẫn nguồn gốc tác giả và xin phép khi sử dụng tư liệu của người khác."
@@ -4792,7 +4792,7 @@
       "id": "G5-14",
       "world_id": "w1",
       "grade": 5,
-      "title": "Đấu trường Trùm Lớp 5: Dũng sĩ Vượt cấp Tiểu học",
+      "title": "Ôn tập & Đánh giá Toàn diện Cấp Tiểu học",
       "standard_domain": "Tổng kết Toàn diện Tiểu học",
       "textbook_mapping": {
         "kntt": "Bài 16: Tổng kết & Dự án học tập 5",
@@ -4813,16 +4813,16 @@
         "Sẵn sàng nhận bằng Vinh Danh Tốt Nghiệp Tiểu Học EasyTin."
       ],
       "lesson_data": {
-        "hook": "Trùm Glitch Băng Giá Đại Vương đang đóng băng kho dữ liệu tốt nghiệp! Hãy dùng toàn bộ nội lực 3 năm học Tiểu học để đánh tan tảng băng!",
+        "hook": "Hãy vận dụng toàn bộ kiến thức Tin học của 3 năm học Tiểu học để hoàn thành xuất sắc bài đánh giá năng lực cuối cấp!",
         "concept": {
-          "summary": "Đấu trường tổng hợp: Phần cứng máy tính, Xử lý bảng tính, Biến số trong lập trình và Thuật toán rẽ nhánh Scratch.",
+          "summary": "Bài đánh giá tổng hợp: Phần cứng máy tính, Xử lý bảng tính, Biến số trong lập trình và Thuật toán rẽ nhánh Scratch.",
           "key_points": [
             "Kiến trúc máy tính: CPU, RAM, Ổ cứng.",
             "Kỹ năng lập trình biến số, điều kiện rẽ nhánh và an toàn số."
           ]
         },
         "game_config": {
-          "boss_name": "Glitch Băng Giá Đại Vương",
+          "boss_name": "Thử thách Đánh giá Cuối Cấp Tiểu học",
           "boss_max_hp": 100,
           "player_max_hp": 100,
           "damage_per_hit": 25,
@@ -4874,24 +4874,24 @@
             "explanation": "Quy tắc 20-20-20 giúp mắt thư giãn chống cận thị."
           }
         ],
-        "recap": "VINH QUANG TIỂU HỌC! Em đã hoàn thành xuất sắc toàn bộ chương trình Tin học Tiểu học (Lớp 3, 4, 5) của cả 3 bộ sách KNTT, Cánh Diều, CTST!",
+        "recap": "CHÚC MỪNG EM! Em đã hoàn thành xuất sắc toàn diện chương trình Tin học Cấp Tiểu học (Lớp 3, 4, 5) của cả 3 bộ sách!",
         "theory": {
-          "overview": "Chào mừng em đến với bài học 'Đấu trường Trùm Lớp 5: Dũng sĩ Vượt cấp Tiểu học'! Trong chương trình Tin học lớp 5 (theo các bộ sách Bài 16, Bài 16, Bài 15, 16), chúng ta sẽ cùng khám phá những bí mật thú vị về đấu trường trùm lớp 5: dũng sĩ vượt cấp tiểu học. Kiến thức này không chỉ giúp em đạt điểm cao trên lớp mà còn là hành trang công nghệ không thể thiếu trong đời sống số hiện đại.",
+          "overview": "Chào mừng em đến với bài học 'Ôn tập & Đánh giá Toàn diện Cấp Tiểu học'! Trong chương trình Tin học lớp 5 (theo các bộ sách Bài 16, Bài 16, Bài 15, 16), chúng ta sẽ cùng khám phá những bí mật thú vị về ôn tập & đánh giá toàn diện cấp tiểu học. Kiến thức này không chỉ giúp em đạt điểm cao trên lớp mà còn là hành trang công nghệ không thể thiếu trong đời sống số hiện đại.",
           "sections": [
             {
               "title": "1. Bản chất & Kiến thức Cốt lõi",
-              "content": "Kiến thức cốt lõi của bài học bao gồm: Đấu trường tổng hợp: Phần cứng máy tính, Xử lý bảng tính, Biến số trong lập trình và Thuật toán rẽ nhánh Scratch.. Cụ thể, các nội dung trọng tâm mà học sinh lớp 5 cần làm chủ:\n• Kiến trúc máy tính: CPU, RAM, Ổ cứng.\n• Kỹ năng lập trình biến số, điều kiện rẽ nhánh và an toàn số.",
+              "content": "Kiến thức cốt lõi của bài học bao gồm: Bài đánh giá tổng hợp: Phần cứng máy tính, Xử lý bảng tính, Biến số trong lập trình và Thuật toán rẽ nhánh Scratch.. Cụ thể, các nội dung trọng tâm mà học sinh lớp 5 cần làm chủ:\n• Kiến trúc máy tính: CPU, RAM, Ổ cứng.\n• Kỹ năng lập trình biến số, điều kiện rẽ nhánh và an toàn số.",
               "example": "Trọng tâm YCCĐ bài học: Tổng kết toàn bộ chuẩn kiến thức Tin học cấp Tiểu học (Lớp 3, 4, 5) của cả 3 bộ sách., Sẵn sàng nhận bằng Vinh Danh Tốt Nghiệp Tiểu Học EasyTin..",
               "tip": "Bài học tương ứng với các SGK: Bài 16: Tổng kết & Dự án học tập 5 | Bài 16: Trình bày và chia sẻ sản phẩm số | Bài 15, 16: Cuộc thi Tin học trẻ & Tổng kết."
             },
             {
               "title": "2. Ví dụ Trực quan trong Đời sống",
-              "content": "Chủ đề 'Đấu trường Trùm Lớp 5: Dũng sĩ Vượt cấp Tiểu học' mở ra cánh cửa giúp học sinh lớp 5 làm chủ công nghệ và ứng xử văn minh trong môi trường số.",
+              "content": "Chủ đề 'Ôn tập & Đánh giá Toàn diện Cấp Tiểu học' mở ra cánh cửa giúp học sinh lớp 5 làm chủ công nghệ và ứng xử văn minh trong môi trường số.",
               "example": "Ví dụ: Khi lấy tranh ảnh trên Internet để làm bài thuyết trình, em luôn ghi rõ nguồn tác giả và trang web lấy ảnh để tôn trọng bản quyền số.",
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Sao chép nguyên văn bài viết của người khác rồi nhận là của mình là hành vi vi phạm đạo đức và bản quyền.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Hãy trích dẫn nguồn gốc tác giả và xin phép khi sử dụng tư liệu của người khác."
@@ -4901,8 +4901,8 @@
         },
         "practice": {
           "mission": {
-            "title": "Thực hành Dự án Khám phá: Đấu trường Trùm Lớp 5: Dũng sĩ Vượt cấp Tiểu học",
-            "goal": "Vận dụng kiến thức Đấu trường Trùm Lớp 5: Dũng sĩ Vượt cấp Tiểu học để giải quyết bài tập tình huống thực tế.",
+            "title": "Thực hành Dự án Khám phá: Ôn tập & Đánh giá Toàn diện Cấp Tiểu học",
+            "goal": "Vận dụng kiến thức Ôn tập & Đánh giá Toàn diện Cấp Tiểu học để giải quyết bài tập tình huống thực tế.",
             "steps": [
               "Bước 1: Khởi động máy tính và mở công cụ học tập tương ứng.",
               "Bước 2: Quan sát và phân tích các dữ liệu đầu vào của bài toán.",
@@ -4996,7 +4996,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Mất dữ liệu do virus mã hóa tống tiền (Ransomware) hoặc hỏng phần cứng là rủi ro rất lớn nếu không có thói quen sao lưu định kỳ.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Bật tính năng xác thực hai yếu tố (2FA) cho toàn bộ tài khoản email và mạng xã hội cá nhân."
@@ -5093,11 +5093,11 @@
             {
               "title": "2. Ví dụ Trực quan trong Đời sống",
               "content": "Máy tính tuy thông minh nhưng bên trong thực chất chỉ gồm hàng tỷ công tắc bóng bán dẫn siêu nhỏ, mỗi công tắc chỉ có 2 trạng thái: Bật (1) hoặc Tắt (0).",
-              "example": "Ví dụ: Mọi bản nhạc MP3, bức ảnh selfie hay video YouTube đều được máy tính băm nhỏ và mã hóa thành một dãy dài vô tận các số 0 và 1. Một chữ cái 'A' được biểu diễn bằng dãy 8 bit: 01000001.",
+              "example": "Ví dụ: Mọi bản nhạc MP3, bức ảnh selfie hay video YouTube đều được máy tính phân tách và mã hóa số hóa thành một dãy dài vô tận các số 0 và 1. Một chữ cái 'A' được biểu diễn bằng dãy 8 bit: 01000001.",
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Nhầm lẫn giữa Bit (b) và Byte (B). 1 Byte = 8 Bit. Tốc độ mạng thường đo bằng Megabit/giây (Mbps), còn dung lượng thẻ nhớ đo bằng Gigabyte (GB).",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Hệ thống đơn vị: 1 KB = 1024 Bytes, 1 MB = 1024 KB, 1 GB = 1024 MB, 1 TB = 1024 GB (lũy thừa của 2: 2^10 = 1024)."
@@ -5222,7 +5222,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Nhầm lẫn giữa Internet (hạ tầng mạng lưới toàn cầu) và Web/WWW (một dịch vụ tra cứu thông tin chạy trên Internet).",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Internet là 'đường cao tốc', còn Web, Email, Zoom là các 'chiếc xe' chở hàng hóa chạy trên con đường đó."
@@ -5333,7 +5333,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Nhầm lẫn giữa Internet (hạ tầng mạng lưới toàn cầu) và Web/WWW (một dịch vụ tra cứu thông tin chạy trên Internet).",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Internet là 'đường cao tốc', còn Web, Email, Zoom là các 'chiếc xe' chở hàng hóa chạy trên con đường đó."
@@ -5440,7 +5440,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Nhầm lẫn giữa Internet (hạ tầng mạng lưới toàn cầu) và Web/WWW (một dịch vụ tra cứu thông tin chạy trên Internet).",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Internet là 'đường cao tốc', còn Web, Email, Zoom là các 'chiếc xe' chở hàng hóa chạy trên con đường đó."
@@ -5547,7 +5547,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Mất dữ liệu do virus mã hóa tống tiền (Ransomware) hoặc hỏng phần cứng là rủi ro rất lớn nếu không có thói quen sao lưu định kỳ.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Bật tính năng xác thực hai yếu tố (2FA) cho toàn bộ tài khoản email và mạng xã hội cá nhân."
@@ -5648,7 +5648,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Mất dữ liệu do virus mã hóa tống tiền (Ransomware) hoặc hỏng phần cứng là rủi ro rất lớn nếu không có thói quen sao lưu định kỳ.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Bật tính năng xác thực hai yếu tố (2FA) cho toàn bộ tài khoản email và mạng xã hội cá nhân."
@@ -5773,7 +5773,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Mất dữ liệu do virus mã hóa tống tiền (Ransomware) hoặc hỏng phần cứng là rủi ro rất lớn nếu không có thói quen sao lưu định kỳ.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Bật tính năng xác thực hai yếu tố (2FA) cho toàn bộ tài khoản email và mạng xã hội cá nhân."
@@ -5888,7 +5888,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Mất dữ liệu do virus mã hóa tống tiền (Ransomware) hoặc hỏng phần cứng là rủi ro rất lớn nếu không có thói quen sao lưu định kỳ.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Bật tính năng xác thực hai yếu tố (2FA) cho toàn bộ tài khoản email và mạng xã hội cá nhân."
@@ -5989,7 +5989,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Mất dữ liệu do virus mã hóa tống tiền (Ransomware) hoặc hỏng phần cứng là rủi ro rất lớn nếu không có thói quen sao lưu định kỳ.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Bật tính năng xác thực hai yếu tố (2FA) cho toàn bộ tài khoản email và mạng xã hội cá nhân."
@@ -6077,7 +6077,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Mất dữ liệu do virus mã hóa tống tiền (Ransomware) hoặc hỏng phần cứng là rủi ro rất lớn nếu không có thói quen sao lưu định kỳ.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Bật tính năng xác thực hai yếu tố (2FA) cho toàn bộ tài khoản email và mạng xã hội cá nhân."
@@ -6110,7 +6110,7 @@
       "id": "G6-12",
       "world_id": "w2",
       "grade": 6,
-      "title": "Đấu trường Trùm Lớp 6: Hiệp sĩ An ninh Mạng",
+      "title": "Ôn tập & Đánh giá Năng lực Tin học Lớp 6",
       "standard_domain": "Tổng kết GDPT 2018 Lớp 6",
       "textbook_mapping": {
         "kntt": "Bài 17: Dự án: An toàn môi trường số",
@@ -6128,12 +6128,12 @@
       "estimated_minutes": 12,
       "learning_goals": [
         "Tổng kết toàn diện chuẩn năng lực Tin học Lớp 6 của cả 3 bộ sách.",
-        "Sẵn sàng nhận huy hiệu Hiệp Sĩ An Ninh Mạng EasyTin."
+        "Sẵn sàng hoàn thành xuất sắc chuẩn năng lực Tin học Lớp 6."
       ],
       "lesson_data": {
-        "hook": "Quái vật Mã Độc 'Crypto-Worm' đang lây lan trên hệ thống mạng trường học! Hãy hợp nhất tri thức Lớp 6 để tiêu diệt nó!",
+        "hook": "Hãy cùng Tintin tổng hợp toàn bộ tri thức Tin học Lớp 6 (dữ liệu nhị phân, mạng máy tính, đạo đức số và thuật toán) để hoàn thành bài đánh giá năng lực!",
         "concept": {
-          "summary": "Đấu trường tổng hợp: Hệ nhị phân 0-1, Dung lượng lưu trữ, Thiết bị mạng, Văn hóa số và Sơ đồ khối thuật toán.",
+          "summary": "Bài đánh giá tổng hợp: Hệ nhị phân 0-1, Dung lượng lưu trữ, Thiết bị mạng, Văn hóa số và Sơ đồ khối thuật toán.",
           "key_points": [
             "Bit, Byte, KB, MB, GB, TB.",
             "Mạng máy tính, Router, Switch, Sơ đồ khối và An toàn dữ liệu."
@@ -6194,46 +6194,46 @@
         ],
         "recap": "CHIẾN CÔNG HIỂN HÁCH! Em đã tiêu diệt Crypto-Worm và hoàn thành toàn bộ chương trình Tin học Lớp 6 của cả 3 bộ sách KNTT, Cánh Diều, CTST!",
         "theory": {
-          "overview": "Chào mừng em đến với bài học 'Đấu trường Trùm Lớp 6: Hiệp sĩ An ninh Mạng'! Trong chương trình Tin học lớp 6 (theo các bộ sách Bài 17, Bài 18, Bài 17), chúng ta sẽ cùng khám phá những bí mật thú vị về đấu trường trùm lớp 6: hiệp sĩ an ninh mạng. Kiến thức này không chỉ giúp em đạt điểm cao trên lớp mà còn là hành trang công nghệ không thể thiếu trong đời sống số hiện đại.",
+          "overview": "Chào mừng em đến với bài học 'Ôn tập & Đánh giá Năng lực Tin học Lớp 6'! Trong chương trình Tin học lớp 6 (theo các bộ sách Bài 17, Bài 18, Bài 17), chúng ta sẽ cùng khám phá những bí mật thú vị về ôn tập & đánh giá năng lực tin học lớp 6. Kiến thức này không chỉ giúp em đạt điểm cao trên lớp mà còn là hành trang công nghệ không thể thiếu trong đời sống số hiện đại.",
           "sections": [
             {
               "title": "1. Bản chất & Kiến thức Cốt lõi",
-              "content": "Kiến thức cốt lõi của bài học bao gồm: Đấu trường tổng hợp: Hệ nhị phân 0-1, Dung lượng lưu trữ, Thiết bị mạng, Văn hóa số và Sơ đồ khối thuật toán.. Cụ thể, các nội dung trọng tâm mà học sinh lớp 6 cần làm chủ:\n• Bit, Byte, KB, MB, GB, TB.\n• Mạng máy tính, Router, Switch, Sơ đồ khối và An toàn dữ liệu.",
-              "example": "Trọng tâm YCCĐ bài học: Tổng kết toàn diện chuẩn năng lực Tin học Lớp 6 của cả 3 bộ sách., Sẵn sàng nhận huy hiệu Hiệp Sĩ An Ninh Mạng EasyTin..",
+              "content": "Kiến thức cốt lõi của bài học bao gồm: Bài đánh giá tổng hợp: Hệ nhị phân 0-1, Dung lượng lưu trữ, Thiết bị mạng, Văn hóa số và Sơ đồ khối thuật toán.. Cụ thể, các nội dung trọng tâm mà học sinh lớp 6 cần làm chủ:\n• Bit, Byte, KB, MB, GB, TB.\n• Mạng máy tính, Router, Switch, Sơ đồ khối và An toàn dữ liệu.",
+              "example": "Trọng tâm YCCĐ bài học: Tổng kết toàn diện chuẩn năng lực Tin học Lớp 6 của cả 3 bộ sách., Sẵn sàng hoàn thành xuất sắc chuẩn năng lực Tin học Lớp 6..",
               "tip": "Bài học tương ứng với các SGK: Bài 17: Dự án: An toàn môi trường số | Bài 18: Dự án: Phòng chống bạo lực mạng | Bài 17: Dự án tuyên truyền an toàn số."
             },
             {
               "title": "2. Ví dụ Trực quan trong Đời sống",
-              "content": "Mạng máy tính là một mạng lưới giao thông khổng lồ kết nối hàng tỷ thiết bị trên khắp hành tinh để chia sẻ dữ liệu và tài nguyên.",
-              "example": "Ví dụ: Mạng LAN kết nối các máy tính trong phòng thực hành trường em để dùng chung một máy in. Mạng Internet kết nối mạng LAN của trường với các máy chủ của Google ở tận bên kia đại dương.",
+              "content": "Nội dung 'Ôn tập & Đánh giá Năng lực Tin học Lớp 6' trang bị cho học sinh cấp 2 nền tảng tư duy máy tính vững chắc và kỹ năng xử lý thông tin thông minh.",
+              "example": "Ví dụ: Áp dụng quy tắc sao lưu 3-2-1 để bảo vệ tài liệu học tập: Giữ ít nhất 3 bản sao chép, trên 2 loại thiết bị khác nhau (ổ cứng máy tính và USB), với 1 bản đặt trên đám mây (Google Drive).",
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
-              "content": "Nhầm lẫn giữa Internet (hạ tầng mạng lưới toàn cầu) và Web/WWW (một dịch vụ tra cứu thông tin chạy trên Internet).",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
+              "content": "Mất dữ liệu do virus mã hóa tống tiền (Ransomware) hoặc hỏng phần cứng là rủi ro rất lớn nếu không có thói quen sao lưu định kỳ.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
-              "tip": "Internet là 'đường cao tốc', còn Web, Email, Zoom là các 'chiếc xe' chở hàng hóa chạy trên con đường đó."
+              "tip": "Bật tính năng xác thực hai yếu tố (2FA) cho toàn bộ tài khoản email và mạng xã hội cá nhân."
             }
           ],
-          "memorize": "🌐 Internet là mạng lưới toàn cầu, LAN nội bộ, WWW tra cứu vạn tài nguyên!"
+          "memorize": "🔒 Dữ liệu là tài sản, bảo mật hai lớp, sao lưu 3-2-1 an tâm trọn đời!"
         },
         "practice": {
           "mission": {
-            "title": "Thực nghiệm Mạng Máy tính: Khảo sát Kết nối & IP",
-            "goal": "Kiểm tra kết nối mạng, địa chỉ IP cục bộ và đo độ trễ mạng bằng lệnh Ping.",
+            "title": "Thực hành Dự án Kỹ năng Số: Ôn tập & Đánh giá Năng lực Tin học Lớp 6",
+            "goal": "Thực hiện thành công quy trình xử lý dữ liệu chuẩn theo yêu cầu bài học Ôn tập & Đánh giá Năng lực Tin học Lớp 6.",
             "steps": [
-              "Bước 1: Nhấn tổ hợp phím Windows + R, gõ 'cmd' và nhấn Enter để mở cửa sổ Command Prompt.",
-              "Bước 2: Gõ lệnh 'ipconfig' rồi nhấn Enter để xem địa chỉ IPv4 của máy tính trong mạng LAN.",
-              "Bước 3: Gõ lệnh 'ping google.com' để kiểm tra tốc độ phản hồi của gói tin (đo bằng mili-giây ms).",
-              "Bước 4: Mở trình duyệt web, truy cập một trang web học tập và kiểm tra giao thức bảo mật ổ khóa HTTPS."
+              "Bước 1: Khởi động phần mềm chuyên dụng và mở tệp dữ liệu thực hành.",
+              "Bước 2: Thiết lập các thông số kỹ thuật chuẩn theo hướng dẫn.",
+              "Bước 3: Thực hiện thao tác xử lý, định dạng hoặc lập trình thuật toán.",
+              "Bước 4: Xuất kết quả (Export) và kiểm thử chất lượng sản phẩm."
             ],
-            "challenge": "Dùng lệnh 'tracert google.com' để xem gói tin đi qua bao nhiêu bộ định tuyến (router) trên đường truyền.",
-            "tip": "Khi mạng bị mất kết nối, lệnh ping 127.0.0.1 (loopback) giúp kiểm tra xem card mạng trên máy có bị hỏng phần cứng hay không."
+            "challenge": "Tối ưu hóa các bước thao tác bằng cách sử dụng các phím tắt nhanh.",
+            "tip": "Ghi chép lại các thông báo lỗi gặp phải để tra cứu cách giải quyết trong tài liệu kỹ thuật."
           },
           "checklist": [
-            "Mở được cmd an toàn",
-            "Xem được địa chỉ IP máy tính",
-            "Hiểu ý nghĩa phản hồi lệnh ping"
+            "Thực hiện đủ các bước quy trình",
+            "Kiểm thử kết quả đạt yêu cầu",
+            "Lưu trữ sản phẩm khoa học"
           ]
         }
       }
@@ -6334,7 +6334,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Mất dữ liệu do virus mã hóa tống tiền (Ransomware) hoặc hỏng phần cứng là rủi ro rất lớn nếu không có thói quen sao lưu định kỳ.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Bật tính năng xác thực hai yếu tố (2FA) cho toàn bộ tài khoản email và mạng xã hội cá nhân."
@@ -6459,7 +6459,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Mất dữ liệu do virus mã hóa tống tiền (Ransomware) hoặc hỏng phần cứng là rủi ro rất lớn nếu không có thói quen sao lưu định kỳ.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Bật tính năng xác thực hai yếu tố (2FA) cho toàn bộ tài khoản email và mạng xã hội cá nhân."
@@ -6584,7 +6584,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Mất dữ liệu do virus mã hóa tống tiền (Ransomware) hoặc hỏng phần cứng là rủi ro rất lớn nếu không có thói quen sao lưu định kỳ.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Bật tính năng xác thực hai yếu tố (2FA) cho toàn bộ tài khoản email và mạng xã hội cá nhân."
@@ -6691,7 +6691,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Nhầm lẫn giữa Internet (hạ tầng mạng lưới toàn cầu) và Web/WWW (một dịch vụ tra cứu thông tin chạy trên Internet).",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Internet là 'đường cao tốc', còn Web, Email, Zoom là các 'chiếc xe' chở hàng hóa chạy trên con đường đó."
@@ -6798,7 +6798,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Nhầm lẫn giữa Internet (hạ tầng mạng lưới toàn cầu) và Web/WWW (một dịch vụ tra cứu thông tin chạy trên Internet).",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Internet là 'đường cao tốc', còn Web, Email, Zoom là các 'chiếc xe' chở hàng hóa chạy trên con đường đó."
@@ -6923,7 +6923,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Mất dữ liệu do virus mã hóa tống tiền (Ransomware) hoặc hỏng phần cứng là rủi ro rất lớn nếu không có thói quen sao lưu định kỳ.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Bật tính năng xác thực hai yếu tố (2FA) cho toàn bộ tài khoản email và mạng xã hội cá nhân."
@@ -7024,7 +7024,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Mất dữ liệu do virus mã hóa tống tiền (Ransomware) hoặc hỏng phần cứng là rủi ro rất lớn nếu không có thói quen sao lưu định kỳ.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Bật tính năng xác thực hai yếu tố (2FA) cho toàn bộ tài khoản email và mạng xã hội cá nhân."
@@ -7125,7 +7125,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Mất dữ liệu do virus mã hóa tống tiền (Ransomware) hoặc hỏng phần cứng là rủi ro rất lớn nếu không có thói quen sao lưu định kỳ.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Bật tính năng xác thực hai yếu tố (2FA) cho toàn bộ tài khoản email và mạng xã hội cá nhân."
@@ -7250,7 +7250,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Mất dữ liệu do virus mã hóa tống tiền (Ransomware) hoặc hỏng phần cứng là rủi ro rất lớn nếu không có thói quen sao lưu định kỳ.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Bật tính năng xác thực hai yếu tố (2FA) cho toàn bộ tài khoản email và mạng xã hội cá nhân."
@@ -7361,7 +7361,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Mất dữ liệu do virus mã hóa tống tiền (Ransomware) hoặc hỏng phần cứng là rủi ro rất lớn nếu không có thói quen sao lưu định kỳ.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Bật tính năng xác thực hai yếu tố (2FA) cho toàn bộ tài khoản email và mạng xã hội cá nhân."
@@ -7472,17 +7472,17 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
-              "content": "Áp dụng Tìm kiếm nhị phân cho một danh sách chưa được sắp xếp. Đây là sai lầm chết người vì thuật toán nhị phân BẮT BUỘC danh sách phải được sắp xếp trước!",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
+              "content": "Áp dụng Tìm kiếm nhị phân cho một danh sách chưa được sắp xếp. Đây là sai sót nghiêm trọng cần tránh vì thuật toán nhị phân BẮT BUỘC danh sách phải được sắp xếp trước!",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Nếu mảng chưa sắp xếp: Tìm kiếm tuần tự O(N). Nếu mảng đã sắp xếp: Tìm kiếm nhị phân O(log N)."
             }
           ],
-          "memorize": "⚡ Mảng lộn xộn tìm tuần tự, mảng ngay ngắn chia đôi nhị phân thần tốc!"
+          "memorize": "⚡ Mảng chưa sắp xếp tìm tuần tự, mảng đã sắp xếp áp dụng tìm kiếm nhị phân tối ưu!"
         },
         "practice": {
           "mission": {
-            "title": "Đấu trường Thuật toán: Thử nghiệm Tìm kiếm Nhị phân & Sắp xếp Nổi bọt",
+            "title": "Hoạt động Thực hành: Thuật toán tìm kiếm nhị phân và sắp xếp nổi bọt",
             "goal": "Mô phỏng từng bước lặp của thuật toán Binary Search và Bubble Sort trên một dãy số thực tế.",
             "steps": [
               "Bước 1: Cho dãy số đã sắp xếp: [3, 8, 12, 19, 25, 33, 47, 56]. Cần tìm số X = 33.",
@@ -7569,11 +7569,11 @@
             {
               "title": "2. Ví dụ Trực quan trong Đời sống",
               "content": "Máy tính tuy thông minh nhưng bên trong thực chất chỉ gồm hàng tỷ công tắc bóng bán dẫn siêu nhỏ, mỗi công tắc chỉ có 2 trạng thái: Bật (1) hoặc Tắt (0).",
-              "example": "Ví dụ: Mọi bản nhạc MP3, bức ảnh selfie hay video YouTube đều được máy tính băm nhỏ và mã hóa thành một dãy dài vô tận các số 0 và 1. Một chữ cái 'A' được biểu diễn bằng dãy 8 bit: 01000001.",
+              "example": "Ví dụ: Mọi bản nhạc MP3, bức ảnh selfie hay video YouTube đều được máy tính phân tách và mã hóa số hóa thành một dãy dài vô tận các số 0 và 1. Một chữ cái 'A' được biểu diễn bằng dãy 8 bit: 01000001.",
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Nhầm lẫn giữa Bit (b) và Byte (B). 1 Byte = 8 Bit. Tốc độ mạng thường đo bằng Megabit/giây (Mbps), còn dung lượng thẻ nhớ đo bằng Gigabyte (GB).",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Hệ thống đơn vị: 1 KB = 1024 Bytes, 1 MB = 1024 KB, 1 GB = 1024 MB, 1 TB = 1024 GB (lũy thừa của 2: 2^10 = 1024)."
@@ -7688,17 +7688,17 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
-              "content": "Áp dụng Tìm kiếm nhị phân cho một danh sách chưa được sắp xếp. Đây là sai lầm chết người vì thuật toán nhị phân BẮT BUỘC danh sách phải được sắp xếp trước!",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
+              "content": "Áp dụng Tìm kiếm nhị phân cho một danh sách chưa được sắp xếp. Đây là sai sót nghiêm trọng cần tránh vì thuật toán nhị phân BẮT BUỘC danh sách phải được sắp xếp trước!",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Nếu mảng chưa sắp xếp: Tìm kiếm tuần tự O(N). Nếu mảng đã sắp xếp: Tìm kiếm nhị phân O(log N)."
             }
           ],
-          "memorize": "⚡ Mảng lộn xộn tìm tuần tự, mảng ngay ngắn chia đôi nhị phân thần tốc!"
+          "memorize": "⚡ Mảng chưa sắp xếp tìm tuần tự, mảng đã sắp xếp áp dụng tìm kiếm nhị phân tối ưu!"
         },
         "practice": {
           "mission": {
-            "title": "Đấu trường Thuật toán: Thử nghiệm Tìm kiếm Nhị phân & Sắp xếp Nổi bọt",
+            "title": "Hoạt động Thực hành: Thuật toán tìm kiếm nhị phân và sắp xếp nổi bọt",
             "goal": "Mô phỏng từng bước lặp của thuật toán Binary Search và Bubble Sort trên một dãy số thực tế.",
             "steps": [
               "Bước 1: Cho dãy số đã sắp xếp: [3, 8, 12, 19, 25, 33, 47, 56]. Cần tìm số X = 33.",
@@ -7721,7 +7721,7 @@
       "id": "G7-14",
       "world_id": "w2",
       "grade": 7,
-      "title": "Đấu trường Trùm Lớp 7: Phù thủy Sắp xếp & Tìm kiếm",
+      "title": "Ôn tập & Đánh giá Năng lực Tin học Lớp 7",
       "standard_domain": "Tổng kết GDPT 2018 Lớp 7",
       "textbook_mapping": {
         "kntt": "Bài 16: Thuật toán sắp xếp chọn & Tổng kết",
@@ -7739,19 +7739,19 @@
       "estimated_minutes": 12,
       "learning_goals": [
         "Tổng kết toàn diện chuẩn năng lực Tin học Lớp 7 của cả 3 bộ sách.",
-        "Sẵn sàng nhận danh hiệu Phù Thủy Thuật Toán Sắp Xếp & Tìm Kiếm EasyTin."
+        "Sẵn sàng hoàn thành xuất sắc chuẩn năng lực Tin học Lớp 7."
       ],
       "lesson_data": {
-        "hook": "Trùm Thuật Toán Hắc Ám 'Glitch-Sorter' đang đảo lộn toàn bộ dữ liệu bảng tính thế giới! Hãy dùng các thuật toán đỉnh cao để đánh bại nó!",
+        "hook": "Hệ thống dữ liệu bảng tính đang cần được sắp xếp và tra cứu nhanh chóng. Hãy vận dụng các thuật toán Tìm kiếm nhị phân và Sắp xếp nổi bọt để xử lý dữ liệu chuẩn xác!",
         "concept": {
-          "summary": "Đấu trường tổng hợp: Hệ điều hành, Bảng tính Excel, Hàm thống kê, Tìm kiếm nhị phân và Sắp xếp nổi bọt / Sắp xếp chọn.",
+          "summary": "Bài đánh giá tổng hợp: Hệ điều hành, Bảng tính Excel, Hàm thống kê, Tìm kiếm nhị phân và Sắp xếp nổi bọt / Sắp xếp chọn.",
           "key_points": [
             "Tìm kiếm nhị phân chia đôi không gian O(log N).",
             "Bảng tính điện tử và các hàm SUM, AVERAGE, MIN, MAX."
           ]
         },
         "game_config": {
-          "boss_name": "Glitch-Sorter Trùm Thuật Toán",
+          "boss_name": "Thử thách Tổng hợp Lớp 7",
           "boss_max_hp": 100,
           "player_max_hp": 100,
           "damage_per_hit": 25,
@@ -7805,46 +7805,46 @@
         ],
         "recap": "CHIẾN THẮNG HUY HOÀNG! Em đã chinh phục trọn vẹn toàn bộ chương trình Tin học Lớp 7 của cả 3 bộ sách KNTT, Cánh Diều, CTST!",
         "theory": {
-          "overview": "Chào mừng em đến với bài học 'Đấu trường Trùm Lớp 7: Phù thủy Sắp xếp & Tìm kiếm'! Trong chương trình Tin học lớp 7 (theo các bộ sách Bài 16, Bài 16, Bài 16), chúng ta sẽ cùng khám phá những bí mật thú vị về đấu trường trùm lớp 7: phù thủy sắp xếp & tìm kiếm. Kiến thức này không chỉ giúp em đạt điểm cao trên lớp mà còn là hành trang công nghệ không thể thiếu trong đời sống số hiện đại.",
+          "overview": "Chào mừng em đến với bài học 'Ôn tập & Đánh giá Năng lực Tin học Lớp 7'! Trong chương trình Tin học lớp 7 (theo các bộ sách Bài 16, Bài 16, Bài 16), chúng ta sẽ cùng khám phá những bí mật thú vị về ôn tập & đánh giá năng lực tin học lớp 7. Kiến thức này không chỉ giúp em đạt điểm cao trên lớp mà còn là hành trang công nghệ không thể thiếu trong đời sống số hiện đại.",
           "sections": [
             {
               "title": "1. Bản chất & Kiến thức Cốt lõi",
-              "content": "Kiến thức cốt lõi của bài học bao gồm: Đấu trường tổng hợp: Hệ điều hành, Bảng tính Excel, Hàm thống kê, Tìm kiếm nhị phân và Sắp xếp nổi bọt / Sắp xếp chọn.. Cụ thể, các nội dung trọng tâm mà học sinh lớp 7 cần làm chủ:\n• Tìm kiếm nhị phân chia đôi không gian O(log N).\n• Bảng tính điện tử và các hàm SUM, AVERAGE, MIN, MAX.",
-              "example": "Trọng tâm YCCĐ bài học: Tổng kết toàn diện chuẩn năng lực Tin học Lớp 7 của cả 3 bộ sách., Sẵn sàng nhận danh hiệu Phù Thủy Thuật Toán Sắp Xếp & Tìm Kiếm EasyTin..",
+              "content": "Kiến thức cốt lõi của bài học bao gồm: Bài đánh giá tổng hợp: Hệ điều hành, Bảng tính Excel, Hàm thống kê, Tìm kiếm nhị phân và Sắp xếp nổi bọt / Sắp xếp chọn.. Cụ thể, các nội dung trọng tâm mà học sinh lớp 7 cần làm chủ:\n• Tìm kiếm nhị phân chia đôi không gian O(log N).\n• Bảng tính điện tử và các hàm SUM, AVERAGE, MIN, MAX.",
+              "example": "Trọng tâm YCCĐ bài học: Tổng kết toàn diện chuẩn năng lực Tin học Lớp 7 của cả 3 bộ sách., Sẵn sàng hoàn thành xuất sắc chuẩn năng lực Tin học Lớp 7..",
               "tip": "Bài học tương ứng với các SGK: Bài 16: Thuật toán sắp xếp chọn & Tổng kết | Bài 16: Sắp xếp chọn & Tổng kết | Bài 16: Sắp xếp chọn & Đánh giá năng lực."
             },
             {
               "title": "2. Ví dụ Trực quan trong Đời sống",
-              "content": "Các thuật toán tìm kiếm và sắp xếp là trái tim của mọi ứng dụng công nghệ như Google Search, TikTok feed, hay hệ thống tra cứu điểm thi.",
-              "example": "Ví dụ: Tìm kiếm tuần tự giống như lật từng trang vở từ đầu đến cuối (dùng khi vở chưa xếp thứ tự). Tìm kiếm nhị phân giống như tra từ điển: mở đôi cuốn sách ở giữa, so sánh chữ cái rồi vứt bỏ nửa trước hoặc nửa sau, tốc độ nhanh gấp hàng triệu lần!",
+              "content": "Nội dung 'Ôn tập & Đánh giá Năng lực Tin học Lớp 7' trang bị cho học sinh cấp 2 nền tảng tư duy máy tính vững chắc và kỹ năng xử lý thông tin thông minh.",
+              "example": "Ví dụ: Áp dụng quy tắc sao lưu 3-2-1 để bảo vệ tài liệu học tập: Giữ ít nhất 3 bản sao chép, trên 2 loại thiết bị khác nhau (ổ cứng máy tính và USB), với 1 bản đặt trên đám mây (Google Drive).",
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
-              "content": "Áp dụng Tìm kiếm nhị phân cho một danh sách chưa được sắp xếp. Đây là sai lầm chết người vì thuật toán nhị phân BẮT BUỘC danh sách phải được sắp xếp trước!",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
+              "content": "Mất dữ liệu do virus mã hóa tống tiền (Ransomware) hoặc hỏng phần cứng là rủi ro rất lớn nếu không có thói quen sao lưu định kỳ.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
-              "tip": "Nếu mảng chưa sắp xếp: Tìm kiếm tuần tự O(N). Nếu mảng đã sắp xếp: Tìm kiếm nhị phân O(log N)."
+              "tip": "Bật tính năng xác thực hai yếu tố (2FA) cho toàn bộ tài khoản email và mạng xã hội cá nhân."
             }
           ],
-          "memorize": "⚡ Mảng lộn xộn tìm tuần tự, mảng ngay ngắn chia đôi nhị phân thần tốc!"
+          "memorize": "🔒 Dữ liệu là tài sản, bảo mật hai lớp, sao lưu 3-2-1 an tâm trọn đời!"
         },
         "practice": {
           "mission": {
-            "title": "Đấu trường Thuật toán: Thử nghiệm Tìm kiếm Nhị phân & Sắp xếp Nổi bọt",
-            "goal": "Mô phỏng từng bước lặp của thuật toán Binary Search và Bubble Sort trên một dãy số thực tế.",
+            "title": "Thực hành Dự án Kỹ năng Số: Ôn tập & Đánh giá Năng lực Tin học Lớp 7",
+            "goal": "Thực hiện thành công quy trình xử lý dữ liệu chuẩn theo yêu cầu bài học Ôn tập & Đánh giá Năng lực Tin học Lớp 7.",
             "steps": [
-              "Bước 1: Cho dãy số đã sắp xếp: [3, 8, 12, 19, 25, 33, 47, 56]. Cần tìm số X = 33.",
-              "Bước 2: Lần 1: Chỉ số đầu Low = 0, Cuối High = 7 -> Giữa Mid = (0+7)//2 = 3 (giá trị 19). Vì 33 > 19 nên bỏ nửa trái, đặt Low = Mid + 1 = 4.",
-              "Bước 3: Lần 2: Low = 4, High = 7 -> Mid = (4+7)//2 = 5 (giá trị 33). So sánh: 33 == 33 -> Tìm thấy ở vị trí index 5!",
-              "Bước 4: Thực hiện mô phỏng Bubble Sort với dãy [5, 1, 4, 2] bằng cách đổi chỗ từng cặp liền kề."
+              "Bước 1: Khởi động phần mềm chuyên dụng và mở tệp dữ liệu thực hành.",
+              "Bước 2: Thiết lập các thông số kỹ thuật chuẩn theo hướng dẫn.",
+              "Bước 3: Thực hiện thao tác xử lý, định dạng hoặc lập trình thuật toán.",
+              "Bước 4: Xuất kết quả (Export) và kiểm thử chất lượng sản phẩm."
             ],
-            "challenge": "Tính xem với một danh sách 1,000,000 phần tử đã sắp xếp, tìm kiếm nhị phân cần tối đa bao nhiêu lần so sánh (khoảng 20 lần vì 2^20 > 1,000,000).",
-            "tip": "Trong Python, thuật toán sắp xếp Timsort tích hợp sẵn qua lệnh sorted(list) hoặc list.sort()."
+            "challenge": "Tối ưu hóa các bước thao tác bằng cách sử dụng các phím tắt nhanh.",
+            "tip": "Ghi chép lại các thông báo lỗi gặp phải để tra cứu cách giải quyết trong tài liệu kỹ thuật."
           },
           "checklist": [
-            "Nắm vững điều kiện tiên quyết của tìm kiếm nhị phân",
-            "Thực hiện đúng công thức tính Mid",
-            "Mô phỏng thành công các bước đổi chỗ Bubble Sort"
+            "Thực hiện đủ các bước quy trình",
+            "Kiểm thử kết quả đạt yêu cầu",
+            "Lưu trữ sản phẩm khoa học"
           ]
         }
       }
@@ -7931,7 +7931,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Mất dữ liệu do virus mã hóa tống tiền (Ransomware) hoặc hỏng phần cứng là rủi ro rất lớn nếu không có thói quen sao lưu định kỳ.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Bật tính năng xác thực hai yếu tố (2FA) cho toàn bộ tài khoản email và mạng xã hội cá nhân."
@@ -8038,7 +8038,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Mất dữ liệu do virus mã hóa tống tiền (Ransomware) hoặc hỏng phần cứng là rủi ro rất lớn nếu không có thói quen sao lưu định kỳ.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Bật tính năng xác thực hai yếu tố (2FA) cho toàn bộ tài khoản email và mạng xã hội cá nhân."
@@ -8145,7 +8145,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Nhầm lẫn giữa Internet (hạ tầng mạng lưới toàn cầu) và Web/WWW (một dịch vụ tra cứu thông tin chạy trên Internet).",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Internet là 'đường cao tốc', còn Web, Email, Zoom là các 'chiếc xe' chở hàng hóa chạy trên con đường đó."
@@ -8270,7 +8270,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Mất dữ liệu do virus mã hóa tống tiền (Ransomware) hoặc hỏng phần cứng là rủi ro rất lớn nếu không có thói quen sao lưu định kỳ.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Bật tính năng xác thực hai yếu tố (2FA) cho toàn bộ tài khoản email và mạng xã hội cá nhân."
@@ -8320,7 +8320,7 @@
         "Tạo ảnh động GIF bằng cách kết hợp chuỗi khung hình (Frames) và tốc độ chuyển khung hình."
       ],
       "lesson_data": {
-        "hook": "Khám phá phép thuật biến hóa hình ảnh của các phù thủy thiết kế đồ họa số!",
+        "hook": "Khám phá nghệ thuật chỉnh sửa hình ảnh và tạo ảnh động của các nhà thiết kế đồ họa số!",
         "concept": {
           "summary": "Lớp ảnh (Layer) giống như những tấm kính trong suốt xếp chồng lên nhau. Vẽ trên lớp này không làm hỏng hình ảnh của lớp bên dưới. Ảnh động (Animated GIF) được tạo thành từ nhiều lớp ảnh phát tuần tự theo thời gian tạo ảo giác chuyển động nhịp nhàng.",
           "key_points": [
@@ -8395,7 +8395,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Mất dữ liệu do virus mã hóa tống tiền (Ransomware) hoặc hỏng phần cứng là rủi ro rất lớn nếu không có thói quen sao lưu định kỳ.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Bật tính năng xác thực hai yếu tố (2FA) cho toàn bộ tài khoản email và mạng xã hội cá nhân."
@@ -8506,7 +8506,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Lỗi thụt đầu dòng (IndentationError) và nhầm lẫn giữa toán tử gán '=' với toán tử so sánh bằng '=='.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Mọi khối lệnh sau dấu hai chấm ':' (trong if, for, while, def) đều phải thụt lề 4 dấu cách (1 tab)."
@@ -8607,7 +8607,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Lỗi thụt đầu dòng (IndentationError) và nhầm lẫn giữa toán tử gán '=' với toán tử so sánh bằng '=='.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Mọi khối lệnh sau dấu hai chấm ':' (trong if, for, while, def) đều phải thụt lề 4 dấu cách (1 tab)."
@@ -8695,7 +8695,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Mất dữ liệu do virus mã hóa tống tiền (Ransomware) hoặc hỏng phần cứng là rủi ro rất lớn nếu không có thói quen sao lưu định kỳ.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Bật tính năng xác thực hai yếu tố (2FA) cho toàn bộ tài khoản email và mạng xã hội cá nhân."
@@ -8810,7 +8810,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Lỗi thụt đầu dòng (IndentationError) và nhầm lẫn giữa toán tử gán '=' với toán tử so sánh bằng '=='.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Mọi khối lệnh sau dấu hai chấm ':' (trong if, for, while, def) đều phải thụt lề 4 dấu cách (1 tab)."
@@ -8898,7 +8898,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Lỗi thụt đầu dòng (IndentationError) và nhầm lẫn giữa toán tử gán '=' với toán tử so sánh bằng '=='.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Mọi khối lệnh sau dấu hai chấm ':' (trong if, for, while, def) đều phải thụt lề 4 dấu cách (1 tab)."
@@ -8986,7 +8986,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Mất dữ liệu do virus mã hóa tống tiền (Ransomware) hoặc hỏng phần cứng là rủi ro rất lớn nếu không có thói quen sao lưu định kỳ.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Bật tính năng xác thực hai yếu tố (2FA) cho toàn bộ tài khoản email và mạng xã hội cá nhân."
@@ -9097,7 +9097,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Mất dữ liệu do virus mã hóa tống tiền (Ransomware) hoặc hỏng phần cứng là rủi ro rất lớn nếu không có thói quen sao lưu định kỳ.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Bật tính năng xác thực hai yếu tố (2FA) cho toàn bộ tài khoản email và mạng xã hội cá nhân."
@@ -9130,7 +9130,7 @@
       "id": "G8-13",
       "world_id": "w2",
       "grade": 8,
-      "title": "Đấu trường Trùm Lớp 8: Thợ săn Bug Thuật toán",
+      "title": "Ôn tập & Đánh giá Năng lực Tin học Lớp 8",
       "standard_domain": "Tổng kết GDPT 2018 Lớp 8",
       "textbook_mapping": {
         "kntt": "Bài 16: Tổng kết & Đánh giá năng lực 8",
@@ -9153,7 +9153,7 @@
       "lesson_data": {
         "hook": "Chúa tể Lỗi Mã 'Zero-Day Bug' đang đe dọa làm sập toàn bộ các máy chủ dữ liệu! Hãy vận dụng sức mạnh thuật toán để tiêu diệt nó!",
         "concept": {
-          "summary": "Đấu trường tổng hợp: Lịch sử máy tính, Bảng tính nâng cao, Đồ họa layer, Cấu trúc if/else lồng nhau, Vòng lặp For/While và Mảng danh sách.",
+          "summary": "Bài đánh giá tổng hợp: Lịch sử máy tính, Bảng tính nâng cao, Đồ họa layer, Cấu trúc if/else lồng nhau, Vòng lặp For/While và Mảng danh sách.",
           "key_points": [
             "Cấu trúc dữ liệu mảng danh sách List và Index.",
             "Vòng lặp For, While, xử lý lỗi logic và định luật Moore."
@@ -9210,22 +9210,22 @@
         ],
         "recap": "CHIẾN THẮNG HUY HOÀNG! Em đã tiêu diệt Zero-Day Bug và xuất sắc hoàn thành toàn bộ chương trình Tin học Lớp 8 của cả 3 bộ sách KNTT, Cánh Diều, CTST!",
         "theory": {
-          "overview": "Chào mừng em đến với bài học 'Đấu trường Trùm Lớp 8: Thợ săn Bug Thuật toán'! Trong chương trình Tin học lớp 8 (theo các bộ sách Bài 16, Bài 16, Bài 16), chúng ta sẽ cùng khám phá những bí mật thú vị về đấu trường trùm lớp 8: thợ săn bug thuật toán. Kiến thức này không chỉ giúp em đạt điểm cao trên lớp mà còn là hành trang công nghệ không thể thiếu trong đời sống số hiện đại.",
+          "overview": "Chào mừng em đến với bài học 'Ôn tập & Đánh giá Năng lực Tin học Lớp 8'! Trong chương trình Tin học lớp 8 (theo các bộ sách Bài 16, Bài 16, Bài 16), chúng ta sẽ cùng khám phá những bí mật thú vị về ôn tập & đánh giá năng lực tin học lớp 8. Kiến thức này không chỉ giúp em đạt điểm cao trên lớp mà còn là hành trang công nghệ không thể thiếu trong đời sống số hiện đại.",
           "sections": [
             {
               "title": "1. Bản chất & Kiến thức Cốt lõi",
-              "content": "Kiến thức cốt lõi của bài học bao gồm: Đấu trường tổng hợp: Lịch sử máy tính, Bảng tính nâng cao, Đồ họa layer, Cấu trúc if/else lồng nhau, Vòng lặp For/While và Mảng danh sách.. Cụ thể, các nội dung trọng tâm mà học sinh lớp 8 cần làm chủ:\n• Cấu trúc dữ liệu mảng danh sách List và Index.\n• Vòng lặp For, While, xử lý lỗi logic và định luật Moore.",
+              "content": "Kiến thức cốt lõi của bài học bao gồm: Bài đánh giá tổng hợp: Lịch sử máy tính, Bảng tính nâng cao, Đồ họa layer, Cấu trúc if/else lồng nhau, Vòng lặp For/While và Mảng danh sách.. Cụ thể, các nội dung trọng tâm mà học sinh lớp 8 cần làm chủ:\n• Cấu trúc dữ liệu mảng danh sách List và Index.\n• Vòng lặp For, While, xử lý lỗi logic và định luật Moore.",
               "example": "Trọng tâm YCCĐ bài học: Tổng kết toàn diện chuẩn năng lực Tin học Lớp 8 của cả 3 bộ sách., Sẵn sàng nhận huy hiệu Bậc Thầy Săn Bug Thuật Toán EasyTin..",
               "tip": "Bài học tương ứng với các SGK: Bài 16: Tổng kết & Đánh giá năng lực 8 | Bài 16: Khám phá ngành nghề & Tổng kết | Bài 16: Dự án sáng tạo & Đánh giá năng lực."
             },
             {
               "title": "2. Ví dụ Trực quan trong Đời sống",
-              "content": "Nội dung 'Đấu trường Trùm Lớp 8: Thợ săn Bug Thuật toán' trang bị cho học sinh cấp 2 nền tảng tư duy máy tính vững chắc và kỹ năng xử lý thông tin thông minh.",
+              "content": "Nội dung 'Ôn tập & Đánh giá Năng lực Tin học Lớp 8' trang bị cho học sinh cấp 2 nền tảng tư duy máy tính vững chắc và kỹ năng xử lý thông tin thông minh.",
               "example": "Ví dụ: Áp dụng quy tắc sao lưu 3-2-1 để bảo vệ tài liệu học tập: Giữ ít nhất 3 bản sao chép, trên 2 loại thiết bị khác nhau (ổ cứng máy tính và USB), với 1 bản đặt trên đám mây (Google Drive).",
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Mất dữ liệu do virus mã hóa tống tiền (Ransomware) hoặc hỏng phần cứng là rủi ro rất lớn nếu không có thói quen sao lưu định kỳ.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Bật tính năng xác thực hai yếu tố (2FA) cho toàn bộ tài khoản email và mạng xã hội cá nhân."
@@ -9235,8 +9235,8 @@
         },
         "practice": {
           "mission": {
-            "title": "Thực hành Dự án Kỹ năng Số: Đấu trường Trùm Lớp 8: Thợ săn Bug Thuật toán",
-            "goal": "Thực hiện thành công quy trình xử lý dữ liệu chuẩn theo yêu cầu bài học Đấu trường Trùm Lớp 8: Thợ săn Bug Thuật toán.",
+            "title": "Thực hành Dự án Kỹ năng Số: Ôn tập & Đánh giá Năng lực Tin học Lớp 8",
+            "goal": "Thực hiện thành công quy trình xử lý dữ liệu chuẩn theo yêu cầu bài học Ôn tập & Đánh giá Năng lực Tin học Lớp 8.",
             "steps": [
               "Bước 1: Khởi động phần mềm chuyên dụng và mở tệp dữ liệu thực hành.",
               "Bước 2: Thiết lập các thông số kỹ thuật chuẩn theo hướng dẫn.",
@@ -9350,7 +9350,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Mất dữ liệu do virus mã hóa tống tiền (Ransomware) hoặc hỏng phần cứng là rủi ro rất lớn nếu không có thói quen sao lưu định kỳ.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Bật tính năng xác thực hai yếu tố (2FA) cho toàn bộ tài khoản email và mạng xã hội cá nhân."
@@ -9457,7 +9457,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Mất dữ liệu do virus mã hóa tống tiền (Ransomware) hoặc hỏng phần cứng là rủi ro rất lớn nếu không có thói quen sao lưu định kỳ.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Bật tính năng xác thực hai yếu tố (2FA) cho toàn bộ tài khoản email và mạng xã hội cá nhân."
@@ -9564,7 +9564,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Mất dữ liệu do virus mã hóa tống tiền (Ransomware) hoặc hỏng phần cứng là rủi ro rất lớn nếu không có thói quen sao lưu định kỳ.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Bật tính năng xác thực hai yếu tố (2FA) cho toàn bộ tài khoản email và mạng xã hội cá nhân."
@@ -9675,7 +9675,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Mất dữ liệu do virus mã hóa tống tiền (Ransomware) hoặc hỏng phần cứng là rủi ro rất lớn nếu không có thói quen sao lưu định kỳ.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Bật tính năng xác thực hai yếu tố (2FA) cho toàn bộ tài khoản email và mạng xã hội cá nhân."
@@ -9800,7 +9800,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Mất dữ liệu do virus mã hóa tống tiền (Ransomware) hoặc hỏng phần cứng là rủi ro rất lớn nếu không có thói quen sao lưu định kỳ.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Bật tính năng xác thực hai yếu tố (2FA) cho toàn bộ tài khoản email và mạng xã hội cá nhân."
@@ -9901,7 +9901,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Lỗi thụt đầu dòng (IndentationError) và nhầm lẫn giữa toán tử gán '=' với toán tử so sánh bằng '=='.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Mọi khối lệnh sau dấu hai chấm ':' (trong if, for, while, def) đều phải thụt lề 4 dấu cách (1 tab)."
@@ -9934,7 +9934,7 @@
       "id": "G9-07",
       "world_id": "w2",
       "grade": 9,
-      "title": "Bẫy lỗi, Xử lý Ngoại lệ & Thiết kế Giao diện",
+      "title": "Kiểm soát Lỗi, Xử lý Ngoại lệ & Thiết kế Giao diện",
       "standard_domain": "Chủ đề 5: Giải quyết vấn đề",
       "textbook_mapping": {
         "kntt": "Bài 11, 12: Bẫy lỗi & Lập trình ứng dụng",
@@ -9953,7 +9953,7 @@
       "lesson_data": {
         "hook": "Một phần mềm chuyên nghiệp không bao giờ được phép văng màn hình khi người dùng lỡ bấm nhầm phím!",
         "concept": {
-          "summary": "Kỹ thuật bẫy lỗi (Exception Handling): Khối `try` chứa đoạn mã có nguy cơ phát sinh lỗi (như người dùng nhập chữ vào ô đòi hỏi số); Khối `except ValueError` bắt lỗi và hiển thị thông báo hướng dẫn người dùng nhập lại mà không làm sập toàn bộ ứng dụng.",
+          "summary": "Kỹ thuật kiểm soát lỗi và xử lý ngoại lệ (Exception Handling): Khối `try` chứa đoạn mã có nguy cơ phát sinh lỗi (như người dùng nhập chữ vào ô đòi hỏi số); Khối `except ValueError` bắt lỗi và hiển thị thông báo hướng dẫn người dùng nhập lại mà không làm sập toàn bộ ứng dụng.",
           "key_points": [
             "Thông báo lỗi phải rõ ràng, mang tính xây dựng, chỉ dẫn cách khắc phục.",
             "Kiểm tra tính hợp lệ của dữ liệu đầu vào (Input Validation) trước khi đem đi tính toán."
@@ -9962,7 +9962,7 @@
         "game_config": {},
         "quiz": [
           {
-            "question": "Trong lập trình, cấu trúc lệnh nào dùng để bẫy lỗi và ngăn chặn chương trình không bị sập khi gặp ngoại lệ?",
+            "question": "Trong lập trình, cấu trúc lệnh nào dùng để kiểm soát và xử lý ngoại lệ (lỗi) và ngăn chặn chương trình không bị sập khi gặp ngoại lệ?",
             "options": [
               "Khối lệnh try ... except",
               "Khối lệnh for ... while",
@@ -9974,22 +9974,22 @@
         ],
         "recap": "Ứng dụng phần mềm của em vận hành cực kỳ bền bỉ và thân thiện với người dùng!",
         "theory": {
-          "overview": "Chào mừng em đến với bài học 'Bẫy lỗi, Xử lý Ngoại lệ & Thiết kế Giao diện'! Trong chương trình Tin học lớp 9 (theo các bộ sách Bài 11, 12, Bài 9, 10, Bài 9, 10), chúng ta sẽ cùng khám phá những bí mật thú vị về bẫy lỗi, xử lý ngoại lệ & thiết kế giao diện. Kiến thức này không chỉ giúp em đạt điểm cao trên lớp mà còn là hành trang công nghệ không thể thiếu trong đời sống số hiện đại.",
+          "overview": "Chào mừng em đến với bài học 'Kiểm soát Lỗi, Xử lý Ngoại lệ & Thiết kế Giao diện'! Trong chương trình Tin học lớp 9 (theo các bộ sách Bài 11, 12, Bài 9, 10, Bài 9, 10), chúng ta sẽ cùng khám phá những bí mật thú vị về kiểm soát lỗi, xử lý ngoại lệ & thiết kế giao diện. Kiến thức này không chỉ giúp em đạt điểm cao trên lớp mà còn là hành trang công nghệ không thể thiếu trong đời sống số hiện đại.",
           "sections": [
             {
               "title": "1. Bản chất & Kiến thức Cốt lõi",
-              "content": "Kiến thức cốt lõi của bài học bao gồm: Kỹ thuật bẫy lỗi (Exception Handling): Khối `try` chứa đoạn mã có nguy cơ phát sinh lỗi (như người dùng nhập chữ vào ô đòi hỏi số); Khối `except ValueError` bắt lỗi và hiển thị thông báo hướng dẫn người dùng nhập lại mà không làm sập toàn bộ ứng dụng.. Cụ thể, các nội dung trọng tâm mà học sinh lớp 9 cần làm chủ:\n• Thông báo lỗi phải rõ ràng, mang tính xây dựng, chỉ dẫn cách khắc phục.\n• Kiểm tra tính hợp lệ của dữ liệu đầu vào (Input Validation) trước khi đem đi tính toán.",
+              "content": "Kiến thức cốt lõi của bài học bao gồm: Kỹ thuật kiểm soát lỗi và xử lý ngoại lệ (Exception Handling): Khối `try` chứa đoạn mã có nguy cơ phát sinh lỗi (như người dùng nhập chữ vào ô đòi hỏi số); Khối `except ValueError` bắt lỗi và hiển thị thông báo hướng dẫn người dùng nhập lại mà không làm sập toàn bộ ứng dụng.. Cụ thể, các nội dung trọng tâm mà học sinh lớp 9 cần làm chủ:\n• Thông báo lỗi phải rõ ràng, mang tính xây dựng, chỉ dẫn cách khắc phục.\n• Kiểm tra tính hợp lệ của dữ liệu đầu vào (Input Validation) trước khi đem đi tính toán.",
               "example": "Trọng tâm YCCĐ bài học: Sử dụng khối bắt lỗi ngoại lệ try... except... để chương trình không bị sập bất ngờ., Thiết kế giao diện tương tác người dùng thân thiện, hướng dẫn nhập liệu đúng chuẩn..",
               "tip": "Bài học tương ứng với các SGK: Bài 11, 12: Bẫy lỗi & Lập trình ứng dụng | Bài 9, 10: Bắt lỗi & Giao diện tương tác | Bài 9, 10: Kiểm thử & Phần mềm giải trí."
             },
             {
               "title": "2. Ví dụ Trực quan trong Đời sống",
-              "content": "Nội dung 'Bẫy lỗi, Xử lý Ngoại lệ & Thiết kế Giao diện' trang bị cho học sinh cấp 2 nền tảng tư duy máy tính vững chắc và kỹ năng xử lý thông tin thông minh.",
+              "content": "Nội dung 'Kiểm soát Lỗi, Xử lý Ngoại lệ & Thiết kế Giao diện' trang bị cho học sinh cấp 2 nền tảng tư duy máy tính vững chắc và kỹ năng xử lý thông tin thông minh.",
               "example": "Ví dụ: Áp dụng quy tắc sao lưu 3-2-1 để bảo vệ tài liệu học tập: Giữ ít nhất 3 bản sao chép, trên 2 loại thiết bị khác nhau (ổ cứng máy tính và USB), với 1 bản đặt trên đám mây (Google Drive).",
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Mất dữ liệu do virus mã hóa tống tiền (Ransomware) hoặc hỏng phần cứng là rủi ro rất lớn nếu không có thói quen sao lưu định kỳ.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Bật tính năng xác thực hai yếu tố (2FA) cho toàn bộ tài khoản email và mạng xã hội cá nhân."
@@ -9999,8 +9999,8 @@
         },
         "practice": {
           "mission": {
-            "title": "Thực hành Dự án Kỹ năng Số: Bẫy lỗi, Xử lý Ngoại lệ & Thiết kế Giao diện",
-            "goal": "Thực hiện thành công quy trình xử lý dữ liệu chuẩn theo yêu cầu bài học Bẫy lỗi, Xử lý Ngoại lệ & Thiết kế Giao diện.",
+            "title": "Thực hành Dự án Kỹ năng Số: Kiểm soát Lỗi, Xử lý Ngoại lệ & Thiết kế Giao diện",
+            "goal": "Thực hiện thành công quy trình xử lý dữ liệu chuẩn theo yêu cầu bài học Kiểm soát Lỗi, Xử lý Ngoại lệ & Thiết kế Giao diện.",
             "steps": [
               "Bước 1: Khởi động phần mềm chuyên dụng và mở tệp dữ liệu thực hành.",
               "Bước 2: Thiết lập các thông số kỹ thuật chuẩn theo hướng dẫn.",
@@ -10114,7 +10114,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Nhầm lẫn giữa Internet (hạ tầng mạng lưới toàn cầu) và Web/WWW (một dịch vụ tra cứu thông tin chạy trên Internet).",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Internet là 'đường cao tốc', còn Web, Email, Zoom là các 'chiếc xe' chở hàng hóa chạy trên con đường đó."
@@ -10221,7 +10221,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Mất dữ liệu do virus mã hóa tống tiền (Ransomware) hoặc hỏng phần cứng là rủi ro rất lớn nếu không có thói quen sao lưu định kỳ.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Bật tính năng xác thực hai yếu tố (2FA) cho toàn bộ tài khoản email và mạng xã hội cá nhân."
@@ -10332,7 +10332,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Mất dữ liệu do virus mã hóa tống tiền (Ransomware) hoặc hỏng phần cứng là rủi ro rất lớn nếu không có thói quen sao lưu định kỳ.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Bật tính năng xác thực hai yếu tố (2FA) cho toàn bộ tài khoản email và mạng xã hội cá nhân."
@@ -10365,7 +10365,7 @@
       "id": "G9-11",
       "world_id": "w2",
       "grade": 9,
-      "title": "Đấu trường Trùm Lớp 9: Tốt nghiệp Trung học Cơ sở",
+      "title": "Ôn tập & Đánh giá Toàn diện Cấp THCS",
       "standard_domain": "Tổng kết GDPT 2018 THCS",
       "textbook_mapping": {
         "kntt": "Bài 16: Tổng kết & Đánh giá năng lực 9",
@@ -10386,16 +10386,16 @@
         "Sẵn sàng vươn cánh bước vào thế giới THPT đỉnh cao."
       ],
       "lesson_data": {
-        "hook": "Trùm Cuối THCS 'Malware Phantom' đang muốn phá hủy cánh cổng chuyển tiếp lên cấp 3! Hãy dùng toàn bộ nội lực 4 năm THCS để tiêu diệt nó!",
+        "hook": "Hãy vận dụng toàn diện kiến thức 4 năm THCS (kiến trúc máy tính, tiêu chuẩn thông tin, an toàn mạng và thuật toán) để hoàn thành xuất sắc bài đánh giá cuối cấp THCS!",
         "concept": {
-          "summary": "Đấu trường đỉnh cao tổng hợp: Kiến trúc Von Neumann, Tiêu chí chất lượng thông tin, Thuật toán số học tối ưu, Mạng LAN & Đám mây, An toàn số 3-2-1.",
+          "summary": "Bài đánh giá tổng hợp: Kiến trúc Von Neumann, Tiêu chí chất lượng thông tin, Thuật toán số học tối ưu, Mạng LAN & Đám mây, An toàn số 3-2-1.",
           "key_points": [
             "Chu trình lệnh CPU (Fetch - Decode - Execute).",
             "Quy tắc sao lưu 3-2-1 và định hướng nghề nghiệp CS/ICT."
           ]
         },
         "game_config": {
-          "boss_name": "Malware Phantom Trùm THCS",
+          "boss_name": "Thử thách Đánh giá Cuối Cấp THCS",
           "boss_max_hp": 100,
           "player_max_hp": 100,
           "damage_per_hit": 25,
@@ -10447,24 +10447,24 @@
             "explanation": "GDPT 2018 chính thức chia thành 2 định hướng: Khoa học máy tính (CS) và Tin học ứng dụng (ICT)."
           }
         ],
-        "recap": "VINH QUANG TRUNG HỌC CƠ SỞ! Chúc mừng em đã hoàn thành xuất sắc toàn bộ chặng đường Tin học THCS (Lớp 6, 7, 8, 9) của cả 3 bộ sách KNTT, Cánh Diều, CTST với danh hiệu Bậc Thầy Công Nghệ THCS!",
+        "recap": "CHÚC MỪNG EM! Em đã hoàn thành xuất sắc toàn bộ chặng đường Tin học THCS (Lớp 6, 7, 8, 9) của cả 3 bộ sách KNTT, Cánh Diều, CTST!",
         "theory": {
-          "overview": "Chào mừng em đến với bài học 'Đấu trường Trùm Lớp 9: Tốt nghiệp Trung học Cơ sở'! Trong chương trình Tin học lớp 9 (theo các bộ sách Bài 16, Bài 16, Bài 15, 16), chúng ta sẽ cùng khám phá những bí mật thú vị về đấu trường trùm lớp 9: tốt nghiệp trung học cơ sở. Kiến thức này không chỉ giúp em đạt điểm cao trên lớp mà còn là hành trang công nghệ không thể thiếu trong đời sống số hiện đại.",
+          "overview": "Chào mừng em đến với bài học 'Ôn tập & Đánh giá Toàn diện Cấp THCS'! Trong chương trình Tin học lớp 9 (theo các bộ sách Bài 16, Bài 16, Bài 15, 16), chúng ta sẽ cùng khám phá những bí mật thú vị về ôn tập & đánh giá toàn diện cấp thcs. Kiến thức này không chỉ giúp em đạt điểm cao trên lớp mà còn là hành trang công nghệ không thể thiếu trong đời sống số hiện đại.",
           "sections": [
             {
               "title": "1. Bản chất & Kiến thức Cốt lõi",
-              "content": "Kiến thức cốt lõi của bài học bao gồm: Đấu trường đỉnh cao tổng hợp: Kiến trúc Von Neumann, Tiêu chí chất lượng thông tin, Thuật toán số học tối ưu, Mạng LAN & Đám mây, An toàn số 3-2-1.. Cụ thể, các nội dung trọng tâm mà học sinh lớp 9 cần làm chủ:\n• Chu trình lệnh CPU (Fetch - Decode - Execute).\n• Quy tắc sao lưu 3-2-1 và định hướng nghề nghiệp CS/ICT.",
+              "content": "Kiến thức cốt lõi của bài học bao gồm: Bài đánh giá tổng hợp: Kiến trúc Von Neumann, Tiêu chí chất lượng thông tin, Thuật toán số học tối ưu, Mạng LAN & Đám mây, An toàn số 3-2-1.. Cụ thể, các nội dung trọng tâm mà học sinh lớp 9 cần làm chủ:\n• Chu trình lệnh CPU (Fetch - Decode - Execute).\n• Quy tắc sao lưu 3-2-1 và định hướng nghề nghiệp CS/ICT.",
               "example": "Trọng tâm YCCĐ bài học: Tổng kết toàn diện 4 năm học Tin học THCS (Lớp 6, 7, 8, 9) của cả 3 bộ sách., Sẵn sàng vươn cánh bước vào thế giới THPT đỉnh cao..",
               "tip": "Bài học tương ứng với các SGK: Bài 16: Tổng kết & Đánh giá năng lực 9 | Bài 16: Dự án hỗ trợ cộng đồng & Tổng kết | Bài 15, 16: Trường học thông minh & Đánh giá."
             },
             {
               "title": "2. Ví dụ Trực quan trong Đời sống",
-              "content": "Nội dung 'Đấu trường Trùm Lớp 9: Tốt nghiệp Trung học Cơ sở' trang bị cho học sinh cấp 2 nền tảng tư duy máy tính vững chắc và kỹ năng xử lý thông tin thông minh.",
+              "content": "Nội dung 'Ôn tập & Đánh giá Toàn diện Cấp THCS' trang bị cho học sinh cấp 2 nền tảng tư duy máy tính vững chắc và kỹ năng xử lý thông tin thông minh.",
               "example": "Ví dụ: Áp dụng quy tắc sao lưu 3-2-1 để bảo vệ tài liệu học tập: Giữ ít nhất 3 bản sao chép, trên 2 loại thiết bị khác nhau (ổ cứng máy tính và USB), với 1 bản đặt trên đám mây (Google Drive).",
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Mất dữ liệu do virus mã hóa tống tiền (Ransomware) hoặc hỏng phần cứng là rủi ro rất lớn nếu không có thói quen sao lưu định kỳ.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Bật tính năng xác thực hai yếu tố (2FA) cho toàn bộ tài khoản email và mạng xã hội cá nhân."
@@ -10474,8 +10474,8 @@
         },
         "practice": {
           "mission": {
-            "title": "Thực hành Dự án Kỹ năng Số: Đấu trường Trùm Lớp 9: Tốt nghiệp Trung học Cơ sở",
-            "goal": "Thực hiện thành công quy trình xử lý dữ liệu chuẩn theo yêu cầu bài học Đấu trường Trùm Lớp 9: Tốt nghiệp Trung học Cơ sở.",
+            "title": "Thực hành Dự án Kỹ năng Số: Ôn tập & Đánh giá Toàn diện Cấp THCS",
+            "goal": "Thực hiện thành công quy trình xử lý dữ liệu chuẩn theo yêu cầu bài học Ôn tập & Đánh giá Toàn diện Cấp THCS.",
             "steps": [
               "Bước 1: Khởi động phần mềm chuyên dụng và mở tệp dữ liệu thực hành.",
               "Bước 2: Thiết lập các thông số kỹ thuật chuẩn theo hướng dẫn.",
@@ -10569,7 +10569,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Coi nhẹ vấn đề bản quyền trí tuệ và đạo đức số khi ứng dụng công nghệ trí tuệ nhân tạo.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Luôn tuân thủ nguyên tắc minh bạch, công bằng và tôn trọng quyền riêng tư dữ liệu người dùng."
@@ -10694,13 +10694,13 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Nhầm lẫn giữa Tầng Vận chuyển (TCP - đảm bảo tin cậy không mất gói; UDP - truyền nhanh thời gian thực cho video/game) và Tầng Mạng (IP - đánh địa chỉ định tuyến).",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Nhớ câu thần chú mô hình OSI 7 tầng: 'All People Seem To Need Data Processing' (Application, Presentation, Session, Transport, Network, Data Link, Physical)."
             }
           ],
-          "memorize": "🛡️ TCP/IP phân tầng gói tin, mã hóa HTTPS chống nghe lén, Router dẫn đường chính xác!"
+          "memorize": "🛡️ TCP/IP phân tầng truyền tin, mã hóa HTTPS bảo vệ dữ liệu, Router định tuyến chính xác!"
         },
         "practice": {
           "mission": {
@@ -10801,13 +10801,13 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Nhầm lẫn giữa Tầng Vận chuyển (TCP - đảm bảo tin cậy không mất gói; UDP - truyền nhanh thời gian thực cho video/game) và Tầng Mạng (IP - đánh địa chỉ định tuyến).",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Nhớ câu thần chú mô hình OSI 7 tầng: 'All People Seem To Need Data Processing' (Application, Presentation, Session, Transport, Network, Data Link, Physical)."
             }
           ],
-          "memorize": "🛡️ TCP/IP phân tầng gói tin, mã hóa HTTPS chống nghe lén, Router dẫn đường chính xác!"
+          "memorize": "🛡️ TCP/IP phân tầng truyền tin, mã hóa HTTPS bảo vệ dữ liệu, Router định tuyến chính xác!"
         },
         "practice": {
           "mission": {
@@ -10926,7 +10926,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Coi nhẹ vấn đề bản quyền trí tuệ và đạo đức số khi ứng dụng công nghệ trí tuệ nhân tạo.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Luôn tuân thủ nguyên tắc minh bạch, công bằng và tôn trọng quyền riêng tư dữ liệu người dùng."
@@ -11051,7 +11051,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Coi nhẹ vấn đề bản quyền trí tuệ và đạo đức số khi ứng dụng công nghệ trí tuệ nhân tạo.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Luôn tuân thủ nguyên tắc minh bạch, công bằng và tôn trọng quyền riêng tư dữ liệu người dùng."
@@ -11146,7 +11146,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Coi nhẹ vấn đề bản quyền trí tuệ và đạo đức số khi ứng dụng công nghệ trí tuệ nhân tạo.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Luôn tuân thủ nguyên tắc minh bạch, công bằng và tôn trọng quyền riêng tư dữ liệu người dùng."
@@ -11234,7 +11234,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Coi nhẹ vấn đề bản quyền trí tuệ và đạo đức số khi ứng dụng công nghệ trí tuệ nhân tạo.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Luôn tuân thủ nguyên tắc minh bạch, công bằng và tôn trọng quyền riêng tư dữ liệu người dùng."
@@ -11349,7 +11349,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Coi nhẹ vấn đề bản quyền trí tuệ và đạo đức số khi ứng dụng công nghệ trí tuệ nhân tạo.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Luôn tuân thủ nguyên tắc minh bạch, công bằng và tôn trọng quyền riêng tư dữ liệu người dùng."
@@ -11450,7 +11450,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Coi nhẹ vấn đề bản quyền trí tuệ và đạo đức số khi ứng dụng công nghệ trí tuệ nhân tạo.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Luôn tuân thủ nguyên tắc minh bạch, công bằng và tôn trọng quyền riêng tư dữ liệu người dùng."
@@ -11545,7 +11545,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Coi nhẹ vấn đề bản quyền trí tuệ và đạo đức số khi ứng dụng công nghệ trí tuệ nhân tạo.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Luôn tuân thủ nguyên tắc minh bạch, công bằng và tôn trọng quyền riêng tư dữ liệu người dùng."
@@ -11633,7 +11633,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Coi nhẹ vấn đề bản quyền trí tuệ và đạo đức số khi ứng dụng công nghệ trí tuệ nhân tạo.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Luôn tuân thủ nguyên tắc minh bạch, công bằng và tôn trọng quyền riêng tư dữ liệu người dùng."
@@ -11721,7 +11721,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Coi nhẹ vấn đề bản quyền trí tuệ và đạo đức số khi ứng dụng công nghệ trí tuệ nhân tạo.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Luôn tuân thủ nguyên tắc minh bạch, công bằng và tôn trọng quyền riêng tư dữ liệu người dùng."
@@ -11822,7 +11822,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Coi nhẹ vấn đề bản quyền trí tuệ và đạo đức số khi ứng dụng công nghệ trí tuệ nhân tạo.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Luôn tuân thủ nguyên tắc minh bạch, công bằng và tôn trọng quyền riêng tư dữ liệu người dùng."
@@ -11923,7 +11923,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Coi nhẹ vấn đề bản quyền trí tuệ và đạo đức số khi ứng dụng công nghệ trí tuệ nhân tạo.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Luôn tuân thủ nguyên tắc minh bạch, công bằng và tôn trọng quyền riêng tư dữ liệu người dùng."
@@ -11956,7 +11956,7 @@
       "id": "G10-15",
       "world_id": "w3",
       "grade": 10,
-      "title": "Đấu trường Trùm Lớp 10: Cao thủ Python & Phần cứng Số",
+      "title": "Ôn tập & Đánh giá Năng lực Tin học Lớp 10",
       "standard_domain": "Tổng kết GDPT 2018 Lớp 10",
       "textbook_mapping": {
         "kntt": "Bài 33, 34: Nghề nghiệp, Dự án học tập & Tổng kết",
@@ -11974,19 +11974,19 @@
       "estimated_minutes": 15,
       "learning_goals": [
         "Tổng kết toàn diện chuẩn kiến thức Tin học Lớp 10 của cả 3 bộ sách.",
-        "Sẵn sàng nhận huy hiệu Cao Thủ Python & Phần Cứng Số EasyTin."
+        "Sẵn sàng làm chủ chuẩn năng lực Tin học và Lập trình Python Lớp 10."
       ],
       "lesson_data": {
-        "hook": "Trùm Glitch Byte Chúa Tể đang xâm chiếm không gian mạng! Hãy dùng sức mạnh tổng hợp của Python và Mạch Logic để đánh bại nó!",
+        "hook": "Hãy vận dụng toàn bộ kiến thức về cấu trúc điều khiển, danh sách Python và mạch logic số để hoàn thành bài đánh giá năng lực Lớp 10!",
         "concept": {
-          "summary": "Đấu trường tổng hợp đỉnh cao: IoT, Phần mềm nguồn mở, Đồ họa vector Inkscape, Thuật toán Python, Cổng logic và Bảng chân trị.",
+          "summary": "Bài đánh giá tổng hợp: IoT, Phần mềm nguồn mở, Đồ họa vector Inkscape, Thuật toán Python, Cổng logic và Bảng chân trị.",
           "key_points": [
             "Hàm Python, Danh sách List, Xâu String, Xử lý file.",
             "Cổng logic AND, OR, XOR và kiến trúc Client - Server."
           ]
         },
         "game_config": {
-          "boss_name": "Glitch Byte Chúa Tể",
+          "boss_name": "Thử thách Tổng hợp Lớp 10",
           "boss_max_hp": 100,
           "player_max_hp": 100,
           "damage_per_hit": 25,
@@ -12038,24 +12038,24 @@
             "explanation": ".svg (Scalable Vector Graphics) là định dạng vector chuẩn web."
           }
         ],
-        "recap": "CHIẾN CÔNG VANG DỘI! Em đã tiêu diệt Glitch Byte Chúa Tể và hoàn thành xuất sắc toàn bộ chương trình Tin học Lớp 10 của cả 3 bộ sách KNTT, Cánh Diều, CTST!",
+        "recap": "CHÚC MỪNG EM! Em đã hoàn thành xuất sắc toàn bộ chương trình Tin học Lớp 10 của cả 3 bộ sách KNTT, Cánh Diều, CTST!",
         "theory": {
-          "overview": "Chào mừng em đến với bài học 'Đấu trường Trùm Lớp 10: Cao thủ Python & Phần cứng Số'! Trong chương trình Tin học lớp 10 (theo các bộ sách Bài 33, 34, Bài 31, 32, Bài 31, 32), chúng ta sẽ cùng khám phá những bí mật thú vị về đấu trường trùm lớp 10: cao thủ python & phần cứng số. Kiến thức này không chỉ giúp em đạt điểm cao trên lớp mà còn là hành trang công nghệ không thể thiếu trong đời sống số hiện đại.",
+          "overview": "Chào mừng em đến với bài học 'Ôn tập & Đánh giá Năng lực Tin học Lớp 10'! Trong chương trình Tin học lớp 10 (theo các bộ sách Bài 33, 34, Bài 31, 32, Bài 31, 32), chúng ta sẽ cùng khám phá những bí mật thú vị về ôn tập & đánh giá năng lực tin học lớp 10. Kiến thức này không chỉ giúp em đạt điểm cao trên lớp mà còn là hành trang công nghệ không thể thiếu trong đời sống số hiện đại.",
           "sections": [
             {
               "title": "1. Bản chất & Kiến thức Cốt lõi",
-              "content": "Kiến thức cốt lõi của bài học bao gồm: Đấu trường tổng hợp đỉnh cao: IoT, Phần mềm nguồn mở, Đồ họa vector Inkscape, Thuật toán Python, Cổng logic và Bảng chân trị.. Cụ thể, các nội dung trọng tâm mà học sinh lớp 10 cần làm chủ:\n• Hàm Python, Danh sách List, Xâu String, Xử lý file.\n• Cổng logic AND, OR, XOR và kiến trúc Client - Server.",
-              "example": "Trọng tâm YCCĐ bài học: Tổng kết toàn diện chuẩn kiến thức Tin học Lớp 10 của cả 3 bộ sách., Sẵn sàng nhận huy hiệu Cao Thủ Python & Phần Cứng Số EasyTin..",
+              "content": "Kiến thức cốt lõi của bài học bao gồm: Bài đánh giá tổng hợp: IoT, Phần mềm nguồn mở, Đồ họa vector Inkscape, Thuật toán Python, Cổng logic và Bảng chân trị.. Cụ thể, các nội dung trọng tâm mà học sinh lớp 10 cần làm chủ:\n• Hàm Python, Danh sách List, Xâu String, Xử lý file.\n• Cổng logic AND, OR, XOR và kiến trúc Client - Server.",
+              "example": "Trọng tâm YCCĐ bài học: Tổng kết toàn diện chuẩn kiến thức Tin học Lớp 10 của cả 3 bộ sách., Sẵn sàng làm chủ chuẩn năng lực Tin học và Lập trình Python Lớp 10..",
               "tip": "Bài học tương ứng với các SGK: Bài 33, 34: Nghề nghiệp, Dự án học tập & Tổng kết | Bài 31, 32: Nghề lập trình & Đánh giá năng lực 10 | Bài 31, 32: Nghề đồ họa, lập trình & Tổng kết."
             },
             {
               "title": "2. Ví dụ Trực quan trong Đời sống",
-              "content": "Chuyên đề 'Đấu trường Trùm Lớp 10: Cao thủ Python & Phần cứng Số' mở rộng tầm nhìn công nghệ thế hệ mới cho học sinh THPT chuẩn bị bước vào giảng đường đại học và thị trường việc làm toàn cầu.",
+              "content": "Chuyên đề 'Ôn tập & Đánh giá Năng lực Tin học Lớp 10' mở rộng tầm nhìn công nghệ thế hệ mới cho học sinh THPT chuẩn bị bước vào giảng đường đại học và thị trường việc làm toàn cầu.",
               "example": "Ví dụ: Ứng dụng các quy trình phát triển phần mềm chuyên nghiệp, tư duy thuật toán tối ưu và tinh thần trách nhiệm với xã hội trong kỷ nguyên số hóa toàn diện.",
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Coi nhẹ vấn đề bản quyền trí tuệ và đạo đức số khi ứng dụng công nghệ trí tuệ nhân tạo.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Luôn tuân thủ nguyên tắc minh bạch, công bằng và tôn trọng quyền riêng tư dữ liệu người dùng."
@@ -12065,8 +12065,8 @@
         },
         "practice": {
           "mission": {
-            "title": "Dự án Nghiên cứu & Ứng dụng: Đấu trường Trùm Lớp 10: Cao thủ Python & Phần cứng Số",
-            "goal": "Hoàn thiện chuyên đề thực hành nâng cao về Đấu trường Trùm Lớp 10: Cao thủ Python & Phần cứng Số theo chuẩn đầu ra GDPT 2018.",
+            "title": "Dự án Nghiên cứu & Ứng dụng: Ôn tập & Đánh giá Năng lực Tin học Lớp 10",
+            "goal": "Hoàn thiện chuyên đề thực hành nâng cao về Ôn tập & Đánh giá Năng lực Tin học Lớp 10 theo chuẩn đầu ra GDPT 2018.",
             "steps": [
               "Bước 1: Nghiên cứu tài liệu kỹ thuật và xác định các yêu cầu bài toán đặt ra.",
               "Bước 2: Lập kế hoạch thiết kế kiến trúc hệ thống hoặc thuật toán giải quyết.",
@@ -12180,13 +12180,13 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Thực hiện lệnh UPDATE hoặc DELETE mà quên mệnh đề WHERE. Nếu không có WHERE, toàn bộ dữ liệu trong cả bảng sẽ bị sửa hoặc xóa sạch!",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Quy tắc an toàn: Luôn viết lệnh SELECT với điều kiện WHERE để kiểm tra xem đúng những dòng cần xóa/sửa chưa trước khi chạy DELETE/UPDATE."
             }
           ],
-          "memorize": "🗄️ Khóa chính định danh duy nhất, Khóa ngoại kết nối nhiều bảng, SQL WHERE cứu nguy thảm họa!"
+          "memorize": "🗄️ Khóa chính định danh duy nhất, Khóa ngoại kết nối nhiều bảng, SQL WHERE tránh sai sót dữ liệu!"
         },
         "practice": {
           "mission": {
@@ -12281,13 +12281,13 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Thực hiện lệnh UPDATE hoặc DELETE mà quên mệnh đề WHERE. Nếu không có WHERE, toàn bộ dữ liệu trong cả bảng sẽ bị sửa hoặc xóa sạch!",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Quy tắc an toàn: Luôn viết lệnh SELECT với điều kiện WHERE để kiểm tra xem đúng những dòng cần xóa/sửa chưa trước khi chạy DELETE/UPDATE."
             }
           ],
-          "memorize": "🗄️ Khóa chính định danh duy nhất, Khóa ngoại kết nối nhiều bảng, SQL WHERE cứu nguy thảm họa!"
+          "memorize": "🗄️ Khóa chính định danh duy nhất, Khóa ngoại kết nối nhiều bảng, SQL WHERE tránh sai sót dữ liệu!"
         },
         "practice": {
           "mission": {
@@ -12382,13 +12382,13 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Thực hiện lệnh UPDATE hoặc DELETE mà quên mệnh đề WHERE. Nếu không có WHERE, toàn bộ dữ liệu trong cả bảng sẽ bị sửa hoặc xóa sạch!",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Quy tắc an toàn: Luôn viết lệnh SELECT với điều kiện WHERE để kiểm tra xem đúng những dòng cần xóa/sửa chưa trước khi chạy DELETE/UPDATE."
             }
           ],
-          "memorize": "🗄️ Khóa chính định danh duy nhất, Khóa ngoại kết nối nhiều bảng, SQL WHERE cứu nguy thảm họa!"
+          "memorize": "🗄️ Khóa chính định danh duy nhất, Khóa ngoại kết nối nhiều bảng, SQL WHERE tránh sai sót dữ liệu!"
         },
         "practice": {
           "mission": {
@@ -12483,13 +12483,13 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Thực hiện lệnh UPDATE hoặc DELETE mà quên mệnh đề WHERE. Nếu không có WHERE, toàn bộ dữ liệu trong cả bảng sẽ bị sửa hoặc xóa sạch!",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Quy tắc an toàn: Luôn viết lệnh SELECT với điều kiện WHERE để kiểm tra xem đúng những dòng cần xóa/sửa chưa trước khi chạy DELETE/UPDATE."
             }
           ],
-          "memorize": "🗄️ Khóa chính định danh duy nhất, Khóa ngoại kết nối nhiều bảng, SQL WHERE cứu nguy thảm họa!"
+          "memorize": "🗄️ Khóa chính định danh duy nhất, Khóa ngoại kết nối nhiều bảng, SQL WHERE tránh sai sót dữ liệu!"
         },
         "practice": {
           "mission": {
@@ -12584,13 +12584,13 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Thực hiện lệnh UPDATE hoặc DELETE mà quên mệnh đề WHERE. Nếu không có WHERE, toàn bộ dữ liệu trong cả bảng sẽ bị sửa hoặc xóa sạch!",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Quy tắc an toàn: Luôn viết lệnh SELECT với điều kiện WHERE để kiểm tra xem đúng những dòng cần xóa/sửa chưa trước khi chạy DELETE/UPDATE."
             }
           ],
-          "memorize": "🗄️ Khóa chính định danh duy nhất, Khóa ngoại kết nối nhiều bảng, SQL WHERE cứu nguy thảm họa!"
+          "memorize": "🗄️ Khóa chính định danh duy nhất, Khóa ngoại kết nối nhiều bảng, SQL WHERE tránh sai sót dữ liệu!"
         },
         "practice": {
           "mission": {
@@ -12672,13 +12672,13 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Thực hiện lệnh UPDATE hoặc DELETE mà quên mệnh đề WHERE. Nếu không có WHERE, toàn bộ dữ liệu trong cả bảng sẽ bị sửa hoặc xóa sạch!",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Quy tắc an toàn: Luôn viết lệnh SELECT với điều kiện WHERE để kiểm tra xem đúng những dòng cần xóa/sửa chưa trước khi chạy DELETE/UPDATE."
             }
           ],
-          "memorize": "🗄️ Khóa chính định danh duy nhất, Khóa ngoại kết nối nhiều bảng, SQL WHERE cứu nguy thảm họa!"
+          "memorize": "🗄️ Khóa chính định danh duy nhất, Khóa ngoại kết nối nhiều bảng, SQL WHERE tránh sai sót dữ liệu!"
         },
         "practice": {
           "mission": {
@@ -12797,13 +12797,13 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Thực hiện lệnh UPDATE hoặc DELETE mà quên mệnh đề WHERE. Nếu không có WHERE, toàn bộ dữ liệu trong cả bảng sẽ bị sửa hoặc xóa sạch!",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Quy tắc an toàn: Luôn viết lệnh SELECT với điều kiện WHERE để kiểm tra xem đúng những dòng cần xóa/sửa chưa trước khi chạy DELETE/UPDATE."
             }
           ],
-          "memorize": "🗄️ Khóa chính định danh duy nhất, Khóa ngoại kết nối nhiều bảng, SQL WHERE cứu nguy thảm họa!"
+          "memorize": "🗄️ Khóa chính định danh duy nhất, Khóa ngoại kết nối nhiều bảng, SQL WHERE tránh sai sót dữ liệu!"
         },
         "practice": {
           "mission": {
@@ -12885,17 +12885,17 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Quên điều kiện dừng (Base Case) trong hàm đệ quy, khiến chương trình rơi vào vòng lặp vô tận và làm tràn ngăn xếp bộ nhớ (RecursionError: maximum recursion depth exceeded).",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Bất kỳ hàm đệ quy nào cũng phải có 2 phần: 1. Base Case (điều kiện dừng trực tiếp) và 2. Recursive Step (bước gọi lại chính nó với bài toán nhỏ hơn)."
             }
           ],
-          "memorize": "⚡ Đệ quy phải có điểm dừng, Quick Sort chia để trị, N log N đánh bại mọi thách thức Big Data!"
+          "memorize": "⚡ Đệ quy phải có điểm dừng, Quick Sort chia để trị, N log N tối ưu hiệu năng xử lý dữ liệu lớn!"
         },
         "practice": {
           "mission": {
-            "title": "Đấu trường Thuật toán Nâng cao: Cài đặt và Đo lường Hiệu năng Quick Sort",
+            "title": "Chuyên đề Thực hành: Cài đặt và đo lường hiệu năng thuật toán Quick Sort",
             "goal": "Cài đặt thuật toán Quick Sort bằng Python và so sánh thời gian chạy thực tế với Bubble Sort trên mảng ngẫu nhiên 5,000 phần tử.",
             "steps": [
               "Bước 1: Cài đặt hàm quick_sort(arr) trong Python theo chiến thuật chia để trị chọn chốt (pivot).",
@@ -12986,17 +12986,17 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Quên điều kiện dừng (Base Case) trong hàm đệ quy, khiến chương trình rơi vào vòng lặp vô tận và làm tràn ngăn xếp bộ nhớ (RecursionError: maximum recursion depth exceeded).",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Bất kỳ hàm đệ quy nào cũng phải có 2 phần: 1. Base Case (điều kiện dừng trực tiếp) và 2. Recursive Step (bước gọi lại chính nó với bài toán nhỏ hơn)."
             }
           ],
-          "memorize": "⚡ Đệ quy phải có điểm dừng, Quick Sort chia để trị, N log N đánh bại mọi thách thức Big Data!"
+          "memorize": "⚡ Đệ quy phải có điểm dừng, Quick Sort chia để trị, N log N tối ưu hiệu năng xử lý dữ liệu lớn!"
         },
         "practice": {
           "mission": {
-            "title": "Đấu trường Thuật toán Nâng cao: Cài đặt và Đo lường Hiệu năng Quick Sort",
+            "title": "Chuyên đề Thực hành: Cài đặt và đo lường hiệu năng thuật toán Quick Sort",
             "goal": "Cài đặt thuật toán Quick Sort bằng Python và so sánh thời gian chạy thực tế với Bubble Sort trên mảng ngẫu nhiên 5,000 phần tử.",
             "steps": [
               "Bước 1: Cài đặt hàm quick_sort(arr) trong Python theo chiến thuật chia để trị chọn chốt (pivot).",
@@ -13074,17 +13074,17 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Quên điều kiện dừng (Base Case) trong hàm đệ quy, khiến chương trình rơi vào vòng lặp vô tận và làm tràn ngăn xếp bộ nhớ (RecursionError: maximum recursion depth exceeded).",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Bất kỳ hàm đệ quy nào cũng phải có 2 phần: 1. Base Case (điều kiện dừng trực tiếp) và 2. Recursive Step (bước gọi lại chính nó với bài toán nhỏ hơn)."
             }
           ],
-          "memorize": "⚡ Đệ quy phải có điểm dừng, Quick Sort chia để trị, N log N đánh bại mọi thách thức Big Data!"
+          "memorize": "⚡ Đệ quy phải có điểm dừng, Quick Sort chia để trị, N log N tối ưu hiệu năng xử lý dữ liệu lớn!"
         },
         "practice": {
           "mission": {
-            "title": "Đấu trường Thuật toán Nâng cao: Cài đặt và Đo lường Hiệu năng Quick Sort",
+            "title": "Chuyên đề Thực hành: Cài đặt và đo lường hiệu năng thuật toán Quick Sort",
             "goal": "Cài đặt thuật toán Quick Sort bằng Python và so sánh thời gian chạy thực tế với Bubble Sort trên mảng ngẫu nhiên 5,000 phần tử.",
             "steps": [
               "Bước 1: Cài đặt hàm quick_sort(arr) trong Python theo chiến thuật chia để trị chọn chốt (pivot).",
@@ -13175,17 +13175,17 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Quên điều kiện dừng (Base Case) trong hàm đệ quy, khiến chương trình rơi vào vòng lặp vô tận và làm tràn ngăn xếp bộ nhớ (RecursionError: maximum recursion depth exceeded).",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Bất kỳ hàm đệ quy nào cũng phải có 2 phần: 1. Base Case (điều kiện dừng trực tiếp) và 2. Recursive Step (bước gọi lại chính nó với bài toán nhỏ hơn)."
             }
           ],
-          "memorize": "⚡ Đệ quy phải có điểm dừng, Quick Sort chia để trị, N log N đánh bại mọi thách thức Big Data!"
+          "memorize": "⚡ Đệ quy phải có điểm dừng, Quick Sort chia để trị, N log N tối ưu hiệu năng xử lý dữ liệu lớn!"
         },
         "practice": {
           "mission": {
-            "title": "Đấu trường Thuật toán Nâng cao: Cài đặt và Đo lường Hiệu năng Quick Sort",
+            "title": "Chuyên đề Thực hành: Cài đặt và đo lường hiệu năng thuật toán Quick Sort",
             "goal": "Cài đặt thuật toán Quick Sort bằng Python và so sánh thời gian chạy thực tế với Bubble Sort trên mảng ngẫu nhiên 5,000 phần tử.",
             "steps": [
               "Bước 1: Cài đặt hàm quick_sort(arr) trong Python theo chiến thuật chia để trị chọn chốt (pivot).",
@@ -13300,7 +13300,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Coi nhẹ vấn đề bản quyền trí tuệ và đạo đức số khi ứng dụng công nghệ trí tuệ nhân tạo.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Luôn tuân thủ nguyên tắc minh bạch, công bằng và tôn trọng quyền riêng tư dữ liệu người dùng."
@@ -13425,7 +13425,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Coi nhẹ vấn đề bản quyền trí tuệ và đạo đức số khi ứng dụng công nghệ trí tuệ nhân tạo.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Luôn tuân thủ nguyên tắc minh bạch, công bằng và tôn trọng quyền riêng tư dữ liệu người dùng."
@@ -13458,7 +13458,7 @@
       "id": "G11-14",
       "world_id": "w3",
       "grade": 11,
-      "title": "Đấu trường Trùm Lớp 11: Bậc Thầy CSDL SQL & Thuật toán",
+      "title": "Ôn tập & Đánh giá Năng lực Tin học Lớp 11",
       "standard_domain": "Tổng kết GDPT 2018 Lớp 11",
       "textbook_mapping": {
         "kntt": "Bài CS-16: Dự án CSDL & Tổng kết Tin học 11",
@@ -13476,19 +13476,19 @@
       "estimated_minutes": 15,
       "learning_goals": [
         "Tổng kết toàn diện chuẩn năng lực Tin học Lớp 11 cả 2 nhánh CS & ICT của 3 bộ sách.",
-        "Sẵn sàng nhận danh hiệu Bậc Thầy CSDL SQL & Thuật Toán Tối Ưu EasyTin."
+        "Sẵn sàng làm chủ cơ sở dữ liệu quan hệ SQL và thuật toán nâng cao Lớp 11."
       ],
       "lesson_data": {
-        "hook": "Trùm Dữ Liệu 'Database Destroyer' đang muốn xóa sổ toàn bộ cơ sở dữ liệu quốc gia! Hãy dùng các câu lệnh SQL và Thuật toán tối ưu để phong ấn nó!",
+        "hook": "Hệ thống cơ sở dữ liệu đang cần được truy xuất và chuẩn hóa. Hãy vận dụng các câu lệnh truy vấn SQL, cấu trúc liên kết bảng và thuật toán nâng cao để hoàn thành bài đánh giá Lớp 11!",
         "concept": {
-          "summary": "Đấu trường đỉnh cao tổng hợp: CSDL quan hệ, Khóa chính, SQL SELECT / WHERE / GROUP BY / JOIN, Đệ quy, Merge Sort, Quick Sort và Big-O.",
+          "summary": "Bài đánh giá tổng hợp: CSDL quan hệ, Khóa chính, SQL SELECT / WHERE / GROUP BY / JOIN, Đệ quy, Merge Sort, Quick Sort và Big-O.",
           "key_points": [
             "SQL INNER JOIN, GROUP BY, HAVING.",
             "Độ phức tạp thuật toán O(N log N) và chuẩn hóa CSDL 3NF."
           ]
         },
         "game_config": {
-          "boss_name": "Database Destroyer Trùm Dữ Liệu",
+          "boss_name": "Thử thách Tổng hợp Lớp 11",
           "boss_max_hp": 100,
           "player_max_hp": 100,
           "damage_per_hit": 25,
@@ -13540,48 +13540,48 @@
             "explanation": "XLOOKUP là hàm tra cứu hiện đại, khắc phục toàn bộ nhược điểm của VLOOKUP."
           }
         ],
-        "recap": "CHIẾN CÔNG HIỂN HÁCH! Em đã tiêu diệt Database Destroyer và xuất sắc hoàn thành toàn bộ chương trình Tin học Lớp 11 của cả 3 bộ sách KNTT, Cánh Diều, CTST!",
+        "recap": "CHÚC MỪNG EM! Em đã hoàn thành xuất sắc toàn bộ chương trình Tin học Lớp 11 của cả 3 bộ sách KNTT, Cánh Diều, CTST!",
         "theory": {
-          "overview": "Chào mừng em đến với bài học 'Đấu trường Trùm Lớp 11: Bậc Thầy CSDL SQL & Thuật toán'! Trong chương trình Tin học lớp 11 (theo các bộ sách Bài CS-16, Bài CS-16, Bài CS-16), chúng ta sẽ cùng khám phá những bí mật thú vị về đấu trường trùm lớp 11: bậc thầy csdl sql & thuật toán. Kiến thức này không chỉ giúp em đạt điểm cao trên lớp mà còn là hành trang công nghệ không thể thiếu trong đời sống số hiện đại.",
+          "overview": "Chào mừng em đến với bài học 'Ôn tập & Đánh giá Năng lực Tin học Lớp 11'! Trong chương trình Tin học lớp 11 (theo các bộ sách Bài CS-16, Bài CS-16, Bài CS-16), chúng ta sẽ cùng khám phá những bí mật thú vị về ôn tập & đánh giá năng lực tin học lớp 11. Kiến thức này không chỉ giúp em đạt điểm cao trên lớp mà còn là hành trang công nghệ không thể thiếu trong đời sống số hiện đại.",
           "sections": [
             {
               "title": "1. Bản chất & Kiến thức Cốt lõi",
-              "content": "Kiến thức cốt lõi của bài học bao gồm: Đấu trường đỉnh cao tổng hợp: CSDL quan hệ, Khóa chính, SQL SELECT / WHERE / GROUP BY / JOIN, Đệ quy, Merge Sort, Quick Sort và Big-O.. Cụ thể, các nội dung trọng tâm mà học sinh lớp 11 cần làm chủ:\n• SQL INNER JOIN, GROUP BY, HAVING.\n• Độ phức tạp thuật toán O(N log N) và chuẩn hóa CSDL 3NF.",
-              "example": "Trọng tâm YCCĐ bài học: Tổng kết toàn diện chuẩn năng lực Tin học Lớp 11 cả 2 nhánh CS & ICT của 3 bộ sách., Sẵn sàng nhận danh hiệu Bậc Thầy CSDL SQL & Thuật Toán Tối Ưu EasyTin..",
+              "content": "Kiến thức cốt lõi của bài học bao gồm: Bài đánh giá tổng hợp: CSDL quan hệ, Khóa chính, SQL SELECT / WHERE / GROUP BY / JOIN, Đệ quy, Merge Sort, Quick Sort và Big-O.. Cụ thể, các nội dung trọng tâm mà học sinh lớp 11 cần làm chủ:\n• SQL INNER JOIN, GROUP BY, HAVING.\n• Độ phức tạp thuật toán O(N log N) và chuẩn hóa CSDL 3NF.",
+              "example": "Trọng tâm YCCĐ bài học: Tổng kết toàn diện chuẩn năng lực Tin học Lớp 11 cả 2 nhánh CS & ICT của 3 bộ sách., Sẵn sàng làm chủ cơ sở dữ liệu quan hệ SQL và thuật toán nâng cao Lớp 11..",
               "tip": "Bài học tương ứng với các SGK: Bài CS-16: Dự án CSDL & Tổng kết Tin học 11 | Bài CS-16: Dự án phần mềm & Đánh giá năng lực 11 | Bài CS-16: Hệ thống quản lý điểm thi & Tổng kết."
             },
             {
               "title": "2. Ví dụ Trực quan trong Đời sống",
-              "content": "Cơ sở dữ liệu quan hệ (RDBMS) là xương sống của mọi hệ thống thương mại điện tử, ngân hàng và mạng xã hội như Shopee, Facebook, Momo.",
-              "example": "Ví dụ: Tại Shopee, bảng HOC_SINH liên kết với bảng DIEM_THI qua Khóa chính (MaHS) và Khóa ngoại. Khi cần in danh sách học sinh đạt loại Giỏi, lệnh SELECT kết hợp INNER JOIN sẽ truy xuất dữ liệu từ hàng triệu bản ghi chỉ trong vài mili-giây.",
+              "content": "Chuyên đề 'Ôn tập & Đánh giá Năng lực Tin học Lớp 11' mở rộng tầm nhìn công nghệ thế hệ mới cho học sinh THPT chuẩn bị bước vào giảng đường đại học và thị trường việc làm toàn cầu.",
+              "example": "Ví dụ: Ứng dụng các quy trình phát triển phần mềm chuyên nghiệp, tư duy thuật toán tối ưu và tinh thần trách nhiệm với xã hội trong kỷ nguyên số hóa toàn diện.",
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
-              "content": "Thực hiện lệnh UPDATE hoặc DELETE mà quên mệnh đề WHERE. Nếu không có WHERE, toàn bộ dữ liệu trong cả bảng sẽ bị sửa hoặc xóa sạch!",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
+              "content": "Coi nhẹ vấn đề bản quyền trí tuệ và đạo đức số khi ứng dụng công nghệ trí tuệ nhân tạo.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
-              "tip": "Quy tắc an toàn: Luôn viết lệnh SELECT với điều kiện WHERE để kiểm tra xem đúng những dòng cần xóa/sửa chưa trước khi chạy DELETE/UPDATE."
+              "tip": "Luôn tuân thủ nguyên tắc minh bạch, công bằng và tôn trọng quyền riêng tư dữ liệu người dùng."
             }
           ],
-          "memorize": "🗄️ Khóa chính định danh duy nhất, Khóa ngoại kết nối nhiều bảng, SQL WHERE cứu nguy thảm họa!"
+          "memorize": "🚀 Tư duy công nghệ bứt phá, bản lĩnh làm chủ tương lai số hóa toàn cầu!"
         },
         "practice": {
           "mission": {
-            "title": "Phòng Lab Quản trị CSDL: Viết Truy vấn SQL Báo cáo Học lực",
-            "goal": "Thực hiện thành thạo các câu lệnh SELECT, WHERE, INNER JOIN, GROUP BY và COUNT trong MySQL/PostgreSQL.",
+            "title": "Dự án Nghiên cứu & Ứng dụng: Ôn tập & Đánh giá Năng lực Tin học Lớp 11",
+            "goal": "Hoàn thiện chuyên đề thực hành nâng cao về Ôn tập & Đánh giá Năng lực Tin học Lớp 11 theo chuẩn đầu ra GDPT 2018.",
             "steps": [
-              "Bước 1: Mở giao diện dòng lệnh MySQL hoặc SQLite Studio, kết nối tới cơ sở dữ liệu 'QuanLyTruongHoc'.",
-              "Bước 2: Viết truy vấn lấy mã số, họ tên học sinh lớp 11A1:\nSELECT MaHS, HoTen FROM HocSinh WHERE Lop = '11A1';",
-              "Bước 3: Viết truy vấn kết nối 2 bảng để tính điểm trung bình từng môn:\nSELECT H.HoTen, D.MonHoc, D.DiemSo FROM HocSinh H INNER JOIN BangDiem D ON H.MaHS = D.MaHS;",
-              "Bước 4: Thống kê số lượng học sinh theo từng lớp bằng mệnh đề GROUP BY:\nSELECT Lop, COUNT(*) AS SiSo FROM HocSinh GROUP BY Lop;"
+              "Bước 1: Nghiên cứu tài liệu kỹ thuật và xác định các yêu cầu bài toán đặt ra.",
+              "Bước 2: Lập kế hoạch thiết kế kiến trúc hệ thống hoặc thuật toán giải quyết.",
+              "Bước 3: Triển khai cài đặt mã nguồn hoặc xây dựng mô hình thử nghiệm.",
+              "Bước 4: Đánh giá độ phức tạp, kiểm thử lỗi và viết tài liệu báo cáo kỹ thuật."
             ],
-            "challenge": "Dùng mệnh đề HAVING để lọc ra những lớp có sĩ số trên 40 học sinh.",
-            "tip": "Tên từ khóa SQL nên viết HOA toàn bộ (SELECT, FROM, WHERE) để phân biệt rõ với tên bảng và cột."
+            "challenge": "Đề xuất giải pháp cải tiến hiệu năng hoặc mở rộng tính năng cho hệ thống.",
+            "tip": "Áp dụng phương pháp kiểm thử đơn vị (Unit Test) để đảm bảo chất lượng từng module mã nguồn."
           },
           "checklist": [
-            "Hiểu đúng vai trò khóa chính khóa ngoại",
-            "Viết đúng cú pháp INNER JOIN",
-            "Áp dụng thành công GROUP BY và COUNT"
+            "Nắm vững lý thuyết chuyên sâu",
+            "Hoàn thành bài thực hành dự án",
+            "Báo cáo phân tích chuyên nghiệp"
           ]
         }
       }
@@ -13682,13 +13682,13 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Nhầm lẫn giữa Tầng Vận chuyển (TCP - đảm bảo tin cậy không mất gói; UDP - truyền nhanh thời gian thực cho video/game) và Tầng Mạng (IP - đánh địa chỉ định tuyến).",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Nhớ câu thần chú mô hình OSI 7 tầng: 'All People Seem To Need Data Processing' (Application, Presentation, Session, Transport, Network, Data Link, Physical)."
             }
           ],
-          "memorize": "🛡️ TCP/IP phân tầng gói tin, mã hóa HTTPS chống nghe lén, Router dẫn đường chính xác!"
+          "memorize": "🛡️ TCP/IP phân tầng truyền tin, mã hóa HTTPS bảo vệ dữ liệu, Router định tuyến chính xác!"
         },
         "practice": {
           "mission": {
@@ -13783,13 +13783,13 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Nhầm lẫn giữa Tầng Vận chuyển (TCP - đảm bảo tin cậy không mất gói; UDP - truyền nhanh thời gian thực cho video/game) và Tầng Mạng (IP - đánh địa chỉ định tuyến).",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Nhớ câu thần chú mô hình OSI 7 tầng: 'All People Seem To Need Data Processing' (Application, Presentation, Session, Transport, Network, Data Link, Physical)."
             }
           ],
-          "memorize": "🛡️ TCP/IP phân tầng gói tin, mã hóa HTTPS chống nghe lén, Router dẫn đường chính xác!"
+          "memorize": "🛡️ TCP/IP phân tầng truyền tin, mã hóa HTTPS bảo vệ dữ liệu, Router định tuyến chính xác!"
         },
         "practice": {
           "mission": {
@@ -13908,13 +13908,13 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Nhầm lẫn giữa Tầng Vận chuyển (TCP - đảm bảo tin cậy không mất gói; UDP - truyền nhanh thời gian thực cho video/game) và Tầng Mạng (IP - đánh địa chỉ định tuyến).",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Nhớ câu thần chú mô hình OSI 7 tầng: 'All People Seem To Need Data Processing' (Application, Presentation, Session, Transport, Network, Data Link, Physical)."
             }
           ],
-          "memorize": "🛡️ TCP/IP phân tầng gói tin, mã hóa HTTPS chống nghe lén, Router dẫn đường chính xác!"
+          "memorize": "🛡️ TCP/IP phân tầng truyền tin, mã hóa HTTPS bảo vệ dữ liệu, Router định tuyến chính xác!"
         },
         "practice": {
           "mission": {
@@ -14015,13 +14015,13 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Thực hiện lệnh UPDATE hoặc DELETE mà quên mệnh đề WHERE. Nếu không có WHERE, toàn bộ dữ liệu trong cả bảng sẽ bị sửa hoặc xóa sạch!",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Quy tắc an toàn: Luôn viết lệnh SELECT với điều kiện WHERE để kiểm tra xem đúng những dòng cần xóa/sửa chưa trước khi chạy DELETE/UPDATE."
             }
           ],
-          "memorize": "🗄️ Khóa chính định danh duy nhất, Khóa ngoại kết nối nhiều bảng, SQL WHERE cứu nguy thảm họa!"
+          "memorize": "🗄️ Khóa chính định danh duy nhất, Khóa ngoại kết nối nhiều bảng, SQL WHERE tránh sai sót dữ liệu!"
         },
         "practice": {
           "mission": {
@@ -14140,13 +14140,13 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Nhầm lẫn giữa Tầng Vận chuyển (TCP - đảm bảo tin cậy không mất gói; UDP - truyền nhanh thời gian thực cho video/game) và Tầng Mạng (IP - đánh địa chỉ định tuyến).",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Nhớ câu thần chú mô hình OSI 7 tầng: 'All People Seem To Need Data Processing' (Application, Presentation, Session, Transport, Network, Data Link, Physical)."
             }
           ],
-          "memorize": "🛡️ TCP/IP phân tầng gói tin, mã hóa HTTPS chống nghe lén, Router dẫn đường chính xác!"
+          "memorize": "🛡️ TCP/IP phân tầng truyền tin, mã hóa HTTPS bảo vệ dữ liệu, Router định tuyến chính xác!"
         },
         "practice": {
           "mission": {
@@ -14251,13 +14251,13 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
-              "content": "Hiện tượng Quá khớp (Overfitting): Mô hình học vẹt quá mức dữ liệu huấn luyện (Training data), đạt độ chính xác 100% khi luyện tập nhưng khi gặp dữ liệu thực tế mới lạ thì dự đoán sai be bét.",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
+              "content": "Hiện tượng Quá khớp (Overfitting): Mô hình học vẹt quá mức dữ liệu huấn luyện (Training data), đạt độ chính xác 100% khi luyện tập nhưng khi gặp dữ liệu thực tế mới lạ thì dự đoán kết quả không chính xác.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Luôn chia dữ liệu thành 2 tập riêng biệt: Tập Huấn luyện (Train set ~ 80%) và Tập Kiểm thử (Test set ~ 20%) để đánh giá khách quan năng lực tổng quát hóa của mô hình."
             }
           ],
-          "memorize": "🧠 Dữ liệu là thức ăn của AI, huấn luyện chống Overfitting, đạo đức số soi sáng công nghệ!"
+          "memorize": "🧠 Dữ liệu là nguồn dữ liệu đầu vào của AI, huấn luyện chống Overfitting, đạo đức số soi sáng công nghệ!"
         },
         "practice": {
           "mission": {
@@ -14376,13 +14376,13 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
-              "content": "Hiện tượng Quá khớp (Overfitting): Mô hình học vẹt quá mức dữ liệu huấn luyện (Training data), đạt độ chính xác 100% khi luyện tập nhưng khi gặp dữ liệu thực tế mới lạ thì dự đoán sai be bét.",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
+              "content": "Hiện tượng Quá khớp (Overfitting): Mô hình học vẹt quá mức dữ liệu huấn luyện (Training data), đạt độ chính xác 100% khi luyện tập nhưng khi gặp dữ liệu thực tế mới lạ thì dự đoán kết quả không chính xác.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Luôn chia dữ liệu thành 2 tập riêng biệt: Tập Huấn luyện (Train set ~ 80%) và Tập Kiểm thử (Test set ~ 20%) để đánh giá khách quan năng lực tổng quát hóa của mô hình."
             }
           ],
-          "memorize": "🧠 Dữ liệu là thức ăn của AI, huấn luyện chống Overfitting, đạo đức số soi sáng công nghệ!"
+          "memorize": "🧠 Dữ liệu là nguồn dữ liệu đầu vào của AI, huấn luyện chống Overfitting, đạo đức số soi sáng công nghệ!"
         },
         "practice": {
           "mission": {
@@ -14464,7 +14464,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Coi nhẹ vấn đề bản quyền trí tuệ và đạo đức số khi ứng dụng công nghệ trí tuệ nhân tạo.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Luôn tuân thủ nguyên tắc minh bạch, công bằng và tôn trọng quyền riêng tư dữ liệu người dùng."
@@ -14565,13 +14565,13 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
-              "content": "Hiện tượng Quá khớp (Overfitting): Mô hình học vẹt quá mức dữ liệu huấn luyện (Training data), đạt độ chính xác 100% khi luyện tập nhưng khi gặp dữ liệu thực tế mới lạ thì dự đoán sai be bét.",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
+              "content": "Hiện tượng Quá khớp (Overfitting): Mô hình học vẹt quá mức dữ liệu huấn luyện (Training data), đạt độ chính xác 100% khi luyện tập nhưng khi gặp dữ liệu thực tế mới lạ thì dự đoán kết quả không chính xác.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Luôn chia dữ liệu thành 2 tập riêng biệt: Tập Huấn luyện (Train set ~ 80%) và Tập Kiểm thử (Test set ~ 20%) để đánh giá khách quan năng lực tổng quát hóa của mô hình."
             }
           ],
-          "memorize": "🧠 Dữ liệu là thức ăn của AI, huấn luyện chống Overfitting, đạo đức số soi sáng công nghệ!"
+          "memorize": "🧠 Dữ liệu là nguồn dữ liệu đầu vào của AI, huấn luyện chống Overfitting, đạo đức số soi sáng công nghệ!"
         },
         "practice": {
           "mission": {
@@ -14672,13 +14672,13 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
-              "content": "Hiện tượng Quá khớp (Overfitting): Mô hình học vẹt quá mức dữ liệu huấn luyện (Training data), đạt độ chính xác 100% khi luyện tập nhưng khi gặp dữ liệu thực tế mới lạ thì dự đoán sai be bét.",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
+              "content": "Hiện tượng Quá khớp (Overfitting): Mô hình học vẹt quá mức dữ liệu huấn luyện (Training data), đạt độ chính xác 100% khi luyện tập nhưng khi gặp dữ liệu thực tế mới lạ thì dự đoán kết quả không chính xác.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Luôn chia dữ liệu thành 2 tập riêng biệt: Tập Huấn luyện (Train set ~ 80%) và Tập Kiểm thử (Test set ~ 20%) để đánh giá khách quan năng lực tổng quát hóa của mô hình."
             }
           ],
-          "memorize": "🧠 Dữ liệu là thức ăn của AI, huấn luyện chống Overfitting, đạo đức số soi sáng công nghệ!"
+          "memorize": "🧠 Dữ liệu là nguồn dữ liệu đầu vào của AI, huấn luyện chống Overfitting, đạo đức số soi sáng công nghệ!"
         },
         "practice": {
           "mission": {
@@ -14779,17 +14779,17 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Quên điều kiện dừng (Base Case) trong hàm đệ quy, khiến chương trình rơi vào vòng lặp vô tận và làm tràn ngăn xếp bộ nhớ (RecursionError: maximum recursion depth exceeded).",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Bất kỳ hàm đệ quy nào cũng phải có 2 phần: 1. Base Case (điều kiện dừng trực tiếp) và 2. Recursive Step (bước gọi lại chính nó với bài toán nhỏ hơn)."
             }
           ],
-          "memorize": "⚡ Đệ quy phải có điểm dừng, Quick Sort chia để trị, N log N đánh bại mọi thách thức Big Data!"
+          "memorize": "⚡ Đệ quy phải có điểm dừng, Quick Sort chia để trị, N log N tối ưu hiệu năng xử lý dữ liệu lớn!"
         },
         "practice": {
           "mission": {
-            "title": "Đấu trường Thuật toán Nâng cao: Cài đặt và Đo lường Hiệu năng Quick Sort",
+            "title": "Chuyên đề Thực hành: Cài đặt và đo lường hiệu năng thuật toán Quick Sort",
             "goal": "Cài đặt thuật toán Quick Sort bằng Python và so sánh thời gian chạy thực tế với Bubble Sort trên mảng ngẫu nhiên 5,000 phần tử.",
             "steps": [
               "Bước 1: Cài đặt hàm quick_sort(arr) trong Python theo chiến thuật chia để trị chọn chốt (pivot).",
@@ -14874,7 +14874,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Quên đóng thẻ HTML hoặc viết sai cú pháp CSS Selector khiến toàn bộ giao diện trang web bị vỡ khung hình.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Dùng công cụ Chrome DevTools (nhấn F12) để kiểm tra phần tử (Inspect Element) và xem trước các thay đổi CSS ngay tức thì."
@@ -14999,7 +14999,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Quên đóng thẻ HTML hoặc viết sai cú pháp CSS Selector khiến toàn bộ giao diện trang web bị vỡ khung hình.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Dùng công cụ Chrome DevTools (nhấn F12) để kiểm tra phần tử (Inspect Element) và xem trước các thay đổi CSS ngay tức thì."
@@ -15087,7 +15087,7 @@
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Quên đóng thẻ HTML hoặc viết sai cú pháp CSS Selector khiến toàn bộ giao diện trang web bị vỡ khung hình.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Dùng công cụ Chrome DevTools (nhấn F12) để kiểm tra phần tử (Inspect Element) và xem trước các thay đổi CSS ngay tức thì."
@@ -15120,12 +15120,12 @@
       "id": "G12-BOSS",
       "world_id": "w3",
       "grade": 12,
-      "title": "ĐẠI CHIẾN BOSS TRÍ TUỆ NHÂN TẠO & CÔNG NGHỆ TOÀN CẦU",
+      "title": "ĐÁNH GIÁ TỔNG HỢP NĂNG LỰC CÔNG NGHỆ THPT",
       "standard_domain": "Đỉnh cao GDPT 2018 Toàn diện",
       "textbook_mapping": {
         "kntt": "Tổng kết Chuyên đề Tin học 12",
         "canhdieu": "Tổng kết Chuyên đề Tin học 12",
-        "ctst": "Đấu trường Công nghệ EasyTin"
+        "ctst": "Đánh giá Năng lực Tin học Toàn diện"
       },
       "template": "boss-quiz",
       "prerequisites": [
@@ -15137,13 +15137,13 @@
       ],
       "estimated_minutes": 20,
       "learning_goals": [
-        "Tổng kết đỉnh cao toàn bộ 10 năm học Tin học phổ thông từ Lớp 3 đến Lớp 12 của cả 3 bộ sách KNTT, Cánh Diều, CTST.",
-        "Vinh danh danh hiệu Huyền Thoại Công Nghệ Toàn Năng EasyTin."
+        "Tổng kết toàn diện chương trình Tin học phổ thông từ Lớp 3 đến Lớp 12 của cả 3 bộ sách KNTT, Cánh Diều, CTST.",
+        "Hoàn thành xuất sắc toàn bộ chuẩn năng lực Tin học phổ thông GDPT 2018."
       ],
       "lesson_data": {
-        "hook": "Trùm Cuối Vũ Trụ 'Glitch Titan the Destroyer' đang giải phóng làn sóng siêu virus muốn xóa sạch toàn bộ nền văn minh tri thức số của nhân loại! Hãy hợp nhất toàn bộ sức mạnh 10 năm học Tin học từ lớp 3 đến lớp 12 để cứu rỗi thế giới!",
+        "hook": "Hãy vận dụng toàn bộ hệ thống tri thức Tin học từ Lớp 3 đến Lớp 12 (mạng phân tầng TCP/IP, an ninh thông tin, trí tuệ nhân tạo và phát triển web) để hoàn thành xuất sắc chuyên đề đánh giá toàn diện cấp THPT!",
         "concept": {
-          "summary": "Đấu trường tối thượng tổng kết: Kiến trúc máy tính Von Neumann, Hệ nhị phân, Mạng TCP/IP, An ninh mạng, CSDL quan hệ SQL, Thuật toán tối ưu Big-O, Học máy Machine Learning, Học sâu và Generative AI.",
+          "summary": "Bài đánh giá tổng hợp toàn diện: Kiến trúc máy tính Von Neumann, Hệ nhị phân, Mạng TCP/IP, An ninh mạng, CSDL quan hệ SQL, Thuật toán tối ưu Big-O, Học máy Machine Learning, Học sâu và Generative AI.",
           "key_points": [
             "Phân tầng TCP/IP, Địa chỉ IPv4/IPv6, Tường lửa và HTTPS.",
             "Mô hình quan hệ RDBMS, SQL JOIN, Thuật toán O(N log N).",
@@ -15151,7 +15151,7 @@
           ]
         },
         "game_config": {
-          "boss_name": "Glitch Titan the Destroyer",
+          "boss_name": "Hệ thống Đánh giá Năng lực Toàn diện THPT",
           "boss_max_hp": 100,
           "player_max_hp": 100,
           "damage_per_hit": 25,
@@ -15225,24 +15225,24 @@
             "explanation": "Binary search chia đôi phạm vi sau mỗi bước lặp nên đạt hiệu năng siêu tốc O(log N)."
           }
         ],
-        "recap": "CHIẾN THẮNG HUY HOÀNG LỊCH SỬ! Em đã tiêu diệt hoàn toàn Glitch Titan, hoàn thành xuất sắc 100% toàn bộ chương trình Tin học phổ thông GDPT 2018 của cả 3 bộ sách Kết Nối Tri Thức, Cánh Diều, Chân Trời Sáng Tạo từ Lớp 3 đến Lớp 12 với danh xưng tối thượng: HUYỀN THOẠI CÔNG NGHỆ EASYTIN!",
+        "recap": "CHÚC MỪNG EM! Em đã hoàn thành xuất sắc 100% toàn bộ chương trình Tin học phổ thông GDPT 2018 của cả 3 bộ sách Kết Nối Tri Thức, Cánh Diều, Chân Trời Sáng Tạo từ Lớp 3 đến Lớp 12! Tự hào làm chủ tri thức công nghệ tương lai!",
         "theory": {
-          "overview": "Chào mừng em đến với bài học 'ĐẠI CHIẾN BOSS TRÍ TUỆ NHÂN TẠO & CÔNG NGHỆ TOÀN CẦU'! Trong chương trình Tin học lớp 12 (theo các bộ sách Tổng kết Chuyên đề Tin học 12, Tổng kết Chuyên đề Tin học 12, Đấu trường Công nghệ EasyTin), chúng ta sẽ cùng khám phá những bí mật thú vị về đại chiến boss trí tuệ nhân tạo & công nghệ toàn cầu. Kiến thức này không chỉ giúp em đạt điểm cao trên lớp mà còn là hành trang công nghệ không thể thiếu trong đời sống số hiện đại.",
+          "overview": "Chào mừng em đến với bài học 'ĐÁNH GIÁ TỔNG HỢP NĂNG LỰC CÔNG NGHỆ THPT'! Trong chương trình Tin học lớp 12 (theo các bộ sách Tổng kết Chuyên đề Tin học 12, Tổng kết Chuyên đề Tin học 12, Đánh giá Năng lực Tin học Toàn diện), chúng ta sẽ cùng khám phá những bí mật thú vị về đánh giá tổng hợp năng lực công nghệ thpt. Kiến thức này không chỉ giúp em đạt điểm cao trên lớp mà còn là hành trang công nghệ không thể thiếu trong đời sống số hiện đại.",
           "sections": [
             {
               "title": "1. Bản chất & Kiến thức Cốt lõi",
-              "content": "Kiến thức cốt lõi của bài học bao gồm: Đấu trường tối thượng tổng kết: Kiến trúc máy tính Von Neumann, Hệ nhị phân, Mạng TCP/IP, An ninh mạng, CSDL quan hệ SQL, Thuật toán tối ưu Big-O, Học máy Machine Learning, Học sâu và Generative AI.. Cụ thể, các nội dung trọng tâm mà học sinh lớp 12 cần làm chủ:\n• Phân tầng TCP/IP, Địa chỉ IPv4/IPv6, Tường lửa và HTTPS.\n• Mô hình quan hệ RDBMS, SQL JOIN, Thuật toán O(N log N).\n• Machine Learning, Overfitting, Transformer, Đạo đức AI và Phát triển Web.",
-              "example": "Trọng tâm YCCĐ bài học: Tổng kết đỉnh cao toàn bộ 10 năm học Tin học phổ thông từ Lớp 3 đến Lớp 12 của cả 3 bộ sách KNTT, Cánh Diều, CTST., Vinh danh danh hiệu Huyền Thoại Công Nghệ Toàn Năng EasyTin..",
-              "tip": "Bài học tương ứng với các SGK: Tổng kết Chuyên đề Tin học 12 | Tổng kết Chuyên đề Tin học 12 | Đấu trường Công nghệ EasyTin."
+              "content": "Kiến thức cốt lõi của bài học bao gồm: Bài đánh giá tổng hợp toàn diện: Kiến trúc máy tính Von Neumann, Hệ nhị phân, Mạng TCP/IP, An ninh mạng, CSDL quan hệ SQL, Thuật toán tối ưu Big-O, Học máy Machine Learning, Học sâu và Generative AI.. Cụ thể, các nội dung trọng tâm mà học sinh lớp 12 cần làm chủ:\n• Phân tầng TCP/IP, Địa chỉ IPv4/IPv6, Tường lửa và HTTPS.\n• Mô hình quan hệ RDBMS, SQL JOIN, Thuật toán O(N log N).\n• Machine Learning, Overfitting, Transformer, Đạo đức AI và Phát triển Web.",
+              "example": "Trọng tâm YCCĐ bài học: Tổng kết toàn diện chương trình Tin học phổ thông từ Lớp 3 đến Lớp 12 của cả 3 bộ sách KNTT, Cánh Diều, CTST., Hoàn thành xuất sắc toàn bộ chuẩn năng lực Tin học phổ thông GDPT 2018..",
+              "tip": "Bài học tương ứng với các SGK: Tổng kết Chuyên đề Tin học 12 | Tổng kết Chuyên đề Tin học 12 | Đánh giá Năng lực Tin học Toàn diện."
             },
             {
               "title": "2. Ví dụ Trực quan trong Đời sống",
-              "content": "Chuyên đề 'ĐẠI CHIẾN BOSS TRÍ TUỆ NHÂN TẠO & CÔNG NGHỆ TOÀN CẦU' mở rộng tầm nhìn công nghệ thế hệ mới cho học sinh THPT chuẩn bị bước vào giảng đường đại học và thị trường việc làm toàn cầu.",
+              "content": "Chuyên đề 'ĐÁNH GIÁ TỔNG HỢP NĂNG LỰC CÔNG NGHỆ THPT' mở rộng tầm nhìn công nghệ thế hệ mới cho học sinh THPT chuẩn bị bước vào giảng đường đại học và thị trường việc làm toàn cầu.",
               "example": "Ví dụ: Ứng dụng các quy trình phát triển phần mềm chuyên nghiệp, tư duy thuật toán tối ưu và tinh thần trách nhiệm với xã hội trong kỷ nguyên số hóa toàn diện.",
               "tip": "Hãy liên hệ khái niệm trên với những đồ vật hoặc hoạt động quen thuộc quanh em!"
             },
             {
-              "title": "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp",
+              "title": "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp",
               "content": "Coi nhẹ vấn đề bản quyền trí tuệ và đạo đức số khi ứng dụng công nghệ trí tuệ nhân tạo.",
               "example": "Thử làm bài tập ví dụ trong sách giáo khoa để kiểm tra độ hiểu sâu của em.",
               "tip": "Luôn tuân thủ nguyên tắc minh bạch, công bằng và tôn trọng quyền riêng tư dữ liệu người dùng."
@@ -15252,8 +15252,8 @@
         },
         "practice": {
           "mission": {
-            "title": "Dự án Nghiên cứu & Ứng dụng: ĐẠI CHIẾN BOSS TRÍ TUỆ NHÂN TẠO & CÔNG NGHỆ TOÀN CẦU",
-            "goal": "Hoàn thiện chuyên đề thực hành nâng cao về ĐẠI CHIẾN BOSS TRÍ TUỆ NHÂN TẠO & CÔNG NGHỆ TOÀN CẦU theo chuẩn đầu ra GDPT 2018.",
+            "title": "Dự án Nghiên cứu & Ứng dụng: ĐÁNH GIÁ TỔNG HỢP NĂNG LỰC CÔNG NGHỆ THPT",
+            "goal": "Hoàn thiện chuyên đề thực hành nâng cao về ĐÁNH GIÁ TỔNG HỢP NĂNG LỰC CÔNG NGHỆ THPT theo chuẩn đầu ra GDPT 2018.",
             "steps": [
               "Bước 1: Nghiên cứu tài liệu kỹ thuật và xác định các yêu cầu bài toán đặt ra.",
               "Bước 2: Lập kế hoạch thiết kế kiến trúc hệ thống hoặc thuật toán giải quyết.",

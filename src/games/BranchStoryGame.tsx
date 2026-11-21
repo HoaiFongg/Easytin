@@ -29,7 +29,7 @@ export const BranchStoryGame: React.FC<BranchStoryGameProps> = ({ config, onComp
       prompt: 'Một người lạ trên mạng nhắn tin khen em chơi game giỏi và đề nghị tặng 5.000 KC nếu em cho biết số điện thoại của mẹ.',
       choices: [
         { text: 'Cho số điện thoại ngay để lấy kim cương!', is_correct: false, feedback: 'Nguy hiểm! Kẻ gian có thể dùng số điện thoại để lừa đảo cha mẹ em.' },
-        { text: 'Từ chối dứt khoát và báo ngay cho bố mẹ biết.', is_correct: true, feedback: 'Rất sáng suốt! Hiệp sĩ an toàn số luôn giữ kín thông tin người thân.' },
+        { text: 'Từ chối dứt khoát và báo ngay cho bố mẹ biết.', is_correct: true, feedback: 'Rất sáng suốt! Học sinh thông thái luôn chủ động bảo vệ thông tin cá nhân và người thân.' },
       ],
     },
   ];

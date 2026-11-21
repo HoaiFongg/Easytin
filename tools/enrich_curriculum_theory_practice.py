@@ -39,8 +39,8 @@ def enrich_node(node):
     sec2_content = ""
     sec2_example = ""
 
-    # Tạo mẹo thực chiến & lưu ý tránh bẫy
-    sec3_title = "3. Bí kíp Thực chiến & Tránh Bẫy Thường Gặp"
+    # Tạo mẹo thực hành & lưu ý tránh bẫy
+    sec3_title = "3. Những Lưu Ý Quan Trọng & Lỗi Thường Gặp"
     sec3_content = ""
     sec3_tip = ""
 
@@ -64,7 +64,7 @@ def enrich_node(node):
             sec3_content = "Học sinh thường nhầm lẫn giữa 'Thông tin' (nội dung mang lại hiểu biết) và 'Vật mang tin' (vật chứa thông tin như tờ báo, bảng tin, màn hình)."
             sec3_tip = "Ghi nhớ: Thông tin là cái em hiểu được; còn quyển sách hay máy tính là vật cất giữ thông tin đó."
             memorize = "💡 Thu nhận bằng giác quan -> Bộ não xử lý -> Ra quyết định chính xác!"
-            prac_title = "Nhiệm vụ Thám tử Nhí: Phân tích Dòng Thông tin"
+            prac_title = "Hoạt động Thực hành: Phân tích các bước xử lý thông tin"
             prac_goal = "Nhận diện đúng 4 hoạt động thông tin (Thu nhận - Lưu trữ - Xử lý - Truyền đạt) trong một tình huống thực tế."
             prac_steps = [
                 "Bước 1: Quan sát thời tiết ngoài trời qua cửa sổ phòng học (Thu nhận).",
@@ -81,7 +81,7 @@ def enrich_node(node):
             sec2_example = "Ví dụ: Thân máy là 'Bộ não' tính toán; Màn hình là 'Gương mặt' hiển thị kết quả; Bàn phím là 'Bút viết' nhập chữ số; Chuột là 'Bàn tay' chỉ huy trỏ vào đồ vật."
             sec3_content = "Nhiều bạn nghĩ chiếc màn hình là toàn bộ máy tính. Thực ra thân máy mới là bộ phận quan trọng nhất chứa bộ vi xử lý CPU."
             sec3_tip = "Không bao giờ để đồ uống hay thức ăn gần bàn phím và thân máy để tránh chập điện."
-            memorize = "⭐ Bốn bạn thân máy tính: Thân máy xử lý, Màn hình ngắm nhìn, Bàn phím gõ chữ, Chuột chỉ đường đi!"
+            memorize = "⭐ Bốn bộ phận chính của máy tính: Thân máy xử lý, Màn hình quan sát, Bàn phím nhập liệu, Chuột điều khiển!"
             prac_title = "Thực hành Khám phá & Kết nối Bộ phận Máy tính"
             prac_goal = "Chỉ đúng tên và công dụng của 4 bộ phận chính trên máy tính thực tế trong phòng thực hành."
             prac_steps = [
@@ -100,7 +100,7 @@ def enrich_node(node):
             sec3_content = "Lỗi phổ biến là học sinh gõ 'mổ cò' chỉ bằng 2 ngón trỏ, khiến tốc độ rất chậm và dễ sai tư thế cột sống."
             sec3_tip = "Đặt 2 ngón trỏ lên 2 phím có gờ F và J trên hàng phím cơ sở để định vị cả 10 ngón tay mà không cần nhìn bàn phím."
             memorize = "🎯 Ngón trỏ phím F và J, mười ngón dàn đều trên hàng cơ sở!"
-            prac_title = "Đấu trường Luyện Ngón: Gõ Phím Mười Ngón & Rê Chuột Chuẩn Xác"
+            prac_title = "Hoạt động Thực hành: Luyện gõ mười ngón và thao tác chuột chuẩn xác"
             prac_goal = "Thực hiện thành thạo thao tác nháy chuột, kéo thả và đặt đúng 10 ngón tay trên hàng phím cơ sở."
             prac_steps = [
                 "Bước 1: Ngồi thẳng lưng, mắt cách màn hình 50 - 80cm, hai chân chạm sàn thoải mái.",
@@ -172,7 +172,7 @@ def enrich_node(node):
             sec2_example = "Ví dụ: Muốn nhân vật Chú mèo Scratch đuổi theo quả bóng: Khi bấm cờ xanh -> Lặp liên tục [Hướng về phía Quả bóng -> Di chuyển 10 bước -> Nếu chạm Quả bóng thì Phát âm thanh Meow và Tăng điểm số thêm 1]."
             sec3_content = "Học sinh hay quên đặt giá trị ban đầu cho Biến số (như Điểm số = 0 khi bắt đầu game) hoặc đặt sai câu lệnh rẽ nhánh 'Nếu... Thì' bên ngoài vòng lặp."
             sec3_tip = "Luôn đặt khối 'Nếu... Thì' bên trong khối 'Lặp lại liên tục' nếu muốn nhân vật liên tục kiểm tra va chạm trong suốt trò chơi."
-            memorize = "🧩 Ghép khối logic, lặp liên tục kiểm tra va chạm, biến số ghi dấu chiến công!"
+            memorize = "🧩 Ghép khối lệnh logic, kiểm tra điều kiện tuần tự, biến số lưu trữ kết quả!"
             prac_title = "Phòng Lab Sáng tạo Scratch: Lập trình Game Nhặt Kim Cương"
             prac_goal = "Tạo một nhân vật di chuyển theo phím mũi tên và tăng biến 'Điểm' khi chạm vào vật phẩm."
             prac_steps = [
@@ -227,7 +227,7 @@ def enrich_node(node):
             sec3_content = "Quên gõ dấu bằng '=' ở đầu công thức. Nếu không có dấu '=', Excel sẽ hiểu đó là một đoạn văn bản bình thường chứ không tính toán."
             sec3_tip = "Mọi công thức hoặc hàm trong Excel đều bắt buộc phải mở đầu bằng dấu bằng '='."
             memorize = "📊 Bảng tính thông minh, bắt đầu bằng dấu '=', SUM tính tổng trong nháy mắt!"
-            prac_title = "Kế toán Nhí: Lập Bảng Quản lý Tiền Tiết kiệm"
+            prac_title = "Hoạt động Thực hành: Lập bảng tính quản lý chi tiêu học tập"
             prac_goal = "Tạo bảng tính gồm các cột STT, Khoản chi, Số tiền và dùng hàm SUM để tính tổng."
             prac_steps = [
                 "Bước 1: Mở Microsoft Excel, nhập tiêu đề 'BẢNG THEO DÕI TIẾT KIỆM' tại ô A1.",
@@ -260,7 +260,7 @@ def enrich_node(node):
     elif 6 <= grade <= 9:
         if "Nhị phân" in title or "Bit" in title or "Dung lượng" in title:
             sec2_content = "Máy tính tuy thông minh nhưng bên trong thực chất chỉ gồm hàng tỷ công tắc bóng bán dẫn siêu nhỏ, mỗi công tắc chỉ có 2 trạng thái: Bật (1) hoặc Tắt (0)."
-            sec2_example = "Ví dụ: Mọi bản nhạc MP3, bức ảnh selfie hay video YouTube đều được máy tính băm nhỏ và mã hóa thành một dãy dài vô tận các số 0 và 1. Một chữ cái 'A' được biểu diễn bằng dãy 8 bit: 01000001."
+            sec2_example = "Ví dụ: Mọi bản nhạc MP3, bức ảnh selfie hay video YouTube đều được máy tính phân tách và mã hóa số hóa thành một dãy dài vô tận các số 0 và 1. Một chữ cái 'A' được biểu diễn bằng dãy 8 bit: 01000001."
             sec3_content = "Nhầm lẫn giữa Bit (b) và Byte (B). 1 Byte = 8 Bit. Tốc độ mạng thường đo bằng Megabit/giây (Mbps), còn dung lượng thẻ nhớ đo bằng Gigabyte (GB)."
             sec3_tip = "Hệ thống đơn vị: 1 KB = 1024 Bytes, 1 MB = 1024 KB, 1 GB = 1024 MB, 1 TB = 1024 GB (lũy thừa của 2: 2^10 = 1024)."
             memorize = "💾 Bit là 0 và 1, 8 bit thành 1 Byte, 1024 bước nhảy đo lường dung lượng số!"
@@ -297,10 +297,10 @@ def enrich_node(node):
         elif "Tìm kiếm" in title or "Tuần tự" in title or "Nhị phân" in title or "Sắp xếp" in title or "Nổi bọt" in title:
             sec2_content = "Các thuật toán tìm kiếm và sắp xếp là trái tim của mọi ứng dụng công nghệ như Google Search, TikTok feed, hay hệ thống tra cứu điểm thi."
             sec2_example = "Ví dụ: Tìm kiếm tuần tự giống như lật từng trang vở từ đầu đến cuối (dùng khi vở chưa xếp thứ tự). Tìm kiếm nhị phân giống như tra từ điển: mở đôi cuốn sách ở giữa, so sánh chữ cái rồi vứt bỏ nửa trước hoặc nửa sau, tốc độ nhanh gấp hàng triệu lần!"
-            sec3_content = "Áp dụng Tìm kiếm nhị phân cho một danh sách chưa được sắp xếp. Đây là sai lầm chết người vì thuật toán nhị phân BẮT BUỘC danh sách phải được sắp xếp trước!"
+            sec3_content = "Áp dụng Tìm kiếm nhị phân cho một danh sách chưa được sắp xếp. Đây là sai sót nghiêm trọng cần tránh vì thuật toán nhị phân BẮT BUỘC danh sách phải được sắp xếp trước!"
             sec3_tip = "Nếu mảng chưa sắp xếp: Tìm kiếm tuần tự O(N). Nếu mảng đã sắp xếp: Tìm kiếm nhị phân O(log N)."
-            memorize = "⚡ Mảng lộn xộn tìm tuần tự, mảng ngay ngắn chia đôi nhị phân thần tốc!"
-            prac_title = "Đấu trường Thuật toán: Thử nghiệm Tìm kiếm Nhị phân & Sắp xếp Nổi bọt"
+            memorize = "⚡ Mảng chưa sắp xếp tìm tuần tự, mảng đã sắp xếp áp dụng tìm kiếm nhị phân tối ưu!"
+            prac_title = "Hoạt động Thực hành: Thuật toán tìm kiếm nhị phân và sắp xếp nổi bọt"
             prac_goal = "Mô phỏng từng bước lặp của thuật toán Binary Search và Bubble Sort trên một dãy số thực tế."
             prac_steps = [
                 "Bước 1: Cho dãy số đã sắp xếp: [3, 8, 12, 19, 25, 33, 47, 56]. Cần tìm số X = 33.",
@@ -354,7 +354,7 @@ def enrich_node(node):
             sec2_example = "Ví dụ: Tại Shopee, bảng HOC_SINH liên kết với bảng DIEM_THI qua Khóa chính (MaHS) và Khóa ngoại. Khi cần in danh sách học sinh đạt loại Giỏi, lệnh SELECT kết hợp INNER JOIN sẽ truy xuất dữ liệu từ hàng triệu bản ghi chỉ trong vài mili-giây."
             sec3_content = "Thực hiện lệnh UPDATE hoặc DELETE mà quên mệnh đề WHERE. Nếu không có WHERE, toàn bộ dữ liệu trong cả bảng sẽ bị sửa hoặc xóa sạch!"
             sec3_tip = "Quy tắc an toàn: Luôn viết lệnh SELECT với điều kiện WHERE để kiểm tra xem đúng những dòng cần xóa/sửa chưa trước khi chạy DELETE/UPDATE."
-            memorize = "🗄️ Khóa chính định danh duy nhất, Khóa ngoại kết nối nhiều bảng, SQL WHERE cứu nguy thảm họa!"
+            memorize = "🗄️ Khóa chính định danh duy nhất, Khóa ngoại kết nối nhiều bảng, SQL WHERE tránh sai sót dữ liệu!"
             prac_title = "Phòng Lab Quản trị CSDL: Viết Truy vấn SQL Báo cáo Học lực"
             prac_goal = "Thực hiện thành thạo các câu lệnh SELECT, WHERE, INNER JOIN, GROUP BY và COUNT trong MySQL/PostgreSQL."
             prac_steps = [
@@ -372,8 +372,8 @@ def enrich_node(node):
             sec2_example = "Ví dụ: Thuật toán O(N^2) như Bubble Sort khi xử lý 1 triệu tài khoản ngân hàng sẽ mất hàng chục giờ chạy máy tính. Nhưng thuật toán O(N log N) như Quick Sort hay Merge Sort chỉ mất vỏn vẹn dưới 1 giây!"
             sec3_content = "Quên điều kiện dừng (Base Case) trong hàm đệ quy, khiến chương trình rơi vào vòng lặp vô tận và làm tràn ngăn xếp bộ nhớ (RecursionError: maximum recursion depth exceeded)."
             sec3_tip = "Bất kỳ hàm đệ quy nào cũng phải có 2 phần: 1. Base Case (điều kiện dừng trực tiếp) và 2. Recursive Step (bước gọi lại chính nó với bài toán nhỏ hơn)."
-            memorize = "⚡ Đệ quy phải có điểm dừng, Quick Sort chia để trị, N log N đánh bại mọi thách thức Big Data!"
-            prac_title = "Đấu trường Thuật toán Nâng cao: Cài đặt và Đo lường Hiệu năng Quick Sort"
+            memorize = "⚡ Đệ quy phải có điểm dừng, Quick Sort chia để trị, N log N tối ưu hiệu năng xử lý dữ liệu lớn!"
+            prac_title = "Chuyên đề Thực hành: Cài đặt và đo lường hiệu năng thuật toán Quick Sort"
             prac_goal = "Cài đặt thuật toán Quick Sort bằng Python và so sánh thời gian chạy thực tế với Bubble Sort trên mảng ngẫu nhiên 5,000 phần tử."
             prac_steps = [
                 "Bước 1: Cài đặt hàm quick_sort(arr) trong Python theo chiến thuật chia để trị chọn chốt (pivot).",
@@ -388,9 +388,9 @@ def enrich_node(node):
         elif "AI" in title or "Trí tuệ" in title or "Machine Learning" in title or "Nơ-ron" in title or "LLM" in title:
             sec2_content = "Trí tuệ nhân tạo (AI) và Học máy (Machine Learning) là bước nhảy vọt vĩ đại, biến máy tính từ cỗ máy chỉ biết làm theo lệnh cứng nhắc thành thực thể có khả năng tự học hỏi từ dữ liệu khổng lồ."
             sec2_example = "Ví dụ: Thuật toán nhận diện khuôn mặt trên điện thoại học từ hàng triệu bức ảnh để tự trích xuất các đặc trưng mắt, mũi, miệng. Chatbot ChatGPT hay Gemini được huấn luyện trên hàng nghìn tỷ từ văn bản để hiểu ngôn ngữ tự nhiên của con người."
-            sec3_content = "Hiện tượng Quá khớp (Overfitting): Mô hình học vẹt quá mức dữ liệu huấn luyện (Training data), đạt độ chính xác 100% khi luyện tập nhưng khi gặp dữ liệu thực tế mới lạ thì dự đoán sai be bét."
+            sec3_content = "Hiện tượng Quá khớp (Overfitting): Mô hình học vẹt quá mức dữ liệu huấn luyện (Training data), đạt độ chính xác 100% khi luyện tập nhưng khi gặp dữ liệu thực tế mới lạ thì dự đoán kết quả không chính xác."
             sec3_tip = "Luôn chia dữ liệu thành 2 tập riêng biệt: Tập Huấn luyện (Train set ~ 80%) và Tập Kiểm thử (Test set ~ 20%) để đánh giá khách quan năng lực tổng quát hóa của mô hình."
-            memorize = "🧠 Dữ liệu là thức ăn của AI, huấn luyện chống Overfitting, đạo đức số soi sáng công nghệ!"
+            memorize = "🧠 Dữ liệu là nguồn dữ liệu đầu vào của AI, huấn luyện chống Overfitting, đạo đức số soi sáng công nghệ!"
             prac_title = "Phòng Lab Trí tuệ Nhân tạo: Trải nghiệm Huấn luyện Mô hình Thị giác Máy tính"
             prac_goal = "Thu thập tập dữ liệu ảnh, huấn luyện mô hình phân loại cử chỉ tay bằng Teachable Machine hoặc Scikit-Learn."
             prac_steps = [
@@ -426,7 +426,7 @@ def enrich_node(node):
             sec2_example = "Ví dụ: Khi em gửi tin nhắn qua Zalo, mô hình TCP/IP chia tin nhắn thành các gói tin (packet), gán địa chỉ IP người gửi và người nhận, mã hóa bằng giao thức HTTPS/TLS, rồi các thiết bị Router sẽ tìm tuyến đường ngắn nhất trên Internet để chuyển gói tin tới bạn bè chỉ sau 0.05 giây."
             sec3_content = "Nhầm lẫn giữa Tầng Vận chuyển (TCP - đảm bảo tin cậy không mất gói; UDP - truyền nhanh thời gian thực cho video/game) và Tầng Mạng (IP - đánh địa chỉ định tuyến)."
             sec3_tip = "Nhớ câu thần chú mô hình OSI 7 tầng: 'All People Seem To Need Data Processing' (Application, Presentation, Session, Transport, Network, Data Link, Physical)."
-            memorize = "🛡️ TCP/IP phân tầng gói tin, mã hóa HTTPS chống nghe lén, Router dẫn đường chính xác!"
+            memorize = "🛡️ TCP/IP phân tầng truyền tin, mã hóa HTTPS bảo vệ dữ liệu, Router định tuyến chính xác!"
             prac_title = "Phòng Lab An ninh Mạng: Phân tích Gói tin Mạng & Kiểm tra Chứng chỉ SSL"
             prac_goal = "Khảo sát luồng gói tin TCP bằng Wireshark hoặc kiểm tra cấu trúc chứng chỉ SSL/TLS trên trình duyệt web."
             prac_steps = [

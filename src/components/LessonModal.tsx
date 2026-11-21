@@ -252,7 +252,7 @@ export const LessonModal: React.FC<LessonModalProps> = ({ node, onClose, onFinis
               {theory?.memorize && (
                 <div className="bg-[#2a273f] border-2 border-[#fee761] p-3.5 text-center shadow-pixel">
                   <div className="text-[10px] font-black text-[#fee761] uppercase tracking-wider mb-1">
-                    ⭐ BÍ KÍP VÀNG TINTIN — EM CẦN GHI NHỚ:
+                    ⭐ KIẾN THỨC TRỌNG TÂM — EM CẦN GHI NHỚ:
                   </div>
                   <div className="text-xs sm:text-sm font-bold text-white">{theory.memorize}</div>
                 </div>
@@ -260,13 +260,13 @@ export const LessonModal: React.FC<LessonModalProps> = ({ node, onClose, onFinis
 
               <div className="flex justify-end pt-2">
                 <PixelButton variant="primary" size="md" onClick={() => { sound.playClick(); setStep('game'); }}>
-                  Tiến vào Đấu trường Game ▶
+                  Tiến vào Trò chơi học tập ▶
                 </PixelButton>
               </div>
             </div>
           )}
 
-          {/* BƯỚC 3: Đấu trường Game / Game Arena */}
+          {/* BƯỚC 3: Trò chơi học tập / Game Arena */}
           {step === 'game' && (
             <div className="flex flex-col gap-4">
               {node.template === 'sort-drag' && (
@@ -446,11 +446,11 @@ export const LessonModal: React.FC<LessonModalProps> = ({ node, onClose, onFinis
 
               <div className="grid grid-cols-2 gap-4 w-full">
                 <div className="bg-[#1a1c2c] p-3 border border-[#3a4466]">
-                  <div className="text-[10px] text-[#8b9bb4]">ĐIỂM GAME PIXEL</div>
+                  <div className="text-[10px] text-[#8b9bb4]">ĐIỂM TRÒ CHƠI HỌC TẬP</div>
                   <div className="font-pixel text-base text-[#38b764]">{Math.round(gameScore * 100)}%</div>
                 </div>
                 <div className="bg-[#1a1c2c] p-3 border border-[#3a4466]">
-                  <div className="text-[10px] text-[#8b9bb4]">ĐIỂM TRẮC NGHIỆM LAB</div>
+                  <div className="text-[10px] text-[#8b9bb4]">ĐIỂM THỰC HÀNH & TRẮC NGHIỆM</div>
                   <div className="font-pixel text-base text-[#2ce8f5]">{Math.round(quizScore * 100)}%</div>
                 </div>
               </div>

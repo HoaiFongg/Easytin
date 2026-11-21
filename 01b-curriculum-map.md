@@ -31,9 +31,9 @@
 | `sort-drag` | Phân loại khái niệm, phần cứng, tệp tin, dữ liệu | **38 bài** | 27.7% |
 | `branch-story` | Đạo đức số, bản quyền, an ninh mạng, ra quyết định | **23 bài** | 16.8% |
 | `logic-puzzle` | Cổng logic, bit nhị phân, công thức bảng tính, SQL | **23 bài** | 16.8% |
-| `bug-hunt` | Thợ săn lỗi cú pháp, lỗi thời gian chạy, lỗi logic thuật toán | **14 bài** | 10.2% |
+| `bug-hunt` | Phát hiện lỗi cú pháp, lỗi thời gian chạy và gỡ lỗi thuật toán | **14 bài** | 10.2% |
 | `block-maze` | Tư duy điều khiển thuật toán, vòng lặp, di chuyển robot | **12 bài** | 8.8% |
-| `boss-quiz` | Đấu trường trùm cuối tổng kết đánh giá năng lực khối lớp | **10 bài** | 7.3% |
+| `boss-quiz` | Thử thách tổng kết và đánh giá năng lực khối lớp | **10 bài** | 7.3% |
 | `match-memory` | Ghi nhớ thuật ngữ chuyên ngành, ghép nối định nghĩa | **10 bài** | 7.3% |
 | `type-run` | Luyện gõ bàn phím mười ngón, cú pháp Python, HTML | **7 bài** | 5.1% |
 
@@ -50,7 +50,7 @@
 | `G3-02` | **Xử lý Thông tin & Các dạng Dữ liệu** | Chủ đề A: Máy tính và em | Bài 2: Xử lý thông tin | Bài 2: Các bộ phận của máy tính | Bài 1: Thông tin và tiếp nhận thông tin | `sort-drag` |
 | `G3-03` | **Khám phá Phần cứng & Bộ phận Máy tính** | Chủ đề A: Máy tính và em | Bài 3: Máy tính - những người bạn mới | Bài 2: Các bộ phận của máy tính | Bài 2: Khám phá máy tính | `sort-drag` |
 | `G3-04` | **Làm việc với Máy tính An toàn** | Chủ đề A: Máy tính và em | Bài 4: Làm việc với máy tính | Bài 1: Em làm quen với máy tính | Bài 2: Khám phá máy tính | `branch-story` |
-| `G3-05` | **Thao tác Chuột máy tính Siêu đẳng** | Chủ đề A: Máy tính và em | Bài 6: Sử dụng chuột máy tính | Bài 3: Em tập dùng chuột | Bài 3: Em tập sử dụng chuột | `sort-drag` |
+| `G3-05` | **Luyện tập Thao tác Chuột Máy tính Chuẩn xác** | Chủ đề A: Máy tính và em | Bài 6: Sử dụng chuột máy tính | Bài 3: Em tập dùng chuột | Bài 3: Em tập sử dụng chuột | `sort-drag` |
 | `G3-06` | **Làm quen Bàn phím & Hàng phím Cơ sở** | Chủ đề A: Máy tính và em | Bài 5: Sử dụng bàn phím | Bài 4: Em tập gõ hàng phím cơ sở | Bài 4: Em tập sử dụng bàn phím | `type-run` |
 | `G3-07` | **Mở rộng Kỹ năng Gõ mười ngón** | Chủ đề E: Ứng dụng tin học | Bài 12: Em tập gõ bàn phím | Bài 5: Em tập gõ các hàng phím khác | Bài 9: Phần mềm luyện gõ phím | `type-run` |
 | `G3-08` | **Khám phá Thế giới Mạng Internet** | Chủ đề B: Mạng và Internet | Bài 7: Khám phá Internet | Bài 6: Thông tin trên Internet | Bài 5: Khám phá Internet | `branch-story` |
@@ -59,7 +59,7 @@
 | `G3-11` | **Bảo vệ Thông tin Bí mật Cá nhân** | Chủ đề D: Đạo đức, pháp luật | Bài 11: Lưu trữ và trao đổi thông tin | Bài 9: Em bảo vệ thông tin cá nhân | Bài 8: Bảo vệ dữ liệu cá nhân | `branch-story` |
 | `G3-12` | **Trình tự các bước & Thuật toán Hành động** | Chủ đề F: Giải quyết vấn đề | Bài 14, 15: Công việc theo các bước | Bài 12, 13: Chia việc & Làm theo bước | Bài 11, 12: Trình tự công việc | `block-maze` |
 | `G3-13` | **Vượt Mê cung & Trò chơi Rèn luyện Tư duy** | Chủ đề F: Giải quyết vấn đề | Bài 16: Trò chơi học tập | Bài 14, 15: Giải bài toán bằng sơ đồ | Bài 13, 14: Trò chơi tư duy mê cung | `block-maze` |
-| `G3-14` | **Đấu trường Trùm Lớp 3: Tốt nghiệp Mầm số** | Tổng kết GDPT 2018 Lớp 3 | Bài 16: Tổng kết Tin học 3 | Bài 16: Em tập trình bày ý kiến | Bài 15, 16: Đánh giá & Dự án Tin học | `boss-quiz` |
+| `G3-14` | **Ôn tập & Đánh giá Năng lực Tin học Lớp 3** | Tổng kết GDPT 2018 Lớp 3 | Bài 16: Tổng kết Tin học 3 | Bài 16: Em tập trình bày ý kiến | Bài 15, 16: Đánh giá & Dự án Tin học | `boss-quiz` |
 
 
 ### Lớp 4 — (15 bài học)
@@ -80,7 +80,7 @@
 | `G4-12` | **Điều khiển Nhân vật Chuyển động** | Chủ đề F: Giải quyết vấn đề | Bài 14: Điều khiển nhân vật chuyển động | Bài 13: Nhân vật chuyển động theo lệnh | Bài 13: Điều khiển nhân vật di chuyển | `block-maze` |
 | `G4-13` | **Cấu trúc Vòng lặp Tuần hoàn (Repeat)** | Chủ đề F: Giải quyết vấn đề | Bài 15: Lặp lại một việc | Bài 14: Cấu trúc lặp trong lập trình | Bài 14: Vòng lặp trong chương trình | `block-maze` |
 | `G4-14` | **Biểu diễn Thuật toán bằng Sơ đồ khối** | Chủ đề F: Giải quyết vấn đề | Bài 16: Biểu diễn thuật toán | Bài 15: Xây dựng câu chuyện tương tác | Bài 15: Sơ đồ khối thuật toán | `logic-puzzle` |
-| `G4-15` | **Đấu trường Trùm Lớp 4: Nhà Lập trình Nhí** | Tổng kết GDPT 2018 Lớp 4 | Bài 16: Dự án Tin học 4 | Bài 16: Dự án lập trình trò chơi | Bài 16: Dự án Em làm nhà lập trình | `boss-quiz` |
+| `G4-15` | **Ôn tập & Đánh giá Năng lực Tin học Lớp 4** | Tổng kết GDPT 2018 Lớp 4 | Bài 16: Dự án Tin học 4 | Bài 16: Dự án lập trình trò chơi | Bài 16: Dự án Em làm nhà lập trình | `boss-quiz` |
 
 
 ### Lớp 5 — (14 bài học)
@@ -100,7 +100,7 @@
 | `G5-11` | **Cấu trúc Điều kiện Rẽ nhánh (If - Else)** | Chủ đề F: Giải quyết vấn đề | Bài 13: Cấu trúc rẽ nhánh | Bài 11, 12: Điều kiện Nếu... Thì... | Bài 10, 11: Rẽ nhánh thuật toán | `logic-puzzle` |
 | `G5-12` | **Thực hành Lập trình Game Rẽ nhánh & Va chạm** | Chủ đề F: Giải quyết vấn đề | Bài 14, 15: Tạo chương trình rẽ nhánh & Trò chơi | Bài 13, 14: Game mê cung & Đối kháng | Bài 12, 14: Vòng lặp rẽ nhánh & Đố vui | `block-maze` |
 | `G5-13` | **Phát hiện & Gỡ lỗi (Debugging) Chương trình** | Chủ đề F: Giải quyết vấn đề | Bài 16: Ôn tập và kiểm thử | Bài 15: Kiểm thử và sửa lỗi | Bài 13: Phát hiện và sửa lỗi | `bug-hunt` |
-| `G5-14` | **Đấu trường Trùm Lớp 5: Dũng sĩ Vượt cấp Tiểu học** | Tổng kết Toàn diện Tiểu học | Bài 16: Tổng kết & Dự án học tập 5 | Bài 16: Trình bày và chia sẻ sản phẩm số | Bài 15, 16: Cuộc thi Tin học trẻ & Tổng kết | `boss-quiz` |
+| `G5-14` | **Ôn tập & Đánh giá Toàn diện Cấp Tiểu học** | Tổng kết Toàn diện Tiểu học | Bài 16: Tổng kết & Dự án học tập 5 | Bài 16: Trình bày và chia sẻ sản phẩm số | Bài 15, 16: Cuộc thi Tin học trẻ & Tổng kết | `boss-quiz` |
 
 
 ### Lớp 6 — (12 bài học)
@@ -118,7 +118,7 @@
 | `G6-09` | **Khái niệm Thuật toán & Ba Cấu trúc Điều khiển** | Chủ đề 5: Giải quyết vấn đề | Bài 15, 16: Thuật toán & Cấu trúc điều khiển | Bài 15, 16, 17: Thuật toán & Sơ đồ khối | Bài 13, 14, 15: Tư duy thuật toán & Cấu trúc | `block-maze` |
 | `G6-10` | **Mô tả Thuật toán bằng Sơ đồ khối Chuẩn** | Chủ đề 5: Giải quyết vấn đề | Bài 16: Sơ đồ khối thuật toán | Bài 16, 17: Sơ đồ khối & Cấu trúc | Bài 14, 15: Biểu diễn sơ đồ khối | `logic-puzzle` |
 | `G6-11` | **Phát hiện Lỗi & Kiểm thử Thuật toán** | Chủ đề 5: Giải quyết vấn đề | Bài 16: Kiểm thử thuật toán | Bài 17: Cấu trúc rẽ nhánh & Lặp | Bài 16: Phát hiện và gỡ lỗi thuật toán | `bug-hunt` |
-| `G6-12` | **Đấu trường Trùm Lớp 6: Hiệp sĩ An ninh Mạng** | Tổng kết GDPT 2018 Lớp 6 | Bài 17: Dự án: An toàn môi trường số | Bài 18: Dự án: Phòng chống bạo lực mạng | Bài 17: Dự án tuyên truyền an toàn số | `boss-quiz` |
+| `G6-12` | **Ôn tập & Đánh giá Năng lực Tin học Lớp 6** | Tổng kết GDPT 2018 Lớp 6 | Bài 17: Dự án: An toàn môi trường số | Bài 18: Dự án: Phòng chống bạo lực mạng | Bài 17: Dự án tuyên truyền an toàn số | `boss-quiz` |
 
 
 ### Lớp 7 — (14 bài học)
@@ -138,7 +138,7 @@
 | `G7-11` | **Thuật toán Tìm kiếm Tuần tự (Sequential Search)** | Chủ đề 5: Giải quyết vấn đề | Bài 13: Thuật toán tìm kiếm tuần tự | Bài 13: Tìm kiếm tuần tự trong danh sách | Bài 13: Thuật toán tìm kiếm tuần tự | `block-maze` |
 | `G7-12` | **Thuật toán Tìm kiếm Nhị phân (Binary Search)** | Chủ đề 5: Giải quyết vấn đề | Bài 14: Thuật toán tìm kiếm nhị phân | Bài 14: Tìm kiếm nhị phân trên dãy đã sắp | Bài 14: Tìm kiếm nhị phân chia để trị | `logic-puzzle` |
 | `G7-13` | **Thuật toán Sắp xếp Nổi bọt (Bubble Sort)** | Chủ đề 5: Giải quyết vấn đề | Bài 15: Thuật toán sắp xếp nổi bọt | Bài 15: Sắp xếp bằng thuật toán nổi bọt | Bài 15: Thuật toán sắp xếp nổi bọt | `block-maze` |
-| `G7-14` | **Đấu trường Trùm Lớp 7: Phù thủy Sắp xếp & Tìm kiếm** | Tổng kết GDPT 2018 Lớp 7 | Bài 16: Thuật toán sắp xếp chọn & Tổng kết | Bài 16: Sắp xếp chọn & Tổng kết | Bài 16: Sắp xếp chọn & Đánh giá năng lực | `boss-quiz` |
+| `G7-14` | **Ôn tập & Đánh giá Năng lực Tin học Lớp 7** | Tổng kết GDPT 2018 Lớp 7 | Bài 16: Thuật toán sắp xếp chọn & Tổng kết | Bài 16: Sắp xếp chọn & Tổng kết | Bài 16: Sắp xếp chọn & Đánh giá năng lực | `boss-quiz` |
 
 
 ### Lớp 8 — (13 bài học)
@@ -157,7 +157,7 @@
 | `G8-10` | **Cấu trúc Dữ liệu Danh sách (List / Mảng)** | Chủ đề 5: Giải quyết vấn đề | Bài 14: Mảng và danh sách | Bài 12: Cấu trúc danh sách trong lập trình | Bài 12: Xử lý dữ liệu danh sách | `bug-hunt` |
 | `G8-11` | **Kỹ thuật Kiểm thử & Gỡ lỗi (Debugging)** | Chủ đề 5: Giải quyết vấn đề | Bài 15: Dự án lập trình & kiểm thử | Bài 13, 14: Game điểm & Kiểm thử gỡ lỗi | Bài 13, 14: Game & Gỡ lỗi logic | `bug-hunt` |
 | `G8-12` | **Khám phá Thị trường Nghề nghiệp CNTT** | Chủ đề 6: Hướng nghiệp | Bài 16: Nghề nghiệp lĩnh vực CNTT | Bài 15, 16: Dự án mô phỏng & Nghề nghiệp | Bài 15, 16: Dự án sáng tạo & Nghề nghiệp | `match-memory` |
-| `G8-13` | **Đấu trường Trùm Lớp 8: Thợ săn Bug Thuật toán** | Tổng kết GDPT 2018 Lớp 8 | Bài 16: Tổng kết & Đánh giá năng lực 8 | Bài 16: Khám phá ngành nghề & Tổng kết | Bài 16: Dự án sáng tạo & Đánh giá năng lực | `boss-quiz` |
+| `G8-13` | **Ôn tập & Đánh giá Năng lực Tin học Lớp 8** | Tổng kết GDPT 2018 Lớp 8 | Bài 16: Tổng kết & Đánh giá năng lực 8 | Bài 16: Khám phá ngành nghề & Tổng kết | Bài 16: Dự án sáng tạo & Đánh giá năng lực | `boss-quiz` |
 
 
 ### Lớp 9 — (11 bài học)
@@ -170,11 +170,11 @@
 | `G9-04` | **Phần mềm Mô phỏng Khoa học & Bài trình chiếu** | Chủ đề 4: Ứng dụng tin học | Bài 5, 6: Phần mềm mô phỏng & Trình chiếu đa phương tiện | Bài 4: Phần mềm mô phỏng học tập | Bài 4: Mô phỏng khoa học | `match-memory` |
 | `G9-05` | **Biên tập Video Ngắn & Xuất bản Truyền thông Số** | Chủ đề 4: Ứng dụng tin học | Bài 7, 8: Biên tập video ngắn & Dự án đa phương tiện | Bài 5, 6: Thiết kế dựng video & Dự án học đường | Bài 5, 6: Xử lý video & Xuất bản số | `sort-drag` |
 | `G9-06` | **Thuật toán Bài toán Số học & Lập trình Tối ưu** | Chủ đề 5: Giải quyết vấn đề | Bài 9, 10: Khái niệm bài toán & Thuật toán | Bài 7, 8: Phân tích bài toán & Thuật toán | Bài 7, 8: Xây dựng thuật toán số học | `logic-puzzle` |
-| `G9-07` | **Bẫy lỗi, Xử lý Ngoại lệ & Thiết kế Giao diện** | Chủ đề 5: Giải quyết vấn đề | Bài 11, 12: Bẫy lỗi & Lập trình ứng dụng | Bài 9, 10: Bắt lỗi & Giao diện tương tác | Bài 9, 10: Kiểm thử & Phần mềm giải trí | `bug-hunt` |
+| `G9-07` | **Kiểm soát Lỗi, Xử lý Ngoại lệ & Thiết kế Giao diện** | Chủ đề 5: Giải quyết vấn đề | Bài 11, 12: Bẫy lỗi & Lập trình ứng dụng | Bài 9, 10: Bắt lỗi & Giao diện tương tác | Bài 9, 10: Kiểm thử & Phần mềm giải trí | `bug-hunt` |
 | `G9-08` | **Mạng Cục bộ LAN, Wi-Fi & Điện toán Đám mây** | Chủ đề 2: Mạng máy tính | Bài 13, 14: Mạng LAN, Internet & Dịch vụ đám mây | Bài 11, 12: Mạng LAN, Wi-Fi & Lưu trữ đám mây | Bài 11, 12: Mạng LAN & Ứng dụng đám mây | `sort-drag` |
 | `G9-09` | **An toàn Dữ liệu Số & Quy tắc Sao lưu 3-2-1** | Chủ đề 3: Đạo đức, pháp luật | Bài 15: An toàn dữ liệu số | Bài 13, 14: Mã hóa dữ liệu & Sao lưu | Bài 13, 14: Bảo mật dữ liệu & Chống lừa đảo | `branch-story` |
 | `G9-10` | **Hướng nghiệp: Ngành nghề Tin học & Cơ hội** | Chủ đề 6: Hướng nghiệp | Bài 16: Hướng nghiệp: Ngành nghề Tin học | Bài 16: Lựa chọn hướng học tập & Nghề nghiệp | Bài 16: Thị trường lao động công nghệ số | `match-memory` |
-| `G9-11` | **Đấu trường Trùm Lớp 9: Tốt nghiệp Trung học Cơ sở** | Tổng kết GDPT 2018 THCS | Bài 16: Tổng kết & Đánh giá năng lực 9 | Bài 16: Dự án hỗ trợ cộng đồng & Tổng kết | Bài 15, 16: Trường học thông minh & Đánh giá | `boss-quiz` |
+| `G9-11` | **Ôn tập & Đánh giá Toàn diện Cấp THCS** | Tổng kết GDPT 2018 THCS | Bài 16: Tổng kết & Đánh giá năng lực 9 | Bài 16: Dự án hỗ trợ cộng đồng & Tổng kết | Bài 15, 16: Trường học thông minh & Đánh giá | `boss-quiz` |
 
 
 ### Lớp 10 — (15 bài học)
@@ -195,7 +195,7 @@
 | `G10-12` | **Kỹ thuật Kiểm thử Hộp đen & Bắt Lỗi Try-Except** | Chủ đề 4: Lập trình Python | Bài 29, 30: Nhận biết lỗi, Kiểm thử & Gỡ lỗi | Bài 26, 27: Nhận diện lỗi & Ngoại lệ try/except | Bài 26, 27: Gỡ lỗi & Kiểm thử test cases | `bug-hunt` |
 | `G10-13` | **Thao tác Tệp Văn bản File I/O trong Python** | Chủ đề 4: Lập trình Python | Bài 31: Thực hành viết chương trình | Bài 28: Làm việc với tệp văn bản | Bài 28: Đọc và ghi tệp dữ liệu | `logic-puzzle` |
 | `G10-14` | **Cổng Logic Số & Bảng Chân trị (AND, OR, NOT, XOR)** | Chủ đề CS: Khoa học máy tính | Chuyên đề CS 10: Kiến trúc máy tính & Cổng logic | Chuyên đề CS 10: Mạch logic & Bảng chân trị | Chuyên đề CS 10: Phần cứng số & Cổng logic | `logic-puzzle` |
-| `G10-15` | **Đấu trường Trùm Lớp 10: Cao thủ Python & Phần cứng Số** | Tổng kết GDPT 2018 Lớp 10 | Bài 33, 34: Nghề nghiệp, Dự án học tập & Tổng kết | Bài 31, 32: Nghề lập trình & Đánh giá năng lực 10 | Bài 31, 32: Nghề đồ họa, lập trình & Tổng kết | `boss-quiz` |
+| `G10-15` | **Ôn tập & Đánh giá Năng lực Tin học Lớp 10** | Tổng kết GDPT 2018 Lớp 10 | Bài 33, 34: Nghề nghiệp, Dự án học tập & Tổng kết | Bài 31, 32: Nghề lập trình & Đánh giá năng lực 10 | Bài 31, 32: Nghề đồ họa, lập trình & Tổng kết | `boss-quiz` |
 
 
 ### Lớp 11 — (14 bài học)
@@ -215,7 +215,7 @@
 | `G11-11` | **Đánh giá Độ phức tạp Thuật toán (Big-O)** | Chủ đề CS: Khoa học máy tính | Bài CS-15: Đánh giá độ phức tạp thuật toán | Bài CS-15: Độ phức tạp & Tối ưu mã nguồn | Bài CS-15: Đánh giá Big-O thuật toán | `logic-puzzle` |
 | `G11-12` | **Thiết kế Đồ họa Đa phương tiện & Xử lý Ảnh ICT** | Chủ đề ICT: Tin học ứng dụng | Chuyên đề ICT 11: Chỉnh sửa ảnh & Đồ họa | Chuyên đề ICT 11: Đồ họa đa phương tiện | Chuyên đề ICT 11: Biên tập ảnh số | `sort-drag` |
 | `G11-13` | **Quản trị Hệ điều hành & Bảng tính Phân tích Nâng cao** | Chủ đề ICT: Tin học ứng dụng | Chuyên đề ICT 11: Hệ điều hành & Bảng tính nâng cao | Chuyên đề ICT 11: Bảng tính phân tích số liệu | Chuyên đề ICT 11: Bảng tính chuyên sâu | `sort-drag` |
-| `G11-14` | **Đấu trường Trùm Lớp 11: Bậc Thầy CSDL SQL & Thuật toán** | Tổng kết GDPT 2018 Lớp 11 | Bài CS-16: Dự án CSDL & Tổng kết Tin học 11 | Bài CS-16: Dự án phần mềm & Đánh giá năng lực 11 | Bài CS-16: Hệ thống quản lý điểm thi & Tổng kết | `boss-quiz` |
+| `G11-14` | **Ôn tập & Đánh giá Năng lực Tin học Lớp 11** | Tổng kết GDPT 2018 Lớp 11 | Bài CS-16: Dự án CSDL & Tổng kết Tin học 11 | Bài CS-16: Dự án phần mềm & Đánh giá năng lực 11 | Bài CS-16: Hệ thống quản lý điểm thi & Tổng kết | `boss-quiz` |
 
 
 ### Lớp 12 — (15 bài học)
@@ -236,7 +236,7 @@
 | `G12-12` | **Xây dựng Cấu trúc Trang Web Ngữ nghĩa (HTML5)** | Chủ đề Lập trình Web hiện đại | Bài 13: Ngôn ngữ HTML5 và cấu trúc web | Bài 13: Xây dựng cấu trúc web với HTML | Bài 13: Cấu trúc tài liệu web HTML5 | `type-run` |
 | `G12-13` | **Định kiểu Hiện đại với CSS3 Flexbox & Grid** | Chủ đề Lập trình Web hiện đại | Bài 14: Định kiểu giao diện với CSS3 | Bài 14: Thiết kế giao diện hiện đại CSS | Bài 14: Bố cục hiện đại CSS3 Flexbox | `sort-drag` |
 | `G12-14` | **Lập trình Tương tác Động JavaScript & DOM** | Chủ đề Lập trình Web hiện đại | Bài 15: Tương tác động với JavaScript | Bài 15: Lập trình hành động JavaScript | Bài 15: Tương tác người dùng qua DOM | `bug-hunt` |
-| `G12-BOSS` | **ĐẠI CHIẾN BOSS TRÍ TUỆ NHÂN TẠO & CÔNG NGHỆ TOÀN CẦU** | Đỉnh cao GDPT 2018 Toàn diện | Tổng kết Chuyên đề Tin học 12 | Tổng kết Chuyên đề Tin học 12 | Đấu trường Công nghệ EasyTin | `boss-quiz` |
+| `G12-BOSS` | **ĐÁNH GIÁ TỔNG HỢP NĂNG LỰC CÔNG NGHỆ THPT** | Đỉnh cao GDPT 2018 Toàn diện | Tổng kết Chuyên đề Tin học 12 | Tổng kết Chuyên đề Tin học 12 | Đánh giá Năng lực Tin học Toàn diện | `boss-quiz` |
 
 
 ---
@@ -266,7 +266,7 @@ flowchart TD
 
         G3_12 --> G3_13["G3-13: Vượt mê cung tư duy"]
 
-        G3_13 --> G3_14["G3-14: Trùm Lớp 3"]
+        G3_13 --> G3_14["G3-14: Đánh giá Lớp 3"]
 
     end
 
@@ -287,7 +287,7 @@ flowchart TD
 
         G4_13 --> G4_14["G4-14: Sơ đồ khối"]
 
-        G4_14 --> G4_15["G4-15: Trùm Lớp 4"]
+        G4_14 --> G4_15["G4-15: Đánh giá Lớp 4"]
 
     end
 
@@ -306,7 +306,7 @@ flowchart TD
 
         G5_10 & G5_11 --> G5_12["G5-12: Game va chạm"]
 
-        G5_12 --> G5_14["G5-14: Trùm Tiểu học Lớp 5"]
+        G5_12 --> G5_14["G5-14: Đánh giá Tiểu học"]
 
     end
 
@@ -341,7 +341,7 @@ flowchart TD
 
         G8_10 --> G9_06["G9-06: Thuật toán số học tối ưu"]
 
-        G9_06 --> G9_11["G9-11: Trùm THCS Lớp 9"]
+        G9_06 --> G9_11["G9-11: Đánh giá THCS"]
 
     end
 

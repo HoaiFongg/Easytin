@@ -208,21 +208,21 @@ def get_high_school_nodes():
     ))
 
     nodes.append(make_lesson(
-        "G10-15", "w3", 10, "Đấu trường Trùm Lớp 10: Cao thủ Python & Phần cứng Số", "Tổng kết GDPT 2018 Lớp 10",
+        "G10-15", "w3", 10, "Ôn tập & Đánh giá Năng lực Tin học Lớp 10", "Tổng kết GDPT 2018 Lớp 10",
         "Bài 33, 34: Nghề nghiệp, Dự án học tập & Tổng kết", "Bài 31, 32: Nghề lập trình & Đánh giá năng lực 10", "Bài 31, 32: Nghề đồ họa, lập trình & Tổng kết",
         "boss-quiz", ["G10-05", "G10-07", "G10-08", "G10-09", "G10-14"], 15,
-        ["Tổng kết toàn diện chuẩn kiến thức Tin học Lớp 10 của cả 3 bộ sách.", "Sẵn sàng nhận huy hiệu Cao Thủ Python & Phần Cứng Số EasyTin."],
-        "Trùm Glitch Byte Chúa Tể đang xâm chiếm không gian mạng! Hãy dùng sức mạnh tổng hợp của Python và Mạch Logic để đánh bại nó!",
-        "Đấu trường tổng hợp đỉnh cao: IoT, Phần mềm nguồn mở, Đồ họa vector Inkscape, Thuật toán Python, Cổng logic và Bảng chân trị.",
+        ["Tổng kết toàn diện chuẩn kiến thức Tin học Lớp 10 của cả 3 bộ sách.", "Sẵn sàng làm chủ chuẩn năng lực Tin học và Lập trình Python Lớp 10."],
+        "Hãy vận dụng toàn bộ kiến thức về cấu trúc điều khiển, danh sách Python và mạch logic số để hoàn thành bài đánh giá năng lực Lớp 10!",
+        "Bài đánh giá tổng hợp: IoT, Phần mềm nguồn mở, Đồ họa vector Inkscape, Thuật toán Python, Cổng logic và Bảng chân trị.",
         ["Hàm Python, Danh sách List, Xâu String, Xử lý file.", "Cổng logic AND, OR, XOR và kiến trúc Client - Server."],
-        {"boss_name": "Glitch Byte Chúa Tể", "boss_max_hp": 100, "player_max_hp": 100, "damage_per_hit": 25, "questions_pool": 4},
+        {"boss_name": "Thử thách Tổng hợp Lớp 10", "boss_max_hp": 100, "player_max_hp": 100, "damage_per_hit": 25, "questions_pool": 4},
         [
             {"question": "Trong Python, kết quả của biểu thức 'len([1, 2, 3] * 2)' là bao nhiêu?", "options": ["6 (danh sách được nhân bản thành [1, 2, 3, 1, 2, 3])", "3", "2", "Lỗi cú pháp"], "answer": 0, "explanation": "Toán tử * trên danh sách sẽ nhân đôi các phần tử của danh sách đó."},
             {"question": "Cổng logic XOR có kết quả bằng bao nhiêu khi hai đầu vào là A = 1 và B = 1?", "options": ["0", "1", "2", "Không xác định"], "answer": 0, "explanation": "Hai đầu vào giống nhau thì ngõ ra của cổng XOR bằng 0."},
             {"question": "Mô hình mạng nào sau đây có các máy tính bình đẳng vừa đóng vai trò chia sẻ vừa tải tài nguyên dữ liệu?", "options": ["Mạng ngang hàng (Peer-to-Peer - P2P)", "Mạng Khách - Chủ (Client - Server)", "Mạng hình sao tập trung", "Mạng vòng"], "answer": 0, "explanation": "P2P là mô hình mạng ngang hàng phân tán phi tập trung."},
             {"question": "Định dạng đồ họa nào sau đây là định dạng đồ họa véc-tơ chuẩn?", "options": [".svg", ".jpg", ".png", ".bmp"], "answer": 0, "explanation": ".svg (Scalable Vector Graphics) là định dạng vector chuẩn web."}
         ],
-        "CHIẾN CÔNG VANG DỘI! Em đã tiêu diệt Glitch Byte Chúa Tể và hoàn thành xuất sắc toàn bộ chương trình Tin học Lớp 10 của cả 3 bộ sách KNTT, Cánh Diều, CTST!"
+        "CHÚC MỪNG EM! Em đã hoàn thành xuất sắc toàn bộ chương trình Tin học Lớp 10 của cả 3 bộ sách KNTT, Cánh Diều, CTST!"
     ))
 
     # =========================================================================
@@ -398,21 +398,21 @@ def get_high_school_nodes():
     ))
 
     nodes.append(make_lesson(
-        "G11-14", "w3", 11, "Đấu trường Trùm Lớp 11: Bậc Thầy CSDL SQL & Thuật toán", "Tổng kết GDPT 2018 Lớp 11",
+        "G11-14", "w3", 11, "Ôn tập & Đánh giá Năng lực Tin học Lớp 11", "Tổng kết GDPT 2018 Lớp 11",
         "Bài CS-16: Dự án CSDL & Tổng kết Tin học 11", "Bài CS-16: Dự án phần mềm & Đánh giá năng lực 11", "Bài CS-16: Hệ thống quản lý điểm thi & Tổng kết",
         "boss-quiz", ["G11-01", "G11-03", "G11-05", "G11-09", "G11-10"], 15,
-        ["Tổng kết toàn diện chuẩn năng lực Tin học Lớp 11 cả 2 nhánh CS & ICT của 3 bộ sách.", "Sẵn sàng nhận danh hiệu Bậc Thầy CSDL SQL & Thuật Toán Tối Ưu EasyTin."],
-        "Trùm Dữ Liệu 'Database Destroyer' đang muốn xóa sổ toàn bộ cơ sở dữ liệu quốc gia! Hãy dùng các câu lệnh SQL và Thuật toán tối ưu để phong ấn nó!",
-        "Đấu trường đỉnh cao tổng hợp: CSDL quan hệ, Khóa chính, SQL SELECT / WHERE / GROUP BY / JOIN, Đệ quy, Merge Sort, Quick Sort và Big-O.",
+        ["Tổng kết toàn diện chuẩn năng lực Tin học Lớp 11 cả 2 nhánh CS & ICT của 3 bộ sách.", "Sẵn sàng làm chủ cơ sở dữ liệu quan hệ SQL và thuật toán nâng cao Lớp 11."],
+        "Hệ thống cơ sở dữ liệu đang cần được truy xuất và chuẩn hóa. Hãy vận dụng các câu lệnh truy vấn SQL, cấu trúc liên kết bảng và thuật toán nâng cao để hoàn thành bài đánh giá Lớp 11!",
+        "Bài đánh giá tổng hợp: CSDL quan hệ, Khóa chính, SQL SELECT / WHERE / GROUP BY / JOIN, Đệ quy, Merge Sort, Quick Sort và Big-O.",
         ["SQL INNER JOIN, GROUP BY, HAVING.", "Độ phức tạp thuật toán O(N log N) và chuẩn hóa CSDL 3NF."],
-        {"boss_name": "Database Destroyer Trùm Dữ Liệu", "boss_max_hp": 100, "player_max_hp": 100, "damage_per_hit": 25, "questions_pool": 4},
+        {"boss_name": "Thử thách Tổng hợp Lớp 11", "boss_max_hp": 100, "player_max_hp": 100, "damage_per_hit": 25, "questions_pool": 4},
         [
             {"question": "Mệnh đề nào trong SQL dùng để gom nhóm các bản ghi có cùng giá trị lại để thực hiện các phép tính tổng hợp (như COUNT, SUM, AVG)?", "options": ["GROUP BY", "ORDER BY", "WHERE", "SELECT"], "answer": 0, "explanation": "GROUP BY là mệnh đề chuẩn để gom nhóm dữ liệu trong SQL."},
             {"question": "Thuật toán sắp xếp nào sau đây có độ phức tạp thời gian trung bình là O(N log N) và sắp xếp tại chỗ (In-place)?", "options": ["Quick Sort (Sắp xếp nhanh)", "Bubble Sort (Sắp xếp nổi bọt)", "Selection Sort (Sắp xếp chọn)", "Linear Search"], "answer": 0, "explanation": "Quick Sort đạt O(N log N) và sắp xếp tại chỗ không tốn bộ nhớ phụ."},
             {"question": "Trong thiết kế CSDL, khóa ngoại (Foreign Key) có vai trò cốt lõi là gì?", "options": ["Tạo liên kết và bảo đảm ràng buộc toàn vẹn tham chiếu giữa hai bảng", "Tăng tốc độ khởi động máy tính", "Làm đẹp giao diện người dùng", "Khóa máy tính khi hết giờ"], "answer": 0, "explanation": "Khóa ngoại liên kết hai bảng và bảo vệ tính toàn vẹn tham chiếu dữ liệu."},
             {"question": "Công cụ nào trong phần mềm Excel dùng để tra cứu dữ liệu linh hoạt cả về phía trước và phía sau mà không bị giới hạn cột đầu tiên?", "options": ["Hàm XLOOKUP", "Hàm SUM", "Hàm MIN", "Hàm NOW"], "answer": 0, "explanation": "XLOOKUP là hàm tra cứu hiện đại, khắc phục toàn bộ nhược điểm của VLOOKUP."}
         ],
-        "CHIẾN CÔNG HIỂN HÁCH! Em đã tiêu diệt Database Destroyer và xuất sắc hoàn thành toàn bộ chương trình Tin học Lớp 11 của cả 3 bộ sách KNTT, Cánh Diều, CTST!"
+        "CHÚC MỪNG EM! Em đã hoàn thành xuất sắc toàn bộ chương trình Tin học Lớp 11 của cả 3 bộ sách KNTT, Cánh Diều, CTST!"
     ))
 
     # =========================================================================
@@ -601,14 +601,14 @@ def get_high_school_nodes():
     ))
 
     nodes.append(make_lesson(
-        "G12-BOSS", "w3", 12, "ĐẠI CHIẾN BOSS TRÍ TUỆ NHÂN TẠO & CÔNG NGHỆ TOÀN CẦU", "Đỉnh cao GDPT 2018 Toàn diện",
-        "Tổng kết Chuyên đề Tin học 12", "Tổng kết Chuyên đề Tin học 12", "Đấu trường Công nghệ EasyTin",
+        "G12-BOSS", "w3", 12, "ĐÁNH GIÁ TỔNG HỢP NĂNG LỰC CÔNG NGHỆ THPT", "Đỉnh cao GDPT 2018 Toàn diện",
+        "Tổng kết Chuyên đề Tin học 12", "Tổng kết Chuyên đề Tin học 12", "Đánh giá Năng lực Tin học Toàn diện",
         "boss-quiz", ["G12-01", "G12-04", "G12-07", "G12-10", "G12-14"], 20,
-        ["Tổng kết đỉnh cao toàn bộ 10 năm học Tin học phổ thông từ Lớp 3 đến Lớp 12 của cả 3 bộ sách KNTT, Cánh Diều, CTST.", "Vinh danh danh hiệu Huyền Thoại Công Nghệ Toàn Năng EasyTin."],
-        "Trùm Cuối Vũ Trụ 'Glitch Titan the Destroyer' đang giải phóng làn sóng siêu virus muốn xóa sạch toàn bộ nền văn minh tri thức số của nhân loại! Hãy hợp nhất toàn bộ sức mạnh 10 năm học Tin học từ lớp 3 đến lớp 12 để cứu rỗi thế giới!",
-        "Đấu trường tối thượng tổng kết: Kiến trúc máy tính Von Neumann, Hệ nhị phân, Mạng TCP/IP, An ninh mạng, CSDL quan hệ SQL, Thuật toán tối ưu Big-O, Học máy Machine Learning, Học sâu và Generative AI.",
+        ["Tổng kết toàn diện chương trình Tin học phổ thông từ Lớp 3 đến Lớp 12 của cả 3 bộ sách KNTT, Cánh Diều, CTST.", "Hoàn thành xuất sắc toàn bộ chuẩn năng lực Tin học phổ thông GDPT 2018."],
+        "Hãy vận dụng toàn bộ hệ thống tri thức Tin học từ Lớp 3 đến Lớp 12 (mạng phân tầng TCP/IP, an ninh thông tin, trí tuệ nhân tạo và phát triển web) để hoàn thành xuất sắc chuyên đề đánh giá toàn diện cấp THPT!",
+        "Bài đánh giá tổng hợp toàn diện: Kiến trúc máy tính Von Neumann, Hệ nhị phân, Mạng TCP/IP, An ninh mạng, CSDL quan hệ SQL, Thuật toán tối ưu Big-O, Học máy Machine Learning, Học sâu và Generative AI.",
         ["Phân tầng TCP/IP, Địa chỉ IPv4/IPv6, Tường lửa và HTTPS.", "Mô hình quan hệ RDBMS, SQL JOIN, Thuật toán O(N log N).", "Machine Learning, Overfitting, Transformer, Đạo đức AI và Phát triển Web."],
-        {"boss_name": "Glitch Titan the Destroyer", "boss_max_hp": 100, "player_max_hp": 100, "damage_per_hit": 25, "questions_pool": 6},
+        {"boss_name": "Hệ thống Đánh giá Năng lực Toàn diện THPT", "boss_max_hp": 100, "player_max_hp": 100, "damage_per_hit": 25, "questions_pool": 6},
         [
             {"question": "Trong mô hình học máy (Machine Learning), kỹ thuật chia tập dữ liệu thành Train Set và Test Set nhằm mục đích tối thượng nào?", "options": ["Đánh giá khả năng dự đoán của mô hình trên dữ liệu mới và phát hiện hiện tượng học vẹt (Overfitting)", "Làm cho máy tính chạy nhanh hơn", "Tiết kiệm dung lượng thẻ nhớ", "Để in ra giấy làm kỷ niệm"], "answer": 0, "explanation": "Tách biệt dữ liệu kiểm thử là nguyên tắc sống còn để đánh giá năng lực khái quát hóa của mô hình AI."},
             {"question": "Cơ chế nào trong kiến trúc Transformer cho phép mô hình ngôn ngữ lớn (LLM) cân nhắc đồng thời mối quan hệ ngữ cảnh giữa tất cả các từ trong câu?", "options": ["Cơ chế tự chú ý (Self-Attention)", "Cơ chế đệ quy tuần tự", "Cơ chế sắp xếp nổi bọt", "Cơ chế chia đôi nhị phân"], "answer": 0, "explanation": "Cơ chế Self-Attention là bước đột phá cách mạng của kiến trúc Transformer tạo nên ChatGPT, Gemini."},
@@ -617,7 +617,7 @@ def get_high_school_nodes():
             {"question": "Luật An ninh mạng và các quy định pháp luật về bảo vệ dữ liệu cá nhân nghiêm cấm hành vi nào sau đây?", "options": ["Mua bán, phát tán thông tin dữ liệu cá nhân của người dân khi chưa được phép", "Học lập trình website", "Sử dụng phần mềm nguồn mở", "Sao lưu dữ liệu lên đám mây"], "answer": 0, "explanation": "Mua bán, phát tán dữ liệu cá nhân trái phép là hành vi phạm tội hình sự bị xử phạt nghiêm khắc."},
             {"question": "Độ phức tạp thời gian tốt nhất có thể đạt được của thuật toán tìm kiếm trên danh sách gồm N phần tử đã được sắp xếp trước là bao nhiêu?", "options": ["O(log N) bằng thuật toán Tìm kiếm nhị phân", "O(N) bằng tìm kiếm tuần tự", "O(N^2) bằng duyệt vét cạn", "O(1) trong mọi trường hợp"], "answer": 0, "explanation": "Binary search chia đôi phạm vi sau mỗi bước lặp nên đạt hiệu năng siêu tốc O(log N)."}
         ],
-        "CHIẾN THẮNG HUY HOÀNG LỊCH SỬ! Em đã tiêu diệt hoàn toàn Glitch Titan, hoàn thành xuất sắc 100% toàn bộ chương trình Tin học phổ thông GDPT 2018 của cả 3 bộ sách Kết Nối Tri Thức, Cánh Diều, Chân Trời Sáng Tạo từ Lớp 3 đến Lớp 12 với danh xưng tối thượng: HUYỀN THOẠI CÔNG NGHỆ EASYTIN!"
+        "CHÚC MỪNG EM! Em đã hoàn thành xuất sắc 100% toàn bộ chương trình Tin học phổ thông GDPT 2018 của cả 3 bộ sách Kết Nối Tri Thức, Cánh Diều, Chân Trời Sáng Tạo từ Lớp 3 đến Lớp 12! Tự hào làm chủ tri thức công nghệ tương lai!"
     ))
 
     return nodes

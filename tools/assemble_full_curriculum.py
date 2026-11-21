@@ -51,21 +51,21 @@ worlds = [
         "id": "w1",
         "name": "Thung lũng Số hóa",
         "grades": [3, 4, 5],
-        "description": "Khám phá thế giới máy tính kỳ diệu, làm chủ chuột phím, an toàn số và thuật toán phiêu lưu Tiểu học.",
+        "description": "Khám phá máy tính, rèn luyện kỹ năng sử dụng chuột bàn phím, an toàn thông tin và hình thành tư duy thuật toán Tiểu học.",
         "color_theme": "#2b5c3f"
     },
     {
         "id": "w2",
         "name": "Rừng Mạng & Dữ liệu",
         "grades": [6, 7, 8, 9],
-        "description": "Giải mã bit nhị phân, định tuyến mạng Internet, bảng tính điện tử và thợ săn lỗi thuật toán THCS.",
+        "description": "dữ liệu nhị phân, mạng máy tính Internet, bảng tính điện tử và phương pháp giải quyết vấn đề với thuật toán THCS.",
         "color_theme": "#1f3b5c"
     },
     {
         "id": "w3",
         "name": "Thành phố Thuật toán",
         "grades": [10, 11, 12],
-        "description": "Lập trình Python, cổng logic phần cứng, cơ sở dữ liệu quan hệ SQL và chinh phục đấu trường AI THPT.",
+        "description": "lập trình Python, cổng logic số, cơ sở dữ liệu quan hệ SQL và ứng dụng trí tuệ nhân tạo THPT.",
         "color_theme": "#5c2b4e"
     }
 ]
@@ -131,8 +131,8 @@ for t, c in sorted(template_counts.items(), key=lambda x: -x[1]):
         "type-run": "Luyện gõ bàn phím mười ngón, cú pháp Python, HTML",
         "match-memory": "Ghi nhớ thuật ngữ chuyên ngành, ghép nối định nghĩa",
         "branch-story": "Đạo đức số, bản quyền, an ninh mạng, ra quyết định",
-        "bug-hunt": "Thợ săn lỗi cú pháp, lỗi thời gian chạy, lỗi logic thuật toán",
-        "boss-quiz": "Đấu trường trùm cuối tổng kết đánh giá năng lực khối lớp"
+        "bug-hunt": "Phát hiện lỗi cú pháp, lỗi thời gian chạy và gỡ lỗi thuật toán",
+        "boss-quiz": "Thử thách tổng kết và đánh giá năng lực khối lớp"
     }.get(t, "Khuôn game tương tác")
     map_md.append(f"| `{t}` | {desc} | **{c} bài** | {pct}% |")
 map_md.append("\n---\n")
@@ -162,7 +162,7 @@ map_md.append("        G3_01 --> G3_08[\"G3-08: Mạng Internet\"]\n")
 map_md.append("        G3_08 --> G3_11[\"G3-11: Bảo vệ thông tin cá nhân\"]\n")
 map_md.append("        G3_01 --> G3_12[\"G3-12: Trình tự các bước\"]\n")
 map_md.append("        G3_12 --> G3_13[\"G3-13: Vượt mê cung tư duy\"]\n")
-map_md.append("        G3_13 --> G3_14[\"G3-14: Trùm Lớp 3\"]\n")
+map_md.append("        G3_13 --> G3_14[\"G3-14: Đánh giá Lớp 3\"]\n")
 map_md.append("    end\n\n")
 
 map_md.append("    subgraph G4[\"Lớp 4: Lập trình Trực quan & Văn bản\"]\n")
@@ -173,7 +173,7 @@ map_md.append("        G3_13 --> G4_11[\"G4-11: Lập trình Scratch\"]\n")
 map_md.append("        G4_11 --> G4_12[\"G4-12: Nhân vật di chuyển\"]\n")
 map_md.append("        G4_12 --> G4_13[\"G4-13: Vòng lặp Repeat\"]\n")
 map_md.append("        G4_13 --> G4_14[\"G4-14: Sơ đồ khối\"]\n")
-map_md.append("        G4_14 --> G4_15[\"G4-15: Trùm Lớp 4\"]\n")
+map_md.append("        G4_14 --> G4_15[\"G4-15: Đánh giá Lớp 4\"]\n")
 map_md.append("    end\n\n")
 
 map_md.append("    subgraph G5[\"Lớp 5: Biến số & Bảng tính\"]\n")
@@ -183,7 +183,7 @@ map_md.append("        G4_14 --> G5_09[\"G5-09: Biến số lập trình\"]\n")
 map_md.append("        G5_09 --> G5_10[\"G5-10: Biến số Scratch\"]\n")
 map_md.append("        G5_09 --> G5_11[\"G5-11: Rẽ nhánh If-Else\"]\n")
 map_md.append("        G5_10 & G5_11 --> G5_12[\"G5-12: Game va chạm\"]\n")
-map_md.append("        G5_12 --> G5_14[\"G5-14: Trùm Tiểu học Lớp 5\"]\n")
+map_md.append("        G5_12 --> G5_14[\"G5-14: Đánh giá Tiểu học\"]\n")
 map_md.append("    end\n\n")
 
 map_md.append("    subgraph G6_G9[\"THCS: Mạng, Bảng tính & Thuật toán\"]\n")
@@ -201,7 +201,7 @@ map_md.append("        G8_07 --> G8_08[\"G8-08: Rẽ nhánh If-Else\"]\n")
 map_md.append("        G8_08 --> G8_09[\"G8-09: Vòng lặp For/While\"]\n")
 map_md.append("        G8_09 --> G8_10[\"G8-10: Mảng danh sách List\"]\n")
 map_md.append("        G8_10 --> G9_06[\"G9-06: Thuật toán số học tối ưu\"]\n")
-map_md.append("        G9_06 --> G9_11[\"G9-11: Trùm THCS Lớp 9\"]\n")
+map_md.append("        G9_06 --> G9_11[\"G9-11: Đánh giá THCS\"]\n")
 map_md.append("    end\n\n")
 
 map_md.append("    subgraph G10_G12[\"THPT: Python, SQL & Trí tuệ Nhân tạo\"]\n")

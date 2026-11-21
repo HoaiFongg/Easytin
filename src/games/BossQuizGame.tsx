@@ -22,7 +22,7 @@ interface BossQuizGameProps {
 }
 
 export const BossQuizGame: React.FC<BossQuizGameProps> = ({ config, quizList, onComplete }) => {
-  const bossName = config.boss_name || 'Glitch Byte the Destroyer';
+  const bossName = config.boss_name || 'Hệ thống Thử thách Tổng hợp';
   const maxHp = config.boss_max_hp || 100;
   const questions: Question[] = quizList || [
     {
@@ -96,7 +96,7 @@ export const BossQuizGame: React.FC<BossQuizGameProps> = ({ config, quizList, on
 
   return (
     <div className="flex flex-col gap-6 bg-[#1a1c2c] p-6 border-3 border-[#5a6988]">
-      {/* Đấu trường Boss Battle */}
+      {/* Giao diện Thử thách Tổng kết */}
       <div className="flex flex-col md:flex-row items-center justify-between gap-6 bg-[#181425] p-5 border-2 border-[#3a4466]">
         {/* TinTin Player */}
         <div className="flex items-center gap-3 w-full md:w-auto">
@@ -135,7 +135,7 @@ export const BossQuizGame: React.FC<BossQuizGameProps> = ({ config, quizList, on
       {!gameOver && curQ ? (
         <div className="flex flex-col gap-4">
           <div className="text-xs font-black text-[#fee761] uppercase tracking-wider">
-            ĐÒN TẤN CÔNG THỨ {qIndex + 1}/{questions.length}:
+            CÂU HỎI THỬ THÁCH THỨ {qIndex + 1}/{questions.length}:
           </div>
           <div className="text-sm font-semibold text-white bg-[#262b44] p-4 border-2 border-[#5a6988]">
             {curQ.question}
@@ -169,10 +169,10 @@ export const BossQuizGame: React.FC<BossQuizGameProps> = ({ config, quizList, on
           {answered && (
             <div className="flex items-center justify-between pt-2">
               <div className="text-xs text-[#c0cbdc] italic">
-                {selectedOpt === curQ.answer ? '💥 Đòn tấn công trúng đích!' : '⚠️ Boss đã phản đòn!'}
+                {selectedOpt === curQ.answer ? '✨ Trả lời chính xác!' : '⚠️ Câu trả lời chưa chính xác!'}
               </div>
               <PixelButton variant="primary" size="sm" onClick={handleNextQuestion}>
-                Tiếp tục trận đấu ▶
+                Tiếp tục câu hỏi ▶
               </PixelButton>
             </div>
           )}
@@ -182,17 +182,17 @@ export const BossQuizGame: React.FC<BossQuizGameProps> = ({ config, quizList, on
           {bossHp <= 0 ? (
             <>
               <Trophy className="text-[#fee761]" size={48} />
-              <div className="text-xl font-black text-[#38b764] uppercase tracking-wider">CHIẾN THẮNG TRÙM CUỐI!</div>
+              <div className="text-xl font-black text-[#38b764] uppercase tracking-wider">XUẤT SẮC HOÀN THÀNH THỬ THÁCH TỔNG KẾT!</div>
               <div className="text-xs text-[#c0cbdc] max-w-md">
-                Em đã xuất sắc bảo vệ toàn bộ kho dữ liệu Tin học của nhân loại!
+                Chúc mừng em đã hoàn thành xuất sắc toàn bộ nội dung ôn tập và đánh giá năng lực!
               </div>
             </>
           ) : (
             <>
               <Skull className="text-[#e43b44]" size={48} />
-              <div className="text-lg font-black text-[#e43b44] uppercase tracking-wider">TRẬN CHIẾN KẾT THÚC!</div>
+              <div className="text-lg font-black text-[#e43b44] uppercase tracking-wider">KẾT THÚC BÀI ĐÁNH GIÁ!</div>
               <div className="text-xs text-[#c0cbdc]">
-                Boss còn lại {bossHp} HP. Hãy ôn tập lại các bài học để phục thù nhé!
+                Điểm số bài làm: {100 - bossHp}%. Em hãy ôn tập lại các bài học để đạt kết quả tốt hơn nhé!
               </div>
             </>
           )}

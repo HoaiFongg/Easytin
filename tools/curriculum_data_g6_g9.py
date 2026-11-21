@@ -168,12 +168,12 @@ def get_middle_school_nodes():
     ))
 
     nodes.append(make_lesson(
-        "G6-12", "w2", 6, "Đấu trường Trùm Lớp 6: Hiệp sĩ An ninh Mạng", "Tổng kết GDPT 2018 Lớp 6",
+        "G6-12", "w2", 6, "Ôn tập & Đánh giá Năng lực Tin học Lớp 6", "Tổng kết GDPT 2018 Lớp 6",
         "Bài 17: Dự án: An toàn môi trường số", "Bài 18: Dự án: Phòng chống bạo lực mạng", "Bài 17: Dự án tuyên truyền an toàn số",
         "boss-quiz", ["G6-02", "G6-03", "G6-06", "G6-09", "G6-10"], 12,
-        ["Tổng kết toàn diện chuẩn năng lực Tin học Lớp 6 của cả 3 bộ sách.", "Sẵn sàng nhận huy hiệu Hiệp Sĩ An Ninh Mạng EasyTin."],
-        "Quái vật Mã Độc 'Crypto-Worm' đang lây lan trên hệ thống mạng trường học! Hãy hợp nhất tri thức Lớp 6 để tiêu diệt nó!",
-        "Đấu trường tổng hợp: Hệ nhị phân 0-1, Dung lượng lưu trữ, Thiết bị mạng, Văn hóa số và Sơ đồ khối thuật toán.",
+        ["Tổng kết toàn diện chuẩn năng lực Tin học Lớp 6 của cả 3 bộ sách.", "Sẵn sàng hoàn thành xuất sắc chuẩn năng lực Tin học Lớp 6."],
+        "Hãy cùng Tintin tổng hợp toàn bộ tri thức Tin học Lớp 6 (dữ liệu nhị phân, mạng máy tính, đạo đức số và thuật toán) để hoàn thành bài đánh giá năng lực!",
+        "Bài đánh giá tổng hợp: Hệ nhị phân 0-1, Dung lượng lưu trữ, Thiết bị mạng, Văn hóa số và Sơ đồ khối thuật toán.",
         ["Bit, Byte, KB, MB, GB, TB.", "Mạng máy tính, Router, Switch, Sơ đồ khối và An toàn dữ liệu."],
         {"boss_name": "Crypto-Worm Mã Độc", "boss_max_hp": 100, "player_max_hp": 100, "damage_per_hit": 25, "questions_pool": 4},
         [
@@ -358,14 +358,14 @@ def get_middle_school_nodes():
     ))
 
     nodes.append(make_lesson(
-        "G7-14", "w2", 7, "Đấu trường Trùm Lớp 7: Phù thủy Sắp xếp & Tìm kiếm", "Tổng kết GDPT 2018 Lớp 7",
+        "G7-14", "w2", 7, "Ôn tập & Đánh giá Năng lực Tin học Lớp 7", "Tổng kết GDPT 2018 Lớp 7",
         "Bài 16: Thuật toán sắp xếp chọn & Tổng kết", "Bài 16: Sắp xếp chọn & Tổng kết", "Bài 16: Sắp xếp chọn & Đánh giá năng lực",
         "boss-quiz", ["G7-06", "G7-08", "G7-11", "G7-12", "G7-13"], 12,
-        ["Tổng kết toàn diện chuẩn năng lực Tin học Lớp 7 của cả 3 bộ sách.", "Sẵn sàng nhận danh hiệu Phù Thủy Thuật Toán Sắp Xếp & Tìm Kiếm EasyTin."],
-        "Trùm Thuật Toán Hắc Ám 'Glitch-Sorter' đang đảo lộn toàn bộ dữ liệu bảng tính thế giới! Hãy dùng các thuật toán đỉnh cao để đánh bại nó!",
-        "Đấu trường tổng hợp: Hệ điều hành, Bảng tính Excel, Hàm thống kê, Tìm kiếm nhị phân và Sắp xếp nổi bọt / Sắp xếp chọn.",
+        ["Tổng kết toàn diện chuẩn năng lực Tin học Lớp 7 của cả 3 bộ sách.", "Sẵn sàng hoàn thành xuất sắc chuẩn năng lực Tin học Lớp 7."],
+        "Hệ thống dữ liệu bảng tính đang cần được sắp xếp và tra cứu nhanh chóng. Hãy vận dụng các thuật toán Tìm kiếm nhị phân và Sắp xếp nổi bọt để xử lý dữ liệu chuẩn xác!",
+        "Bài đánh giá tổng hợp: Hệ điều hành, Bảng tính Excel, Hàm thống kê, Tìm kiếm nhị phân và Sắp xếp nổi bọt / Sắp xếp chọn.",
         ["Tìm kiếm nhị phân chia đôi không gian O(log N).", "Bảng tính điện tử và các hàm SUM, AVERAGE, MIN, MAX."],
-        {"boss_name": "Glitch-Sorter Trùm Thuật Toán", "boss_max_hp": 100, "player_max_hp": 100, "damage_per_hit": 25, "questions_pool": 4},
+        {"boss_name": "Thử thách Tổng hợp Lớp 7", "boss_max_hp": 100, "player_max_hp": 100, "damage_per_hit": 25, "questions_pool": 4},
         [
             {"question": "Thuật toán sắp xếp chọn (Selection Sort) hoạt động theo nguyên lý nào?", "options": ["Tìm phần tử nhỏ nhất trong dãy chưa sắp xếp rồi đưa về vị trí đầu tiên", "So sánh hai phần tử liền kề và đổi chỗ", "Chia đôi danh sách làm hai nửa độc lập", "Xóa các phần tử lẻ"], "answer": 0, "explanation": "Sắp xếp chọn luôn tìm phần tử cực trị (min/max) đưa về đúng vị trí."},
             {"question": "Trong bảng tính, công thức '=AVERAGE(10, 20, 30)' cho kết quả bằng bao nhiêu?", "options": ["20", "60", "30", "10"], "answer": 0, "explanation": "Trung bình cộng của (10 + 20 + 30) / 3 = 60 / 3 = 20."},
@@ -435,7 +435,7 @@ def get_middle_school_nodes():
         "Bài 8, 9: Đồ họa chỉnh sửa ảnh & Ảnh động", "Bài 6, 7: Chỉnh sửa ảnh & Hiệu ứng", "Bài 6, 7: Đồ họa ảnh & Biên tập",
         "sort-drag", ["G7-10"], 7,
         ["Làm quen khái niệm Lớp ảnh (Layers) trong phần mềm đồ họa (GIMP/Photoshop).", "Tạo ảnh động GIF bằng cách kết hợp chuỗi khung hình (Frames) và tốc độ chuyển khung hình."],
-        "Khám phá phép thuật biến hóa hình ảnh của các phù thủy thiết kế đồ họa số!",
+        "Khám phá nghệ thuật chỉnh sửa hình ảnh và tạo ảnh động của các nhà thiết kế đồ họa số!",
         "Lớp ảnh (Layer) giống như những tấm kính trong suốt xếp chồng lên nhau. Vẽ trên lớp này không làm hỏng hình ảnh của lớp bên dưới. Ảnh động (Animated GIF) được tạo thành từ nhiều lớp ảnh phát tuần tự theo thời gian tạo ảo giác chuyển động nhịp nhàng.",
         ["Độ phân giải DPI và hệ màu RGB (Red, Green, Blue) cho màn hình hiển thị.", "Công cụ Clone Stamp sao chép và xóa vật thể thừa trên ảnh."],
         {"groups": [{"id": "g1", "name": "Khái niệm Lớp ảnh (Layers)"}, {"id": "g2", "name": "Thông số Kỹ thuật Ảnh động (GIF)"}], "items": [{"id":"1","name":"Xếp chồng các lớp ảnh trong suốt lên nhau","group":"g1","icon":"📑"},{"id":"2","name":"Đổi chế độ hòa trộn lớp Blending Mode","group":"g1","icon":"✨"},{"id":"3","name":"Thiết lập thời gian trễ giữa các khung hình (100ms)","group":"g2","icon":"⏱️"},{"id":"4","name":"Chế độ lặp lại vô tận (Looping Forever)","group":"g2","icon":"🔁"}]},
@@ -535,12 +535,12 @@ def get_middle_school_nodes():
     ))
 
     nodes.append(make_lesson(
-        "G8-13", "w2", 8, "Đấu trường Trùm Lớp 8: Thợ săn Bug Thuật toán", "Tổng kết GDPT 2018 Lớp 8",
+        "G8-13", "w2", 8, "Ôn tập & Đánh giá Năng lực Tin học Lớp 8", "Tổng kết GDPT 2018 Lớp 8",
         "Bài 16: Tổng kết & Đánh giá năng lực 8", "Bài 16: Khám phá ngành nghề & Tổng kết", "Bài 16: Dự án sáng tạo & Đánh giá năng lực",
         "boss-quiz", ["G8-04", "G8-07", "G8-08", "G8-09", "G8-10"], 12,
         ["Tổng kết toàn diện chuẩn năng lực Tin học Lớp 8 của cả 3 bộ sách.", "Sẵn sàng nhận huy hiệu Bậc Thầy Săn Bug Thuật Toán EasyTin."],
         "Chúa tể Lỗi Mã 'Zero-Day Bug' đang đe dọa làm sập toàn bộ các máy chủ dữ liệu! Hãy vận dụng sức mạnh thuật toán để tiêu diệt nó!",
-        "Đấu trường tổng hợp: Lịch sử máy tính, Bảng tính nâng cao, Đồ họa layer, Cấu trúc if/else lồng nhau, Vòng lặp For/While và Mảng danh sách.",
+        "Bài đánh giá tổng hợp: Lịch sử máy tính, Bảng tính nâng cao, Đồ họa layer, Cấu trúc if/else lồng nhau, Vòng lặp For/While và Mảng danh sách.",
         ["Cấu trúc dữ liệu mảng danh sách List và Index.", "Vòng lặp For, While, xử lý lỗi logic và định luật Moore."],
         {"boss_name": "Zero-Day Bug Chúa Tể", "boss_max_hp": 100, "player_max_hp": 100, "damage_per_hit": 25, "questions_pool": 4},
         [
@@ -634,15 +634,15 @@ def get_middle_school_nodes():
     ))
 
     nodes.append(make_lesson(
-        "G9-07", "w2", 9, "Bẫy lỗi, Xử lý Ngoại lệ & Thiết kế Giao diện", "Chủ đề 5: Giải quyết vấn đề",
+        "G9-07", "w2", 9, "Kiểm soát Lỗi, Xử lý Ngoại lệ & Thiết kế Giao diện", "Chủ đề 5: Giải quyết vấn đề",
         "Bài 11, 12: Bẫy lỗi & Lập trình ứng dụng", "Bài 9, 10: Bắt lỗi & Giao diện tương tác", "Bài 9, 10: Kiểm thử & Phần mềm giải trí",
         "bug-hunt", ["G9-06"], 8,
         ["Sử dụng khối bắt lỗi ngoại lệ try... except... để chương trình không bị sập bất ngờ.", "Thiết kế giao diện tương tác người dùng thân thiện, hướng dẫn nhập liệu đúng chuẩn."],
         "Một phần mềm chuyên nghiệp không bao giờ được phép văng màn hình khi người dùng lỡ bấm nhầm phím!",
-        "Kỹ thuật bẫy lỗi (Exception Handling): Khối `try` chứa đoạn mã có nguy cơ phát sinh lỗi (như người dùng nhập chữ vào ô đòi hỏi số); Khối `except ValueError` bắt lỗi và hiển thị thông báo hướng dẫn người dùng nhập lại mà không làm sập toàn bộ ứng dụng.",
+        "Kỹ thuật kiểm soát lỗi và xử lý ngoại lệ (Exception Handling): Khối `try` chứa đoạn mã có nguy cơ phát sinh lỗi (như người dùng nhập chữ vào ô đòi hỏi số); Khối `except ValueError` bắt lỗi và hiển thị thông báo hướng dẫn người dùng nhập lại mà không làm sập toàn bộ ứng dụng.",
         ["Thông báo lỗi phải rõ ràng, mang tính xây dựng, chỉ dẫn cách khắc phục.", "Kiểm tra tính hợp lệ của dữ liệu đầu vào (Input Validation) trước khi đem đi tính toán."],
         {},
-        [{"question": "Trong lập trình, cấu trúc lệnh nào dùng để bẫy lỗi và ngăn chặn chương trình không bị sập khi gặp ngoại lệ?", "options": ["Khối lệnh try ... except", "Khối lệnh for ... while", "Khối lệnh if ... else"], "answer": 0, "explanation": "try... except là cú pháp chuẩn của Python để xử lý các ngoại lệ thời gian chạy."}],
+        [{"question": "Trong lập trình, cấu trúc lệnh nào dùng để kiểm soát và xử lý ngoại lệ (lỗi) và ngăn chặn chương trình không bị sập khi gặp ngoại lệ?", "options": ["Khối lệnh try ... except", "Khối lệnh for ... while", "Khối lệnh if ... else"], "answer": 0, "explanation": "try... except là cú pháp chuẩn của Python để xử lý các ngoại lệ thời gian chạy."}],
         "Ứng dụng phần mềm của em vận hành cực kỳ bền bỉ và thân thiện với người dùng!"
     ))
 
@@ -686,21 +686,21 @@ def get_middle_school_nodes():
     ))
 
     nodes.append(make_lesson(
-        "G9-11", "w2", 9, "Đấu trường Trùm Lớp 9: Tốt nghiệp Trung học Cơ sở", "Tổng kết GDPT 2018 THCS",
+        "G9-11", "w2", 9, "Ôn tập & Đánh giá Toàn diện Cấp THCS", "Tổng kết GDPT 2018 THCS",
         "Bài 16: Tổng kết & Đánh giá năng lực 9", "Bài 16: Dự án hỗ trợ cộng đồng & Tổng kết", "Bài 15, 16: Trường học thông minh & Đánh giá",
         "boss-quiz", ["G9-01", "G9-02", "G9-06", "G9-08", "G9-09"], 12,
         ["Tổng kết toàn diện 4 năm học Tin học THCS (Lớp 6, 7, 8, 9) của cả 3 bộ sách.", "Sẵn sàng vươn cánh bước vào thế giới THPT đỉnh cao."],
-        "Trùm Cuối THCS 'Malware Phantom' đang muốn phá hủy cánh cổng chuyển tiếp lên cấp 3! Hãy dùng toàn bộ nội lực 4 năm THCS để tiêu diệt nó!",
-        "Đấu trường đỉnh cao tổng hợp: Kiến trúc Von Neumann, Tiêu chí chất lượng thông tin, Thuật toán số học tối ưu, Mạng LAN & Đám mây, An toàn số 3-2-1.",
+        "Hãy vận dụng toàn diện kiến thức 4 năm THCS (kiến trúc máy tính, tiêu chuẩn thông tin, an toàn mạng và thuật toán) để hoàn thành xuất sắc bài đánh giá cuối cấp THCS!",
+        "Bài đánh giá tổng hợp: Kiến trúc Von Neumann, Tiêu chí chất lượng thông tin, Thuật toán số học tối ưu, Mạng LAN & Đám mây, An toàn số 3-2-1.",
         ["Chu trình lệnh CPU (Fetch - Decode - Execute).", "Quy tắc sao lưu 3-2-1 và định hướng nghề nghiệp CS/ICT."],
-        {"boss_name": "Malware Phantom Trùm THCS", "boss_max_hp": 100, "player_max_hp": 100, "damage_per_hit": 25, "questions_pool": 4},
+        {"boss_name": "Thử thách Đánh giá Cuối Cấp THCS", "boss_max_hp": 100, "player_max_hp": 100, "damage_per_hit": 25, "questions_pool": 4},
         [
             {"question": "Kiến trúc máy tính kinh điển Von Neumann gồm các thành phần cơ bản nào?", "options": ["CPU, Bộ nhớ chính, Bộ nhớ phụ, Thiết bị Vào/Ra và Hệ thống Bus", "Chỉ gồm màn hình và bàn phím", "Chỉ gồm phần mềm hệ thống", "Chuột và loa"], "answer": 0, "explanation": "Von Neumann định nghĩa mô hình phần cứng gồm 5 khối thành phần cốt lõi."},
             {"question": "Chiến lược sao lưu dữ liệu chuẩn quốc tế theo quy tắc 3-2-1 đòi hỏi điều gì?", "options": ["3 bản sao, trên 2 loại thiết bị khác nhau, ít nhất 1 bản lưu ở vị trí khác (như đám mây)", "Sao lưu 3 lần trong 1 ngày", "Mỗi tuần sao lưu 1 lần", "Chỉ lưu vào 1 thẻ nhớ duy nhất"], "answer": 0, "explanation": "Quy tắc 3-2-1 bảo đảm dữ liệu sống sót qua mọi sự cố phần cứng hay thiên tai."},
             {"question": "Thuật toán Euclid tìm Ước chung lớn nhất (UCLN) của hai số A và B dựa trên phép toán nào?", "options": ["Phép chia lấy phần dư liên tiếp (A % B)", "Phép nhân lũy thừa", "Phép khai căn bậc hai", "Phép đếm số chữ số"], "answer": 0, "explanation": "Thuật toán Euclid liên tục lấy số dư cho đến khi số dư bằng 0."},
             {"question": "Hai định hướng phân hóa môn Tin học ở cấp Trung học phổ thông (THPT) theo chương trình GDPT 2018 là gì?", "options": ["Khoa học máy tính (CS) và Tin học ứng dụng (ICT)", "Tin học văn phòng và Tin học đồ họa", "Lập trình game và Sửa máy tính", "Tin học đại cương và Tin học nâng cao"], "answer": 0, "explanation": "GDPT 2018 chính thức chia thành 2 định hướng: Khoa học máy tính (CS) và Tin học ứng dụng (ICT)."}
         ],
-        "VINH QUANG TRUNG HỌC CƠ SỞ! Chúc mừng em đã hoàn thành xuất sắc toàn bộ chặng đường Tin học THCS (Lớp 6, 7, 8, 9) của cả 3 bộ sách KNTT, Cánh Diều, CTST với danh hiệu Bậc Thầy Công Nghệ THCS!"
+        "CHÚC MỪNG EM! Em đã hoàn thành xuất sắc toàn bộ chặng đường Tin học THCS (Lớp 6, 7, 8, 9) của cả 3 bộ sách KNTT, Cánh Diều, CTST!"
     ))
 
     return nodes

@@ -1,7 +1,7 @@
 # PLAN.md — Bảng kế hoạch sống của dự án EasyTin
 
 > **Nguồn sự thật duy nhất về tiến độ.** AI **phải** cập nhật file này ngay sau khi xong MỖI nhiệm vụ và **trước khi** bắt đầu nhiệm vụ kế tiếp. **Chưa cập nhật = chưa xong.**
-> Cập nhật gần nhất: **U-004** · Pha hiện tại: **Pedagogical Tripartite Flow (Lí thuyết + Game + Thực hành)** · Người duyệt gần nhất: `Tech Lead & User`
+> Cập nhật gần nhất: **U-005** · Pha hiện tại: **Pedagogical Refinement & Education Vocabulary Standardization** · Người duyệt gần nhất: `Tech Lead & User`
 
 ---
 
