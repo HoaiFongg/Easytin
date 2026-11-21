@@ -302,7 +302,7 @@ export const TextbookSelector: React.FC<TextbookSelectorProps> = ({
                   isLight ? 'text-[#64748b] border-[#e2e8f0]' : 'text-[#8b9bb4] border-[#3a4466]'
                 }`}
               >
-                💡 Chuẩn hóa 100% theo Thông tư 32/2018/TT-BGDĐT
+                💡 Hỗ trợ học sinh tự học và ôn tập kiến thức Tin học
               </div>
             </div>
           )}
