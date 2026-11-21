@@ -455,13 +455,13 @@ export const WorldMap: React.FC<WorldMapProps> = ({
             <PixelCard
               key={node.id}
               variant={isCompleted ? 'green' : 'default'}
-              className={`flex flex-col justify-between relative transition-all hover-pixel-lift ${
+              className={`flex flex-col justify-between relative transition-all hover-pixel-lift h-full ${
                 isLocked ? 'opacity-60 cursor-not-allowed' : ''
               } ${isLight ? 'bg-white shadow-pixel-sm hover:shadow-pixel' : ''}`}
             >
-              <div>
+              <div className="flex flex-col flex-1">
                 {/* Header thẻ bài học */}
-                <div className={`flex items-center justify-between border-b pb-2 mb-3 ${
+                <div className={`flex items-center justify-between border-b pb-2 mb-2.5 h-7 ${
                   isLight ? 'border-[#e2e8f0]' : 'border-[#3a4466]'
                 }`}>
                   <span className={`text-xs font-black uppercase tracking-wider ${
@@ -486,64 +486,71 @@ export const WorldMap: React.FC<WorldMapProps> = ({
                   </div>
                 </div>
 
-                {/* Tiêu đề & Mạch nội dung */}
-                <h3 className={`font-bold text-base leading-snug ${
-                  isLight ? 'text-[#0f172a]' : 'text-white'
-                }`}>
+                {/* Tiêu đề: Khóa cố định chiều cao 2 dòng (h-11 sm:h-12 line-clamp-2) để 100% thẻ đều ngay hàng thẳng lối */}
+                <h3
+                  className={`font-bold text-sm sm:text-base leading-snug line-clamp-2 h-11 sm:h-12 flex items-start ${
+                    isLight ? 'text-[#0f172a]' : 'text-white'
+                  }`}
+                  title={node.title}
+                >
                   {node.title}
                 </h3>
-                <div className={`text-[11px] mt-1 line-clamp-1 ${
+
+                {/* Mạch nội dung (Chuẩn GDPT 2018): Khóa cố định 1 dòng h-5 */}
+                <div className={`text-[11px] mt-1 h-5 line-clamp-1 flex items-center ${
                   isLight ? 'text-[#64748b]' : 'text-[#8b9bb4]'
                 }`}>
                   {node.standard_domain}
                 </div>
 
-                {/* Khung sách đối chiếu */}
-                {selectedBook === 'all' && node.textbook_mapping && (
-                  <div className={`mt-3 p-2 border text-[10px] flex flex-col gap-0.5 ${
-                    isLight
-                      ? 'bg-[#f8fafc] border-[#e2e8f0] text-[#334155]'
-                      : 'bg-[#181425] border-[#3a4466] text-[#c0cbdc]'
-                  }`}>
-                    <div>📖 <span className={isLight ? 'text-[#16a34a] font-bold' : 'text-[#38b764] font-bold'}>KNTT:</span> {node.textbook_mapping.kntt}</div>
-                    <div>🪁 <span className={isLight ? 'text-[#d97706] font-bold' : 'text-[#feae34] font-bold'}>Cánh Diều:</span> {node.textbook_mapping.canhdieu}</div>
-                    <div>🌅 <span className={isLight ? 'text-[#0284c7] font-bold' : 'text-[#2ce8f5] font-bold'}>CTST:</span> {node.textbook_mapping.ctst}</div>
-                  </div>
-                )}
+                {/* Khung sách đối chiếu: Cố định độ cao và căn chỉnh dòng thẳng thớm */}
+                <div className="mt-2.5 flex-1 flex flex-col justify-end">
+                  {selectedBook === 'all' && node.textbook_mapping && (
+                    <div className={`p-2 border text-[10px] flex flex-col justify-center gap-0.5 min-h-[64px] ${
+                      isLight
+                        ? 'bg-[#f8fafc] border-[#e2e8f0] text-[#334155]'
+                        : 'bg-[#181425] border-[#3a4466] text-[#c0cbdc]'
+                    }`}>
+                      <div className="truncate">📖 <span className={isLight ? 'text-[#16a34a] font-bold' : 'text-[#38b764] font-bold'}>KNTT:</span> {node.textbook_mapping.kntt}</div>
+                      <div className="truncate">🪁 <span className={isLight ? 'text-[#d97706] font-bold' : 'text-[#feae34] font-bold'}>Cánh Diều:</span> {node.textbook_mapping.canhdieu}</div>
+                      <div className="truncate">🌅 <span className={isLight ? 'text-[#0284c7] font-bold' : 'text-[#2ce8f5] font-bold'}>CTST:</span> {node.textbook_mapping.ctst}</div>
+                    </div>
+                  )}
 
-                {selectedBook === 'kntt' && node.textbook_mapping?.kntt && (
-                  <div className={`mt-3 border-2 p-2 text-xs font-bold ${
-                    isLight
-                      ? 'bg-[#f0fdf4] border-[#86efac] text-[#166534]'
-                      : 'bg-[#193c3e] border-[#38b764] text-[#a7f070]'
-                  }`}>
-                    📖 Kết nối tri thức: {node.textbook_mapping.kntt}
-                  </div>
-                )}
+                  {selectedBook === 'kntt' && node.textbook_mapping?.kntt && (
+                    <div className={`border-2 p-2 text-xs font-bold min-h-[46px] flex items-center ${
+                      isLight
+                        ? 'bg-[#f0fdf4] border-[#86efac] text-[#166534]'
+                        : 'bg-[#193c3e] border-[#38b764] text-[#a7f070]'
+                    }`}>
+                      <span className="line-clamp-2">📖 Kết nối tri thức: {node.textbook_mapping.kntt}</span>
+                    </div>
+                  )}
 
-                {selectedBook === 'canhdieu' && node.textbook_mapping?.canhdieu && (
-                  <div className={`mt-3 border-2 p-2 text-xs font-bold ${
-                    isLight
-                      ? 'bg-[#fff7ed] border-[#fdba74] text-[#9a3412]'
-                      : 'bg-[#3e2731] border-[#f77622] text-[#fee761]'
-                  }`}>
-                    🪁 Cánh Diều: {node.textbook_mapping.canhdieu}
-                  </div>
-                )}
+                  {selectedBook === 'canhdieu' && node.textbook_mapping?.canhdieu && (
+                    <div className={`border-2 p-2 text-xs font-bold min-h-[46px] flex items-center ${
+                      isLight
+                        ? 'bg-[#fff7ed] border-[#fdba74] text-[#9a3412]'
+                        : 'bg-[#3e2731] border-[#f77622] text-[#fee761]'
+                    }`}>
+                      <span className="line-clamp-2">🪁 Cánh Diều: {node.textbook_mapping.canhdieu}</span>
+                    </div>
+                  )}
 
-                {selectedBook === 'ctst' && node.textbook_mapping?.ctst && (
-                  <div className={`mt-3 border-2 p-2 text-xs font-bold ${
-                    isLight
-                      ? 'bg-[#f0f9ff] border-[#7dd3fc] text-[#0369a1]'
-                      : 'bg-[#1f3b5c] border-[#2ce8f5] text-[#2ce8f5]'
-                  }`}>
-                    🌅 Chân trời sáng tạo: {node.textbook_mapping.ctst}
-                  </div>
-                )}
+                  {selectedBook === 'ctst' && node.textbook_mapping?.ctst && (
+                    <div className={`border-2 p-2 text-xs font-bold min-h-[46px] flex items-center ${
+                      isLight
+                        ? 'bg-[#f0f9ff] border-[#7dd3fc] text-[#0369a1]'
+                        : 'bg-[#1f3b5c] border-[#2ce8f5] text-[#2ce8f5]'
+                    }`}>
+                      <span className="line-clamp-2">🌅 Chân trời sáng tạo: {node.textbook_mapping.ctst}</span>
+                    </div>
+                  )}
+                </div>
               </div>
 
               {/* Footer thẻ: Khuôn game & Nút vào học */}
-              <div className={`mt-4 pt-3 border-t flex items-center justify-between ${
+              <div className={`mt-3 pt-2.5 border-t flex items-center justify-between ${
                 isLight ? 'border-[#e2e8f0]' : 'border-[#3a4466]'
               }`}>
                 <div className={`flex items-center gap-1.5 text-xs ${
