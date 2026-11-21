@@ -126,7 +126,7 @@ export const App: React.FC = () => {
       />
 
       {/* Main Content Area */}
-      <main className="flex-1 max-w-7xl w-full mx-auto p-4 sm:p-6">
+      <main className="flex-1 w-full px-4 sm:px-6 lg:px-8 xl:px-10 py-5 sm:py-7">
         <WorldMap
           currentWorld={currentWorld}
           selectedGrade={progress.selectedGrade}
@@ -138,8 +138,8 @@ export const App: React.FC = () => {
       </main>
 
       {/* Footer */}
-      <footer className="bg-[#1a1c2c] border-t-2 border-[#3a4466] py-4 text-center text-xs text-[#8b9bb4]">
-        <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-2">
+      <footer className="bg-[#1a1c2c] border-t-2 border-[#3a4466] py-4 text-center text-xs text-[#8b9bb4] w-full">
+        <div className="w-full px-4 sm:px-6 lg:px-8 xl:px-10 flex flex-col sm:flex-row items-center justify-between gap-2">
           <div>
             {t('footer_copyright')}
           </div>

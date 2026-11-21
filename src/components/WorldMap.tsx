@@ -59,11 +59,11 @@ export const WorldMap: React.FC<WorldMapProps> = ({
     });
 
   return (
-    <div className="flex flex-col gap-6">
+    <div className="flex flex-col gap-6 w-full">
       {/* KHỐI ĐIỀU HƯỚNG CẤP HỌC & KHỐI LỚP PHỔ THÔNG (Tiểu học · THCS · THPT) */}
-      <div className="bg-[#181425] border-3 border-[#3a4466] p-3 sm:p-5 shadow-pixel flex flex-col gap-4">
+      <div className="bg-[#181425] border-3 border-[#3a4466] p-3 sm:p-5 shadow-pixel flex flex-col gap-4 w-full">
         {/* Hàng 1: CHỌN CẤP HỌC */}
-        <div>
+        <div className="w-full">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-2.5">
             <div className="flex items-center gap-2">
               <GraduationCap className="text-[#fee761]" size={18} />
@@ -76,7 +76,7 @@ export const WorldMap: React.FC<WorldMapProps> = ({
             </span>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-3 sm:gap-4 w-full">
             {/* Cấp Tiểu học */}
             <button
               onClick={() => {
@@ -152,13 +152,13 @@ export const WorldMap: React.FC<WorldMapProps> = ({
         </div>
 
         {/* Hàng 2: CHỌN KHỐI LỚP TRONG CẤP HỌC ĐÃ CHỌN */}
-        <div className="pt-3 border-t-2 border-[#262b44] flex flex-col sm:flex-row sm:items-center justify-between gap-3">
-          <div className="text-xs font-bold text-[#c0cbdc] flex items-center gap-1.5">
+        <div className="pt-3 border-t-2 border-[#262b44] flex flex-col lg:flex-row lg:items-center justify-between gap-3 w-full">
+          <div className="text-xs font-bold text-[#c0cbdc] flex items-center gap-1.5 shrink-0">
             <span>📚</span>
             <span>CHỌN KHỐI LỚP TRONG {currentLevelLabel.toUpperCase()}:</span>
           </div>
 
-          <div className="flex flex-wrap items-center gap-2 w-full sm:w-auto">
+          <div className="grid grid-cols-3 sm:flex sm:flex-wrap items-center gap-2 w-full lg:w-auto">
             {currentLevelGrades.map((g) => {
               const isSelected = selectedGrade === g;
               const count = nodes.filter((n) => n.grade === g).length;
@@ -205,11 +205,11 @@ export const WorldMap: React.FC<WorldMapProps> = ({
             <h1 className="text-xl md:text-2xl font-black text-white mt-1">
               {t('curriculum_title')} {selectedGrade} ({nodes.filter((n) => n.grade === selectedGrade).length} {t('lessons_count')})
             </h1>
-            <p className="text-xs text-[#c0cbdc] max-w-2xl mt-1 leading-relaxed">
+            <p className="text-xs text-[#c0cbdc] max-w-4xl mt-1 leading-relaxed">
               {currentWorld.description}
             </p>
           </div>
-          <div className="flex items-center gap-2 bg-[#181425]/80 p-2 border-2 border-[#5a6988]">
+          <div className="flex items-center gap-2 bg-[#181425]/80 p-2 border-2 border-[#5a6988] shrink-0">
             <span className="text-xs text-[#8b9bb4]">Độ phủ SGK:</span>
             <span className="text-xs font-bold text-[#38b764]">KNTT · Cánh Diều · CTST</span>
           </div>
@@ -217,7 +217,7 @@ export const WorldMap: React.FC<WorldMapProps> = ({
       </div>
 
       {/* Linh vật Pixel Đồng hành (Interactive Mascot Companion) */}
-      <div className="bg-[#1f2438] border-3 border-[#fee761] p-3 sm:p-4 shadow-pixel flex items-center gap-3 sm:gap-4 relative overflow-hidden">
+      <div className="bg-[#1f2438] border-3 border-[#fee761] p-3 sm:p-4 shadow-pixel flex items-center gap-3 sm:gap-4 relative overflow-hidden w-full">
         <div
           className="w-14 h-14 sm:w-16 sm:h-16 bg-[#181425] border-2 border-[#fee761] flex items-center justify-center p-1 shadow-pixel-sm shrink-0 cursor-pointer hover:scale-105 transition-transform"
           onClick={() => sound.playJump()}
@@ -241,7 +241,7 @@ export const WorldMap: React.FC<WorldMapProps> = ({
       </div>
 
       {/* Bộ chọn Bộ Sách Giáo Khoa */}
-      <div className="flex flex-wrap items-center justify-between gap-3 bg-[#1f2438] p-3 border-2 border-[#3a4466]">
+      <div className="flex flex-wrap items-center justify-between gap-3 bg-[#1f2438] p-3 border-2 border-[#3a4466] w-full">
         <div className="flex items-center gap-2">
           <BookOpen size={16} className="text-[#fee761]" />
           <span className="text-xs text-[#c0cbdc] font-bold">Lọc theo bộ sách giáo khoa:</span>
@@ -272,7 +272,7 @@ export const WorldMap: React.FC<WorldMapProps> = ({
       </div>
 
       {/* Danh sách các bài học dạng Bản đồ Phiêu lưu */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4 sm:gap-5 w-full">
         {filteredNodes.map((node, index) => {
           const rec = mastery[node.id];
           const isCompleted = rec?.isCompleted || false;

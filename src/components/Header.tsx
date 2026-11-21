@@ -30,8 +30,8 @@ export const Header: React.FC<HeaderProps> = ({
   const { t, language } = useI18n();
 
   return (
-    <header className="sticky top-0 z-30 bg-[#181425] border-b-4 border-[#3a4466] px-4 py-2.5 shadow-pixel">
-      <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-3">
+    <header className="sticky top-0 z-30 bg-[#181425] border-b-4 border-[#3a4466] px-4 sm:px-6 lg:px-8 py-2.5 shadow-pixel w-full">
+      <div className="w-full flex flex-wrap items-center justify-between gap-3">
         {/* Logo & Slogan */}
         <div className="flex items-center gap-3">
           <div className="flex items-center gap-2 cursor-pointer" onClick={() => sound.playJump()}>

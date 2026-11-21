@@ -108,7 +108,7 @@ export const LessonModal: React.FC<LessonModalProps> = ({ node, onClose, onFinis
 
   return (
     <div className="fixed inset-0 z-50 bg-black/85 flex items-center justify-center p-2 sm:p-4 overflow-y-auto">
-      <div className="bg-[#181425] border-4 border-[#5a6988] shadow-pixel-lg w-full max-w-4xl max-h-[94vh] flex flex-col overflow-hidden">
+      <div className="bg-[#181425] border-4 border-[#5a6988] shadow-pixel-lg w-full max-w-5xl xl:max-w-6xl max-h-[94vh] flex flex-col overflow-hidden">
         {/* Header Modal */}
         <div className="flex items-center justify-between bg-[#262b44] px-4 py-2.5 border-b-3 border-[#3a4466]">
           <div className="flex items-center gap-2 overflow-hidden">
@@ -224,7 +224,7 @@ export const LessonModal: React.FC<LessonModalProps> = ({ node, onClose, onFinis
 
           {/* BƯỚC 2: Lí thuyết chuyên sâu / Theory */}
           {step === 'theory' && (
-            <div className="flex flex-col gap-4 max-w-3xl mx-auto py-1">
+            <div className="flex flex-col gap-4 max-w-4xl xl:max-w-5xl mx-auto py-1 w-full">
               {/* Lời dẫn bài học */}
               <div className="bg-[#20243b] p-4 border-2 border-[#5a6988] shadow-pixel">
                 <div className="flex items-center gap-2 mb-2">
@@ -346,7 +346,7 @@ export const LessonModal: React.FC<LessonModalProps> = ({ node, onClose, onFinis
 
           {/* BƯỚC 4: Phòng Thực hành Lab & Trắc nghiệm chẩn đoán / Practice */}
           {step === 'practice' && (
-            <div className="flex flex-col gap-5 max-w-3xl mx-auto py-1">
+            <div className="flex flex-col gap-5 max-w-4xl xl:max-w-5xl mx-auto py-1 w-full">
               {/* Nhiệm vụ phòng Lab */}
               {practice?.mission ? (
                 <div className="bg-[#20243b] p-4 border-2 border-[#5a6988] shadow-pixel">
@@ -485,7 +485,7 @@ export const LessonModal: React.FC<LessonModalProps> = ({ node, onClose, onFinis
 
           {/* BƯỚC 5: Tổng kết bài học & Thăng cấp Leitner / Recap */}
           {step === 'recap' && (
-            <div className="flex flex-col items-center gap-5 py-4 max-w-xl mx-auto text-center">
+            <div className="flex flex-col items-center gap-5 py-4 max-w-2xl mx-auto text-center w-full">
               <div className="text-5xl animate-bounce">🏆</div>
               <h3 className="text-lg font-black text-[#fee761] uppercase tracking-wider">HOÀN THÀNH BÀI HỌC!</h3>
               <p className="text-xs text-[#c0cbdc] leading-relaxed bg-[#262b44] p-4 border-2 border-[#5a6988]">
