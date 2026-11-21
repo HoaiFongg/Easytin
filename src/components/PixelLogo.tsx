@@ -17,7 +17,7 @@ export const PixelLogo: React.FC<PixelLogoProps> = ({
   onClick,
   className = '',
 }) => {
-  const { t, language } = useI18n();
+  const { t } = useI18n();
 
   const iconSizes = {
     sm: 30,
@@ -163,14 +163,11 @@ export const PixelLogo: React.FC<PixelLogoProps> = ({
           </span>
         </div>
 
-        {/* 3. KHẨU HIỆU & HUY HIỆU SƯ PHẠM (PEDAGOGICAL BADGE) */}
+        {/* 3. KHẨU HIỆU & ĐỊNH HƯỚNG SƯ PHẠM */}
         {showSubtitle && (
           <div className="flex items-center gap-1.5 mt-1">
             <span className="text-[10px] sm:text-[11px] text-[#8b9bb4] group-hover:text-[#c0cbdc] transition-colors font-sans">
               {t('app_subtitle')}
-            </span>
-            <span className="hidden md:inline-block px-1.5 py-0.2 bg-[#1a1c2c] border border-[#3a4466] text-[#fee761] text-[9px] font-bold uppercase tracking-wider">
-              {language === 'vi' ? 'GAME HỌC TẬP' : 'PIXEL GAME'}
             </span>
           </div>
         )}

@@ -227,7 +227,7 @@ export const TRANSLATIONS = {
     profile_btn_logout: 'Đăng xuất',
 
     // Footer
-    footer_copyright: 'EasyTin © 2026 — Nền tảng học Tin học dạng game Pixel cho học sinh Việt Nam.',
+    footer_copyright: 'EasyTin © 2026 — Nền tảng học Tin học trực quan chuẩn GDPT 2018 cho học sinh Việt Nam.',
     footer_standard: 'Đồng bộ chuẩn GDPT 2018 · KNTT · Cánh Diều · Chân trời sáng tạo · 100% Offline PWA Ready',
   },
   en: {
@@ -422,7 +422,7 @@ export const TRANSLATIONS = {
     profile_btn_logout: 'Log Out',
 
     // Footer
-    footer_copyright: 'EasyTin © 2026 — Pixel Game-based Informatics Platform for Vietnamese Students.',
+    footer_copyright: 'EasyTin © 2026 — Interactive Informatics Platform aligned with GDPT 2018 for Vietnamese Students.',
     footer_standard: 'GDPT 2018 Standard · Knowledge Connection · Kite · Creative Horizons · 100% Offline PWA Ready',
   },
 };
