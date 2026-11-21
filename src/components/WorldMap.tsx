@@ -7,6 +7,7 @@ import { PixelCard } from './PixelCard';
 import { PixelButton } from './PixelButton';
 import { PixelMascot } from './PixelMascot';
 import { PixelElementaryIcon, PixelMiddleSchoolIcon, PixelHighSchoolIcon, PixelStarIcon } from './PixelIcons';
+import { TextbookSelector, TextbookFilterId } from './TextbookSelector';
 import { sound } from '../../packages/game-core/audio';
 import { Lock, Play, BookOpen, Clock, GraduationCap } from 'lucide-react';
 
@@ -30,7 +31,7 @@ export const WorldMap: React.FC<WorldMapProps> = ({
   const { t } = useI18n();
   const { effectiveTheme } = useTheme();
   const isLight = effectiveTheme === 'light';
-  const [selectedBook, setSelectedBook] = useState<'all' | 'kntt' | 'canhdieu' | 'ctst'>('all');
+  const [selectedBook, setSelectedBook] = useState<TextbookFilterId>('all');
 
   const isElementary = [3, 4, 5].includes(selectedGrade);
   const isMiddleSchool = [6, 7, 8, 9].includes(selectedGrade);
@@ -398,47 +399,14 @@ export const WorldMap: React.FC<WorldMapProps> = ({
         </div>
       </div>
 
-      {/* Bộ chọn Bộ Sách Giáo Khoa */}
-      <div className={`flex flex-wrap items-center justify-between gap-3 p-3 border-2 w-full ${
-        isLight ? 'bg-white border-[#cbd5e1] shadow-pixel-sm' : 'bg-[#1f2438] border-[#3a4466]'
-      }`}>
-        <div className="flex items-center gap-2">
-          <BookOpen size={16} className={isLight ? 'text-[#b45309]' : 'text-[#fee761]'} />
-          <span className={`text-xs font-bold ${isLight ? 'text-[#334155]' : 'text-[#c0cbdc]'}`}>
-            Lọc theo bộ sách giáo khoa:
-          </span>
-        </div>
-        <div className="flex flex-wrap items-center gap-2">
-          {[
-            { id: 'all', label: t('filter_all') },
-            { id: 'kntt', label: t('filter_kntt') },
-            { id: 'canhdieu', label: t('filter_canhdieu') },
-            { id: 'ctst', label: t('filter_ctst') },
-          ].map((b) => {
-            const isSelected = selectedBook === b.id;
-            return (
-              <button
-                key={b.id}
-                onClick={() => {
-                  sound.playClick();
-                  setSelectedBook(b.id as 'all' | 'kntt' | 'canhdieu' | 'ctst');
-                }}
-                className={`px-3 py-1 text-xs font-bold transition-all border-2 cursor-pointer ${
-                  isSelected
-                    ? isLight
-                      ? 'bg-[#fef08a] text-[#713f12] border-[#ca8a04] shadow-pixel-sm -translate-y-0.5'
-                      : 'bg-[#fee761] text-black border-white shadow-pixel-sm -translate-y-0.5'
-                    : isLight
-                    ? 'bg-[#f8fafc] text-[#475569] border-[#cbd5e1] hover:border-[#94a3b8]'
-                    : 'bg-[#262b44] text-[#c0cbdc] border-[#5a6988] hover:border-white'
-                }`}
-              >
-                {b.label}
-              </button>
-            );
-          })}
-        </div>
-      </div>
+      {/* Bộ chọn Bộ Sách Giáo Khoa dạng Danh Sách */}
+      <TextbookSelector
+        selectedBook={selectedBook}
+        onSelectBook={setSelectedBook}
+        selectedGrade={selectedGrade}
+        nodes={nodes}
+        isLight={isLight}
+      />
 
       {/* Danh sách các bài học dạng Bản đồ Phiêu lưu */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4 sm:gap-5 w-full">
