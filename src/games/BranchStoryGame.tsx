@@ -67,13 +67,20 @@ export const BranchStoryGame: React.FC<BranchStoryGameProps> = ({ config, onComp
       <div className="flex items-center gap-2 border-b border-[#3a4466] pb-2">
         <ShieldCheck className="text-[#38b764]" size={20} />
         <span className="text-xs font-black text-[#fee761] uppercase tracking-wider">
-          TÌNH HUỐNG HIỆP SĨ SỐ ({currentIndex + 1}/{scenarios.length})
+          TÌNH HUỐNG VĂN HÓA & ĐẠO ĐỨC SỐ ({currentIndex + 1}/{scenarios.length})
         </span>
       </div>
 
-      {/* Đề bài tình huống */}
-      <div className="bg-[#181425] p-4 border-2 border-[#3a4466] text-sm text-white leading-relaxed">
-        {cur?.prompt}
+      {/* Đề bài tình huống được highlight nổi bật */}
+      <div className="bg-[#242b45] border-l-4 border-[#2ce8f5] p-4 border-2 border-[#5a6988] shadow-pixel-sm">
+        <div className="flex items-start gap-2.5">
+          <span className="px-2 py-0.5 bg-[#2ce8f5] text-[#181425] font-black text-xs uppercase tracking-wider shrink-0 mt-0.5 shadow-pixel-sm">
+            TÌNH HUỐNG {currentIndex + 1}
+          </span>
+          <span className="text-sm sm:text-base font-bold text-white leading-relaxed">
+            {cur?.prompt}
+          </span>
+        </div>
       </div>
 
       {/* Các lựa chọn */}

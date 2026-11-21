@@ -134,11 +134,16 @@ export const BossQuizGame: React.FC<BossQuizGameProps> = ({ config, quizList, on
       {/* Màn câu hỏi RPG */}
       {!gameOver && curQ ? (
         <div className="flex flex-col gap-4">
-          <div className="text-xs font-black text-[#fee761] uppercase tracking-wider">
-            CÂU HỎI THỬ THÁCH THỨ {qIndex + 1}/{questions.length}:
-          </div>
-          <div className="text-sm font-semibold text-white bg-[#262b44] p-4 border-2 border-[#5a6988]">
-            {curQ.question}
+          {/* Hộp câu hỏi được highlight nổi bật */}
+          <div className="bg-[#242b45] border-l-4 border-[#fee761] p-4 border-2 border-[#5a6988] shadow-pixel-sm">
+            <div className="flex items-start gap-2.5">
+              <span className="px-2 py-0.5 bg-[#fee761] text-[#181425] font-black text-xs uppercase tracking-wider shrink-0 mt-0.5 shadow-pixel-sm">
+                CÂU HỎI {qIndex + 1}/{questions.length}
+              </span>
+              <span className="text-sm sm:text-base font-bold text-white leading-relaxed">
+                {curQ.question}
+              </span>
+            </div>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">

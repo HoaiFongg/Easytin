@@ -22,6 +22,37 @@ interface LessonModalProps {
 
 type Step = 'hook' | 'theory' | 'game' | 'practice' | 'recap';
 
+// Hàm hỗ trợ highlight các câu hỏi xuất hiện trong văn bản bài học
+const renderTextWithHighlightedQuestions = (text: string) => {
+  if (!text) return text;
+  // Bắt các câu hỏi kết thúc bằng dấu '?'
+  const questionRegex = /([^.!?\n]+(?:\?))/g;
+  const parts: React.ReactNode[] = [];
+  let lastIndex = 0;
+  let match: RegExpExecArray | null;
+
+  while ((match = questionRegex.exec(text)) !== null) {
+    if (match.index > lastIndex) {
+      parts.push(text.substring(lastIndex, match.index));
+    }
+    parts.push(
+      <span
+        key={match.index}
+        className="bg-[#fee761]/15 text-[#fee761] font-bold px-1 py-0.5 border-b-2 border-[#fee761] inline"
+      >
+        {match[0].trim()}
+      </span>
+    );
+    lastIndex = match.index + match[0].length;
+  }
+
+  if (lastIndex < text.length) {
+    parts.push(text.substring(lastIndex));
+  }
+
+  return parts.length > 0 ? parts : text;
+};
+
 export const LessonModal: React.FC<LessonModalProps> = ({ node, onClose, onFinishLesson }) => {
   const [step, setStep] = useState<Step>('hook');
   const [gameScore, setGameScore] = useState<number>(0);
@@ -152,10 +183,18 @@ export const LessonModal: React.FC<LessonModalProps> = ({ node, onClose, onFinis
             <div className="flex flex-col items-center gap-5 py-4 max-w-xl mx-auto text-center">
               <div className="text-5xl animate-bounce">🤖</div>
               <div className="bg-[#262b44] border-3 border-[#38b764] p-5 w-full text-center relative shadow-pixel">
-                <div className="text-xs font-black text-[#fee761] uppercase tracking-wider mb-2">
-                  LỜI NHẮN TỪ ROBOT TINTIN:
+                <div className="text-xs font-black text-[#fee761] uppercase tracking-wider mb-2 flex items-center justify-center gap-1.5">
+                  <Sparkles size={14} className="text-[#fee761]" /> LỜI NHẮN TỪ ROBOT TINTIN:
                 </div>
-                <p className="text-sm text-white leading-relaxed">{lesson.hook}</p>
+                {/* Hộp câu hỏi khởi động được highlight nổi bật */}
+                <div className="bg-[#181425] border-l-4 border-[#fee761] p-3.5 sm:p-4 my-2 text-left border-y border-r border-[#3a4466] shadow-pixel-sm">
+                  <p className="text-[11px] font-bold text-[#fee761] uppercase mb-1 flex items-center gap-1">
+                    <span className="w-2 h-2 bg-[#fee761] inline-block"></span> CÂU HỎI KHỞI ĐỘNG BÀI HỌC:
+                  </p>
+                  <p className="text-sm sm:text-base font-bold text-white leading-relaxed">
+                    {renderTextWithHighlightedQuestions(lesson.hook)}
+                  </p>
+                </div>
               </div>
 
               {node.textbook_mapping && (
@@ -195,7 +234,7 @@ export const LessonModal: React.FC<LessonModalProps> = ({ node, onClose, onFinis
                   </h4>
                 </div>
                 <p className="text-xs sm:text-sm text-[#c0cbdc] leading-relaxed">
-                  {theory?.overview || lesson.concept.summary}
+                  {renderTextWithHighlightedQuestions(theory?.overview || lesson.concept.summary)}
                 </p>
               </div>
 
@@ -208,7 +247,7 @@ export const LessonModal: React.FC<LessonModalProps> = ({ node, onClose, onFinis
                         <span>📌</span> {sec.title}
                       </h5>
                       <div className="text-xs text-[#e0e6ed] leading-relaxed whitespace-pre-line mb-3">
-                        {sec.content}
+                        {renderTextWithHighlightedQuestions(sec.content)}
                       </div>
 
                       {/* Ví dụ thực tế */}
@@ -217,7 +256,7 @@ export const LessonModal: React.FC<LessonModalProps> = ({ node, onClose, onFinis
                           <span className="font-bold text-white flex items-center gap-1 mb-1">
                             <span>🌱</span> Ví dụ thực tế đời sống:
                           </span>
-                          {sec.example}
+                          {renderTextWithHighlightedQuestions(sec.example)}
                         </div>
                       )}
 
@@ -225,7 +264,7 @@ export const LessonModal: React.FC<LessonModalProps> = ({ node, onClose, onFinis
                       {sec.tip && (
                         <div className="bg-[#3a3520] border border-[#e4a672] p-2.5 text-xs text-[#fee761] my-1.5 leading-relaxed">
                           <span className="font-bold flex items-center gap-1 mb-0.5">
-                            <Lightbulb size={13} /> Lưu ý thực chiến:
+                            <Lightbulb size={13} /> Lưu ý khi học tập:
                           </span>
                           {sec.tip}
                         </div>
@@ -373,10 +412,19 @@ export const LessonModal: React.FC<LessonModalProps> = ({ node, onClose, onFinis
                   {lesson.quiz.map((q, qIdx) => {
                     const userAns = quizAnswers[qIdx];
                     return (
-                      <div key={qIdx} className="bg-[#181425] p-3.5 border border-[#3a4466]">
-                        <div className="font-bold text-xs sm:text-sm text-white mb-2.5">
-                          Câu {qIdx + 1}: {q.question}
+                      <div key={qIdx} className="bg-[#181425] p-3.5 border-2 border-[#3a4466] shadow-pixel-sm">
+                        {/* Hộp câu hỏi được highlight nổi bật với viền vàng và badge */}
+                        <div className="bg-[#242b45] border-l-4 border-[#fee761] p-3 sm:p-3.5 mb-3 border-y border-r border-[#3a4466] shadow-pixel-sm">
+                          <div className="flex items-start gap-2.5">
+                            <span className="px-2 py-0.5 bg-[#fee761] text-[#181425] font-black text-[11px] uppercase tracking-wider shrink-0 mt-0.5 shadow-pixel-sm">
+                              CÂU HỎI {qIdx + 1}
+                            </span>
+                            <span className="text-xs sm:text-sm font-bold text-white leading-relaxed">
+                              {q.question}
+                            </span>
+                          </div>
                         </div>
+
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                           {q.options.map((opt, optIdx) => {
                             const isSelected = userAns === optIdx;
@@ -405,8 +453,8 @@ export const LessonModal: React.FC<LessonModalProps> = ({ node, onClose, onFinis
                         </div>
 
                         {quizSubmitted && (
-                          <div className="mt-2.5 text-xs bg-[#262b44] p-2.5 border border-[#3a4466] text-[#c0cbdc]">
-                            <span className="text-[#fee761] font-bold">Giải thích:</span> {q.explanation}
+                          <div className="mt-3 text-xs bg-[#242b45] p-3 border-l-4 border-[#38b764] border-y border-r border-[#3a4466] text-[#c0cbdc] leading-relaxed">
+                            <span className="text-[#38b764] font-bold">💡 Giải thích chi tiết:</span> {q.explanation}
                           </div>
                         )}
                       </div>
