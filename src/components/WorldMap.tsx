@@ -6,8 +6,9 @@ import { useTheme } from '../ThemeContext';
 import { PixelCard } from './PixelCard';
 import { PixelButton } from './PixelButton';
 import { PixelMascot } from './PixelMascot';
+import { PixelElementaryIcon, PixelMiddleSchoolIcon, PixelHighSchoolIcon, PixelStarIcon } from './PixelIcons';
 import { sound } from '../../packages/game-core/audio';
-import { Star, Lock, Play, BookOpen, Clock, GraduationCap } from 'lucide-react';
+import { Lock, Play, BookOpen, Clock, GraduationCap } from 'lucide-react';
 
 interface WorldMapProps {
   currentWorld: CurriculumWorld;
@@ -105,7 +106,7 @@ export const WorldMap: React.FC<WorldMapProps> = ({
               }`}
             >
               <div className="flex items-center justify-between">
-                <span className="text-2xl">🎒</span>
+                <PixelElementaryIcon size={26} />
                 <span className={`text-[10px] font-bold px-2 py-0.5 border ${
                   isElementary
                     ? isLight
@@ -153,7 +154,7 @@ export const WorldMap: React.FC<WorldMapProps> = ({
               }`}
             >
               <div className="flex items-center justify-between">
-                <span className="text-2xl">🌲</span>
+                <PixelMiddleSchoolIcon size={26} />
                 <span className={`text-[10px] font-bold px-2 py-0.5 border ${
                   isMiddleSchool
                     ? isLight
@@ -201,7 +202,7 @@ export const WorldMap: React.FC<WorldMapProps> = ({
               }`}
             >
               <div className="flex items-center justify-between">
-                <span className="text-2xl">🏛️</span>
+                <PixelHighSchoolIcon size={26} />
                 <span className={`text-[10px] font-bold px-2 py-0.5 border ${
                   isHighSchool
                     ? isLight
@@ -471,16 +472,11 @@ export const WorldMap: React.FC<WorldMapProps> = ({
                   </span>
                   <div className="flex items-center gap-1">
                     {Array.from({ length: 3 }).map((_, s) => (
-                      <Star
+                      <PixelStarIcon
                         key={s}
                         size={14}
-                        className={
-                          s < stars
-                            ? `text-[#f59e0b] fill-[#f59e0b] ${stars === 3 ? 'anim-shimmer-star' : ''}`
-                            : isLight
-                            ? 'text-[#cbd5e1]'
-                            : 'text-[#3a4466]'
-                        }
+                        filled={s < stars}
+                        className={s < stars && stars === 3 ? 'anim-shimmer-star' : ''}
                       />
                     ))}
                   </div>

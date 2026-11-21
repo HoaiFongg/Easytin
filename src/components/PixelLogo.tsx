@@ -58,13 +58,12 @@ export const PixelLogo: React.FC<PixelLogoProps> = ({
           className="w-full h-full drop-shadow-[2px_2px_0px_#181425]"
           style={{ shapeRendering: 'crispEdges' }}
         >
-          {/* ANTENNA & NGÔI SAO SÁNG (y=0..4) */}
-          <rect x="15" y="0" width="2" height="1" fill="#fee761" className={animated ? 'anim-pixel-glow' : ''} />
-          <rect x="14" y="1" width="4" height="2" fill="#fee761" />
-          <rect x="15" y="1" width="1" height="1" fill="#ffffff" />
-          <rect x="14" y="3" width="4" height="1" fill="#feae34" />
-          <rect x="15" y="3" width="2" height="3" fill="#8b9bb4" />
-          <rect x="15" y="5" width="2" height="1" fill="#3a4466" />
+          {/* ANTENNA CẶP TAI THỎ MÁY TÍNH RETRO */}
+          <rect x="11" y="1" width="2" height="2" fill="#8b9bb4" />
+          <rect x="12" y="3" width="2" height="2" fill="#8b9bb4" />
+          <rect x="19" y="1" width="2" height="2" fill="#8b9bb4" />
+          <rect x="18" y="3" width="2" height="2" fill="#8b9bb4" />
+          <rect x="15" y="4" width="2" height="2" fill="#5a6988" />
 
           {/* VỎ MÁY CRT CHASSIS (y=5..26, x=2..29) */}
           {/* Viền đen bảo vệ pixel ngoài cùng */}
@@ -158,8 +157,8 @@ export const PixelLogo: React.FC<PixelLogoProps> = ({
           <span className="text-[#38b764] drop-shadow-[2px_2px_0px_#181425] group-hover:text-[#a7f070] transition-colors">
             TIN
           </span>
-          <span className="text-[10px] text-[#2ce8f5] drop-shadow-[1px_1px_0px_#181425] ml-0.5 group-hover:rotate-45 transition-transform">
-            ✦
+          <span className="text-[12px] text-[#2ce8f5] drop-shadow-[1px_1px_0px_#181425] font-mono anim-pixel-blink font-bold ml-0.5">
+            _
           </span>
         </div>
 

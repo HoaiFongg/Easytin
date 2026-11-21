@@ -4,17 +4,21 @@ import { useTheme } from '../ThemeContext';
 import { PixelLogo } from './PixelLogo';
 import { PixelButton } from './PixelButton';
 import { PixelMascot } from './PixelMascot';
+import {
+  PixelElementaryIcon,
+  PixelMiddleSchoolIcon,
+  PixelHighSchoolIcon,
+  PixelMapIcon
+} from './PixelIcons';
 import { sound } from '../../packages/game-core/audio';
 import {
   BookOpen,
   Gamepad2,
-  BrainCircuit,
-  Bot,
+  RotateCcw,
+  Smile,
   Globe2,
   ShieldCheck,
-  Sparkles,
   Users,
-  Compass,
   ArrowRight,
   School,
   CheckCircle2,
@@ -48,7 +52,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onBackToCurriculum }) => {
       stat: '8 Game Types',
     },
     {
-      icon: BrainCircuit,
+      icon: RotateCcw,
       iconColor: isLight ? 'text-[#b45309]' : 'text-[#fee761]',
       badgeColor: isLight ? 'bg-[#fef9c3] text-[#854d0e]' : 'bg-[#3a3520] text-[#fee761]',
       title: t('about_pillar_3_title'),
@@ -56,7 +60,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onBackToCurriculum }) => {
       stat: '5 Hộp Leitner',
     },
     {
-      icon: Bot,
+      icon: Smile,
       iconColor: isLight ? 'text-[#9d174d]' : 'text-[#fca3ca]',
       badgeColor: isLight ? 'bg-[#fce7f3] text-[#9d174d]' : 'bg-[#5c2b4e] text-[#fca3ca]',
       title: t('about_pillar_4_title'),
@@ -88,7 +92,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onBackToCurriculum }) => {
       name: t('about_world_elem_title'),
       sub: t('about_world_elem_sub'),
       desc: t('about_world_elem_desc'),
-      icon: '🎒',
+      icon: <PixelElementaryIcon size={30} />,
       borderColor: isLight ? 'border-[#10b981]' : 'border-[#38b764]',
       bgHeader: isLight ? 'bg-[#ecfdf5] text-[#065f46]' : 'bg-[#1a3826] text-[#a7f070]',
       highlight: isLight ? 'text-[#047857]' : 'text-[#38b764]',
@@ -99,7 +103,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onBackToCurriculum }) => {
       name: t('about_world_mid_title'),
       sub: t('about_world_mid_sub'),
       desc: t('about_world_mid_desc'),
-      icon: '🌲',
+      icon: <PixelMiddleSchoolIcon size={30} />,
       borderColor: isLight ? 'border-[#3b82f6]' : 'border-[#2ce8f5]',
       bgHeader: isLight ? 'bg-[#eff6ff] text-[#1e40af]' : 'bg-[#1f3b5c] text-[#2ce8f5]',
       highlight: isLight ? 'text-[#1d4ed8]' : 'text-[#2ce8f5]',
@@ -110,7 +114,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onBackToCurriculum }) => {
       name: t('about_world_high_title'),
       sub: t('about_world_high_sub'),
       desc: t('about_world_high_desc'),
-      icon: '🏛️',
+      icon: <PixelHighSchoolIcon size={30} />,
       borderColor: isLight ? 'border-[#ec4899]' : 'border-[#feae34]',
       bgHeader: isLight ? 'bg-[#fdf2f8] text-[#9d174d]' : 'bg-[#3e2731] text-[#fee761]',
       highlight: isLight ? 'text-[#be185d]' : 'text-[#feae34]',
@@ -156,7 +160,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onBackToCurriculum }) => {
           <div className="flex-1 flex flex-col items-center lg:items-start text-center lg:text-left gap-4">
             {/* Tag chuẩn mực */}
             <div className="inline-flex items-center gap-2 px-3 py-1 text-xs font-bold font-mono tracking-wider border uppercase shadow-pixel-sm bg-[#10b981] text-white border-[#059669]">
-              <Sparkles size={14} className="text-[#fee761] animate-pulse" />
+              <Award size={15} className="text-[#fee761]" />
               <span>{t('about_hero_tag')}</span>
             </div>
 
@@ -203,7 +207,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onBackToCurriculum }) => {
                 }}
               >
                 <span className="flex items-center gap-2">
-                  <Compass size={16} />
+                  <PixelMapIcon size={16} />
                   <span>{t('about_btn_explore')}</span>
                   <ArrowRight size={16} />
                 </span>
@@ -405,7 +409,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onBackToCurriculum }) => {
           }}
         >
           <span className="flex items-center gap-2">
-            <Compass size={16} />
+            <PixelMapIcon size={16} />
             <span>{t('about_btn_explore')}</span>
             <ArrowRight size={16} />
           </span>

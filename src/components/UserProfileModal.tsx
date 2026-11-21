@@ -3,8 +3,9 @@ import { Grade, UserAccount } from '../../packages/domain/types';
 import { AccountManager, AVATAR_OPTIONS, getRankTitle } from '../../packages/domain/account';
 import { PixelButton } from './PixelButton';
 import { PixelMascot } from './PixelMascot';
+import { PixelXpIcon, PixelFlameIcon, PixelStarIcon } from './PixelIcons';
 import { sound } from '../../packages/game-core/audio';
-import { X, User, Edit3, Key, LogOut, Users, Sparkles, Flame, Award, CheckCircle2, AlertCircle } from 'lucide-react';
+import { X, User, Edit3, Key, LogOut, Users, Award, CheckCircle2, AlertCircle } from 'lucide-react';
 
 interface UserProfileModalProps {
   account: UserAccount;
@@ -181,23 +182,23 @@ export const UserProfileModal: React.FC<UserProfileModalProps> = ({
                   📊 THÀNH TÍCH HỌC TẬP TÍCH LŨY:
                 </div>
                 <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5">
-                  <div className="bg-[#262b44] border border-[#3a4466] p-2.5 text-center">
-                    <Sparkles size={16} className="text-[#fee761] mx-auto mb-1" />
+                  <div className="bg-[#262b44] border border-[#3a4466] p-2.5 text-center flex flex-col items-center">
+                    <PixelXpIcon size={18} className="mb-1" />
                     <div className="font-pixel text-base text-[#fee761]">{account.progress.xp}</div>
                     <div className="text-[10px] text-[#8b9bb4]">Điểm XP</div>
                   </div>
-                  <div className="bg-[#262b44] border border-[#3a4466] p-2.5 text-center">
-                    <Flame size={16} className="text-[#f77622] mx-auto mb-1" />
+                  <div className="bg-[#262b44] border border-[#3a4466] p-2.5 text-center flex flex-col items-center">
+                    <PixelFlameIcon size={18} className="mb-1" />
                     <div className="font-pixel text-base text-[#f77622]">{account.progress.streakDays}</div>
                     <div className="text-[10px] text-[#8b9bb4]">Chuỗi ngày</div>
                   </div>
-                  <div className="bg-[#262b44] border border-[#3a4466] p-2.5 text-center">
-                    <Award size={16} className="text-[#38b764] mx-auto mb-1" />
+                  <div className="bg-[#262b44] border border-[#3a4466] p-2.5 text-center flex flex-col items-center">
+                    <Award size={18} className="text-[#38b764] mb-1" />
                     <div className="font-pixel text-base text-[#38b764]">{completedCount}</div>
                     <div className="text-[10px] text-[#8b9bb4]">Bài hoàn thành</div>
                   </div>
-                  <div className="bg-[#262b44] border border-[#3a4466] p-2.5 text-center">
-                    <span className="text-sm">⭐</span>
+                  <div className="bg-[#262b44] border border-[#3a4466] p-2.5 text-center flex flex-col items-center">
+                    <PixelStarIcon size={18} filled={true} className="mb-1" />
                     <div className="font-pixel text-base text-[#feae34]">{threeStarCount}</div>
                     <div className="text-[10px] text-[#8b9bb4]">Bài đạt 3 sao</div>
                   </div>

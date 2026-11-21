@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { CurriculumNode } from '../../packages/domain/types';
 import { PixelButton } from './PixelButton';
 import { sound } from '../../packages/game-core/audio';
-import { X, CheckSquare, Square, Lightbulb, BookOpen, Gamepad2, Laptop, Trophy, Sparkles } from 'lucide-react';
+import { X, CheckSquare, Square, Lightbulb, BookOpen, Gamepad2, Laptop, Trophy, MessageSquare, Bookmark } from 'lucide-react';
 
 // Import các game components
 import { SortDragGame } from '../games/SortDragGame';
@@ -184,7 +184,7 @@ export const LessonModal: React.FC<LessonModalProps> = ({ node, onClose, onFinis
               <div className="text-5xl animate-bounce">🤖</div>
               <div className="bg-[#262b44] border-3 border-[#38b764] p-5 w-full text-center relative shadow-pixel">
                 <div className="text-xs font-black text-[#fee761] uppercase tracking-wider mb-2 flex items-center justify-center gap-1.5">
-                  <Sparkles size={14} className="text-[#fee761]" /> LỜI NHẮN TỪ ROBOT TINTIN:
+                  <MessageSquare size={14} className="text-[#fee761]" /> LỜI NHẮN TỪ ROBOT TINTIN:
                 </div>
                 {/* Hộp câu hỏi khởi động được highlight nổi bật */}
                 <div className="bg-[#181425] border-l-4 border-[#fee761] p-3.5 sm:p-4 my-2 text-left border-y border-r border-[#3a4466] shadow-pixel-sm">
@@ -200,7 +200,7 @@ export const LessonModal: React.FC<LessonModalProps> = ({ node, onClose, onFinis
               {node.textbook_mapping && (
                 <div className="w-full bg-[#1a1c2c] border border-[#3a4466] p-3 text-left text-[11px] text-[#c0cbdc]">
                   <div className="font-bold text-[#fee761] mb-1.5 flex items-center gap-1">
-                    <Sparkles size={12} /> BÀI HỌC TƯƠNG ỨNG TRONG 3 BỘ SÁCH GIÁO KHOA:
+                    <Bookmark size={12} /> BÀI HỌC TƯƠNG ỨNG TRONG 3 BỘ SÁCH GIÁO KHOA:
                   </div>
                   <div className="grid grid-cols-1 sm:grid-cols-3 gap-1.5">
                     <div className="bg-[#181425] p-1.5 border border-[#262b44]">

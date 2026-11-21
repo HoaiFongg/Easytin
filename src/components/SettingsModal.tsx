@@ -14,7 +14,7 @@ import {
   VolumeX,
   Share2,
   GraduationCap,
-  Sparkles,
+  Sliders,
   Info,
   CheckCircle2,
   AlertCircle,
@@ -237,7 +237,7 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
                   : 'text-[#c0cbdc] hover:bg-[#202538] hover:text-white'
               }`}
             >
-              <Sparkles size={16} className={activeTab === 'accessibility' ? 'text-[#fee761]' : 'text-[#fca3ca]'} />
+              <Sliders size={16} className={activeTab === 'accessibility' ? 'text-[#fee761]' : 'text-[#fca3ca]'} />
               <span>{t('settings_nav_accessibility')}</span>
             </button>
 
@@ -508,7 +508,7 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
               <div className="flex flex-col gap-4">
                 <div className="border-b border-[#3a4466] pb-3">
                   <h3 className="font-bold text-base text-white flex items-center gap-2">
-                    <Sparkles size={18} className="text-[#fca3ca]" />
+                    <Sliders size={18} className="text-[#fca3ca]" />
                     <span>{t('settings_nav_accessibility')}</span>
                   </h3>
                   <p className="text-xs text-[#8b9bb4] mt-1">
