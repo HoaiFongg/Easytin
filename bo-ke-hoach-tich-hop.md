@@ -1387,24 +1387,26 @@ M-x: <tên>
 
 ## 8. Thay đổi phạm vi
 
-| U     | Thêm / Bớt | Nội dung                                                  | Lý do                                                          | Người duyệt |
-| ----- | ---------- | --------------------------------------------------------- | -------------------------------------------------------------- | ----------- |
-| U-001 | Thêm       | Tích hợp đủ 3 bộ sách (KNTT, Cánh Diều, CTST)             | Đảm bảo 100% học sinh toàn quốc đều dùng được                  | User        |
-| U-002 | Thêm       | Web Audio Chiptune Synthesizer tự sinh                    | Loại bỏ 100% file mp3 nặng, tăng tốc tải trang                 | Tech Lead   |
-| U-003 | Thêm       | Mở rộng chi tiết 100% bài học của cả 3 bộ sách (Lớp 3-12) | Đạt độ phủ tuyệt đối 137 bài học tương tác không thiếu bài nào | User        |
+| U     | Thêm / Bớt | Nội dung                                                           | Lý do                                                                                  | Người duyệt |
+| ----- | ---------- | ------------------------------------------------------------------ | -------------------------------------------------------------------------------------- | ----------- |
+| U-001 | Thêm       | Tích hợp đủ 3 bộ sách (KNTT, Cánh Diều, CTST)                      | Đảm bảo 100% học sinh toàn quốc đều dùng được                                          | User        |
+| U-002 | Thêm       | Web Audio Chiptune Synthesizer tự sinh                             | Loại bỏ 100% file mp3 nặng, tăng tốc tải trang                                         | Tech Lead   |
+| U-003 | Thêm       | Mở rộng chi tiết 100% bài học của cả 3 bộ sách (Lớp 3-12)          | Đạt độ phủ tuyệt đối 137 bài học tương tác không thiếu bài nào                         | User        |
+| U-004 | Thêm       | Tích hợp sâu Lí thuyết & Nhiệm vụ Thực hành phòng Lab vào từng bài | Loại bỏ hoàn toàn sự khô khan, cân bằng kiềng 3 chân: Lí thuyết - Trò chơi - Thực hành | User        |
 
 ---
 
 ## 9. Số đo thực tế so với ngân sách
 
-| Chỉ số                       | Mục tiêu | Đo được                  | Thiết bị / điều kiện                    | U     |
-| ---------------------------- | -------- | ------------------------ | --------------------------------------- | ----- |
-| Tổng số bài học tương tác    | ≥ 80     | **137 bài học**          | curriculum.json (Lớp 3–12)              | U-003 |
-| Độ phủ bài học SGK 3 bộ sách | 100%     | **100% (Phủ trọn 3 bộ)** | Đối chiếu chi tiết 01b-curriculum-map   | U-003 |
-| First Load JS (gzip)         | < 280 KB | **146.27 KB**            | Vite production build (bao gồm 137 bài) | U-003 |
-| First Load CSS (gzip)        | < 30 KB  | **4.92 KB**              | Tailwind purge + CSS pixel              | U-003 |
-| Thời gian build              | < 10s    | **2.56s**                | Node 22 + Vite 5                        | U-003 |
-| Số bài kiểm thử Unit Test    | ≥ 5      | **7 / 7 Passed**         | Vitest 2.1.9                            | U-003 |
+| Chỉ số                       | Mục tiêu | Đo được                  | Thiết bị / điều kiện                             | U     |
+| ---------------------------- | -------- | ------------------------ | ------------------------------------------------ | ----- |
+| Tổng số bài học tương tác    | ≥ 80     | **137 bài học**          | curriculum.json (Lớp 3–12)                       | U-003 |
+| Độ phủ Lí thuyết & Thực hành | 100%     | **100% (137/137 bài)**   | Đầy đủ Overview, Sections, Ví dụ, Tip, Lab Steps | U-004 |
+| Độ phủ bài học SGK 3 bộ sách | 100%     | **100% (Phủ trọn 3 bộ)** | Đối chiếu chi tiết 01b-curriculum-map            | U-003 |
+| First Load JS (gzip)         | < 280 KB | **146.27 KB**            | Vite production build (bao gồm 137 bài)          | U-003 |
+| First Load CSS (gzip)        | < 30 KB  | **4.92 KB**              | Tailwind purge + CSS pixel                       | U-003 |
+| Thời gian build              | < 10s    | **2.56s**                | Node 22 + Vite 5                                 | U-003 |
+| Số bài kiểm thử Unit Test    | ≥ 5      | **8 / 8 Passed**         | Vitest 2.1.9                                     | U-003 |
 
 ---
 

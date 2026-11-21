@@ -25,11 +25,35 @@ export interface QuizQuestion {
   explanation: string;
 }
 
+export interface TheorySection {
+  title: string;
+  content: string;
+  example?: string;
+  tip?: string;
+}
+
+export interface PracticeMission {
+  title: string;
+  goal: string;
+  steps: string[];
+  challenge?: string;
+  tip?: string;
+}
+
 export interface LessonData {
   hook: string;
   concept: {
     summary: string;
     key_points: string[];
+  };
+  theory?: {
+    overview: string;
+    sections: TheorySection[];
+    memorize?: string;
+  };
+  practice?: {
+    mission: PracticeMission;
+    checklist?: string[];
   };
   game_config: Record<string, unknown>;
   quiz: QuizQuestion[];

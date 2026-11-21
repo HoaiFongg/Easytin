@@ -81,6 +81,45 @@
                   "key_points": { "type": "array", "items": { "type": "string" } }
                 }
               },
+              "theory": {
+                "type": "object",
+                "required": ["overview", "sections"],
+                "properties": {
+                  "overview": { "type": "string" },
+                  "sections": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "required": ["title", "content"],
+                      "properties": {
+                        "title": { "type": "string" },
+                        "content": { "type": "string" },
+                        "example": { "type": "string" },
+                        "tip": { "type": "string" }
+                      }
+                    }
+                  },
+                  "memorize": { "type": "string" }
+                }
+              },
+              "practice": {
+                "type": "object",
+                "required": ["mission"],
+                "properties": {
+                  "mission": {
+                    "type": "object",
+                    "required": ["title", "goal", "steps"],
+                    "properties": {
+                      "title": { "type": "string" },
+                      "goal": { "type": "string" },
+                      "steps": { "type": "array", "items": { "type": "string" } },
+                      "challenge": { "type": "string" },
+                      "tip": { "type": "string" }
+                    }
+                  },
+                  "checklist": { "type": "array", "items": { "type": "string" } }
+                }
+              },
               "game_config": { "type": "object" },
               "quiz": {
                 "type": "array",

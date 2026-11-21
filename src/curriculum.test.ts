@@ -37,6 +37,27 @@ describe('EasyTin Curriculum Schema & Data Integrity', () => {
     }
   });
 
+  it('should ensure each node contains comprehensive theory and practice lab missions', () => {
+    for (const node of curriculumData.nodes) {
+      const lesson = node.lesson_data as any;
+      expect(lesson.theory).toBeDefined();
+      expect(lesson.theory.overview).toBeTruthy();
+      expect(lesson.theory.sections.length).toBeGreaterThanOrEqual(2);
+      for (const sec of lesson.theory.sections) {
+        expect(sec.title).toBeTruthy();
+        expect(sec.content).toBeTruthy();
+      }
+      expect(lesson.theory.memorize).toBeTruthy();
+
+      expect(lesson.practice).toBeDefined();
+      expect(lesson.practice.mission).toBeDefined();
+      expect(lesson.practice.mission.title).toBeTruthy();
+      expect(lesson.practice.mission.goal).toBeTruthy();
+      expect(lesson.practice.mission.steps.length).toBeGreaterThanOrEqual(3);
+      expect(lesson.practice.checklist.length).toBeGreaterThanOrEqual(2);
+    }
+  });
+
   it('should have valid textbook mappings for GDPT 2018 coverage', () => {
     for (const node of curriculumData.nodes) {
       if (node.textbook_mapping) {

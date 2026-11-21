@@ -18,6 +18,7 @@ import sys
 from curriculum_data_g3_g5 import get_elementary_nodes
 from curriculum_data_g6_g9 import get_middle_school_nodes
 from curriculum_data_g10_g12 import get_high_school_nodes
+from enrich_curriculum_theory_practice import enrich_node
 
 workspace_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -25,9 +26,10 @@ elem_nodes = get_elementary_nodes()
 mid_nodes = get_middle_school_nodes()
 high_nodes = get_high_school_nodes()
 
-all_nodes = elem_nodes + mid_nodes + high_nodes
+all_nodes_raw = elem_nodes + mid_nodes + high_nodes
+all_nodes = [enrich_node(n) for n in all_nodes_raw]
 total_count = len(all_nodes)
-print(f"Tổng số bài học đã nạp: {total_count} bài")
+print(f"Tổng số bài học đã nạp và làm giàu Lí thuyết & Thực hành: {total_count} bài")
 
 # Kiểm tra tính duy nhất của ID bài học
 node_ids = set()

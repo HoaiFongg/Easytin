@@ -1,7 +1,7 @@
 # PLAN.md — Bảng kế hoạch sống của dự án EasyTin
 
 > **Nguồn sự thật duy nhất về tiến độ.** AI **phải** cập nhật file này ngay sau khi xong MỖI nhiệm vụ và **trước khi** bắt đầu nhiệm vụ kế tiếp. **Chưa cập nhật = chưa xong.**
-> Cập nhật gần nhất: **U-003** · Pha hiện tại: **Content Expansion & Production Master** · Người duyệt gần nhất: `Tech Lead & User`
+> Cập nhật gần nhất: **U-004** · Pha hiện tại: **Pedagogical Tripartite Flow (Lí thuyết + Game + Thực hành)** · Người duyệt gần nhất: `Tech Lead & User`
 
 ---
 
@@ -176,7 +176,7 @@
 | First Load JS (gzip)         | < 280 KB | **146.27 KB**            | Vite production build (bao gồm 137 bài) | U-003 |
 | First Load CSS (gzip)        | < 30 KB  | **4.92 KB**              | Tailwind purge + CSS pixel              | U-003 |
 | Thời gian build              | < 10s    | **2.56s**                | Node 22 + Vite 5                        | U-003 |
-| Số bài kiểm thử Unit Test    | ≥ 5      | **7 / 7 Passed**         | Vitest 2.1.9                            | U-003 |
+| Số bài kiểm thử Unit Test    | ≥ 5      | **8 / 8 Passed**         | Vitest 2.1.9                            | U-003 |
 
 ---
 
