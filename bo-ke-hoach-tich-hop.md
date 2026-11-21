@@ -1406,6 +1406,7 @@ M-x: <tên>
 | Độ phủ Lí thuyết & Thực hành  | 100%     | **100% (137/137 bài)**   | Đầy đủ Overview, Sections, Ví dụ, Tip, Lab Steps                     | U-004 |
 | Tỷ lệ chuẩn mực Sư phạm       | 100%     | **100% Chuẩn mực GDPT**  | Rà soát sạch 100% các từ ngữ ngoài phạm vi giáo dục                  | U-005 |
 | Trải nghiệm Highlight câu hỏi | 100%     | **100% Bài học & Game**  | Khung viền vàng #fee761, badge câu hỏi và highlight câu hỏi nghi vấn | U-006 |
+| Phân cấp Cấp học & Khối lớp   | 3 Cấp    | **100% Phân cấp chuẩn**  | 3 Bậc: Tiểu học (43 bài), THCS (50 bài), THPT (44 bài)               | U-007 |
 | Độ phủ bài học SGK 3 bộ sách  | 100%     | **100% (Phủ trọn 3 bộ)** | Đối chiếu chi tiết 01b-curriculum-map                                | U-003 |
 | First Load JS (gzip)          | < 280 KB | **146.27 KB**            | Vite production build (bao gồm 137 bài)                              | U-003 |
 | First Load CSS (gzip)         | < 30 KB  | **4.92 KB**              | Tailwind purge + CSS pixel                                           | U-003 |

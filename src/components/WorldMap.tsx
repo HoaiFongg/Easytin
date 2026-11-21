@@ -3,7 +3,7 @@ import { CurriculumNode, CurriculumWorld, Grade, NodeMasteryRecord } from '../..
 import { PixelCard } from './PixelCard';
 import { PixelButton } from './PixelButton';
 import { sound } from '../../packages/game-core/audio';
-import { Star, Lock, Play, BookOpen, Clock } from 'lucide-react';
+import { Star, Lock, Play, BookOpen, Clock, GraduationCap } from 'lucide-react';
 
 interface WorldMapProps {
   currentWorld: CurriculumWorld;
@@ -11,6 +11,7 @@ interface WorldMapProps {
   nodes: CurriculumNode[];
   mastery: Record<string, NodeMasteryRecord>;
   onSelectNode: (node: CurriculumNode) => void;
+  onGradeChange?: (grade: Grade) => void;
 }
 
 export const WorldMap: React.FC<WorldMapProps> = ({
@@ -19,12 +20,170 @@ export const WorldMap: React.FC<WorldMapProps> = ({
   nodes,
   mastery,
   onSelectNode,
+  onGradeChange,
 }) => {
   const [selectedBook, setSelectedBook] = useState<'all' | 'kntt' | 'canhdieu' | 'ctst'>('all');
-  const filteredNodes = nodes.filter((n) => n.grade === selectedGrade);
+
+  const isElementary = [3, 4, 5].includes(selectedGrade);
+  const isMiddleSchool = [6, 7, 8, 9].includes(selectedGrade);
+  const isHighSchool = [10, 11, 12].includes(selectedGrade);
+
+  const currentLevelLabel = isElementary
+    ? 'Cấp Tiểu học'
+    : isMiddleSchool
+    ? 'Cấp Trung học Cơ sở (THCS)'
+    : 'Cấp Trung học Phổ thông (THPT)';
+
+  const currentLevelGrades: Grade[] = isElementary
+    ? [3, 4, 5]
+    : isMiddleSchool
+    ? [6, 7, 8, 9]
+    : [10, 11, 12];
+
+  const filteredNodes = nodes
+    .filter((n) => n.grade === selectedGrade)
+    .filter((n) => {
+      if (selectedBook === 'all') return true;
+      if (selectedBook === 'kntt') return !!n.textbook_mapping?.kntt;
+      if (selectedBook === 'canhdieu') return !!n.textbook_mapping?.canhdieu;
+      if (selectedBook === 'ctst') return !!n.textbook_mapping?.ctst;
+      return true;
+    });
 
   return (
     <div className="flex flex-col gap-6">
+      {/* KHỐI ĐIỀU HƯỚNG CẤP HỌC & KHỐI LỚP PHỔ THÔNG (Tiểu học · THCS · THPT) */}
+      <div className="bg-[#181425] border-3 border-[#3a4466] p-3 sm:p-5 shadow-pixel flex flex-col gap-4">
+        {/* Hàng 1: CHỌN CẤP HỌC */}
+        <div>
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-2.5">
+            <div className="flex items-center gap-2">
+              <GraduationCap className="text-[#fee761]" size={18} />
+              <span className="text-xs font-black text-[#fee761] uppercase tracking-wider">
+                CHỌN BẬC CẤP HỌC (GDPT 2018):
+              </span>
+            </div>
+            <span className="text-[11px] text-[#8b9bb4]">
+              Đang chọn: <strong className="text-[#fee761]">{currentLevelLabel}</strong>
+            </span>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5">
+            {/* Cấp Tiểu học */}
+            <button
+              onClick={() => {
+                sound.playClick();
+                if (!isElementary && onGradeChange) {
+                  onGradeChange(3);
+                }
+              }}
+              className={`p-3 text-left border-3 transition-all cursor-pointer relative overflow-hidden ${
+                isElementary
+                  ? 'bg-[#2b5c3f] border-[#38b764] shadow-pixel -translate-y-0.5'
+                  : 'bg-[#1a1c2c] border-[#3a4466] hover:border-[#5a6988]'
+              }`}
+            >
+              <div className="flex items-center justify-between">
+                <span className="text-2xl">🎒</span>
+                <span className="text-[10px] font-bold text-[#a7f070] bg-[#181425] px-2 py-0.5 border border-[#2b5c3f]">
+                  Lớp 3 – 5
+                </span>
+              </div>
+              <div className="font-black text-sm text-white mt-1.5 uppercase">CẤP TIỂU HỌC</div>
+              <div className="text-[11px] text-[#c0cbdc] mt-0.5">Thung lũng Số hóa · 43 bài học</div>
+            </button>
+
+            {/* Cấp THCS */}
+            <button
+              onClick={() => {
+                sound.playClick();
+                if (!isMiddleSchool && onGradeChange) {
+                  onGradeChange(6);
+                }
+              }}
+              className={`p-3 text-left border-3 transition-all cursor-pointer relative overflow-hidden ${
+                isMiddleSchool
+                  ? 'bg-[#1f3b5c] border-[#2ce8f5] shadow-pixel -translate-y-0.5'
+                  : 'bg-[#1a1c2c] border-[#3a4466] hover:border-[#5a6988]'
+              }`}
+            >
+              <div className="flex items-center justify-between">
+                <span className="text-2xl">🌲</span>
+                <span className="text-[10px] font-bold text-[#2ce8f5] bg-[#181425] px-2 py-0.5 border border-[#1f3b5c]">
+                  Lớp 6 – 9
+                </span>
+              </div>
+              <div className="font-black text-sm text-white mt-1.5 uppercase">CẤP THCS</div>
+              <div className="text-[11px] text-[#c0cbdc] mt-0.5">Rừng Mạng & Dữ liệu · 50 bài học</div>
+            </button>
+
+            {/* Cấp THPT */}
+            <button
+              onClick={() => {
+                sound.playClick();
+                if (!isHighSchool && onGradeChange) {
+                  onGradeChange(10);
+                }
+              }}
+              className={`p-3 text-left border-3 transition-all cursor-pointer relative overflow-hidden ${
+                isHighSchool
+                  ? 'bg-[#5c2b4e] border-[#fca3ca] shadow-pixel -translate-y-0.5'
+                  : 'bg-[#1a1c2c] border-[#3a4466] hover:border-[#5a6988]'
+              }`}
+            >
+              <div className="flex items-center justify-between">
+                <span className="text-2xl">🏛️</span>
+                <span className="text-[10px] font-bold text-[#fca3ca] bg-[#181425] px-2 py-0.5 border border-[#5c2b4e]">
+                  Lớp 10 – 12
+                </span>
+              </div>
+              <div className="font-black text-sm text-white mt-1.5 uppercase">CẤP THPT</div>
+              <div className="text-[11px] text-[#c0cbdc] mt-0.5">Thành phố Thuật toán · 44 bài học</div>
+            </button>
+          </div>
+        </div>
+
+        {/* Hàng 2: CHỌN KHỐI LỚP TRONG CẤP HỌC ĐÃ CHỌN */}
+        <div className="pt-3 border-t-2 border-[#262b44] flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+          <div className="text-xs font-bold text-[#c0cbdc] flex items-center gap-1.5">
+            <span>📚</span>
+            <span>CHỌN KHỐI LỚP TRONG {currentLevelLabel.toUpperCase()}:</span>
+          </div>
+
+          <div className="flex flex-wrap items-center gap-2 w-full sm:w-auto">
+            {currentLevelGrades.map((g) => {
+              const isSelected = selectedGrade === g;
+              const count = nodes.filter((n) => n.grade === g).length;
+              return (
+                <button
+                  key={g}
+                  onClick={() => {
+                    sound.playClick();
+                    onGradeChange?.(g as Grade);
+                  }}
+                  className={`flex-1 sm:flex-none px-4 py-2 text-xs font-black transition-all border-2 flex items-center justify-center gap-2 cursor-pointer ${
+                    isSelected
+                      ? 'bg-[#fee761] text-[#181425] border-white shadow-pixel -translate-y-0.5'
+                      : 'bg-[#262b44] text-[#c0cbdc] border-[#5a6988] hover:border-white'
+                  }`}
+                >
+                  <span className="text-sm">Lớp {g}</span>
+                  <span
+                    className={`text-[10px] px-1.5 py-0.5 font-bold border ${
+                      isSelected
+                        ? 'bg-black/20 border-black/30 text-black'
+                        : 'bg-[#181425] border-[#3a4466] text-[#8b9bb4]'
+                    }`}
+                  >
+                    {count} bài
+                  </span>
+                </button>
+              );
+            })}
+          </div>
+        </div>
+      </div>
+
       {/* Banner Thế giới */}
       <div
         className="p-5 border-4 border-[#3a4466] shadow-pixel relative overflow-hidden"
@@ -33,10 +192,10 @@ export const WorldMap: React.FC<WorldMapProps> = ({
         <div className="relative z-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
           <div>
             <div className="text-xs font-black text-[#fee761] uppercase tracking-wider">
-              {currentWorld.name}
+              {currentWorld.name} · {currentLevelLabel}
             </div>
             <h1 className="text-xl md:text-2xl font-black text-white mt-1">
-              Chương trình Tin học — Lớp {selectedGrade}
+              Chương trình Tin học — Lớp {selectedGrade} ({nodes.filter((n) => n.grade === selectedGrade).length} bài học)
             </h1>
             <p className="text-xs text-[#c0cbdc] max-w-2xl mt-1 leading-relaxed">
               {currentWorld.description}

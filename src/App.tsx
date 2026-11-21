@@ -82,6 +82,7 @@ export const App: React.FC = () => {
           nodes={nodes}
           mastery={progress.mastery}
           onSelectNode={(node) => setActiveNode(node)}
+          onGradeChange={handleGradeChange}
         />
       </main>
 

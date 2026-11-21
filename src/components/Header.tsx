@@ -48,27 +48,85 @@ export const Header: React.FC<HeaderProps> = ({
           </div>
         </div>
 
-        {/* Khối lớp Selector */}
-        <div className="flex items-center gap-1 overflow-x-auto py-1 max-w-full">
-          {([3, 4, 5, 6, 7, 8, 9, 10, 11, 12] as Grade[]).map((g) => {
-            const isSelected = progress.selectedGrade === g;
-            return (
-              <button
-                key={g}
-                onClick={() => {
-                  sound.playClick();
-                  onGradeChange(g);
-                }}
-                className={`px-2.5 py-1 text-xs font-bold transition-all border-2 ${
-                  isSelected
-                    ? 'bg-[#fee761] text-black border-white shadow-pixel-sm -translate-y-0.5'
-                    : 'bg-[#262b44] text-[#c0cbdc] border-[#3a4466] hover:border-[#5a6988]'
-                }`}
-              >
-                Lớp {g}
-              </button>
-            );
-          })}
+        {/* Khối lớp Selector chia theo 3 Cấp: Tiểu học · THCS · THPT */}
+        <div className="flex items-center gap-1.5 overflow-x-auto py-1 max-w-full">
+          {/* Nhóm Cấp Tiểu học */}
+          <div className="flex items-center gap-1 bg-[#1a2e22] px-2 py-1 border border-[#2b5c3f] shadow-pixel-sm shrink-0">
+            <span className="text-[10px] font-black text-[#38b764] uppercase tracking-wider flex items-center gap-1">
+              <span>🎒</span> <span className="hidden sm:inline">Tiểu học:</span>
+            </span>
+            {([3, 4, 5] as Grade[]).map((g) => {
+              const isSelected = progress.selectedGrade === g;
+              return (
+                <button
+                  key={g}
+                  onClick={() => {
+                    sound.playClick();
+                    onGradeChange(g);
+                  }}
+                  className={`px-2 py-0.5 text-xs font-bold transition-all border ${
+                    isSelected
+                      ? 'bg-[#fee761] text-black border-white shadow-pixel-sm -translate-y-0.5 font-black'
+                      : 'bg-[#262b44] text-[#c0cbdc] border-[#3a4466] hover:border-[#5a6988]'
+                  }`}
+                >
+                  Lớp {g}
+                </button>
+              );
+            })}
+          </div>
+
+          {/* Nhóm Cấp THCS */}
+          <div className="flex items-center gap-1 bg-[#1a2538] px-2 py-1 border border-[#1f3b5c] shadow-pixel-sm shrink-0">
+            <span className="text-[10px] font-black text-[#2ce8f5] uppercase tracking-wider flex items-center gap-1">
+              <span>🌲</span> <span className="hidden sm:inline">THCS:</span>
+            </span>
+            {([6, 7, 8, 9] as Grade[]).map((g) => {
+              const isSelected = progress.selectedGrade === g;
+              return (
+                <button
+                  key={g}
+                  onClick={() => {
+                    sound.playClick();
+                    onGradeChange(g);
+                  }}
+                  className={`px-2 py-0.5 text-xs font-bold transition-all border ${
+                    isSelected
+                      ? 'bg-[#fee761] text-black border-white shadow-pixel-sm -translate-y-0.5 font-black'
+                      : 'bg-[#262b44] text-[#c0cbdc] border-[#3a4466] hover:border-[#5a6988]'
+                  }`}
+                >
+                  Lớp {g}
+                </button>
+              );
+            })}
+          </div>
+
+          {/* Nhóm Cấp THPT */}
+          <div className="flex items-center gap-1 bg-[#321e2f] px-2 py-1 border border-[#5c2b4e] shadow-pixel-sm shrink-0">
+            <span className="text-[10px] font-black text-[#fca3ca] uppercase tracking-wider flex items-center gap-1">
+              <span>🏛️</span> <span className="hidden sm:inline">THPT:</span>
+            </span>
+            {([10, 11, 12] as Grade[]).map((g) => {
+              const isSelected = progress.selectedGrade === g;
+              return (
+                <button
+                  key={g}
+                  onClick={() => {
+                    sound.playClick();
+                    onGradeChange(g);
+                  }}
+                  className={`px-2 py-0.5 text-xs font-bold transition-all border ${
+                    isSelected
+                      ? 'bg-[#fee761] text-black border-white shadow-pixel-sm -translate-y-0.5 font-black'
+                      : 'bg-[#262b44] text-[#c0cbdc] border-[#3a4466] hover:border-[#5a6988]'
+                  }`}
+                >
+                  Lớp {g}
+                </button>
+              );
+            })}
+          </div>
         </div>
 
         {/* Stats & Actions */}
