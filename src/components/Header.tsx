@@ -1,10 +1,11 @@
 import React from 'react';
 import { Grade, UserAccount, UserProgressState } from '../../packages/domain/types';
 import { useI18n } from '../i18nContext';
+import { useTheme } from '../ThemeContext';
 import { PixelLogo } from './PixelLogo';
 import { PixelMascot } from './PixelMascot';
 import { sound } from '../../packages/game-core/audio';
-import { Sparkles, Flame, BookOpen, UserPlus, Settings } from 'lucide-react';
+import { Sparkles, Flame, BookOpen, UserPlus, Settings, Sun, Moon } from 'lucide-react';
 
 interface HeaderProps {
   progress: UserProgressState;
@@ -29,6 +30,7 @@ export const Header: React.FC<HeaderProps> = ({
   onOpenSettings,
 }) => {
   const { t, language } = useI18n();
+  const { effectiveTheme, toggleTheme } = useTheme();
 
   return (
     <header className="sticky top-0 z-30 bg-[#181425] border-b-4 border-[#3a4466] px-4 sm:px-6 lg:px-8 py-2.5 shadow-pixel w-full">
@@ -119,6 +121,28 @@ export const Header: React.FC<HeaderProps> = ({
             <span className="text-[10px] bg-[#181425] text-[#fee761] px-1.5 py-0.2 font-mono border border-[#3a4466]">
               {language === 'vi' ? 'VI' : 'EN'}
             </span>
+          </button>
+
+          {/* Nút Chuyển đổi Giao diện Sáng / Tối nhanh */}
+          <button
+            onClick={() => {
+              sound.playClick();
+              toggleTheme();
+            }}
+            className="flex items-center gap-1 bg-[#262b44] hover:bg-[#3a4466] border-2 border-[#5a6988] hover:border-[#fee761] px-2 py-1 text-xs text-white cursor-pointer shadow-pixel-sm transition-all"
+            title={t('theme_toggle_title')}
+          >
+            {effectiveTheme === 'dark' ? (
+              <>
+                <Sun size={15} className="text-[#fee761]" />
+                <span className="hidden sm:inline text-[11px] font-bold text-[#fee761]">Sáng</span>
+              </>
+            ) : (
+              <>
+                <Moon size={15} className="text-[#2ce8f5]" />
+                <span className="hidden sm:inline text-[11px] font-bold text-[#2ce8f5]">Tối</span>
+              </>
+            )}
           </button>
         </div>
       </div>

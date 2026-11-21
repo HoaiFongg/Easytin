@@ -1,7 +1,7 @@
 # PLAN.md — Bảng kế hoạch sống của dự án EasyTin
 
 > **Nguồn sự thật duy nhất về tiến độ.** AI **phải** cập nhật file này ngay sau khi xong MỖI nhiệm vụ và **trước khi** bắt đầu nhiệm vụ kế tiếp. **Chưa cập nhật = chưa xong.**
-> Cập nhật gần nhất: **U-013** · Pha hiện tại: **Brand Identity & Pixel Logo Redesign** · Người duyệt gần nhất: `Tech Lead & User`
+> Cập nhật gần nhất: **U-014** · Pha hiện tại: **Accessibility & Light / Dark Mode System** · Người duyệt gần nhất: `Tech Lead & User`
 
 ---
 
@@ -24,13 +24,13 @@
 
 | Mục                      | Giá trị                                                        |
 | :----------------------- | :------------------------------------------------------------- |
-| Pha hiện tại             | **Brand Identity & Pixel Logo Redesign (Hoàn tất 100%)**       |
+| Pha hiện tại             | **Accessibility & Light / Dark Mode System (Hoàn tất 100%)**   |
 | Nhiệm vụ đang làm        | Kiểm định toàn diện & bàn giao 137 bài học 3 bộ sách GDPT 2018 |
 | Nhiệm vụ kế tiếp         | Triển khai PWA Manifest & Đóng gói USB Offline trường học      |
 | Bị chặn / vướng mắc      | Không                                                          |
 | Xong / tổng nhiệm vụ     | **74 / 74 (100%)**                                             |
 | Quyết định chờ tôi duyệt | Đã duyệt toàn bộ ADR-001 đến ADR-007                           |
-| Lần cập nhật gần nhất    | **U-013**                                                      |
+| Lần cập nhật gần nhất    | **U-014**                                                      |
 
 ---
 
@@ -175,6 +175,7 @@
 | U-011 | Sửa        | Trung tâm Cài đặt dạng danh sách tổng hợp (Settings List Hub)      | Gom toàn bộ cấu hình trang web (ngôn ngữ, âm thanh, sao lưu, giáo viên,...) vào 1 nơi   | User        |
 | U-012 | Sửa        | Dàn trải giao diện linh hoạt (Fluid Responsive Layout)             | Loại bỏ điểm thắt max-w-7xl, mở rộng w-full, responsive grid 1-5 cột tối ưu widescreen  | User        |
 | U-013 | Sửa        | Thiết kế lại Logo nhận diện thương hiệu Pixel Art                  | Thay thế khối ET hộp xanh đơn giản bằng biểu tượng máy tính CRT Pixel Art 32x32 cao cấp | User        |
+| U-014 | Thêm       | Thiết kế hệ thống Giao diện Sáng (Light Mode) và Tối (Dark Mode)   | Tối ưu thị giác phòng học ban ngày và ban đêm, chuyển đổi nhanh 1 click hoặc tự động    | User        |
 
 ---
 
@@ -185,11 +186,11 @@
 | Tổng số bài học tương tác    | ≥ 80     | **137 bài học**           | curriculum.json (Lớp 3–12)               | U-003 |
 | Độ phủ bài học SGK 3 bộ sách | 100%     | **100% (Phủ trọn 3 bộ)**  | Đối chiếu chi tiết 01b-curriculum-map    | U-003 |
 | First Load JS (gzip)         | < 280 KB | **146.27 KB**             | Vite production build (bao gồm 137 bài)  | U-003 |
-| First Load CSS (gzip)        | < 30 KB  | **4.92 KB**               | Tailwind purge + CSS pixel               | U-003 |
-| Thời gian build              | < 10s    | **2.56s**                 | Node 22 + Vite 5                         | U-003 |
-| Số bài kiểm thử Unit Test    | ≥ 5      | **21 / 21 Passed**        | Vitest 2.1.9                             | U-012 |
+| First Load CSS (gzip)        | < 35 KB  | **6.76 KB**               | Tailwind purge + CSS pixel & Light Mode  | U-014 |
+| Thời gian build              | < 10s    | **4.09s**                 | Node 22 + Vite 5                         | U-014 |
+| Số bài kiểm thử Unit Test    | ≥ 5      | **26 / 26 Passed**        | Vitest 2.1.9                             | U-014 |
 | Tỉ lệ thích ứng Widescreen   | 100%     | **100% Fluid & Flexible** | 1080p, 2K, 4K, Ultrawide tự chia 1-5 cột | U-012 |
-| Định dạng Logo & Favicon     | Vector   | **100% SVG Pixel Art**    | Sắc nét mọi kích cỡ từ 16px tới 128px    | U-013 |
+| Chế độ màu sắc hiển thị      | ≥ 2      | **Light & Dark Mode**     | Sáng (Ban ngày) + Tối (Arcade) + Tự động | U-014 |
 
 ---
 
@@ -210,4 +211,5 @@
 | U-010 | Bỏ Thanh Chọn Lớp Trên Header & Thiết kế Linh vật Pixel     | Dọn sạch Header, tích hợp linh vật Pixel động tương tác với 4 nhân vật (TinBot, PixelCat, CodeOwl, CyberFox)                                                                                                                  | Đưa cài đặt về dạng danh sách                                       |
 | U-011 | Trung tâm Cài đặt Trang web dạng Danh sách (Settings Hub)   | Gom toàn bộ chức năng cấu hình vào cửa sổ danh sách khoa học (Ngôn ngữ, Âm thanh, Sao lưu, Giáo viên, Giới thiệu)                                                                                                             | Dàn trải giao diện linh hoạt flexible                               |
 | U-012 | Dàn trải Giao diện Linh hoạt & Tối ưu Responsive Widescreen | Loại bỏ điểm thắt max-w-7xl; chuyển toàn bộ App, Header, WorldMap, Footer và Modals sang w-full; mở rộng lưới bài học linh hoạt 1 đến 5 cột (sm:2, lg:3, xl:4, 2xl:5)                                                         | Hoàn thiện đóng gói & phát hành                                     |
-| U-013 | Thiết kế Lại Logo Thương hiệu Pixel Art Toàn diện           | Tạo bộ nhận diện PixelLogo (CRT monitor, glyph ET, ăng-ten sao vàng, LED nhấp nháy), tích hợp Header, Settings Hub, Favicon SVG sắc nét                                                                                       | Hoàn thiện đóng gói & phát hành                                     |
+| U-013 | Thiết kế Lại Logo Thương hiệu Pixel Art Toàn diện           | Tạo bộ nhận diện PixelLogo (CRT monitor, glyph ET, ăng-ten sao vàng, LED nhấp nháy), tích hợp Header, Settings Hub, Favicon SVG sắc nét                                                                                       | Xây dựng Light Mode & Dark Mode                                     |
+| U-014 | Thiết kế Hệ thống Giao diện Sáng (Light) & Tối (Dark)       | Xây dựng ThemeManager & ThemeContext (Sáng, Tối, Hệ thống); thiết kế bảng màu Light Mode dịu mắt chuẩn WCAG AAA; nút toggle nhanh trên Header và bộ chọn trong Settings Modal Hub; kiểm thử 26/26 pass                        | Hoàn thiện đóng gói & phát hành                                     |

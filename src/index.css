@@ -175,3 +175,197 @@
 .anim-pixel-sparkle {
   animation: pixel-sparkle 1.4s ease-in-out infinite;
 }
+
+/* ========================================================
+   LIGHT MODE (CHẾ ĐỘ SÁNG PHÒNG HỌC & BAN NGÀY)
+   ======================================================== */
+html.light,
+html[data-theme="light"] {
+  color-scheme: light;
+}
+
+html.light body,
+html[data-theme="light"] body {
+  background-color: #edf2f9 !important;
+  color: #0f172a !important;
+}
+
+/* Base backgrounds */
+html.light .bg-\[\#181425\] {
+  background-color: #ffffff !important;
+}
+
+html.light .bg-\[\#1a1c2c\] {
+  background-color: #f6f8fc !important;
+}
+
+html.light .bg-\[\#262b44\] {
+  background-color: #e8eef8 !important;
+}
+
+html.light .bg-\[\#1f2438\] {
+  background-color: #f1f5fb !important;
+}
+
+html.light .bg-\[\#20243b\] {
+  background-color: #edf2f9 !important;
+}
+
+html.light .bg-\[\#2a273f\] {
+  background-color: #fbf5db !important;
+}
+
+html.light .bg-\[\#1f263e\] {
+  background-color: #e4ecf7 !important;
+}
+
+html.light .bg-\[\#193c3e\] {
+  background-color: #e6f6ec !important;
+}
+
+html.light .bg-\[\#3a3520\] {
+  background-color: #fef7e0 !important;
+}
+
+html.light .bg-\[\#421d26\] {
+  background-color: #fdeced !important;
+}
+
+html.light .bg-\[\#1a3826\] {
+  background-color: #eafaf1 !important;
+}
+
+html.light .bg-\[\#2b5c3f\] {
+  background-color: #d2edd9 !important;
+}
+
+html.light .bg-\[\#1f3b5c\] {
+  background-color: #d6e8fb !important;
+}
+
+html.light .bg-\[\#5c2b4e\] {
+  background-color: #fadceb !important;
+}
+
+/* Borders */
+html.light .border-\[\#3a4466\] {
+  border-color: #cbd5e1 !important;
+}
+
+html.light .border-\[\#5a6988\] {
+  border-color: #94a3b8 !important;
+}
+
+html.light .border-\[\#262b44\] {
+  border-color: #e2e8f0 !important;
+}
+
+/* Texts - High contrast & readable */
+html.light .text-white {
+  color: #0f172a !important;
+}
+
+html.light .text-\[\#c0cbdc\] {
+  color: #334155 !important;
+}
+
+html.light .text-\[\#8b9bb4\] {
+  color: #64748b !important;
+}
+
+html.light .text-\[\#fee761\] {
+  color: #b45309 !important; /* Rich amber/gold */
+}
+
+html.light .text-\[\#38b764\] {
+  color: #15803d !important; /* Deep emerald */
+}
+
+html.light .text-\[\#a7f070\] {
+  color: #166534 !important;
+}
+
+html.light .text-\[\#2ce8f5\] {
+  color: #0369a1 !important; /* Deep ocean cyan */
+}
+
+html.light .text-\[\#feae34\] {
+  color: #c2410c !important; /* Deep amber */
+}
+
+html.light .text-\[\#fca3ca\] {
+  color: #9d174d !important;
+}
+
+html.light .text-\[\#f77622\] {
+  color: #c2410c !important;
+}
+
+html.light .text-\[\#ffb6b9\] {
+  color: #b91c1c !important;
+}
+
+html.light .text-\[\#b6f0cd\] {
+  color: #15803d !important;
+}
+
+/* Pixel Card & Borders in Light Mode */
+html.light .pixel-border {
+  border-color: #94a3b8 !important;
+  box-shadow: 
+    -2px 0 0 0 #cbd5e1,
+    2px 0 0 0 #cbd5e1,
+    0 -2px 0 0 #cbd5e1,
+    0 2px 0 0 #cbd5e1,
+    3px 3px 0 0 rgba(15, 23, 42, 0.12) !important;
+}
+
+html.light .pixel-border-gold {
+  border-color: #d97706 !important;
+  box-shadow: 
+    -2px 0 0 0 #fde68a,
+    2px 0 0 0 #fde68a,
+    0 -2px 0 0 #fde68a,
+    0 2px 0 0 #fde68a,
+    3px 3px 0 0 rgba(180, 83, 9, 0.15) !important;
+}
+
+html.light .pixel-border-green {
+  border-color: #16a34a !important;
+  box-shadow: 
+    -2px 0 0 0 #bbf7d0,
+    2px 0 0 0 #bbf7d0,
+    0 -2px 0 0 #bbf7d0,
+    0 2px 0 0 #bbf7d0,
+    3px 3px 0 0 rgba(22, 163, 74, 0.15) !important;
+}
+
+/* Shadow pixel overrides for light mode */
+html.light .shadow-pixel {
+  box-shadow: 3px 3px 0px 0px rgba(15, 23, 42, 0.15) !important;
+}
+
+html.light .shadow-pixel-sm {
+  box-shadow: 2px 2px 0px 0px rgba(15, 23, 42, 0.12) !important;
+}
+
+html.light .shadow-pixel-lg {
+  box-shadow: 5px 5px 0px 0px rgba(15, 23, 42, 0.2) !important;
+}
+
+/* Modals backdrop */
+html.light .bg-black\/85 {
+  background-color: rgba(15, 23, 42, 0.65) !important;
+}
+
+/* Scrollbar in Light Mode */
+html.light ::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+html.light ::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-color: #f1f5f9;
+}
+html.light ::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}

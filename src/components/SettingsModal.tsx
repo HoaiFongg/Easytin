@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { UserProgressState } from '../../packages/domain/types';
 import { LocalStorageAdapter } from '../../packages/domain/storage';
 import { useI18n } from '../i18nContext';
+import { useTheme } from '../ThemeContext';
 import { PixelButton } from './PixelButton';
 import { PixelLogo } from './PixelLogo';
 import { sound } from '../../packages/game-core/audio';
@@ -24,6 +25,9 @@ import {
   Key,
   Plus,
   AlertTriangle,
+  Sun,
+  Moon,
+  Monitor,
 } from 'lucide-react';
 
 interface SettingsModalProps {
@@ -40,6 +44,7 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
   initialTab = 'language',
 }) => {
   const { language, setLanguage, t } = useI18n();
+  const { theme, setTheme } = useTheme();
   const [activeTab, setActiveTab] = useState<'language' | 'sound' | 'backup' | 'teacher' | 'accessibility' | 'about'>(
     initialTab
   );
@@ -512,6 +517,81 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
                 </div>
 
                 <div className="bg-[#1a1c2c] border-2 border-[#3a4466] p-4 flex flex-col gap-4">
+                  {/* Tùy chọn Giao diện Sáng / Tối / Tự động (Theme Mode) */}
+                  <div className="flex flex-col gap-2.5 pb-4 border-b border-[#262b44]">
+                    <div>
+                      <div className="text-xs font-bold text-white flex items-center gap-1.5">
+                        <Sun size={15} className="text-[#fee761]" />
+                        <span>{t('settings_theme_label')}</span>
+                      </div>
+                      <div className="text-[11px] text-[#8b9bb4] mt-0.5">
+                        {t('settings_theme_desc')}
+                      </div>
+                    </div>
+
+                    <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5">
+                      {/* Tối (Dark) */}
+                      <button
+                        onClick={() => {
+                          sound.playClick();
+                          setTheme('dark');
+                          showSavedNotification(t('theme_dark'));
+                        }}
+                        className={`p-2.5 text-left border-2 flex items-center gap-2 cursor-pointer transition-all ${
+                          theme === 'dark'
+                            ? 'bg-[#181425] border-[#fee761] text-[#fee761] shadow-pixel-sm font-bold'
+                            : 'bg-[#262b44] border-[#3a4466] text-[#c0cbdc] hover:border-white'
+                        }`}
+                      >
+                        <Moon size={16} className={theme === 'dark' ? 'text-[#fee761]' : 'text-[#8b9bb4]'} />
+                        <div className="flex flex-col text-xs">
+                          <span className="font-bold">Giao diện Tối</span>
+                          <span className="text-[10px] text-[#8b9bb4]">Ban đêm · Retro</span>
+                        </div>
+                      </button>
+
+                      {/* Sáng (Light) */}
+                      <button
+                        onClick={() => {
+                          sound.playClick();
+                          setTheme('light');
+                          showSavedNotification(t('theme_light'));
+                        }}
+                        className={`p-2.5 text-left border-2 flex items-center gap-2 cursor-pointer transition-all ${
+                          theme === 'light'
+                            ? 'bg-[#ffffff] border-[#38b764] text-[#181425] shadow-pixel-sm font-bold'
+                            : 'bg-[#262b44] border-[#3a4466] text-[#c0cbdc] hover:border-white'
+                        }`}
+                      >
+                        <Sun size={16} className={theme === 'light' ? 'text-[#f77622]' : 'text-[#8b9bb4]'} />
+                        <div className="flex flex-col text-xs">
+                          <span className="font-bold">Giao diện Sáng</span>
+                          <span className="text-[10px] text-[#8b9bb4]">Ban ngày · Dễ đọc</span>
+                        </div>
+                      </button>
+
+                      {/* Tự động (System) */}
+                      <button
+                        onClick={() => {
+                          sound.playClick();
+                          setTheme('system');
+                          showSavedNotification(t('theme_system'));
+                        }}
+                        className={`p-2.5 text-left border-2 flex items-center gap-2 cursor-pointer transition-all ${
+                          theme === 'system'
+                            ? 'bg-[#1f3b5c] border-[#2ce8f5] text-[#2ce8f5] shadow-pixel-sm font-bold'
+                            : 'bg-[#262b44] border-[#3a4466] text-[#c0cbdc] hover:border-white'
+                        }`}
+                      >
+                        <Monitor size={16} className={theme === 'system' ? 'text-[#2ce8f5]' : 'text-[#8b9bb4]'} />
+                        <div className="flex flex-col text-xs">
+                          <span className="font-bold">Tự động</span>
+                          <span className="text-[10px] text-[#8b9bb4]">Theo thiết bị</span>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+
                   {/* Tùy chọn hoạt ảnh linh vật */}
                   <div className="flex items-center justify-between gap-3">
                     <div>
