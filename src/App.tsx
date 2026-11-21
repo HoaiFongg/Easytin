@@ -14,9 +14,12 @@ import { AuthModal } from './components/AuthModal';
 import { UserProfileModal } from './components/UserProfileModal';
 import { SettingsModal } from './components/SettingsModal';
 import { useI18n } from './i18nContext';
+import { useTheme } from './ThemeContext';
 
 export const App: React.FC = () => {
   const { t } = useI18n();
+  const { effectiveTheme } = useTheme();
+  const isLight = effectiveTheme === 'light';
   const [currentAccount, setCurrentAccount] = useState<UserAccount | null>(() =>
     AccountManager.getActiveAccount()
   );
@@ -112,7 +115,9 @@ export const App: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#181425] text-white">
+    <div className={`min-h-screen flex flex-col transition-colors duration-150 ${
+      isLight ? 'bg-[#f4f6fb] text-[#0f172a]' : 'bg-[#181425] text-white'
+    }`}>
       {/* Header */}
       <Header
         progress={progress}
@@ -138,12 +143,16 @@ export const App: React.FC = () => {
       </main>
 
       {/* Footer */}
-      <footer className="bg-[#1a1c2c] border-t-2 border-[#3a4466] py-4 text-center text-xs text-[#8b9bb4] w-full">
+      <footer className={`border-t-2 py-4 text-center text-xs w-full transition-colors ${
+        isLight
+          ? 'bg-white border-[#cbd5e1] text-[#64748b]'
+          : 'bg-[#1a1c2c] border-[#3a4466] text-[#8b9bb4]'
+      }`}>
         <div className="w-full px-4 sm:px-6 lg:px-8 xl:px-10 flex flex-col sm:flex-row items-center justify-between gap-2">
           <div>
             {t('footer_copyright')}
           </div>
-          <div className="text-[11px] text-[#5a6988]">
+          <div className={`text-[11px] ${isLight ? 'text-[#94a3b8]' : 'text-[#5a6988]'}`}>
             {t('footer_standard')}
           </div>
         </div>

@@ -265,6 +265,20 @@ html.light .text-white {
   color: #0f172a !important;
 }
 
+/* Ensure vibrant colored badges and buttons preserve crisp white text */
+html.light .bg-\[\#e43b44\],
+html.light .bg-\[\#e43b44\] *,
+html.light .bg-\[\#10b981\],
+html.light .bg-\[\#10b981\] *,
+html.light .bg-\[\#059669\],
+html.light .bg-\[\#059669\] *,
+html.light .bg-\[\#2563eb\],
+html.light .bg-\[\#2563eb\] *,
+html.light .bg-\[\#38b764\],
+html.light .bg-\[\#38b764\] * {
+  color: #ffffff !important;
+}
+
 html.light .text-\[\#c0cbdc\] {
   color: #334155 !important;
 }

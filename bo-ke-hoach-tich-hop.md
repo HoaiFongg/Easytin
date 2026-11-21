@@ -1418,7 +1418,7 @@ M-x: <tên>
 | Thời gian build              | < 10s    | **4.09s**                 | Node 22 + Vite 5                         | U-014 |
 | Số bài kiểm thử Unit Test    | ≥ 5      | **26 / 26 Passed**        | Vitest 2.1.9                             | U-014 |
 | Tỉ lệ thích ứng Widescreen   | 100%     | **100% Fluid & Flexible** | 1080p, 2K, 4K, Ultrawide tự chia 1-5 cột | U-012 |
-| Chế độ màu sắc hiển thị      | ≥ 2      | **Light & Dark Mode**     | Sáng (Ban ngày) + Tối (Arcade) + Tự động | U-014 |
+| Chế độ màu sắc hiển thị      | ≥ 2      | **Light & Dark Mode**     | Sáng (Ban ngày) + Tối (Arcade) + Tự động | U-015 |
 
 ---
 
@@ -1440,4 +1440,5 @@ M-x: <tên>
 | U-011 | Trung tâm Cài đặt Trang web dạng Danh sách (Settings Hub)   | Gom toàn bộ chức năng cấu hình vào cửa sổ danh sách khoa học (Ngôn ngữ, Âm thanh, Sao lưu, Giáo viên, Giới thiệu)                                                                                                             | Dàn trải giao diện linh hoạt flexible                               |
 | U-012 | Dàn trải Giao diện Linh hoạt & Tối ưu Responsive Widescreen | Loại bỏ điểm thắt max-w-7xl; chuyển toàn bộ App, Header, WorldMap, Footer và Modals sang w-full; mở rộng lưới bài học linh hoạt 1 đến 5 cột (sm:2, lg:3, xl:4, 2xl:5)                                                         | Hoàn thiện đóng gói & phát hành                                     |
 | U-013 | Thiết kế Lại Logo Thương hiệu Pixel Art Toàn diện           | Tạo bộ nhận diện PixelLogo (CRT monitor, glyph ET, ăng-ten sao vàng, LED nhấp nháy), tích hợp Header, Settings Hub, Favicon SVG sắc nét                                                                                       | Xây dựng Light Mode & Dark Mode                                     |
-| U-014 | Thiết kế Hệ thống Giao diện Sáng (Light) & Tối (Dark)       | Xây dựng ThemeManager & ThemeContext (Sáng, Tối, Hệ thống); thiết kế bảng màu Light Mode dịu mắt chuẩn WCAG AAA; nút toggle nhanh trên Header và bộ chọn trong Settings Modal Hub; kiểm thử 26/26 pass                        | Hoàn thiện đóng gói & phát hành                                     |
+| U-014 | Thiết kế Hệ thống Giao diện Sáng (Light) & Tối (Dark)       | Xây dựng ThemeManager & ThemeContext (Sáng, Tối, Hệ thống); thiết kế bảng màu Light Mode dịu mắt chuẩn WCAG AAA; nút toggle nhanh trên Header và bộ chọn trong Settings Modal Hub; kiểm thử 26/26 pass                        | Tinh chỉnh bảng màu Light Mode                                      |
+| U-015 | Tinh chỉnh Bảng màu Giao diện Sáng (Light Mode Polishing)   | Tái thiết kế toàn diện bảng màu Light Mode: loại bỏ mảng tối bùn lầy, sửa triệt để chữ đen trên nền tối ở Banner; thiết kế banner sáng động theo cấp học (Tiểu học ngọc bích, THCS thiên thanh, THPT hồng thắm); nâng cấp thẻ linh vật, nút chọn khối lớp và bộ lọc SGK tương phản cao | Hoàn thiện đóng gói & phát hành                                     |
