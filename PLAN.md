@@ -1,7 +1,7 @@
 # PLAN.md — Bảng kế hoạch sống của dự án EasyTin
 
 > **Nguồn sự thật duy nhất về tiến độ.** AI **phải** cập nhật file này ngay sau khi xong MỖI nhiệm vụ và **trước khi** bắt đầu nhiệm vụ kế tiếp. **Chưa cập nhật = chưa xong.**
-> Cập nhật gần nhất: **U-008** · Pha hiện tại: **Student Account & Authentication System** · Người duyệt gần nhất: `Tech Lead & User`
+> Cập nhật gần nhất: **U-009** · Pha hiện tại: **Multi-Language (VI/EN) & Website Settings** · Người duyệt gần nhất: `Tech Lead & User`
 
 ---
 

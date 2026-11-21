@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { CurriculumNode, CurriculumWorld, Grade, NodeMasteryRecord } from '../../packages/domain/types';
+import { useI18n } from '../i18nContext';
 import { PixelCard } from './PixelCard';
 import { PixelButton } from './PixelButton';
 import { sound } from '../../packages/game-core/audio';
@@ -22,6 +23,7 @@ export const WorldMap: React.FC<WorldMapProps> = ({
   onSelectNode,
   onGradeChange,
 }) => {
+  const { t } = useI18n();
   const [selectedBook, setSelectedBook] = useState<'all' | 'kntt' | 'canhdieu' | 'ctst'>('all');
 
   const isElementary = [3, 4, 5].includes(selectedGrade);
@@ -29,10 +31,10 @@ export const WorldMap: React.FC<WorldMapProps> = ({
   const isHighSchool = [10, 11, 12].includes(selectedGrade);
 
   const currentLevelLabel = isElementary
-    ? 'Cấp Tiểu học'
+    ? t('level_elementary_full')
     : isMiddleSchool
-    ? 'Cấp Trung học Cơ sở (THCS)'
-    : 'Cấp Trung học Phổ thông (THPT)';
+    ? t('level_middle_full')
+    : t('level_high_full');
 
   const currentLevelGrades: Grade[] = isElementary
     ? [3, 4, 5]
@@ -86,11 +88,11 @@ export const WorldMap: React.FC<WorldMapProps> = ({
               <div className="flex items-center justify-between">
                 <span className="text-2xl">🎒</span>
                 <span className="text-[10px] font-bold text-[#a7f070] bg-[#181425] px-2 py-0.5 border border-[#2b5c3f]">
-                  Lớp 3 – 5
+                  {t('grade_prefix')} 3 – 5
                 </span>
               </div>
-              <div className="font-black text-sm text-white mt-1.5 uppercase">CẤP TIỂU HỌC</div>
-              <div className="text-[11px] text-[#c0cbdc] mt-0.5">Thung lũng Số hóa · 43 bài học</div>
+              <div className="font-black text-sm text-white mt-1.5 uppercase">{t('level_elementary_full')}</div>
+              <div className="text-[11px] text-[#c0cbdc] mt-0.5">{t('world_valley')} · 43 {t('lessons_suffix')}</div>
             </button>
 
             {/* Cấp THCS */}
@@ -110,11 +112,11 @@ export const WorldMap: React.FC<WorldMapProps> = ({
               <div className="flex items-center justify-between">
                 <span className="text-2xl">🌲</span>
                 <span className="text-[10px] font-bold text-[#2ce8f5] bg-[#181425] px-2 py-0.5 border border-[#1f3b5c]">
-                  Lớp 6 – 9
+                  {t('grade_prefix')} 6 – 9
                 </span>
               </div>
-              <div className="font-black text-sm text-white mt-1.5 uppercase">CẤP THCS</div>
-              <div className="text-[11px] text-[#c0cbdc] mt-0.5">Rừng Mạng & Dữ liệu · 50 bài học</div>
+              <div className="font-black text-sm text-white mt-1.5 uppercase">{t('level_middle_full')}</div>
+              <div className="text-[11px] text-[#c0cbdc] mt-0.5">{t('world_forest')} · 50 {t('lessons_suffix')}</div>
             </button>
 
             {/* Cấp THPT */}
@@ -134,11 +136,11 @@ export const WorldMap: React.FC<WorldMapProps> = ({
               <div className="flex items-center justify-between">
                 <span className="text-2xl">🏛️</span>
                 <span className="text-[10px] font-bold text-[#fca3ca] bg-[#181425] px-2 py-0.5 border border-[#5c2b4e]">
-                  Lớp 10 – 12
+                  {t('grade_prefix')} 10 – 12
                 </span>
               </div>
-              <div className="font-black text-sm text-white mt-1.5 uppercase">CẤP THPT</div>
-              <div className="text-[11px] text-[#c0cbdc] mt-0.5">Thành phố Thuật toán · 44 bài học</div>
+              <div className="font-black text-sm text-white mt-1.5 uppercase">{t('level_high_full')}</div>
+              <div className="text-[11px] text-[#c0cbdc] mt-0.5">{t('world_city')} · 44 {t('lessons_suffix')}</div>
             </button>
           </div>
         </div>
@@ -167,7 +169,7 @@ export const WorldMap: React.FC<WorldMapProps> = ({
                       : 'bg-[#262b44] text-[#c0cbdc] border-[#5a6988] hover:border-white'
                   }`}
                 >
-                  <span className="text-sm">Lớp {g}</span>
+                  <span className="text-sm">{t('grade_prefix')} {g}</span>
                   <span
                     className={`text-[10px] px-1.5 py-0.5 font-bold border ${
                       isSelected
@@ -175,7 +177,7 @@ export const WorldMap: React.FC<WorldMapProps> = ({
                         : 'bg-[#181425] border-[#3a4466] text-[#8b9bb4]'
                     }`}
                   >
-                    {count} bài
+                    {count} {t('lessons_suffix')}
                   </span>
                 </button>
               );
@@ -195,7 +197,7 @@ export const WorldMap: React.FC<WorldMapProps> = ({
               {currentWorld.name} · {currentLevelLabel}
             </div>
             <h1 className="text-xl md:text-2xl font-black text-white mt-1">
-              Chương trình Tin học — Lớp {selectedGrade} ({nodes.filter((n) => n.grade === selectedGrade).length} bài học)
+              {t('curriculum_title')} {selectedGrade} ({nodes.filter((n) => n.grade === selectedGrade).length} {t('lessons_count')})
             </h1>
             <p className="text-xs text-[#c0cbdc] max-w-2xl mt-1 leading-relaxed">
               {currentWorld.description}
@@ -216,10 +218,10 @@ export const WorldMap: React.FC<WorldMapProps> = ({
         </div>
         <div className="flex flex-wrap items-center gap-2">
           {[
-            { id: 'all', label: 'Tất cả (GDPT 2018)' },
-            { id: 'kntt', label: 'Kết nối tri thức' },
-            { id: 'canhdieu', label: 'Cánh Diều' },
-            { id: 'ctst', label: 'Chân trời sáng tạo' },
+            { id: 'all', label: t('filter_all') },
+            { id: 'kntt', label: t('filter_kntt') },
+            { id: 'canhdieu', label: t('filter_canhdieu') },
+            { id: 'ctst', label: t('filter_ctst') },
           ].map((b) => (
             <button
               key={b.id}

@@ -12,8 +12,11 @@ import { TeacherDashboardModal } from './components/TeacherDashboardModal';
 import { ProgressSyncModal } from './components/ProgressSyncModal';
 import { AuthModal } from './components/AuthModal';
 import { UserProfileModal } from './components/UserProfileModal';
+import { SettingsModal } from './components/SettingsModal';
+import { useI18n } from './i18nContext';
 
 export const App: React.FC = () => {
+  const { t } = useI18n();
   const [currentAccount, setCurrentAccount] = useState<UserAccount | null>(() =>
     AccountManager.getActiveAccount()
   );
@@ -29,6 +32,7 @@ export const App: React.FC = () => {
   const [showSyncModal, setShowSyncModal] = useState<boolean>(false);
   const [showAuthModal, setShowAuthModal] = useState<boolean>(false);
   const [showProfileModal, setShowProfileModal] = useState<boolean>(false);
+  const [showSettingsModal, setShowSettingsModal] = useState<boolean>(false);
 
   // Lưu tiến độ học tập tương ứng với tài khoản đăng nhập hoặc chế độ khách
   useEffect(() => {
@@ -120,6 +124,7 @@ export const App: React.FC = () => {
         onOpenSync={() => setShowSyncModal(true)}
         onOpenAuth={() => setShowAuthModal(true)}
         onOpenProfile={() => setShowProfileModal(true)}
+        onOpenSettings={() => setShowSettingsModal(true)}
       />
 
       {/* Main Content Area */}
@@ -138,10 +143,10 @@ export const App: React.FC = () => {
       <footer className="bg-[#1a1c2c] border-t-2 border-[#3a4466] py-4 text-center text-xs text-[#8b9bb4]">
         <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-2">
           <div>
-            EasyTin © 2026 — Nền tảng học Tin học dạng game Pixel cho học sinh Việt Nam.
+            {t('footer_copyright')}
           </div>
           <div className="text-[11px] text-[#5a6988]">
-            Đồng bộ chuẩn GDPT 2018 · KNTT · Cánh Diều · Chân trời sáng tạo · 100% Offline PWA Ready
+            {t('footer_standard')}
           </div>
         </div>
       </footer>
@@ -194,6 +199,10 @@ export const App: React.FC = () => {
           onSwitchAccount={handleSwitchAccount}
           onUpdateSuccess={handleProfileUpdate}
         />
+      )}
+
+      {showSettingsModal && (
+        <SettingsModal onClose={() => setShowSettingsModal(false)} />
       )}
     </div>
   );

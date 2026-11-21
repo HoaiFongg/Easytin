@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import { Grade, UserAccount, UserProgressState } from '../../packages/domain/types';
 import { AVATAR_OPTIONS } from '../../packages/domain/account';
+import { useI18n } from '../i18nContext';
 import { PixelButton } from './PixelButton';
 import { sound } from '../../packages/game-core/audio';
-import { Volume2, VolumeX, Sparkles, Flame, BookOpen, GraduationCap, Share2, UserPlus } from 'lucide-react';
+import { Volume2, VolumeX, Sparkles, Flame, BookOpen, GraduationCap, Share2, UserPlus, Settings } from 'lucide-react';
 
 interface HeaderProps {
   progress: UserProgressState;
@@ -15,6 +16,7 @@ interface HeaderProps {
   onOpenSync: () => void;
   onOpenAuth: () => void;
   onOpenProfile: () => void;
+  onOpenSettings: () => void;
 }
 
 export const Header: React.FC<HeaderProps> = ({
@@ -27,7 +29,9 @@ export const Header: React.FC<HeaderProps> = ({
   onOpenSync,
   onOpenAuth,
   onOpenProfile,
+  onOpenSettings,
 }) => {
+  const { t, language } = useI18n();
   const [isMuted, setIsMuted] = useState(sound.getMuted());
 
   const activeAvatar = currentAccount
@@ -52,9 +56,9 @@ export const Header: React.FC<HeaderProps> = ({
             </div>
             <div>
               <div className="font-pixel text-base text-[#fee761] tracking-wider flex items-center gap-1.5">
-                EasyTin
+                {t('app_title')}
               </div>
-              <div className="text-[11px] text-[#8b9bb4]">Tin học GDPT 2018 · Lớp 3–12</div>
+              <div className="text-[11px] text-[#8b9bb4]">{t('app_subtitle')}</div>
             </div>
           </div>
         </div>
@@ -64,7 +68,7 @@ export const Header: React.FC<HeaderProps> = ({
           {/* Nhóm Cấp Tiểu học */}
           <div className="flex items-center gap-1 bg-[#1a2e22] px-2 py-1 border border-[#2b5c3f] shadow-pixel-sm shrink-0">
             <span className="text-[10px] font-black text-[#38b764] uppercase tracking-wider flex items-center gap-1">
-              <span>🎒</span> <span className="hidden sm:inline">Tiểu học:</span>
+              <span>🎒</span> <span className="hidden sm:inline">{t('level_elementary')}:</span>
             </span>
             {([3, 4, 5] as Grade[]).map((g) => {
               const isSelected = progress.selectedGrade === g;
@@ -81,7 +85,7 @@ export const Header: React.FC<HeaderProps> = ({
                       : 'bg-[#262b44] text-[#c0cbdc] border-[#3a4466] hover:border-[#5a6988]'
                   }`}
                 >
-                  Lớp {g}
+                  {t('grade_prefix')} {g}
                 </button>
               );
             })}
@@ -90,7 +94,7 @@ export const Header: React.FC<HeaderProps> = ({
           {/* Nhóm Cấp THCS */}
           <div className="flex items-center gap-1 bg-[#1a2538] px-2 py-1 border border-[#1f3b5c] shadow-pixel-sm shrink-0">
             <span className="text-[10px] font-black text-[#2ce8f5] uppercase tracking-wider flex items-center gap-1">
-              <span>🌲</span> <span className="hidden sm:inline">THCS:</span>
+              <span>🌲</span> <span className="hidden sm:inline">{t('level_middle')}:</span>
             </span>
             {([6, 7, 8, 9] as Grade[]).map((g) => {
               const isSelected = progress.selectedGrade === g;
@@ -107,7 +111,7 @@ export const Header: React.FC<HeaderProps> = ({
                       : 'bg-[#262b44] text-[#c0cbdc] border-[#3a4466] hover:border-[#5a6988]'
                   }`}
                 >
-                  Lớp {g}
+                  {t('grade_prefix')} {g}
                 </button>
               );
             })}
@@ -116,7 +120,7 @@ export const Header: React.FC<HeaderProps> = ({
           {/* Nhóm Cấp THPT */}
           <div className="flex items-center gap-1 bg-[#321e2f] px-2 py-1 border border-[#5c2b4e] shadow-pixel-sm shrink-0">
             <span className="text-[10px] font-black text-[#fca3ca] uppercase tracking-wider flex items-center gap-1">
-              <span>🏛️</span> <span className="hidden sm:inline">THPT:</span>
+              <span>🏛️</span> <span className="hidden sm:inline">{t('level_high')}:</span>
             </span>
             {([10, 11, 12] as Grade[]).map((g) => {
               const isSelected = progress.selectedGrade === g;
@@ -133,7 +137,7 @@ export const Header: React.FC<HeaderProps> = ({
                       : 'bg-[#262b44] text-[#c0cbdc] border-[#3a4466] hover:border-[#5a6988]'
                   }`}
                 >
-                  Lớp {g}
+                  {t('grade_prefix')} {g}
                 </button>
               );
             })}
@@ -149,10 +153,10 @@ export const Header: React.FC<HeaderProps> = ({
               onOpenReview();
             }}
             className="flex items-center gap-1.5 bg-[#262b44] hover:bg-[#3a4466] text-white border-2 border-[#feae34] px-2.5 py-1 text-xs font-bold cursor-pointer transition-colors"
-            title="Hộp ôn tập thông minh (Leitner)"
+            title={t('review_box_title')}
           >
             <BookOpen size={14} className="text-[#feae34]" />
-            <span>Ôn tập</span>
+            <span>{t('review_button')}</span>
             {dueCount > 0 && (
               <span className="bg-[#e43b44] text-white text-[10px] px-1.5 rounded-full font-bold animate-pulse">
                 {dueCount}
@@ -164,14 +168,14 @@ export const Header: React.FC<HeaderProps> = ({
           <div className="flex items-center gap-1 bg-[#1a1c2c] border border-[#3a4466] px-2 py-1 text-xs">
             <Sparkles size={14} className="text-[#fee761]" />
             <span className="font-pixel text-[11px] text-[#fee761]">{progress.xp}</span>
-            <span className="text-[10px] text-[#8b9bb4]">XP</span>
+            <span className="text-[10px] text-[#8b9bb4]">{t('xp_label')}</span>
           </div>
 
           {/* Streak */}
           <div className="flex items-center gap-1 bg-[#1a1c2c] border border-[#3a4466] px-2 py-1 text-xs">
             <Flame size={14} className="text-[#f77622]" />
             <span className="font-pixel text-[11px] text-[#f77622]">{progress.streakDays}</span>
-            <span className="text-[10px] text-[#8b9bb4]">ngày</span>
+            <span className="text-[10px] text-[#8b9bb4]">{t('streak_days')}</span>
           </div>
 
           {/* Tài khoản Người học */}
@@ -182,7 +186,7 @@ export const Header: React.FC<HeaderProps> = ({
                 onOpenProfile();
               }}
               className="flex items-center gap-1.5 bg-[#1f263e] hover:bg-[#2b3557] border-2 border-[#2ce8f5] px-2 py-1 text-xs cursor-pointer transition-all shadow-pixel-sm shrink-0"
-              title="Nhấp để xem hồ sơ và thành tích học tập"
+              title={currentAccount.fullName}
             >
               <span className="text-base">{activeAvatar?.icon || '🤖'}</span>
               <div className="flex flex-col text-left leading-tight">
@@ -190,7 +194,7 @@ export const Header: React.FC<HeaderProps> = ({
                   {currentAccount.fullName}
                 </span>
                 <span className="text-[9px] text-[#2ce8f5] font-semibold">
-                  Lớp {currentAccount.grade}
+                  {t('grade_prefix')} {currentAccount.grade}
                 </span>
               </div>
             </button>
@@ -201,30 +205,45 @@ export const Header: React.FC<HeaderProps> = ({
                 onOpenAuth();
               }}
               className="flex items-center gap-1.5 bg-[#1a2e22] hover:bg-[#234230] text-[#38b764] hover:text-[#fee761] border-2 border-[#38b764] px-2 py-1 text-xs font-bold cursor-pointer transition-all shadow-pixel-sm shrink-0"
-              title="Tạo tài khoản hoặc đăng nhập để lưu thành tích học tập"
+              title={t('account_button')}
             >
               <UserPlus size={14} />
-              <span className="hidden sm:inline">Tạo tài khoản / Đăng nhập</span>
-              <span className="sm:hidden">Tài khoản</span>
+              <span className="hidden sm:inline">{t('account_button')}</span>
+              <span className="sm:hidden">{t('account_button_short')}</span>
             </button>
           )}
 
           {/* Thầy Cô / Lớp học */}
-          <PixelButton variant="ghost" size="sm" onClick={onOpenTeacher} title="Cổng dành cho Giáo viên">
+          <PixelButton variant="ghost" size="sm" onClick={onOpenTeacher} title={t('teacher_portal_title')}>
             <GraduationCap size={15} />
-            <span className="hidden sm:inline">Giáo viên</span>
+            <span className="hidden sm:inline">{t('teacher_portal')}</span>
           </PixelButton>
 
           {/* Sao lưu / Thẻ tiến độ */}
-          <PixelButton variant="ghost" size="sm" onClick={onOpenSync} title="Mã thẻ tiến độ">
+          <PixelButton variant="ghost" size="sm" onClick={onOpenSync} title={t('backup_code_title')}>
             <Share2 size={14} />
           </PixelButton>
+
+          {/* Nút Cài đặt trang web & Ngôn ngữ */}
+          <button
+            onClick={() => {
+              sound.playClick();
+              onOpenSettings();
+            }}
+            className="flex items-center gap-1 bg-[#262b44] hover:bg-[#3a4466] border border-[#5a6988] px-2 py-1.5 text-xs text-[#c0cbdc] hover:text-white cursor-pointer shadow-pixel-sm"
+            title={t('settings_title')}
+          >
+            <Settings size={15} className="text-[#2ce8f5]" />
+            <span className="text-[11px] font-bold text-[#fee761]">
+              {language === 'vi' ? '🇻🇳 VI' : '🇬🇧 EN'}
+            </span>
+          </button>
 
           {/* Bật/Tắt Âm thanh */}
           <button
             onClick={toggleSound}
             className="p-1.5 bg-[#262b44] border border-[#5a6988] text-[#c0cbdc] hover:text-white cursor-pointer"
-            title={isMuted ? 'Bật âm thanh' : 'Tắt âm thanh'}
+            title={isMuted ? t('sound_enable') : t('sound_disable')}
           >
             {isMuted ? <VolumeX size={16} /> : <Volume2 size={16} />}
           </button>
