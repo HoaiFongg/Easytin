@@ -3,6 +3,7 @@ import { UserProgressState } from '../../packages/domain/types';
 import { LocalStorageAdapter } from '../../packages/domain/storage';
 import { useI18n } from '../i18nContext';
 import { PixelButton } from './PixelButton';
+import { PixelLogo } from './PixelLogo';
 import { sound } from '../../packages/game-core/audio';
 import {
   X,
@@ -593,7 +594,12 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
                   </p>
                 </div>
 
-                <div className="bg-[#1a1c2c] border-2 border-[#3a4466] p-4 flex flex-col gap-3">
+                <div className="bg-[#1a1c2c] border-2 border-[#3a4466] p-4 flex flex-col gap-4">
+                  {/* Logo thương hiệu nổi bật */}
+                  <div className="bg-[#181425] p-3.5 border-2 border-[#5a6988] flex items-center justify-center shadow-pixel-sm">
+                    <PixelLogo size="lg" />
+                  </div>
+
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
                     <div>
                       <span className="text-[#8b9bb4]">Tên ứng dụng:</span>{' '}

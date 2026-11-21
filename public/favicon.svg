@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" style="shape-rendering: crispEdges;">
+  <!-- EasyTin Retro CRT Pixel Logo Favicon -->
+  <!-- 1. Antenna & Star -->
+  <rect x="15" y="0" width="2" height="1" fill="#fee761" />
+  <rect x="14" y="1" width="4" height="2" fill="#fee761" />
+  <rect x="15" y="1" width="1" height="1" fill="#ffffff" />
+  <rect x="14" y="3" width="4" height="1" fill="#feae34" />
+  <rect x="15" y="3" width="2" height="3" fill="#8b9bb4" />
+  <rect x="15" y="5" width="2" height="1" fill="#3a4466" />
+
+  <!-- 2. CRT Monitor Chassis Frame -->
+  <rect x="5" y="5" width="22" height="1" fill="#181425" />
+  <rect x="3" y="6" width="26" height="1" fill="#181425" />
+  <rect x="2" y="7" width="28" height="18" fill="#181425" />
+  <rect x="3" y="25" width="26" height="1" fill="#181425" />
+  <rect x="5" y="26" width="22" height="1" fill="#181425" />
+
+  <!-- 3. Chassis Highlight & 3D Bevel -->
+  <rect x="6" y="6" width="20" height="1" fill="#8b9bb4" />
+  <rect x="3" y="7" width="26" height="1" fill="#5a6988" />
+  <rect x="3" y="8" width="2" height="16" fill="#5a6988" />
+  <rect x="27" y="8" width="2" height="16" fill="#1f2438" />
+  <rect x="5" y="24" width="22" height="1" fill="#1f2438" />
+  <rect x="5" y="8" width="22" height="16" fill="#2b3350" />
+
+  <!-- 4. Screen Bezel -->
+  <rect x="5" y="8" width="22" height="1" fill="#181425" />
+  <rect x="5" y="9" width="1" height="13" fill="#181425" />
+  <rect x="26" y="9" width="1" height="13" fill="#3a4466" />
+  <rect x="5" y="21" width="22" height="1" fill="#3a4466" />
+
+  <!-- 5. CRT Screen Glass -->
+  <rect x="6" y="9" width="20" height="12" fill="#0f2628" />
+  <rect x="6" y="9" width="20" height="1" fill="#19484a" />
+  <rect x="6" y="10" width="1" height="10" fill="#19484a" />
+  <rect x="7" y="10" width="3" height="1" fill="#2ce8f5" opacity="0.85" />
+  <rect x="7" y="11" width="1" height="2" fill="#2ce8f5" opacity="0.85" />
+
+  <!-- 6. Pixel Glyph "E" (Emerald Green) -->
+  <rect x="8" y="12" width="6" height="2" fill="#38b764" />
+  <rect x="8" y="12" width="5" height="1" fill="#a7f070" />
+  <rect x="8" y="14" width="2" height="4" fill="#38b764" />
+  <rect x="8" y="15" width="4" height="2" fill="#38b764" />
+  <rect x="8" y="15" width="4" height="1" fill="#a7f070" />
+  <rect x="8" y="18" width="6" height="2" fill="#38b764" />
+  <rect x="9" y="18" width="5" height="1" fill="#a7f070" />
+  <rect x="8" y="19" width="6" height="1" fill="#24613b" />
+
+  <!-- 7. Pixel Glyph "T" (Warm Gold) -->
+  <rect x="16" y="12" width="7" height="2" fill="#fee761" />
+  <rect x="16" y="12" width="6" height="1" fill="#ffffff" />
+  <rect x="18" y="14" width="3" height="5" fill="#fee761" />
+  <rect x="18" y="14" width="1" height="5" fill="#ffffff" opacity="0.7" />
+  <rect x="18" y="19" width="3" height="1" fill="#feae34" />
+  <rect x="20" y="14" width="1" height="5" fill="#feae34" />
+
+  <!-- 8. Cursor Prompt -->
+  <rect x="22" y="18" width="2" height="1" fill="#2ce8f5" />
+
+  <!-- 9. Controls & LEDs -->
+  <rect x="6" y="22" width="20" height="2" fill="#20273d" />
+  <rect x="7" y="23" width="9" height="1" fill="#100c1d" />
+  <rect x="7" y="22" width="9" height="1" fill="#181425" />
+  <rect x="19" y="23" width="2" height="1" fill="#38b764" />
+  <rect x="23" y="23" width="2" height="1" fill="#feae34" />
+
+  <!-- 10. Pedestal / Stand -->
+  <rect x="13" y="26" width="6" height="1" fill="#181425" />
+  <rect x="14" y="27" width="4" height="2" fill="#3a4466" />
+  <rect x="13" y="27" width="1" height="2" fill="#181425" />
+  <rect x="18" y="27" width="1" height="2" fill="#181425" />
+  <rect x="10" y="29" width="12" height="1" fill="#181425" />
+  <rect x="9" y="30" width="14" height="1" fill="#5a6988" />
+  <rect x="9" y="30" width="1" height="1" fill="#8b9bb4" />
+  <rect x="9" y="31" width="14" height="1" fill="#181425" />
+</svg>

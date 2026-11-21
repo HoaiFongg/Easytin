@@ -1,6 +1,7 @@
 import React from 'react';
 import { Grade, UserAccount, UserProgressState } from '../../packages/domain/types';
 import { useI18n } from '../i18nContext';
+import { PixelLogo } from './PixelLogo';
 import { PixelMascot } from './PixelMascot';
 import { sound } from '../../packages/game-core/audio';
 import { Sparkles, Flame, BookOpen, UserPlus, Settings } from 'lucide-react';
@@ -33,19 +34,7 @@ export const Header: React.FC<HeaderProps> = ({
     <header className="sticky top-0 z-30 bg-[#181425] border-b-4 border-[#3a4466] px-4 sm:px-6 lg:px-8 py-2.5 shadow-pixel w-full">
       <div className="w-full flex flex-wrap items-center justify-between gap-3">
         {/* Logo & Slogan */}
-        <div className="flex items-center gap-3">
-          <div className="flex items-center gap-2 cursor-pointer" onClick={() => sound.playJump()}>
-            <div className="w-9 h-9 bg-[#38b764] border-2 border-white flex items-center justify-center font-pixel text-lg text-black shadow-pixel-sm">
-              ET
-            </div>
-            <div>
-              <div className="font-pixel text-base text-[#fee761] tracking-wider flex items-center gap-1.5">
-                {t('app_title')}
-              </div>
-              <div className="text-[11px] text-[#8b9bb4]">{t('app_subtitle')}</div>
-            </div>
-          </div>
-        </div>
+        <PixelLogo size="md" />
 
         {/* Stats & Actions */}
         <div className="flex items-center gap-2">
