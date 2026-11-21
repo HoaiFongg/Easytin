@@ -1,10 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Grade, UserAccount, UserProgressState } from '../../packages/domain/types';
 import { useI18n } from '../i18nContext';
-import { PixelButton } from './PixelButton';
 import { PixelMascot } from './PixelMascot';
 import { sound } from '../../packages/game-core/audio';
-import { Volume2, VolumeX, Sparkles, Flame, BookOpen, GraduationCap, Share2, UserPlus, Settings } from 'lucide-react';
+import { Sparkles, Flame, BookOpen, UserPlus, Settings } from 'lucide-react';
 
 interface HeaderProps {
   progress: UserProgressState;
@@ -12,8 +11,8 @@ interface HeaderProps {
   currentAccount: UserAccount | null;
   onGradeChange?: (grade: Grade) => void;
   onOpenReview: () => void;
-  onOpenTeacher: () => void;
-  onOpenSync: () => void;
+  onOpenTeacher?: () => void;
+  onOpenSync?: () => void;
   onOpenAuth: () => void;
   onOpenProfile: () => void;
   onOpenSettings: () => void;
@@ -24,21 +23,11 @@ export const Header: React.FC<HeaderProps> = ({
   dueCount,
   currentAccount,
   onOpenReview,
-  onOpenTeacher,
-  onOpenSync,
   onOpenAuth,
   onOpenProfile,
   onOpenSettings,
 }) => {
   const { t, language } = useI18n();
-  const [isMuted, setIsMuted] = useState(sound.getMuted());
-
-  const toggleSound = () => {
-    const next = !isMuted;
-    sound.setMuted(next);
-    setIsMuted(next);
-    if (!next) sound.playClick();
-  };
 
   return (
     <header className="sticky top-0 z-30 bg-[#181425] border-b-4 border-[#3a4466] px-4 py-2.5 shadow-pixel">
@@ -127,39 +116,20 @@ export const Header: React.FC<HeaderProps> = ({
             </button>
           )}
 
-          {/* Thầy Cô / Lớp học */}
-          <PixelButton variant="ghost" size="sm" onClick={onOpenTeacher} title={t('teacher_portal_title')}>
-            <GraduationCap size={15} />
-            <span className="hidden sm:inline">{t('teacher_portal')}</span>
-          </PixelButton>
-
-          {/* Sao lưu / Thẻ tiến độ */}
-          <PixelButton variant="ghost" size="sm" onClick={onOpenSync} title={t('backup_code_title')}>
-            <Share2 size={14} />
-          </PixelButton>
-
-          {/* Nút Cài đặt trang web & Ngôn ngữ */}
+          {/* Nút Cài đặt trang web tổng hợp (Dạng danh sách đầy đủ) */}
           <button
             onClick={() => {
               sound.playClick();
               onOpenSettings();
             }}
-            className="flex items-center gap-1 bg-[#262b44] hover:bg-[#3a4466] border border-[#5a6988] px-2 py-1.5 text-xs text-[#c0cbdc] hover:text-white cursor-pointer shadow-pixel-sm"
+            className="flex items-center gap-1.5 bg-[#262b44] hover:bg-[#3a4466] border-2 border-[#2ce8f5] hover:border-[#fee761] px-2.5 py-1 text-xs text-white cursor-pointer shadow-pixel-sm transition-all"
             title={t('settings_title')}
           >
             <Settings size={15} className="text-[#2ce8f5]" />
-            <span className="text-[11px] font-bold text-[#fee761]">
-              {language === 'vi' ? '🇻🇳 VI' : '🇬🇧 EN'}
+            <span className="font-bold text-xs">{t('settings_button')}</span>
+            <span className="text-[10px] bg-[#181425] text-[#fee761] px-1.5 py-0.2 font-mono border border-[#3a4466]">
+              {language === 'vi' ? 'VI' : 'EN'}
             </span>
-          </button>
-
-          {/* Bật/Tắt Âm thanh */}
-          <button
-            onClick={toggleSound}
-            className="p-1.5 bg-[#262b44] border border-[#5a6988] text-[#c0cbdc] hover:text-white cursor-pointer"
-            title={isMuted ? t('sound_enable') : t('sound_disable')}
-          >
-            {isMuted ? <VolumeX size={16} /> : <Volume2 size={16} />}
           </button>
         </div>
       </div>

@@ -120,8 +120,6 @@ export const App: React.FC = () => {
         currentAccount={currentAccount}
         onGradeChange={handleGradeChange}
         onOpenReview={() => setShowReviewModal(true)}
-        onOpenTeacher={() => setShowTeacherModal(true)}
-        onOpenSync={() => setShowSyncModal(true)}
         onOpenAuth={() => setShowAuthModal(true)}
         onOpenProfile={() => setShowProfileModal(true)}
         onOpenSettings={() => setShowSettingsModal(true)}
@@ -202,7 +200,11 @@ export const App: React.FC = () => {
       )}
 
       {showSettingsModal && (
-        <SettingsModal onClose={() => setShowSettingsModal(false)} />
+        <SettingsModal
+          progress={progress}
+          onImportSuccess={(newProg) => setProgress(newProg)}
+          onClose={() => setShowSettingsModal(false)}
+        />
       )}
     </div>
   );
