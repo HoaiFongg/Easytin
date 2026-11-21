@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import { CurriculumNode, CurriculumWorld, Grade, NodeMasteryRecord } from '../../packages/domain/types';
+import { AccountManager, AVATAR_OPTIONS } from '../../packages/domain/account';
 import { useI18n } from '../i18nContext';
 import { PixelCard } from './PixelCard';
 import { PixelButton } from './PixelButton';
+import { PixelMascot } from './PixelMascot';
 import { sound } from '../../packages/game-core/audio';
 import { Star, Lock, Play, BookOpen, Clock, GraduationCap } from 'lucide-react';
 
@@ -29,6 +31,10 @@ export const WorldMap: React.FC<WorldMapProps> = ({
   const isElementary = [3, 4, 5].includes(selectedGrade);
   const isMiddleSchool = [6, 7, 8, 9].includes(selectedGrade);
   const isHighSchool = [10, 11, 12].includes(selectedGrade);
+
+  const activeAccount = AccountManager.getActiveAccount();
+  const currentMascotId = activeAccount?.avatarId || 'tin_bot';
+  const currentMascot = AVATAR_OPTIONS.find((a) => a.id === currentMascotId) || AVATAR_OPTIONS[0];
 
   const currentLevelLabel = isElementary
     ? t('level_elementary_full')
@@ -206,6 +212,30 @@ export const WorldMap: React.FC<WorldMapProps> = ({
           <div className="flex items-center gap-2 bg-[#181425]/80 p-2 border-2 border-[#5a6988]">
             <span className="text-xs text-[#8b9bb4]">Độ phủ SGK:</span>
             <span className="text-xs font-bold text-[#38b764]">KNTT · Cánh Diều · CTST</span>
+          </div>
+        </div>
+      </div>
+
+      {/* Linh vật Pixel Đồng hành (Interactive Mascot Companion) */}
+      <div className="bg-[#1f2438] border-3 border-[#fee761] p-3 sm:p-4 shadow-pixel flex items-center gap-3 sm:gap-4 relative overflow-hidden">
+        <div
+          className="w-14 h-14 sm:w-16 sm:h-16 bg-[#181425] border-2 border-[#fee761] flex items-center justify-center p-1 shadow-pixel-sm shrink-0 cursor-pointer hover:scale-105 transition-transform"
+          onClick={() => sound.playJump()}
+          title="Nhấp để cổ vũ linh vật!"
+        >
+          <PixelMascot mascotId={currentMascotId} size={48} animated={true} />
+        </div>
+        <div className="flex-1">
+          <div className="flex items-center gap-2 flex-wrap">
+            <span className="text-xs font-black text-[#fee761] uppercase tracking-wider">
+              {currentMascot.name} ({currentMascot.role}):
+            </span>
+            <span className="bg-[#1a2e22] text-[#38b764] text-[10px] px-2 py-0.5 font-bold border border-[#2b5c3f] animate-pulse">
+              Đồng hành cùng em
+            </span>
+          </div>
+          <div className="text-xs text-[#c0cbdc] mt-1 leading-relaxed">
+            "Chào bạn nhỏ! Mỗi bài học Tin học hôm nay là một bước tiến rèn luyện tư duy số. Hãy hoàn thành tốt nhé!"
           </div>
         </div>
       </div>

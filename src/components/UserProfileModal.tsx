@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Grade, UserAccount } from '../../packages/domain/types';
 import { AccountManager, AVATAR_OPTIONS, getRankTitle } from '../../packages/domain/account';
 import { PixelButton } from './PixelButton';
+import { PixelMascot } from './PixelMascot';
 import { sound } from '../../packages/game-core/audio';
 import { X, User, Edit3, Key, LogOut, Users, Sparkles, Flame, Award, CheckCircle2, AlertCircle } from 'lucide-react';
 
@@ -153,8 +154,8 @@ export const UserProfileModal: React.FC<UserProfileModalProps> = ({
             <>
               {/* Thẻ định danh học sinh */}
               <div className="bg-[#1a1c2c] border-2 border-[#3a4466] p-4 flex flex-col sm:flex-row items-center gap-4">
-                <div className="w-16 h-16 bg-[#262b44] border-2 border-[#fee761] flex items-center justify-center text-4xl shadow-pixel-sm shrink-0">
-                  {currentAvatar.icon}
+                <div className="w-18 h-18 bg-[#262b44] border-2 border-[#fee761] flex items-center justify-center p-1 shadow-pixel-sm shrink-0 overflow-hidden">
+                  <PixelMascot mascotId={currentAvatar.id} size={56} animated={true} />
                 </div>
                 <div className="flex-1 text-center sm:text-left">
                   <div className="flex items-center justify-center sm:justify-start gap-2 flex-wrap">
@@ -313,7 +314,7 @@ export const UserProfileModal: React.FC<UserProfileModalProps> = ({
                           : 'bg-[#181425] border-[#3a4466]'
                       }`}
                     >
-                      <span className="text-xl">{av.icon}</span>
+                      <PixelMascot mascotId={av.id} size={28} animated={editAvatarId === av.id} />
                       <span className="text-[11px] font-bold truncate">{av.name}</span>
                     </div>
                   ))}

@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Grade, UserAccount, UserProgressState } from '../../packages/domain/types';
-import { AVATAR_OPTIONS } from '../../packages/domain/account';
 import { useI18n } from '../i18nContext';
 import { PixelButton } from './PixelButton';
+import { PixelMascot } from './PixelMascot';
 import { sound } from '../../packages/game-core/audio';
 import { Volume2, VolumeX, Sparkles, Flame, BookOpen, GraduationCap, Share2, UserPlus, Settings } from 'lucide-react';
 
@@ -10,7 +10,7 @@ interface HeaderProps {
   progress: UserProgressState;
   dueCount: number;
   currentAccount: UserAccount | null;
-  onGradeChange: (grade: Grade) => void;
+  onGradeChange?: (grade: Grade) => void;
   onOpenReview: () => void;
   onOpenTeacher: () => void;
   onOpenSync: () => void;
@@ -23,7 +23,6 @@ export const Header: React.FC<HeaderProps> = ({
   progress,
   dueCount,
   currentAccount,
-  onGradeChange,
   onOpenReview,
   onOpenTeacher,
   onOpenSync,
@@ -33,10 +32,6 @@ export const Header: React.FC<HeaderProps> = ({
 }) => {
   const { t, language } = useI18n();
   const [isMuted, setIsMuted] = useState(sound.getMuted());
-
-  const activeAvatar = currentAccount
-    ? AVATAR_OPTIONS.find((a) => a.id === currentAccount.avatarId) || AVATAR_OPTIONS[0]
-    : null;
 
   const toggleSound = () => {
     const next = !isMuted;
@@ -60,87 +55,6 @@ export const Header: React.FC<HeaderProps> = ({
               </div>
               <div className="text-[11px] text-[#8b9bb4]">{t('app_subtitle')}</div>
             </div>
-          </div>
-        </div>
-
-        {/* Khối lớp Selector chia theo 3 Cấp: Tiểu học · THCS · THPT */}
-        <div className="flex items-center gap-1.5 overflow-x-auto py-1 max-w-full">
-          {/* Nhóm Cấp Tiểu học */}
-          <div className="flex items-center gap-1 bg-[#1a2e22] px-2 py-1 border border-[#2b5c3f] shadow-pixel-sm shrink-0">
-            <span className="text-[10px] font-black text-[#38b764] uppercase tracking-wider flex items-center gap-1">
-              <span>🎒</span> <span className="hidden sm:inline">{t('level_elementary')}:</span>
-            </span>
-            {([3, 4, 5] as Grade[]).map((g) => {
-              const isSelected = progress.selectedGrade === g;
-              return (
-                <button
-                  key={g}
-                  onClick={() => {
-                    sound.playClick();
-                    onGradeChange(g);
-                  }}
-                  className={`px-2 py-0.5 text-xs font-bold transition-all border ${
-                    isSelected
-                      ? 'bg-[#fee761] text-black border-white shadow-pixel-sm -translate-y-0.5 font-black'
-                      : 'bg-[#262b44] text-[#c0cbdc] border-[#3a4466] hover:border-[#5a6988]'
-                  }`}
-                >
-                  {t('grade_prefix')} {g}
-                </button>
-              );
-            })}
-          </div>
-
-          {/* Nhóm Cấp THCS */}
-          <div className="flex items-center gap-1 bg-[#1a2538] px-2 py-1 border border-[#1f3b5c] shadow-pixel-sm shrink-0">
-            <span className="text-[10px] font-black text-[#2ce8f5] uppercase tracking-wider flex items-center gap-1">
-              <span>🌲</span> <span className="hidden sm:inline">{t('level_middle')}:</span>
-            </span>
-            {([6, 7, 8, 9] as Grade[]).map((g) => {
-              const isSelected = progress.selectedGrade === g;
-              return (
-                <button
-                  key={g}
-                  onClick={() => {
-                    sound.playClick();
-                    onGradeChange(g);
-                  }}
-                  className={`px-2 py-0.5 text-xs font-bold transition-all border ${
-                    isSelected
-                      ? 'bg-[#fee761] text-black border-white shadow-pixel-sm -translate-y-0.5 font-black'
-                      : 'bg-[#262b44] text-[#c0cbdc] border-[#3a4466] hover:border-[#5a6988]'
-                  }`}
-                >
-                  {t('grade_prefix')} {g}
-                </button>
-              );
-            })}
-          </div>
-
-          {/* Nhóm Cấp THPT */}
-          <div className="flex items-center gap-1 bg-[#321e2f] px-2 py-1 border border-[#5c2b4e] shadow-pixel-sm shrink-0">
-            <span className="text-[10px] font-black text-[#fca3ca] uppercase tracking-wider flex items-center gap-1">
-              <span>🏛️</span> <span className="hidden sm:inline">{t('level_high')}:</span>
-            </span>
-            {([10, 11, 12] as Grade[]).map((g) => {
-              const isSelected = progress.selectedGrade === g;
-              return (
-                <button
-                  key={g}
-                  onClick={() => {
-                    sound.playClick();
-                    onGradeChange(g);
-                  }}
-                  className={`px-2 py-0.5 text-xs font-bold transition-all border ${
-                    isSelected
-                      ? 'bg-[#fee761] text-black border-white shadow-pixel-sm -translate-y-0.5 font-black'
-                      : 'bg-[#262b44] text-[#c0cbdc] border-[#3a4466] hover:border-[#5a6988]'
-                  }`}
-                >
-                  {t('grade_prefix')} {g}
-                </button>
-              );
-            })}
           </div>
         </div>
 
@@ -188,7 +102,7 @@ export const Header: React.FC<HeaderProps> = ({
               className="flex items-center gap-1.5 bg-[#1f263e] hover:bg-[#2b3557] border-2 border-[#2ce8f5] px-2 py-1 text-xs cursor-pointer transition-all shadow-pixel-sm shrink-0"
               title={currentAccount.fullName}
             >
-              <span className="text-base">{activeAvatar?.icon || '🤖'}</span>
+              <PixelMascot mascotId={currentAccount.avatarId} size={24} animated={true} />
               <div className="flex flex-col text-left leading-tight">
                 <span className="font-bold text-white text-[11px] max-w-[95px] truncate">
                   {currentAccount.fullName}

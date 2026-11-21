@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Grade, UserAccount } from '../../packages/domain/types';
 import { AccountManager, AVATAR_OPTIONS } from '../../packages/domain/account';
 import { PixelButton } from './PixelButton';
+import { PixelMascot } from './PixelMascot';
 import { sound } from '../../packages/game-core/audio';
 import { X, UserPlus, LogIn, Users, Eye, EyeOff, AlertCircle, CheckCircle2, Trash2 } from 'lucide-react';
 
@@ -236,7 +237,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({
                             : 'bg-[#1a1c2c] border-[#3a4466] hover:border-[#5a6988]'
                         }`}
                       >
-                        <span className="text-2xl">{av.icon}</span>
+                        <PixelMascot mascotId={av.id} size={36} animated={isSelected} />
                         <div className="overflow-hidden">
                           <div className="text-xs font-bold text-white truncate">{av.name}</div>
                           <div className="text-[10px] text-[#8b9bb4] truncate">{av.role}</div>
@@ -519,7 +520,6 @@ export const AuthModal: React.FC<AuthModalProps> = ({
 
               <div className="flex flex-col gap-2 max-h-[360px] overflow-y-auto">
                 {existingAccounts.map((acc) => {
-                  const avatar = AVATAR_OPTIONS.find((a) => a.id === acc.avatarId) || AVATAR_OPTIONS[0];
                   return (
                     <div
                       key={acc.id}
@@ -527,7 +527,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({
                       className="p-3 bg-[#262b44] border-2 border-[#3a4466] hover:border-[#fee761] flex items-center justify-between cursor-pointer transition-all hover:-translate-y-0.5"
                     >
                       <div className="flex items-center gap-3">
-                        <span className="text-3xl">{avatar.icon}</span>
+                        <PixelMascot mascotId={acc.avatarId} size={36} animated={false} />
                         <div>
                           <div className="text-xs font-bold text-white flex items-center gap-2">
                             <span>{acc.fullName}</span>
