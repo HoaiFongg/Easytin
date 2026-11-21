@@ -77,7 +77,7 @@ export const TypeRunGame: React.FC<TypeRunGameProps> = ({ onComplete }) => {
       {!finished ? (
         <div className="flex flex-col items-center gap-3">
           <div className="text-xs text-[#8b9bb4]">TỪ CẦN GÕ TIẾP THEO:</div>
-          <div className="font-pixel text-2xl text-[#fee761] tracking-widest bg-[#262b44] px-6 py-3 border-2 border-[#5a6988]">
+          <div className="font-mono text-xl font-bold tracking-widest text-[#fee761] uppercase bg-[#262b44] px-6 py-3 border-2 border-[#5a6988]">
             {currentWord}
           </div>
 

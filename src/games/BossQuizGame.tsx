@@ -134,7 +134,7 @@ export const BossQuizGame: React.FC<BossQuizGameProps> = ({ config, quizList, on
       {/* Màn câu hỏi RPG */}
       {!gameOver && curQ ? (
         <div className="flex flex-col gap-4">
-          <div className="text-xs font-pixel text-[#fee761]">
+          <div className="text-xs font-black text-[#fee761] uppercase tracking-wider">
             ĐÒN TẤN CÔNG THỨ {qIndex + 1}/{questions.length}:
           </div>
           <div className="text-sm font-semibold text-white bg-[#262b44] p-4 border-2 border-[#5a6988]">
@@ -182,7 +182,7 @@ export const BossQuizGame: React.FC<BossQuizGameProps> = ({ config, quizList, on
           {bossHp <= 0 ? (
             <>
               <Trophy className="text-[#fee761]" size={48} />
-              <div className="font-pixel text-xl text-[#38b764]">CHIẾN THẮNG TRÙM CUỐI!</div>
+              <div className="text-xl font-black text-[#38b764] uppercase tracking-wider">CHIẾN THẮNG TRÙM CUỐI!</div>
               <div className="text-xs text-[#c0cbdc] max-w-md">
                 Em đã xuất sắc bảo vệ toàn bộ kho dữ liệu Tin học của nhân loại!
               </div>
@@ -190,7 +190,7 @@ export const BossQuizGame: React.FC<BossQuizGameProps> = ({ config, quizList, on
           ) : (
             <>
               <Skull className="text-[#e43b44]" size={48} />
-              <div className="font-pixel text-lg text-[#e43b44]">TRẬN CHIẾN KẾT THÚC!</div>
+              <div className="text-lg font-black text-[#e43b44] uppercase tracking-wider">TRẬN CHIẾN KẾT THÚC!</div>
               <div className="text-xs text-[#c0cbdc]">
                 Boss còn lại {bossHp} HP. Hãy ôn tập lại các bài học để phục thù nhé!
               </div>

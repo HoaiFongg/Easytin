@@ -150,7 +150,7 @@ export const LogicPuzzleGame: React.FC<LogicPuzzleGameProps> = ({ config, onComp
 
             {/* Khối Cổng Logic */}
             <div className="flex flex-col items-center gap-2">
-              <div className="font-pixel text-sm bg-[#5d275d] border-2 border-[#ea57b2] px-4 py-2 text-white">
+              <div className="text-xs font-black uppercase tracking-wider bg-[#5d275d] border-2 border-[#ea57b2] px-4 py-2 text-white">
                 CỔNG {selectedGate}
               </div>
               <div className="flex gap-1">

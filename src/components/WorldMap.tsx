@@ -31,7 +31,7 @@ export const WorldMap: React.FC<WorldMapProps> = ({
       >
         <div className="relative z-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
           <div>
-            <div className="text-[11px] font-pixel text-[#fee761] uppercase tracking-wider">
+            <div className="text-xs font-black text-[#fee761] uppercase tracking-wider">
               {currentWorld.name}
             </div>
             <h1 className="text-xl md:text-2xl font-black text-white mt-1">
@@ -71,7 +71,7 @@ export const WorldMap: React.FC<WorldMapProps> = ({
               <div>
                 {/* Header thẻ bài học */}
                 <div className="flex items-center justify-between border-b border-[#3a4466] pb-2 mb-3">
-                  <span className="text-[11px] font-pixel text-[#fee761]">
+                  <span className="text-xs font-black text-[#fee761] uppercase tracking-wider">
                     Bài {index + 1}
                   </span>
                   <div className="flex items-center gap-1">

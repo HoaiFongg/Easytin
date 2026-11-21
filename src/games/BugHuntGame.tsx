@@ -49,7 +49,7 @@ export const BugHuntGame: React.FC<{ onComplete: (score: number) => void }> = ({
       <div className="flex items-center justify-between border-b border-[#3a4466] pb-2">
         <div className="flex items-center gap-2">
           <Bug className="text-[#e43b44]" size={20} />
-          <span className="font-pixel text-xs text-[#fee761]">TRUY TÌM DÒNG LỆNH GÂY LỖI:</span>
+          <span className="text-xs font-black text-[#fee761] uppercase tracking-wider">TRUY TÌM DÒNG LỆNH GÂY LỖI:</span>
         </div>
         <span className="text-xs text-[#8b9bb4]">Bài toán: Tính tổng các số từ 1 đến 5</span>
       </div>

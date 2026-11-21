@@ -46,7 +46,7 @@ export const ProgressSyncModal: React.FC<ProgressSyncModalProps> = ({
       <div className="bg-[#181425] border-4 border-[#2ce8f5] shadow-pixel-lg w-full max-w-xl flex flex-col overflow-hidden">
         {/* Header */}
         <div className="flex items-center justify-between bg-[#262b44] px-4 py-3 border-b-3 border-[#3a4466]">
-          <span className="font-pixel text-xs text-[#fee761]">
+          <span className="text-xs font-black text-[#fee761] uppercase tracking-wider">
             MÃ THẺ TIẾN ĐỘ HỌC TẬP (SAO LƯU)
           </span>
           <button

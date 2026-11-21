@@ -23,7 +23,7 @@ export const TeacherDashboardModal: React.FC<TeacherDashboardModalProps> = ({ on
         <div className="flex items-center justify-between bg-[#262b44] px-4 py-3 border-b-3 border-[#3a4466]">
           <div className="flex items-center gap-2">
             <GraduationCap size={18} className="text-[#38b764]" />
-            <span className="font-pixel text-xs text-[#fee761]">
+            <span className="text-xs font-black text-[#fee761] uppercase tracking-wider">
               CỔNG QUẢN LÝ DÀNH CHO THẦY CÔ
             </span>
           </div>
@@ -62,7 +62,7 @@ export const TeacherDashboardModal: React.FC<TeacherDashboardModalProps> = ({ on
 
           {/* Phân tích lỗ hổng nhận thức (Misconception Heatmap) */}
           <div>
-            <div className="font-pixel text-xs text-[#fee761] mb-2 flex items-center gap-2">
+            <div className="text-xs font-black text-[#fee761] uppercase tracking-wider mb-2 flex items-center gap-2">
               <BarChart3 size={15} /> CẢNH BÁO LỖ HỔNG KIẾN THỨC CỦA LỚP:
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -89,7 +89,7 @@ export const TeacherDashboardModal: React.FC<TeacherDashboardModalProps> = ({ on
 
           {/* Danh sách học sinh trong lớp mẫu */}
           <div>
-            <div className="font-pixel text-xs text-[#fee761] mb-2 flex items-center gap-2">
+            <div className="text-xs font-black text-[#fee761] uppercase tracking-wider mb-2 flex items-center gap-2">
               <Users size={15} /> DANH SÁCH HỌC SINH ĐANG HỌC (38/40):
             </div>
             <div className="bg-[#181425] border-2 border-[#3a4466] divide-y divide-[#3a4466]">

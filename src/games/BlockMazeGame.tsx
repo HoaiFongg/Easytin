@@ -181,7 +181,7 @@ export const BlockMazeGame: React.FC<BlockMazeGameProps> = ({ config, onComplete
       {/* Bảng khối lệnh */}
       <div className="flex-1 flex flex-col justify-between gap-4">
         <div>
-          <div className="text-xs font-pixel text-[#8b9bb4] mb-2">CÁC KHỐI LỆNH CÓ SẴN:</div>
+          <div className="text-xs font-black text-[#8b9bb4] uppercase tracking-wider mb-2">CÁC KHỐI LỆNH CÓ SẴN:</div>
           <div className="grid grid-cols-2 gap-2">
             <PixelButton
               variant="blue"
@@ -221,7 +221,7 @@ export const BlockMazeGame: React.FC<BlockMazeGameProps> = ({ config, onComplete
         {/* Khay chương trình của em */}
         <div className="bg-[#181425] p-3 border-2 border-[#3a4466] min-h-[140px]">
           <div className="flex items-center justify-between mb-2">
-            <span className="font-pixel text-[11px] text-[#38b764]">CHƯƠNG TRÌNH CỦA EM:</span>
+            <span className="text-xs font-black text-[#38b764] uppercase tracking-wider">CHƯƠNG TRÌNH CỦA EM:</span>
             <span className="text-[10px] text-[#8b9bb4]">{commands.length}/8 lệnh</span>
           </div>
           <div className="flex flex-wrap gap-1.5">

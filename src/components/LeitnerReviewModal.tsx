@@ -48,7 +48,7 @@ export const LeitnerReviewModal: React.FC<LeitnerReviewModalProps> = ({
         <div className="flex items-center justify-between bg-[#262b44] px-4 py-3 border-b-3 border-[#3a4466]">
           <div className="flex items-center gap-2">
             <BookOpen size={18} className="text-[#feae34]" />
-            <span className="font-pixel text-xs text-[#fee761]">
+            <span className="text-xs font-black text-[#fee761] uppercase tracking-wider">
               HỘP ÔN TẬP THÔNG MINH (LEITNER 4 HỘP)
             </span>
           </div>
@@ -80,7 +80,7 @@ export const LeitnerReviewModal: React.FC<LeitnerReviewModalProps> = ({
                 key={b.box}
                 className="bg-[#1a1c2c] border-2 border-[#3a4466] p-3 text-center flex flex-col items-center"
               >
-                <div className="font-pixel text-xs text-[#fee761] mb-1">Hộp {b.box}</div>
+                <div className="text-xs font-black text-[#fee761] uppercase mb-1">Hộp {b.box}</div>
                 <div className="font-pixel text-xl my-1" style={{ color: b.color }}>
                   {b.count}
                 </div>
@@ -91,7 +91,7 @@ export const LeitnerReviewModal: React.FC<LeitnerReviewModalProps> = ({
 
           {/* Các bài đến hạn hôm nay */}
           <div>
-            <div className="font-pixel text-xs text-[#fee761] mb-3 flex items-center justify-between">
+            <div className="text-xs font-black text-[#fee761] uppercase tracking-wider mb-3 flex items-center justify-between">
               <span>BÀI HỌC CẦN ÔN TẬP HÔM NAY ({dueNodes.length}):</span>
             </div>
 

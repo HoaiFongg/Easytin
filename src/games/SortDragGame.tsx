@@ -134,7 +134,7 @@ export const SortDragGame: React.FC<SortDragGameProps> = ({ config, onComplete }
               className="border-3 border-dashed border-[#5a6988] bg-[#1a1c2c] p-4 min-h-[160px] flex flex-col justify-between cursor-pointer hover:border-[#38b764] transition-colors"
             >
               <div className="flex items-center justify-between border-b border-[#3a4466] pb-2 mb-3">
-                <span className="font-pixel text-xs text-[#fee761]">{group.name}</span>
+                <span className="text-xs font-black text-[#fee761] uppercase tracking-wide">{group.name}</span>
                 <span className="text-xs text-[#8b9bb4]">{placedInThisGroup.length} món</span>
               </div>
 
@@ -175,7 +175,7 @@ export const SortDragGame: React.FC<SortDragGameProps> = ({ config, onComplete }
 
       {/* Khay đồ vật cần xếp */}
       <div>
-        <div className="text-xs font-pixel text-[#8b9bb4] mb-2">ĐỒ VẬT CẦN PHÂN LOẠI:</div>
+        <div className="text-xs font-black text-[#8b9bb4] uppercase tracking-wider mb-2">ĐỒ VẬT CẦN PHÂN LOẠI:</div>
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5">
           {items.map((it) => {
             const isPlaced = !!placements[it.id];

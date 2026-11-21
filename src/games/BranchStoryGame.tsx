@@ -66,7 +66,7 @@ export const BranchStoryGame: React.FC<BranchStoryGameProps> = ({ config, onComp
     <div className="flex flex-col gap-5 bg-[#1a1c2c] p-6 border-3 border-[#5a6988]">
       <div className="flex items-center gap-2 border-b border-[#3a4466] pb-2">
         <ShieldCheck className="text-[#38b764]" size={20} />
-        <span className="font-pixel text-xs text-[#fee761]">
+        <span className="text-xs font-black text-[#fee761] uppercase tracking-wider">
           TÌNH HUỐNG HIỆP SĨ SỐ ({currentIndex + 1}/{scenarios.length})
         </span>
       </div>

@@ -71,7 +71,7 @@ export const LessonModal: React.FC<LessonModalProps> = ({ node, onClose, onFinis
         <div className="flex items-center justify-between bg-[#262b44] px-4 py-3 border-b-3 border-[#3a4466]">
           <div className="flex items-center gap-2">
             <span className="w-3 h-3 bg-[#38b764] rounded-none"></span>
-            <span className="font-pixel text-xs text-[#fee761]">{node.title}</span>
+            <span className="text-xs font-black text-[#fee761] uppercase tracking-wide">{node.title}</span>
           </div>
           <button
             onClick={() => {
@@ -125,7 +125,7 @@ export const LessonModal: React.FC<LessonModalProps> = ({ node, onClose, onFinis
             <div className="flex flex-col items-center gap-5 py-4">
               <div className="text-5xl animate-bounce">🤖</div>
               <div className="bg-[#262b44] border-3 border-[#38b764] p-5 max-w-xl text-center relative shadow-pixel">
-                <div className="font-pixel text-xs text-[#fee761] mb-2">LỜI NHẮN TỪ TINTIN:</div>
+                <div className="text-xs font-black text-[#fee761] uppercase tracking-wider mb-2">LỜI NHẮN TỪ TINTIN:</div>
                 <p className="text-sm text-white leading-relaxed">{lesson.hook}</p>
               </div>
               <PixelButton variant="primary" size="lg" onClick={() => { sound.playClick(); setStep('concept'); }}>
@@ -266,7 +266,7 @@ export const LessonModal: React.FC<LessonModalProps> = ({ node, onClose, onFinis
           {step === 'recap' && (
             <div className="flex flex-col items-center gap-5 py-4 max-w-xl mx-auto text-center">
               <div className="text-5xl">🏆</div>
-              <h3 className="font-pixel text-lg text-[#fee761]">HOÀN THÀNH BÀI HỌC!</h3>
+              <h3 className="text-lg font-black text-[#fee761] uppercase tracking-wider">HOÀN THÀNH BÀI HỌC!</h3>
               <p className="text-xs text-[#c0cbdc] leading-relaxed bg-[#262b44] p-4 border-2 border-[#5a6988]">
                 {lesson.recap}
               </p>

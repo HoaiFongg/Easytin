@@ -8,7 +8,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        pixel: ['"Press Start 2P"', 'monospace'],
+        pixel: ['"Press Start 2P"', '"Be Vietnam Pro"', 'monospace'],
+        retro: ['"Be Vietnam Pro"', 'system-ui', 'sans-serif'],
         sans: ['"Be Vietnam Pro"', 'Inter', 'system-ui', 'sans-serif'],
       },
       colors: {
